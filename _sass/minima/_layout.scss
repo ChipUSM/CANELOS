@@ -4,7 +4,8 @@
 .site-header {
   border-top: 5px solid $grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
-  min-height: $spacing-unit * 1.865;
+  background-color: Black;
+  min-height: $spacing-unit * 2.2;
 
   // Positioning context for the mobile navigation icon
   position: relative;
@@ -15,16 +16,18 @@
   font-weight: 300;
   line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: -1px;
-  margin-bottom: 0;
+  margin-top: 15px;
+  margin-bottom: 25px;
   float: left;
 
   &,
   &:visited {
-    color: $grey-color-dark;
+    color: White;
   }
 }
 
 .site-nav {
+  margin-top: 30px;
   float: right;
   line-height: $base-line-height * $base-font-size * 2.25;
 
@@ -37,7 +40,7 @@
   }
 
   .page-link {
-    color: $text-color;
+    color: white;
     line-height: $base-line-height;
 
     // Gaps between nav items, but not on the last one
@@ -106,8 +109,9 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
+  background-image: url(img/canelos_web_fondo_footer.png);
+  background-size: cover;
 }
 
 .footer-heading {
@@ -122,8 +126,10 @@
 }
 
 .footer-col-wrapper {
+  margin-top: 20px;
+  margin-bottom: 50px;
   @include relative-font-size(0.9375);
-  color: $grey-color;
+  color: $grey-color-dark;
   margin-left: -$spacing-unit / 2;
   @extend %clearfix;
 }
