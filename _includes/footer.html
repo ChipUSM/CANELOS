@@ -3,11 +3,10 @@
 
   <div class="wrapper">
 
-    
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
-        <h1 class="footer-heading">{{ site.title | escape }}</h1>
+        <h2 class="footer-heading">{{ site.title | escape }}</h2>
 		<ul class="contact-list">
           <li class="p-name">
             {%- if site.author -%}
@@ -20,14 +19,12 @@
         </ul>
       </div>
 	
-      <!--
 	  <div class="footer-col footer-col-2">
-        {%- include social.html -%}
+        <!--{%- include social.html -%}-->
       </div>
-	  -->
 
       <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
+        <p>{{- site.description | newline_to_br -}}</p>
       </div>
     </div>
 
