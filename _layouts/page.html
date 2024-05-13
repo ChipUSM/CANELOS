@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<article class="post">
+    {%- if page.img_link -%}
+		<p align="center"> <img src="{{ page.img_link | escape }}" alt="Page header image" width="1000"/> </p>
+    {%- endif -%}
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+  </header>
+
+  <div class="post-content" style="text-align: justify">
+    {{ content }}
+  </div>
+
+</article>
