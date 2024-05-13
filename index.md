@@ -29,7 +29,7 @@ Además, se busca promover la discusión sobre el crecimiento y futuro de la ind
 	</div>
 	
 	<div class="page-col page-col-1">
-		<p align="center"> <img src="assets/img/flyer_CANELOS24.png" alt="folleto CANELOS 2024" width="500"/> </p>
+		<p align="center"> <img src="assets/img/flyer_CANELOS24.png" alt="folleto CANELOS 2024" style="max-width: 100%"/> </p>
 	</div>
 </div>
 
