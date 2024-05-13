@@ -17,7 +17,7 @@ img_link: ../assets/img/edificio_A.jpeg
 	</div>
 	
 	<div class="page-col page-col-1">
-		<p align="center"> <img src="../assets/img/jardin_usm.jpg" alt="Jardín del campus" width="500"/> </p>
+		<p align="center"> <img src="../assets/img/jardin_usm.jpg" alt="Jardín del campus" style="max-width: 100%"/> </p>
 	</div>
 </div>
 
@@ -26,7 +26,7 @@ img_link: ../assets/img/edificio_A.jpeg
 
 <div class="page-col-wrapper">    
 	<div class="page-col page-col-1">
-		<p align="center"> <img src="../assets/img/valparaiso.jpg" alt="Jardín del campus" width="500"/> </p>
+		<p align="center"> <img src="../assets/img/valparaiso.jpg" alt="Jardín del campus" style="max-width: 100%"/> </p>
 	</div>
     
 	<div class="page-col page-col-2">
