@@ -39,8 +39,10 @@ En representación de la industria nacional, se contó con el patrocinio de <b>S
 
 En la página de ChipUSM en [YouTube][chipusm-youtube] pueden encontrar videos de las charlas:
 
-<div class="page-col-wrapper" style="text-align: center"> 
-	<iframe style="max-width: 100%" width="560" height="315" src="https://www.youtube.com/embed/9mweRnW_bIU?si=L66qx6-bBIHv6GdG&amp;start=9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="page-col-wrapper"> 
+	<div class="page-col page-col-0" style="text-align: center">
+		<iframe style="max-width: 100%" width="560" height="315" src="https://www.youtube.com/embed/9mweRnW_bIU?si=L66qx6-bBIHv6GdG&amp;start=9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	</div>
 </div>
 
 

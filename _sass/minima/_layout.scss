@@ -265,6 +265,12 @@
   padding-left: $spacing-unit / 2;
 }
 
+.page-col-0 {
+  width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+  width:         calc(100% - (#{$spacing-unit} / 2));
+  margin-bottom: 10px;
+}
+
 .page-col-1 {
   width: -webkit-calc(45% - (#{$spacing-unit} / 2));
   width:         calc(45% - (#{$spacing-unit} / 2));
@@ -294,6 +300,7 @@
 }
 
 @include media-query($on-laptop) {
+  .page-col-0,
   .page-col-1,
   .page-col-2,
   .page-col-3  {
