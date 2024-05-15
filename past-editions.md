@@ -17,10 +17,10 @@ En representación de la industria nacional, se contó con el patrocinio de <b>S
 
 <div class="page-col-wrapper">        
 	<div class="page-col page-col-3">
-		<p align="center"> <img src="../assets/img/past-editions/Afiche_1a.png" alt="Jardín del campus" style="max-width: 100%"/> </p>
+		<p align="center"> <img src="../assets/img/past-editions/Afiche_1a.png" alt="Afiche CANELOS 2023 1" style="max-width: 100%"/> </p>
 	</div>
 	<div class="page-col page-col-3">
-		<p align="center"> <img src="../assets/img/past-editions/Afiche_1b.png" alt="Jardín del campus" style="max-width: 100%"/> </p>
+		<p align="center"> <img src="../assets/img/past-editions/Afiche_1b.png" alt="Afiche CANELOS 2023 2" style="max-width: 100%"/> </p>
 	</div>
 </div>
 
@@ -40,7 +40,7 @@ En representación de la industria nacional, se contó con el patrocinio de <b>S
 En la página de ChipUSM en [YouTube][chipusm-youtube] pueden encontrar videos de las charlas:
 
 <div class="page-col-wrapper" style="text-align: center"> 
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/9mweRnW_bIU?si=L66qx6-bBIHv6GdG&amp;start=9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	<iframe style="max-width: 100%" width="560" height="315" src="https://www.youtube.com/embed/9mweRnW_bIU?si=L66qx6-bBIHv6GdG&amp;start=9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 
@@ -48,24 +48,24 @@ En la página de ChipUSM en [YouTube][chipusm-youtube] pueden encontrar videos d
 
 <div class="page-col-wrapper">        
 	<div class="page-col page-col-4">
-		<p align="center"> <img src="../assets/img/past-editions/canelos2.jpg" alt="Jardín del campus" style="max-width: 100%"/> </p>
+		<p align="center"> <img src="../assets/img/past-editions/canelos2.jpg" alt="Gabriel Rincón-Mora presentando en CANELOS 2023" style="max-width: 100%"/> </p>
 	</div>
 	<div class="page-col page-col-4">
-		<p align="center"> <img src="../assets/img/past-editions/canelos3.jpg" alt="Jardín del campus" style="max-width: 100%"/> </p>
+		<p align="center"> <img src="../assets/img/past-editions/canelos3.jpg" alt="Filip Maksimovic presentando en CANELOS 2023" style="max-width: 100%"/> </p>
 	</div>
 	<div class="page-col page-col-5">
-		<p align="center"> <img src="../assets/img/past-editions/canelos4.jpg" alt="Jardín del campus" style="max-width: 100%"/> </p>
+		<p align="center"> <img src="../assets/img/past-editions/canelos4.jpg" alt="Rodrigo Iga presentando en CANELOS 2023" style="max-width: 100%"/> </p>
 	</div>
 	<br>
 	
 	<div class="page-col page-col-4">
-		<p align="center"> <img src="../assets/img/past-editions/canelos5.jpg" alt="Jardín del campus" style="max-width: 100%"/> </p>
+		<p align="center"> <img src="../assets/img/past-editions/canelos5.jpg" alt="Ronald Valenzuela presentando en CANELOS 2023" style="max-width: 100%"/> </p>
 	</div>
 	<div class="page-col page-col-4">
-		<p align="center"> <img src="../assets/img/past-editions/canelos6.jpg" alt="Jardín del campus" style="max-width: 100%"/> </p>
+		<p align="center"> <img src="../assets/img/past-editions/canelos6.jpg" alt="Coro de la UTFSM presentando en CANELOS 2023" style="max-width: 100%"/> </p>
 	</div>
 	<div class="page-col page-col-5">
-		<p align="center"> <img src="../assets/img/past-editions/canelos7.jpg" alt="Jardín del campus" style="max-width: 100%"/> </p>
+		<p align="center"> <img src="../assets/img/past-editions/canelos7.jpg" alt="Guillermo Guichal presentando en CANELOS 2023" style="max-width: 100%"/> </p>
 	</div>
 </div>
 
