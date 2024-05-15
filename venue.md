@@ -6,7 +6,7 @@ permalink: /lugar/
 img_link: ../assets/img/edificio_A.jpeg
 ---
 
-# Universidad Técnica Federico Santa María
+## Universidad Técnica Federico Santa María
 
 <div class="page-col-wrapper">        
 	<div class="page-col page-col-2">
