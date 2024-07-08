@@ -294,9 +294,15 @@
   width: -webkit-calc(33.3% - (#{$spacing-unit} / 2));
   width:         calc(33.3% - (#{$spacing-unit} / 2));
 }
+
 .page-col-5 {
   width: -webkit-calc(33.4% - (#{$spacing-unit} / 2));
   width:         calc(33.4% - (#{$spacing-unit} / 2));
+}
+
+.page-col-6 {
+  width: -webkit-calc(66.7% - (#{$spacing-unit} / 2));
+  width:         calc(66.7% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {

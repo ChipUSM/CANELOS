@@ -14,6 +14,7 @@ Además, se busca promover la discusión sobre el crecimiento y futuro de la ind
 <div class="page-col-wrapper">        
 	<div class="page-col page-col-2">
 		<br>
+		<p align="left">
 		Los principales temas abordados incluyen: <br><br>	
 		• Dispositivos y física nanométrica <br>
 		• Sensado y acondicionamiento <br>	
@@ -22,7 +23,8 @@ Además, se busca promover la discusión sobre el crecimiento y futuro de la ind
 		• Procesamiento de señales analógico y digital <br>	
 		• Tecnologías de fabricación y testeo de circuitos integrados <br>	 
 		• Herramientas de diseño asistido y automatización <br><br>	
-
+		</p>
+		
 		CANELOS es una instancia organizada por <b>ChipUSM</b>, que es una asociación estudiantil de la Universidad Técnica Federico Santa María.
 		El Secretario IEEE de ChipUSM, Sebastián Sánchez, ejerce como Chair de la edición 2024 de CANELOS. 
 		Además, este año contamos con la participación del <b>Capitulo Chileno de la Circuits And Systems Society</b> como co-anfitrión.
@@ -54,24 +56,6 @@ Este Capítulo, que reune a los profesionales del área de la microelectrónica 
 mediante el trabajo voluntario de sus miembros y el apoyo de una basta red internacional. 
 En particular, el Capítulo CAS permite realizar charlas de alto nivel técnico invitando a expertos de todo el mundo, como quienes exponen en CANELOS.
 
-<h1 style="text-align: center"> Colaboradores </h1>
-
-<!--
-## Departamento de Electrónica de la UTFSM
-
-asdads
-
-## Centro AC3E
-
-asdasd
--->
-
-## Rama IEEE de la UTFSM
-La Rama Estudiantil es la instancia del IEEE en nuestra universidad, y como tal, persigue el desarrollo tecnológico al servicio de la humanidad.
-Desde su rol de iniciativa estudiantil, la Rama busca complementar la formación ingenieril, tanto en el ámbito técnico como en desarrollo 
-habilidades blandas y vocación de servicio.
-La Rama contiene Capítulos Estudiantiles que persiguen un mayor nivel técnico en temas correspondientes a alguna de las sociedades del IEEE.
-Entre los capítulos que existen en la UTFSM, destaca el nuevo Capítulo Estudiantil conjunto SSCS/CAS/EDS, especializado en microelectrónica.
 
 <h1 style="text-align: center"> Patrocinadores </h1>
 
@@ -79,10 +63,42 @@ Entre los capítulos que existen en la UTFSM, destaca el nuevo Capítulo Estudia
 
 El IEEE y sus sociedades hacen posible la realización de CANELOS mediante distintos fondos y beneficios que combinamos para el evento.
 Además del apoyo y financiamiento del Capítulo CAS, contamos con los programas Distinguished Lecturer para costear viaje y estadía de charlistas expertos.
-En esta oportunidad, recibiremos un charlista de la Electro Devices Society.
+En esta oportunidad, recibiremos un charlista de la Electron Devices Society.
+
+
+## Departamento de Electrónica de la UTFSM
+
+El Departamento de Electrónica es la unidad académica de la Universidad Técnica Federico Santa María que está más estrechamente ligada al tema de la microelectrónica,
+en investigación y docencia.
+La Universidad y el Departamento, en particular, se complacen de apoyar instancias técnicas como CANELOS y valorar también el trabajo extracurricular de los y las
+estudiantes de ChipUSM que organizan el evento.
+
+
+## Ingeniería 2030 de la UTFSM
+
+El programa ING2030, en el marco de su etapa de consolidación, pone a disposición de la comunidad universitaria los Fondos Concursables para el Fortalecimiento de
+un Ecosistema de I+D+i+e. El seminario CANELOS es el segundo proyecto con que ChipUSM se adjudica fondos de dicho concurso.
+
+
+## Centro AC3E
+
+El Centro Avanzado de Ingeniería Eléctrica y Electrónica de las UTFSM es un centro basal multidisciplinario y con un importante enfoque
+en transferencia tecnológica, para poner la investigación científica al servicio de la industria nacional y las sociedad.
+En los últimos años, el AC3E ha desarrollado gran interés por la microelectrónica y busca potenciar sus capacidades de I+D en la materia.
+
 
 <!--
 ## Synopsys
 
 asdasd
 -->
+
+
+<h1 style="text-align: center"> Colaboradores </h1>
+
+## Rama IEEE de la UTFSM
+La Rama Estudiantil es la instancia del IEEE en nuestra universidad, y como tal, persigue el desarrollo tecnológico al servicio de la humanidad.
+Desde su rol de iniciativa estudiantil, la Rama busca complementar la formación ingenieril, tanto en el ámbito técnico como en desarrollo 
+habilidades blandas y vocación de servicio.
+La Rama contiene Capítulos Estudiantiles que persiguen un mayor nivel técnico en temas correspondientes a alguna de las sociedades del IEEE.
+Entre los capítulos que existen en la UTFSM, destaca el nuevo Capítulo Estudiantil conjunto SSCS/CAS/EDS, especializado en microelectrónica.

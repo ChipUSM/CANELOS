@@ -19,6 +19,8 @@ img_link: ../assets/img/edificio_A.jpeg
 	<div class="page-col page-col-1">
 		<p align="center"> <img src="../assets/img/jardin_usm.jpg" alt="Jardín del campus" style="max-width: 100%"/> </p>
 	</div>
+	
+	<p align="center"> <img src="../assets/img/logo_utfsm.png" alt="Logo de la UTFSM" style="max-width: 50%"/> </p>
 </div>
 
 

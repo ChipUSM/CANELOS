@@ -5,15 +5,17 @@ short_title: CANELOS 2023
 permalink: /past-editions/
 img_link: ../assets/img/past-editions/canelos1.jpg
 ---
-
+<p align="justify">
 En junio del año pasado, ChipUSM realizó por primera vez el seminario CANELOS, con el centro <b>AC3E</b> y el <b>Departamento de Electrónica de la UTFSM</b> como co-anfitriones. 
 Durante 3 días, la Universidad Técnica Federico Santa María acogió a la comunidad Chilena de microelectrónica, en torno a 8 charlas magistrales, 
 8 presentaciones de empresas y de otros actores del ecosistema, y 1 foro.
-
+</p>
  
+<p align="justify">
 Destacaron los invitados Dinstinguished Lecturer de la <b>Solid-State Circuits Society (SSCS)</b> y de la <b>Circuits And Systems Society (CAS)</b> del IEEE, 
 así como la participación en persona de instituciones extranjeras como la empresa <b>Rydev</b> y el centro de investigación <b>INRIA Paris</b>.
 En representación de la industria nacional, se contó con el patrocinio de <b>Synopsys</b> y con la colaboración de <b>Timeless-IC</b>, que el primer emprendimiento nacional de microelectrónica.
+</p>
 
 <div class="page-col-wrapper">        
 	<div class="page-col page-col-3">
@@ -37,11 +39,13 @@ En representación de la industria nacional, se contó con el patrocinio de <b>S
 
 ## Videos
 
-En la página de ChipUSM en [YouTube][chipusm-youtube] pueden encontrar videos de las charlas:
+<p align="justify">
+En la página de <a href="https://www.youtube.com/@ChipUSM/">ChipUSM en YouTube</a> pueden encontrar videos de las charlas:
+</p>
 
 <div class="page-col-wrapper"> 
 	<div class="page-col page-col-0" style="text-align: center">
-		<iframe style="max-width: 100%" width="560" height="315" src="https://www.youtube.com/embed/9mweRnW_bIU?si=L66qx6-bBIHv6GdG&amp;start=9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		<iframe style="max-width: 100%" width="560" height="315" src="https://www.youtube.com/embed/9mweRnW_bIU?si=L66qx6-bBIHv6GdG&amp;start=9" title="Video YouTube de presentacion de Timeless-IC en CANELOS 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 	</div>
 </div>
 
@@ -71,7 +75,6 @@ En la página de ChipUSM en [YouTube][chipusm-youtube] pueden encontrar videos d
 	</div>
 </div>
 
-[chipusm-youtube]: https://www.youtube.com/@ChipUSM
 
 
 <!--
