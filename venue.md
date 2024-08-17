@@ -20,7 +20,11 @@ img_link: ../assets/img/edificio_A.jpeg
 		<p align="center"> <img src="../assets/img/jardin_usm.jpg" alt="Jardín del campus" style="max-width: 100%"/> </p>
 	</div>
 	
-	<p align="center"> <img src="../assets/img/logo_utfsm.png" alt="Logo de la UTFSM" style="max-width: 50%"/> </p>
+	<p align="center"> 
+		<a href="https://usm.cl/">
+			<img src="../assets/img/logo_utfsm.png" alt="Logo de la UTFSM" style="max-width: 50%"/>
+		</a>
+	</p>
 </div>
 
 
