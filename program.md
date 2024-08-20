@@ -87,8 +87,36 @@ img_link: ../assets/img/charla.jpg
 	the interface between edge AI, hardware/software co-design, testing, and reliability of custom ASICs for AI accelerators.
 </p>
 
+<br>
 <hr>
+<br>
 
+## Workshop<sup><span style="color: #ffd36c; font-size:16px">¡Nuevo!</span></sup>
+
+
+<h3 align="center" style="font-weight: bold;">Diseño de CI con IHP Open PDK</h3>
+<div class="page-col-wrapper">
+	<div class="page-col page-col-6">
+		El fabricante alemán IHP contribuye al desarrollo de la microelectrónica open-source liberando su proceso 130nm BiCMOS.
+		En este workshop podrás conocer este PDK de forma práctica, utilizando herrammientas open-source e incluso <b>tendrás la oportunidad de 
+		fabricar tu diseño</b>. 
+		Serán tres días de trabajo intenso, de la mano con diseñadores experimentados: <br>
+		<ul style="text-align: justify; margin-left: 50px">
+			<li> Krzysztof Hernan de IHP, </li>
+			<li> Martin Andraud de la UCLouvain, y </li>
+			<li> Jorge Marín del AC3E. </li>
+		</ul>
+	</div>
+	
+	<div class="page-col page-col-4">
+		<p align="center"> <img src="../assets/img/program/logo_ihp.png" alt="Logo iHP" style="max-width: 100%"/> </p>
+	</div>	
+</div>
+<p align="justify">
+	El Workshop de CANELOS se llevará a cabo días <b>30/09, 01/10 y 02/10</b>, previo al inicio del seminario.
+	<b><span style="color: #47001e; font-size:16px">Son cupos limiados, así que las personas interesadas deberán completar
+	un formulario de postulación que se habilitará en este mismo sitio el lunes 2 de septiembre.</span></b>
+</p>
 
 <!--
 # Dónde comer
