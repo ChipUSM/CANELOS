@@ -114,8 +114,8 @@ img_link: ../assets/img/charla.jpg
 </div>
 <p align="justify">
 	El Workshop de CANELOS se llevará a cabo días <b>30/09, 01/10 y 02/10</b>, previo al inicio del seminario.
-	<b><span style="color: #47001e; font-size:16px">Son cupos limiados, así que las personas interesadas deberán completar
-	un formulario de postulación que se habilitará en este mismo sitio el lunes 2 de septiembre.</span></b>
+	<b><span style="color: #47001e">Son cupos limiados, así que las personas interesadas deberán completar
+	este <a href="https://forms.gle/bfTrDFRZ4hHEPbgeA" style="color: #47001e; text-decoration:underline">formulario de postulación</a>.</span></b>
 </p>
 
 <!--
