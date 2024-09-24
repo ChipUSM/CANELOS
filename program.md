@@ -1,10 +1,17 @@
 ---
 layout: page
-title: Actividades
+title: Programa
 short_title: Programa
 permalink: /programa/
 img_link: ../assets/img/charla.jpg
 ---
+
+<p align="center"> <img src="../assets/img/programa.png" alt="Programa de CANELOS 2024" style="max-width: 100%"/> </p>
+
+<hr>
+<br>
+
+<h2 align="center" style="font-weight: bold;">Actividades</h2>
 
 <p align="justify">
 	La edición 2024 de CANELOS tendrá lugar los días jueves 3 y viernes 4 de octubre, de forma presencial. 
@@ -13,23 +20,6 @@ img_link: ../assets/img/charla.jpg
 	Además, se incluyen instancias de networking y un foro para cerrar el seminario discutiendo sobre el futuro de la microelectrónica en nuestro país.
 </p>
  
-<!--
-## Programa
-
-<div class="page-col-wrapper">        
-	<div class="page-col page-col-2">
-		Mirando al mar desde el Cerro Placeres, se impone el Campus Casa Central de la UTFSM, con toda la infraestructura necesaria para CANELOS.
-		La majestuosa arquitectura y agradables jardines hacen de este el entorno perfecto para reunir a la comunidad nacional de microelectrónica.
-		Además, con más de 90 años de reconocida trayectoria en ciencia e ingeniería, la UTFSM abarca distintos Departamentos y Centros de Investigación 
-		con interés en microelectrónica y que participan del evento desde sus respectivas disciplinas.
-	</div>
-	
-	<div class="page-col page-col-1">
-		<p align="center"> <img src="../assets/img/jardin_usm.jpg" alt="Jardín del campus" style="max-width: 100%"/> </p>
-	</div>
-</div>
--->
-
 
 ## Charlas plenarias
 

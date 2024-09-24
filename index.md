@@ -5,7 +5,9 @@ layout: home
 
 <h1 class="home-title"> CANELOS: CAD and Nanoelectronics Seminar </h1>
 	
-<h2 class="home-subtitle"> No te pierdas el evento más importante de microelectrónica y diseño de circuitos integrados de Chile.</h2>
+<h2 class="home-subtitle">No te pierdas el evento más importante de microelectrónica y diseño de circuitos integrados de Chile.</h2>
+
+<h3 class="home-subtitle" style="color: #47001e">¡Inscríbete <a href="{{ "/registro/" | relative_url }}" style="color: #47001e; text-decoration:underline">aquí</a>!</h3>
 
 El seminario CANELOS tiene como principal objetivo reunir a la comunidad chilena de microelectrónica, fomentando su desarrollo técnico en torno a charlas de alto nivel
 y generando un espacio para hacer contactos con la industria y la comunidad latinoamericana. 
