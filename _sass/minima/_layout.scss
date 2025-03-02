@@ -5,7 +5,7 @@
 	display:	block;
 	border-top: 5px solid $grey-color-dark;
 	border-bottom: 1px solid $grey-color-light;
-	background-color: $black-color;
+	background-color: $canelos-yellow;
 	min-height: $spacing-unit * 2.2;
 
 	// Positioning context for the mobile navigation icon
@@ -23,7 +23,7 @@
 
   &,
   &:visited {
-    color: $white-color;
+    color: $black-color;
   }
 }
 
@@ -41,7 +41,7 @@
   }
 
   .page-link {
-    color: $white-color;
+    color: $black-color;
     line-height: $base-line-height;
 
     // Gaps between nav items, but not on the last one
@@ -188,6 +188,11 @@
   padding-left: $spacing-unit / 2;
 }
 
+.logos-col-0 {
+  width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+  width:         calc(100% - (#{$spacing-unit} / 2));
+}
+
 .logos-col-1 {
   width: -webkit-calc(50% - (#{$spacing-unit} / 2));
   width:         calc(50% - (#{$spacing-unit} / 2));
@@ -303,6 +308,11 @@
 .page-col-6 {
   width: -webkit-calc(66.7% - (#{$spacing-unit} / 2));
   width:         calc(66.7% - (#{$spacing-unit} / 2));
+}
+
+.page-col-7 {
+  width: -webkit-calc(25% - (#{$spacing-unit} / 2));
+  width:         calc(25% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {

@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: CANELOS 2024
+title: CANELOS 2025
 author: ChipUSM
 email: directiva.chipusm@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -34,7 +34,9 @@ plugins:
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
+exclude:
+  - program.md
+  - registration.md
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules

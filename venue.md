@@ -50,6 +50,7 @@ img_link: ../assets/img/edificio_A.jpeg
 </div>
 
 
+<!--
 ## Instalaciones
 
 <div class="page-col-wrapper">    
@@ -77,6 +78,5 @@ img_link: ../assets/img/edificio_A.jpeg
 	</a>
 </p>
 
-<!--
 # Dónde comer
 -->

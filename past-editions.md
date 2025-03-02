@@ -1,12 +1,16 @@
 ---
 layout: page
-title: Primera edición, CANELOS 2023
-short_title: CANELOS 2023
+title: Ediciones pasadas
+short_title: Ediciones pasadas
 permalink: /past-editions/
 img_link: ../assets/img/past-editions/canelos1.jpg
 ---
+
+
+<h1 class="home-title" style="text-align: center"> Canelos 2023 </h1>
+
 <p align="justify">
-En junio del año pasado, ChipUSM realizó por primera vez el seminario CANELOS, con el centro <b>AC3E</b> y el <b>Departamento de Electrónica de la UTFSM</b> como co-anfitriones. 
+En junio del año 2023 ChipUSM realizó por primera vez el seminario CANELOS, con el centro <b>AC3E</b> y el <b>Departamento de Electrónica de la UTFSM</b> como co-anfitriones. 
 Durante 3 días, la Universidad Técnica Federico Santa María acogió a la comunidad Chilena de microelectrónica, en torno a 8 charlas magistrales, 
 8 presentaciones de empresas y de otros actores del ecosistema, y 1 foro.
 </p>
@@ -19,10 +23,10 @@ En representación de la industria nacional, se contó con el patrocinio de <b>S
 
 <div class="page-col-wrapper">        
 	<div class="page-col page-col-3">
-		<p align="center"> <img src="../assets/img/past-editions/Afiche_1a.png" alt="Afiche CANELOS 2023 1" width="400" style="max-width: 100%"/> </p>
+		<p align="center"> <img src="../assets/img/past-editions/Afiche_23a.png" alt="Afiche CANELOS 2023 1" width="400" style="max-width: 100%"/> </p>
 	</div>
 	<div class="page-col page-col-3">
-		<p align="center"> <img src="../assets/img/past-editions/Afiche_1b.png" alt="Afiche CANELOS 2023 2" width="400" style="max-width: 100%"/> </p>
+		<p align="center"> <img src="../assets/img/past-editions/Afiche_23b.png" alt="Afiche CANELOS 2023 2" width="400" style="max-width: 100%"/> </p>
 	</div>
 </div>
 
@@ -37,7 +41,7 @@ En representación de la industria nacional, se contó con el patrocinio de <b>S
 </div>
 -->
 
-## Videos
+### Videos
 
 <p align="justify">
 En la página de <a href="https://www.youtube.com/@ChipUSM/">ChipUSM en YouTube</a> pueden encontrar videos de las charlas:
@@ -50,7 +54,7 @@ En la página de <a href="https://www.youtube.com/@ChipUSM/">ChipUSM en YouTube<
 </div>
 
 
-## Fotos
+### Fotos
 
 <div class="page-col-wrapper">        
 	<div class="page-col page-col-4">
@@ -75,6 +79,25 @@ En la página de <a href="https://www.youtube.com/@ChipUSM/">ChipUSM en YouTube<
 	</div>
 </div>
 
+<br>
+<h1 class="home-title" style="text-align: center"> Canelos 2024 </h1>
+
+<p align="justify">
+La segunda edición del seminario se realizó en octubre de 2024, con el <b>Capítulo Chileno de CAS</b> como co-anfitrión. 
+Esta vez, CANELOS duró toda una semana donde, ya que a las charlas se sumó un <b>workshop</b> del fabricante de semiconductores alemán <b>IHP</b>.
+Estudiantes de distintas universidades del país pudieron aprender de forma práctica y colaborar en el diseño de chips con una tecnología fabricable,
+bajo la supervisión de destacados expertos, como Krzysztof Herman (IHP) y Marin Andraud (UCL).
+<b>¡Dos proyectos fueron posteriormente enviados a fabricación!</b>.
+</p>
+
+<div class="page-col-wrapper">        
+	<div class="page-col page-col-3">
+		<p align="center"> <img src="../assets/img/past-editions/Afiche_24a.png" alt="Afiche CANELOS 2023 1" width="400" style="max-width: 100%"/> </p>
+	</div>
+	<div class="page-col page-col-3">
+		<p align="center"> <img src="../assets/img/past-editions/Afiche_24d.png" alt="Afiche CANELOS 2023 2" width="400" style="max-width: 100%"/> </p>
+	</div>
+</div>
 
 
 <!--
