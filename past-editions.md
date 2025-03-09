@@ -23,10 +23,10 @@ En representación de la industria nacional, se contó con el patrocinio de <b>S
 
 <div class="page-col-wrapper">        
 	<div class="page-col page-col-3">
-		<p align="center"> <img src="../assets/img/past-editions/Afiche_23a.png" alt="Afiche CANELOS 2023 1" width="400" style="max-width: 100%"/> </p>
+		<p align="center"> <img src="../assets/img/past-editions/2023/Afiche_23a.png" alt="Afiche CANELOS 2023 1" width="400" style="max-width: 100%"/> </p>
 	</div>
 	<div class="page-col page-col-3">
-		<p align="center"> <img src="../assets/img/past-editions/Afiche_23b.png" alt="Afiche CANELOS 2023 2" width="400" style="max-width: 100%"/> </p>
+		<p align="center"> <img src="../assets/img/past-editions/2023/Afiche_23b.png" alt="Afiche CANELOS 2023 2" width="400" style="max-width: 100%"/> </p>
 	</div>
 </div>
 
@@ -58,24 +58,24 @@ En la página de <a href="https://www.youtube.com/@ChipUSM/">ChipUSM en YouTube<
 
 <div class="page-col-wrapper">        
 	<div class="page-col page-col-4">
-		<p align="center"> <img src="../assets/img/past-editions/canelos2.jpg" alt="Gabriel Rincón-Mora presentando en CANELOS 2023" width="350" style="max-width: 100%"/> </p>
+		<p align="center"> <img src="../assets/img/past-editions/2023/canelos2.jpg" alt="Gabriel Rincón-Mora presentando en CANELOS 2023" width="350" style="max-width: 100%"/> </p>
 	</div>
 	<div class="page-col page-col-4">
-		<p align="center"> <img src="../assets/img/past-editions/canelos3.jpg" alt="Filip Maksimovic presentando en CANELOS 2023" width="350" style="max-width: 100%"/> </p>
+		<p align="center"> <img src="../assets/img/past-editions/2023/canelos3.jpg" alt="Filip Maksimovic presentando en CANELOS 2023" width="350" style="max-width: 100%"/> </p>
 	</div>
 	<div class="page-col page-col-5">
-		<p align="center"> <img src="../assets/img/past-editions/canelos4.jpg" alt="Rodrigo Iga presentando en CANELOS 2023" width="350" style="max-width: 100%"/> </p>
+		<p align="center"> <img src="../assets/img/past-editions/2023/canelos4.jpg" alt="Rodrigo Iga presentando en CANELOS 2023" width="350" style="max-width: 100%"/> </p>
 	</div>
 	<br>
 	
 	<div class="page-col page-col-4">
-		<p align="center"> <img src="../assets/img/past-editions/canelos5.jpg" alt="Ronald Valenzuela presentando en CANELOS 2023" width="350" style="max-width: 100%"/> </p>
+		<p align="center"> <img src="../assets/img/past-editions/2023/canelos5.jpg" alt="Ronald Valenzuela presentando en CANELOS 2023" width="350" style="max-width: 100%"/> </p>
 	</div>
 	<div class="page-col page-col-4">
-		<p align="center"> <img src="../assets/img/past-editions/canelos6.jpg" alt="Coro de la UTFSM presentando en CANELOS 2023" width="350" style="max-width: 100%"/> </p>
+		<p align="center"> <img src="../assets/img/past-editions/2023/canelos6.jpg" alt="Coro de la UTFSM presentando en CANELOS 2023" width="350" style="max-width: 100%"/> </p>
 	</div>
 	<div class="page-col page-col-5">
-		<p align="center"> <img src="../assets/img/past-editions/canelos7.jpg" alt="Guillermo Guichal presentando en CANELOS 2023" width="350" style="max-width: 100%"/> </p>
+		<p align="center"> <img src="../assets/img/past-editions/2023/canelos7.jpg" alt="Guillermo Guichal presentando en CANELOS 2023" width="350" style="max-width: 100%"/> </p>
 	</div>
 </div>
 
@@ -92,13 +92,51 @@ bajo la supervisión de destacados expertos, como Krzysztof Herman (IHP) y Marin
 
 <div class="page-col-wrapper">        
 	<div class="page-col page-col-3">
-		<p align="center"> <img src="../assets/img/past-editions/Afiche_24a.png" alt="Afiche CANELOS 2023 1" width="400" style="max-width: 100%"/> </p>
+		<p align="center"> <img src="../assets/img/past-editions/2024/Afiche_24a.png" alt="Afiche CANELOS 2023 1" width="400" style="max-width: 100%"/> </p>
 	</div>
 	<div class="page-col page-col-3">
-		<p align="center"> <img src="../assets/img/past-editions/Afiche_24d.png" alt="Afiche CANELOS 2023 2" width="400" style="max-width: 100%"/> </p>
+		<p align="center"> <img src="../assets/img/past-editions/2024/Afiche_24d.png" alt="Afiche CANELOS 2023 2" width="400" style="max-width: 100%"/> </p>
 	</div>
 </div>
 
+
+### Videos
+
+<p align="justify">
+La edición 2024 de Canelos fue transmitida por la plataforma USM TV de la universidad:
+</p>
+
+<div class="page-col-wrapper"> 
+	<div class="page-col page-col-0" style="text-align: center">
+		<iframe style="max-width: 100%" width="560" height="315" src="https://www.youtube.com/embed/AsVlg_bej-g?si=SAzlyzDj4MKbSa3D" title="Video YouTube con la transmisión del día 1 de CANELOS 2024" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	</div>
+</div>
+
+
+### Fotos
+
+<div class="page-col-wrapper">        
+	<div class="page-col page-col-4">
+		<p align="center"> <img src="../assets/img/past-editions/2024/canelos2.jpg" alt="Gabriel Rincón-Mora presentando en CANELOS 2024" width="350" style="max-width: 100%"/> </p>
+	</div>
+	<div class="page-col page-col-4">
+		<p align="center"> <img src="../assets/img/past-editions/2024/canelos3.jpg" alt="Filip Maksimovic presentando en CANELOS 2024" width="350" style="max-width: 100%"/> </p>
+	</div>
+	<div class="page-col page-col-5">
+		<p align="center"> <img src="../assets/img/past-editions/2024/canelos4.jpg" alt="Rodrigo Iga presentando en CANELOS 2024" width="350" style="max-width: 100%"/> </p>
+	</div>
+	<br>
+	
+	<div class="page-col page-col-4">
+		<p align="center"> <img src="../assets/img/past-editions/2024/canelos5.jpg" alt="Ronald Valenzuela presentando en CANELOS 2024" width="350" style="max-width: 100%"/> </p>
+	</div>
+	<div class="page-col page-col-4">
+		<p align="center"> <img src="../assets/img/past-editions/2024/canelos6.jpg" alt="Coro de la UTFSM presentando en CANELOS 2024" width="350" style="max-width: 100%"/> </p>
+	</div>
+	<div class="page-col page-col-5">
+		<p align="center"> <img src="../assets/img/past-editions/2024/canelos7.jpg" alt="Guillermo Guichal presentando en CANELOS 2024" width="350" style="max-width: 100%"/> </p>
+	</div>
+</div>
 
 <!--
 # Dónde comer
