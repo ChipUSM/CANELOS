@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: CANELOS 2025
 author: ChipUSM
-email: directiva.chipusm@gmail.com
+email: chip.usm@usm.cl
 description: >- # this means to ignore newlines until "baseurl:"
   Sitio web de CANELOS: CAD and Nanoelectronics Seminar. 
     

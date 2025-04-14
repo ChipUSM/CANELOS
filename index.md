@@ -7,7 +7,7 @@ layout: home
 	
 <h2 class="home-subtitle">Se viene la edición 2025 del mayor evento de microelectrónica y diseño de circuitos integrados de Chile.</h2>
 
-<h3 class="home-subtitle" style="color: #47001e">¡Próximamente!</h3>
+<h3 class="home-subtitle" style="color: #47001e">¡Te esperamos el 18 y 19 de Agosto!</h3>
 <!--
 <h2 class="home-subtitle">No te pierdas el evento más importante de microelectrónica y diseño de circuitos integrados de Chile.</h2>
 
