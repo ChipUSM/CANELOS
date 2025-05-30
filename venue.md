@@ -50,7 +50,6 @@ img_link: ../assets/img/edificio_A.jpeg
 </div>
 
 
-<!--
 ## Instalaciones
 
 <div class="page-col-wrapper">    
@@ -59,13 +58,15 @@ img_link: ../assets/img/edificio_A.jpeg
 	</div>
     
 	<div class="page-col page-col-2">
-		El evento tendrá lugar en el <b>auditorio del edificio T</b>, al extremo oeste del campus.
+		El evento tendrá lugar en el recientemente reacondicionado <b>auditorio del edificio T</b>, al extremo oeste del campus.
 		<br>
 		<br>
+<!--
 		En la terraza del mismo edificio tendrán lugar los Coffee breaks y se instalarán stands de distintas instituciones participantes.
 		<br>
 		<br>
 		El almuerzo para los(as) estudiantes becados(as) será en la cafetería Vivendum, en el edificio Q.
+-->
 	</div>
 	
 </div>
@@ -78,5 +79,6 @@ img_link: ../assets/img/edificio_A.jpeg
 	</a>
 </p>
 
+<!--
 # Dónde comer
 -->
