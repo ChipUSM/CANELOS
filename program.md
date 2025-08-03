@@ -19,7 +19,39 @@ img_link: ../assets/img/charla.jpg
 	con participación de destacados invitados de la academia e industria microelectrónica, tanto de Chile como del extranjero.
 	Además, se incluyen instancias de networking y un foro para cerrar el seminario discutiendo sobre el futuro de la microelectrónica en nuestro país.
 </p>
- 
+
+
+## Workshop
+
+<h3 align="center" style="font-weight: bold;">Diseño de CI con IHP Open-PDK y TinyTapeout</h3>
+<div class="page-col-wrapper">
+	<div class="page-col page-col-6">
+		Nuevamente utilizaremos proceso open-source BiCMOS de 130nm liberado por el fabricante alemán IHP.
+		En este workshop podrás conocer este PDK de forma práctica, utilizando herrammientas open-source e incluso <b>tendrás la oportunidad de 
+		fabricar tu diseño</b>. Este año, además, incluiremos el flujo de <b><a href="https://tinytapeout.com/" style="color: #47001e; text-decoration:underline">
+		TinyTapeout</a></b>, el cual facilita el diseño de circuitos integrados y su envío a fabricación para quienes recién empiezan a descubrir la microelectrónica. 
+		<br><br>
+		Serán tres días de trabajo intenso en distintos temas y niveles de dificultad: <br>
+		<ul style="text-align: justify; margin-left: 50px">
+			<li> <b>Track Básico</b>, para introducir a quienes no tienen experiencia en lenguajes de descripción de hardware (HDL);</li>
+			<li> <b>Track Digital</b>, para quienes tienen experiencia en HDL y quieren diseñar sistemas más complejos; y</li>
+			<li> <b>Track Análogo</b>, para quienes tengan más interés por los circuitos analógicos y su diseño usando SPICE.</li>
+		</ul>
+	</div>
+	<div class="page-col page-col-4">
+		<p align="center"> <img src="../assets/img/ihp_tt.png" alt="Logos de IHP y TinyTapeout" style="max-width: 100%"/> </p>
+	</div>
+</div>
+<p align="justify">
+	El Workshop de CANELOS se llevará a cabo días <b>20 al 22 de agosto</b>, después del seminario.
+	<b><span style="color: #47001e">Son cupos limiados, así que las personas interesadas deberán completar
+	este <a href="https://forms.gle/zh7we1E6kjR6ANtC8" style="color: #47001e; text-decoration:underline">formulario de postulación</a>.</span></b>
+</p>
+
+<br>
+<hr>
+<br>
+
 
 ## Charlas plenarias
 
@@ -132,43 +164,8 @@ img_link: ../assets/img/charla.jpg
 	VLSI Symposium Secretary and SSCS Global Chapters Chair. Alvin frequently speaks on CMOS technology and its impact on analog design, having authored 
 	invited publications including the CICC 2018 Best Paper and short courses at ISSCC, VLSI Symposium, CICC, and BCICTS.
 </p>
-<br>
 
-<hr>
-<br>
 
-## Workshop
-
-<p align="justify">
-	Este año nuevamente se ofrecerá un workshop durante la misma semana del seminario.
-	Pronto publicaremos más detalles y el formulario de insctripción en esta página.
-</p>
-
-<!--
-<h3 align="center" style="font-weight: bold;">Diseño de CI con IHP Open PDK</h3>
-<div class="page-col-wrapper">
-	<div class="page-col page-col-6">
-		El fabricante alemán IHP contribuye al desarrollo de la microelectrónica open-source liberando su proceso 130nm BiCMOS.
-		En este workshop podrás conocer este PDK de forma práctica, utilizando herrammientas open-source e incluso <b>tendrás la oportunidad de 
-		fabricar tu diseño</b>. 
-		Serán tres días de trabajo intenso, de la mano con diseñadores experimentados: <br>
-		<ul style="text-align: justify; margin-left: 50px">
-			<li> Krzysztof Hernan de IHP, </li>
-			<li> Martin Andraud de la UCLouvain, y </li>
-			<li> Jorge Marín del AC3E. </li>
-		</ul>
-	</div>
-	
-	<div class="page-col page-col-4">
-		<p align="center"> <img src="../assets/img/program/logo_ihp.png" alt="Logo iHP" style="max-width: 100%"/> </p>
-	</div>	
-</div>
-<p align="justify">
-	El Workshop de CANELOS se llevará a cabo días <b>30/09, 01/10 y 02/10</b>, previo al inicio del seminario.
-	<b><span style="color: #47001e">Son cupos limiados, así que las personas interesadas deberán completar
-	este <a href="https://forms.gle/bfTrDFRZ4hHEPbgeA" style="color: #47001e; text-decoration:underline">formulario de postulación</a>.</span></b>
-</p>
--->
 
 <!--
 # Dónde comer

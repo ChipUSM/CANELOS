@@ -208,6 +208,10 @@
   width:         calc(25% - (#{$spacing-unit} / 2));
 }
 
+.logos-col-4 {
+  width: -webkit-calc(16% - (#{$spacing-unit} / 2));
+  width:         calc(16% - (#{$spacing-unit} / 2));
+}
 
 /**
  * Home
