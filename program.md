@@ -5,14 +5,15 @@ short_title: Programa
 permalink: /programa/
 img_link: ../assets/img/charla.jpg
 ---
-<!--
-<p align="center"> <img src="../assets/img/programa.png" alt="Programa de CANELOS 2024" style="max-width: 100%"/> </p>
 
+<p align="center"> <img src="../assets/img/programa.png" alt="Programa de CANELOS 2025" style="max-width: 100%"/> </p>
+
+<br>
 <hr>
 <br>
 
 <h2 align="center" style="font-weight: bold;">Actividades</h2>
--->
+
 <p align="justify">
 	La edición 2025 de CANELOS tendrá lugar los días lunes 18 y martes 19 de agosto, de forma presencial. 
 	Serán dos días llenos de charlas plenarias técnicas y presentaciones de empresas, 

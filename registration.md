@@ -28,23 +28,23 @@ Este beneficio contempla estadía de 3 noches y almuerzo los 2 días del evento.
 
 <div class="page-col-wrapper">        
 	<div class="page-col page-col-3">
-		<p align="center"> <img src="../assets/img/CANELOS25_afiche_A.png" alt="Afiche CANELOS 2024 1" width="400" style="max-width: 100%"/> </p>
+		<p align="center"> <img src="../assets/img/CANELOS25_afiche_A.png" alt="Afiche CANELOS 2025 1" width="400" style="max-width: 100%"/> </p>
 	</div>
 	<div class="page-col page-col-3">
-		<p align="center"> <img src="../assets/img/CANELOS25_afiche_B.png" alt="Afiche CANELOS 2024 2" width="400" style="max-width: 100%"/> </p>
+		<p align="center"> <img src="../assets/img/CANELOS25_afiche_B.png" alt="Afiche CANELOS 2025 2" width="400" style="max-width: 100%"/> </p>
 	</div>
 </div>
 
-<!--
+
 <div class="page-col-wrapper">        
 	<div class="page-col page-col-3">
-		<p align="center"> <img src="../assets/img/CANELOS25_afiche_C.png" alt="Afiche CANELOS 2024 3" width="400" style="max-width: 100%"/> </p>
+		<p align="center"> <img src="../assets/img/CANELOS25_afiche_C.png" alt="Afiche CANELOS 2025 3" width="400" style="max-width: 100%"/> </p>
 	</div>
 	<div class="page-col page-col-3">
-		<p align="center"> <img src="../assets/img/CANELOS25_afiche_D.png" alt="Afiche CANELOS 2024 4" width="400" style="max-width: 100%"/> </p>
+		<p align="center"> <img src="../assets/img/CANELOS25_afiche_D.png" alt="Afiche CANELOS 2025 4" width="400" style="max-width: 100%"/> </p>
 	</div>
 </div>
--->
+
 
 <!--
 # Dónde comer
