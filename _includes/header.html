@@ -1,13 +1,26 @@
-<header class="site-header" role="banner">
+<header class="site-header" role="banner" 
+        style="
+          /* 2. Imagen traslúcida en el banner */
+          background-image: linear-gradient(rgba(0, 128, 128, 0.6), rgba(0, 128, 128, 0.6)), /* Capa semi-transparente teal */
+          url('{{ site.baseurl }}/assets/img/tu_imagen_traslucida.jpg'); /* Reemplaza con tu imagen real */
+          background-size: cover; 
+          background-position: center; 
+          border-bottom: none; /* Quitamos el borde inferior para que se vea más limpio */
+        ">
 
-  <div class="wrapper" style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+  <div class="wrapper" 
+       style="
+         /* 1. Mover logo a la derecha */
+         display: flex; 
+         flex-direction: row; /* Elementos uno al lado del otro */
+         justify-content: space-between; /* Uno a cada extremo */
+         align-items: center; /* Centrados verticalmente */
+         padding: 0 20px; /* Un poco de margen en los lados */
+       ">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
 	
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
-		<img src="{{ site.baseurl}}/assets/img/canelos_web_logo_2026.png" alt="CANELOS" style="max-width:50%">
-	</a>
-    {%- if page_paths -%}
+        {%- if page_paths -%}
       <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
@@ -17,7 +30,9 @@
             </svg>
           </span>
         </label>
-        <div class="trigger">
+        <div class="trigger" style="display: flex; gap: 20px; align-items: center; text-align: left;">
+          <a class="page-link" href="{{ '/' | relative_url }}">Inicio</a>
+
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
             {%- if my_page.short_title -%}
@@ -29,5 +44,10 @@
         </div>
       </nav>
     {%- endif -%}
+
+        <a class="site-title" rel="author" href="{{ "/" | relative_url }}" style="margin-right: 0; margin-left: auto; max-width: 30%;">
+		<img src="{{ site.baseurl}}/assets/img/canelos_web_logo_2026.png" alt="CANELOS" style="max-width:100%">
+	</a>
+  
   </div>
 </header>
