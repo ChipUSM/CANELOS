@@ -58,7 +58,7 @@ img_link: ../assets/img/edificio_A.jpeg
 	</div>
     
 	<div class="page-col page-col-2">
-		El evento tendrá lugar en el recientemente reacondicionado <b>auditorio del edificio T</b>, al extremo oeste del campus.
+		El seminario se realizará en el <b>salón de eventos del edificio A</b>, el cual es el principal edifico del campus y se puede acceder directamente desde la escalera de Av. España.
 		<br>
 		<br>
 <!--
