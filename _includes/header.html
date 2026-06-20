@@ -1,53 +1,51 @@
 <header class="site-header" role="banner" 
         style="
-          /* 2. Imagen traslúcida en el banner */
-          background-image: linear-gradient(rgba(0, 128, 128, 0.6), rgba(0, 128, 128, 0.6)), /* Capa semi-transparente teal */
-          url('{{ site.baseurl }}/assets/img/tu_imagen_traslucida.jpg'); /* Reemplaza con tu imagen real */
+          background-image: linear-gradient(rgba(0, 128, 128, 0.7), rgba(0, 128, 128, 0.7)), 
+          url('{{ site.baseurl }}/assets/img/tu_imagen_traslucida.jpg'); 
           background-size: cover; 
           background-position: center; 
-          border-bottom: none; /* Quitamos el borde inferior para que se vea más limpio */
+          border-bottom: none;
         ">
 
   <div class="wrapper" 
        style="
-         /* 1. Mover logo a la derecha */
          display: flex; 
-         flex-direction: row; /* Elementos uno al lado del otro */
-         justify-content: space-between; /* Uno a cada extremo */
-         align-items: center; /* Centrados verticalmente */
-         padding: 0 20px; /* Un poco de margen en los lados */
+         flex-direction: row; 
+         justify-content: space-between; 
+         align-items: center; 
+         padding: 15px 20px;
        ">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
 	
-        {%- if page_paths -%}
+    {%- if page_paths -%}
       <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
           <span class="menu-icon">
             <svg viewBox="0 0 18 15" width="18px" height="15px">
-              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+                            <path fill="#ffffff" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
             </svg>
           </span>
         </label>
-        <div class="trigger" style="display: flex; gap: 20px; align-items: center; text-align: left;">
-          <a class="page-link" href="{{ '/' | relative_url }}">Inicio</a>
+        
+        <div class="trigger" style="display: flex; gap: 30px; align-items: center;">
+          <a class="page-link" href="{{ '/' | relative_url }}" style="color: #ffffff; font-weight: 600; text-shadow: 1px 1px 4px rgba(0,0,0,0.8); text-align: center; line-height: 1.2; text-decoration: none;">Inicio</a>
 
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
             {%- if my_page.short_title -%}
-				<a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.short_title | escape }}</a>
+				<a class="page-link" href="{{ my_page.url | relative_url }}" style="color: #ffffff; font-weight: 600; text-shadow: 1px 1px 4px rgba(0,0,0,0.8); text-align: center; line-height: 1.2; text-decoration: none;">{{ my_page.short_title | escape }}</a>
 			{%- else if my_page.title -%}
-				<a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+				<a class="page-link" href="{{ my_page.url | relative_url }}" style="color: #ffffff; font-weight: 600; text-shadow: 1px 1px 4px rgba(0,0,0,0.8); text-align: center; line-height: 1.2; text-decoration: none;">{{ my_page.title | escape }}</a>
             {%- endif -%}
           {%- endfor -%}
         </div>
       </nav>
     {%- endif -%}
 
-        <a class="site-title" rel="author" href="{{ "/" | relative_url }}" style="margin-right: 0; margin-left: auto; max-width: 30%;">
-		<img src="{{ site.baseurl}}/assets/img/canelos_web_logo_2026.png" alt="CANELOS" style="max-width:100%">
+        <a class="site-title" rel="author" href="{{ '/' | relative_url }}" style="margin-left: auto; max-width: 200px;">
+		<img src="{{ site.baseurl}}/assets/img/canelos_web_logo_2026.png" alt="CANELOS" style="width: 100%; height: auto;">
 	</a>
-  
   </div>
 </header>
