@@ -5,9 +5,9 @@ layout: home
 
 <h1 class="home-title"> CANELOS: CAD and Nanoelectronics Seminar </h1>
 	
-<h2 class="home-subtitle">Se viene la edición 2025 del mayor evento de microelectrónica y diseño de circuitos integrados de Chile.</h2>
+<h2 class="home-subtitle">Se viene la edición 2026 del mayor evento de microelectrónica y diseño de circuitos integrados de Chile.</h2>
 
-<h3 class="home-subtitle" style="color: #47001e">¡Te esperamos el 18 y 19 de Agosto!</h3>
+<h3 class="home-subtitle" style="color: #47001e">¡Te esperamos el 8 y 9 de Octubre!</h3>
 <!--
 <h2 class="home-subtitle">No te pierdas el evento más importante de microelectrónica y diseño de circuitos integrados de Chile.</h2>
 
