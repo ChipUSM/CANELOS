@@ -138,6 +138,8 @@ La edición 2024 de Canelos fue transmitida por la plataforma USM TV de la unive
 	</div>
 </div>
 
+<h1 class="home-title" style="text-align: center"> Canelos 2025 </h1>
+
 <!--
 # Dónde comer
 -->

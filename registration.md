@@ -12,6 +12,10 @@ img_link: ../assets/img/jardin.jpg
 	<a href="https://forms.gle/zh7we1E6kjR6ANtC8" style="color: #47001e; text-decoration:underline">formulario</a>.</span></b>
 	Sus respuestas nos ayudan a organizar mejor el evento.
 	<br><br>
+
+	<!--
+	Modificar los formularios para el 2026, hay q resubirlos
+	-->
 	
 	En el mismo formulario podrán también inscribirse en el <b><a href="https://chipusm.github.io/CANELOS/programa/" style="color: #47001e">Workshop</a></b>,
 	donde podrán seguir aprendiendo microelectrónica de manera más práctica.
