@@ -75,7 +75,7 @@ img_link: ../assets/img/edificio_A.jpeg
 
 <p align="center"> 
 	<a href="https://usm.cl/">
-		<img src="../assets/img/mapa.png" alt="Mapa de la UTFSM" style="max-width: 100%"/>
+		<img src="../assets/img/mapa_2026.png" alt="Mapa de la UTFSM" style="max-width: 100%"/>
 	</a>
 </p>
 
