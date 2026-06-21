@@ -29,16 +29,23 @@
           </span>
         </label>
         
-        <div class="trigger" style="display: flex; gap: 15px; align-items: center; justify-content: flex-start;">
+        <div class="trigger" 
+             style="
+               display: flex; 
+               align-items: center; 
+               background-color: rgba(255, 255, 255, 0.7); /* Fondo unificado translúcido */
+               border-radius: 8px; /* Bordes ligeramente redondeados de toda la barra */
+               padding: 5px 25px; /* Espaciado interno de la barra */
+             ">
           
-          <a class="page-link" href="{{ '/' | relative_url }}" style="color: #222222; font-weight: 700; background-color: rgba(255, 255, 255, 0.6); padding: 8px 16px; border-radius: 20px; text-align: center; line-height: 1.2; text-decoration: none; margin: 0; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">Inicio</a>
+          <a class="page-link" href="{{ '/' | relative_url }}" style="color: #222222; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; text-decoration: none; padding: 10px 15px; margin: 0; line-height: 1;">Inicio</a>
 
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
             {%- if my_page.short_title -%}
-				<a class="page-link" href="{{ my_page.url | relative_url }}" style="color: #222222; font-weight: 700; background-color: rgba(255, 255, 255, 0.6); padding: 8px 16px; border-radius: 20px; text-align: center; line-height: 1.2; text-decoration: none; margin: 0; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">{{ my_page.short_title | escape }}</a>
+				<a class="page-link" href="{{ my_page.url | relative_url }}" style="color: #222222; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; text-decoration: none; padding: 10px 15px; margin: 0; line-height: 1;">{{ my_page.short_title | escape }}</a>
 			{%- else if my_page.title -%}
-				<a class="page-link" href="{{ my_page.url | relative_url }}" style="color: #222222; font-weight: 700; background-color: rgba(255, 255, 255, 0.6); padding: 8px 16px; border-radius: 20px; text-align: center; line-height: 1.2; text-decoration: none; margin: 0; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">{{ my_page.title | escape }}</a>
+				<a class="page-link" href="{{ my_page.url | relative_url }}" style="color: #222222; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; text-decoration: none; padding: 10px 15px; margin: 0; line-height: 1;">{{ my_page.title | escape }}</a>
             {%- endif -%}
           {%- endfor -%}
         </div>
