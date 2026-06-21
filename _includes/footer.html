@@ -3,19 +3,23 @@
 
   <div class="wrapper">
 
-
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <h2 class="footer-heading">{{ site.title | escape }}</h2>
 		<ul class="contact-list">
-          <li class="p-name">
+                    <li class="p-name" style="display: flex; align-items: center; gap: 8px;">
             {%- if site.author -%}
               {{ site.author | escape }}
             {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
+            
+            <a href="https://www.instagram.com/chip_usm/" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center;">
+              <img src="{{ site.baseurl }}/assets/img/tu_logo_instagram.png" alt="Instagram ChipUSM" style="width: 20px; height: auto;">
+            </a>
+          </li>
+
+          {%- if site.email -%}
+          <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          {%- endif -%}
         </ul>
       </div>
 	
