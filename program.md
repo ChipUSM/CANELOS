@@ -38,3 +38,12 @@ img_link: ../assets/img/charla.jpg
 ## Charlas plenarias
 
 <h3 align="center" style="font-weight: bold; margin-top: 40px; margin-bottom: 40px;">Próximamente...</h3>
+
+<br>
+<hr>
+<br>
+
+
+## Sesión de Posters
+
+<h3 align="center" style="font-weight: bold; margin-top: 40px; margin-bottom: 40px;">Próximamente...</h3>
