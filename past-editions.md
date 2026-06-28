@@ -140,6 +140,12 @@ La edición 2024 de Canelos fue transmitida por la plataforma USM TV de la unive
 
 <h1 class="home-title" style="text-align: center"> Canelos 2025 </h1>
 
+<p align="justify">
+En Agosto del 2025 se celebró la tercera iteración del CANELOS, contando con el capítulo chileno de CASS cómo co-anfitrion. Esta iteración, con una duración de dos días, contemplo una gran variedad charlas técnicas, industriales y motivacionales, destacando la participación de los centros de investiación INRIA de París, IMEC de Estados Unidos y AC3E de Chile, así como la empresa Intel.
+
+Esta iteración no solo estuvo marcada por la participación de estudiantes de 6 universidades distintas, sino que marcó un hito de inicio y puesta en marcha para la Fundación ChipChile, enfocada en fomentar el ecosistema de microelectrónica nacional.
+</p>
+
 <!--
 # Dónde comer
 -->
