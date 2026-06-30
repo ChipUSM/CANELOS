@@ -149,10 +149,10 @@ Esta iteración no solo estuvo marcada por la participación de estudiantes de 6
 
 <div class="page-col-wrapper">        
 	<div class="page-col page-col-3">
-		<p align="center"> <img src="../assets/img/past-editions/2025/CANELOS25_afiche_A.png" alt="Afiche CANELOS 2025 1" width="400" style="max-width: 100%"/> </p>
+		<p align="center"> <img src="../assets/img/past-editions/2025/CANELOS25_flyer_1.png" alt="Afiche CANELOS 2025 1" width="400" style="max-width: 100%"/> </p>
 	</div>
 	<div class="page-col page-col-3">
-		<p align="center"> <img src="../assets/img/past-editions/2025/CANELOS25_afiche_D.png" alt="Afiche CANELOS 2025 2" width="400" style="max-width: 100%"/> </p>
+		<p align="center"> <img src="../assets/img/past-editions/2025/CANELOS25_afiche_B.png" alt="Afiche CANELOS 2025 2" width="400" style="max-width: 100%"/> </p>
 	</div>
 </div>
 
