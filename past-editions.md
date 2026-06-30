@@ -146,6 +146,31 @@ En Agosto del 2025 se celebró la tercera iteración del CANELOS, contando con e
 Esta iteración no solo estuvo marcada por la participación de estudiantes de 6 universidades distintas, sino que marcó un hito de inicio y puesta en marcha para la Fundación ChipChile, enfocada en fomentar el ecosistema de microelectrónica nacional.
 </p>
 
+### Fotos
+
+<div class="page-col-wrapper">        
+	<div class="page-col page-col-4">
+		<p align="center"> <img src="../assets/img/past-editions/2025/canelos_2025_1.jpg" width="350" style="max-width: 100%"/> </p>
+	</div>
+	<div class="page-col page-col-4">
+		<p align="center"> <img src="../assets/img/past-editions/2025/canelos_2025_2.jpg" width="350" style="max-width: 100%"/> </p>
+	</div>
+	<div class="page-col page-col-5">
+		<p align="center"> <img src="../assets/img/past-editions/2025/canelos_2025_3.jpg" width="350" style="max-width: 100%"/> </p>
+	</div>
+	<br>
+	
+	<div class="page-col page-col-4">
+		<p align="center"> <img src="../assets/img/past-editions/2025/canelos_grupal.jpg" width="350" style="max-width: 100%"/> </p>
+	</div>
+	<div class="page-col page-col-4">
+		<p align="center"> <img src="../assets/img/past-editions/2025/canelos_2025_4.jpg" width="350" style="max-width: 100%"/> </p>
+	</div>
+	<div class="page-col page-col-5">
+		<p align="center"> <img src="../assets/img/past-editions/2025/canelos_final.jpg" width="350" style="max-width: 100%"/> </p>
+	</div>
+</div>
+
 <!--
 # Dónde comer
 -->
