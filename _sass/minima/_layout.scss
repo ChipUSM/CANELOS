@@ -119,7 +119,7 @@
 }
 
 .footer-heading {
-  @include relative-font-size(1.125);
+  @include relative-font-size(1.3);
   margin-bottom: $spacing-unit / 2;
 }
 
@@ -131,7 +131,7 @@
 
 .footer-col-wrapper {
   margin-top: 5px;
-  @include relative-font-size(2);
+  @include relative-font-size(1.3);
   color: $grey-color-dark;
   margin-left: -$spacing-unit / 2;
   @extend %clearfix;
