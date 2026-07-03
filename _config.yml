@@ -14,7 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: CANELOS 2026
-author: ChipUSM
+author: 
+name: ChipUSM
 email: chip.usm@usm.cl
 description: >- # this means to ignore newlines until "baseurl:"
   Sitio web de CANELOS: CAD and Nanoelectronics Seminar. 
