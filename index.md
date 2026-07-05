@@ -4,7 +4,7 @@ layout: home
 
 <!-- 1. BANNER PRINCIPAL -->
 <p align="center" style="margin-top: -20px;">
-  <img src="https://placehold.co/1200x400/eeeeee/999999?text=Banner+Prueba+8+y+9+Oct" alt="Banner CANELOS 2026" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"/>
+  <img src="assets/img/Afiche_temp.png" alt="Banner CANELOS 2026 - 8 y 9 de Octubre" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"/>
 </p>
 
 
@@ -30,22 +30,22 @@ layout: home
     <!-- Charlista 1 -->
     <div style="text-align: center; max-width: 250px;">
         <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto+1" alt="Charlista 1" style="width: 160px; height: 160px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
-        <h3 style="margin: 0; font-size: 1.3em; color: #222;">Dra. Francesca Iacopi</h3>
-        <p style="font-size: 0.95em; color: #666; margin-top: 5px;"><i>"2D Materials for Nanoelectronics"</i></p>
+        <h3 style="margin: 0; font-size: 1.3em; color: #222;">Charlista 1</h3>
+        <p style="font-size: 0.95em; color: #666; margin-top: 5px;"><i>"Titulo charla 1"</i></p>
     </div>
     
     <!-- Charlista 2 -->
     <div style="text-align: center; max-width: 250px;">
         <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto+2" alt="Charlista 2" style="width: 160px; height: 160px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
-        <h3 style="margin: 0; font-size: 1.3em; color: #222;">Dr. Ricardo Reis</h3>
-        <p style="font-size: 0.95em; color: #666; margin-top: 5px;"><i>"Trends on Nanoelectronics"</i></p>
+        <h3 style="margin: 0; font-size: 1.3em; color: #222;">Charlista 2</h3>
+        <p style="font-size: 0.95em; color: #666; margin-top: 5px;"><i>"Titulo charla 2"</i></p>
     </div>
     
     <!-- Charlista 3 -->
     <div style="text-align: center; max-width: 250px;">
         <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto+3" alt="Charlista 3" style="width: 160px; height: 160px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
-        <h3 style="margin: 0; font-size: 1.3em; color: #222;">Dr. Alvin Loke</h3>
-        <p style="font-size: 0.95em; color: #666; margin-top: 5px;"><i>"The Road to Gate-All-Around CMOS"</i></p>
+        <h3 style="margin: 0; font-size: 1.3em; color: #222;">Charlista 3</h3>
+        <p style="font-size: 0.95em; color: #666; margin-top: 5px;"><i>"Titulo charla 3"</i></p>
     </div>
 
 </div>
@@ -59,15 +59,15 @@ layout: home
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px;">
     
     <div style="background-color: #f7f9fc; border-left: 5px solid #003002; padding: 25px; border-radius: 8px; width: 350px; box-shadow: 0 3px 8px rgba(0,0,0,0.05);">
-        <h3 style="margin-top: 0; color: #003002;">Campamento 1</h3>
+        <h3 style="margin-top: 0; color: #003002;">Taller 1</h3>
         <p style="font-weight: 800; font-size: 1.2em; margin-bottom: 10px; color: #222;">Diseño de Circuitos</p>
-        <p style="font-size: 0.95em; margin: 0; color: #555;">Taller práctico intensivo enfocado en herramientas de diseño asistido e introducción a la creación de circuitos integrados.</p>
+        <p style="font-size: 0.95em; margin: 0; color: #555;">Descripcion taller 1.</p>
     </div>
     
     <div style="background-color: #f7f9fc; border-left: 5px solid #003002; padding: 25px; border-radius: 8px; width: 350px; box-shadow: 0 3px 8px rgba(0,0,0,0.05);">
-        <h3 style="margin-top: 0; color: #003002;">Campamento 2</h3>
+        <h3 style="margin-top: 0; color: #003002;">Taller 2</h3>
         <p style="font-weight: 800; font-size: 1.2em; margin-bottom: 10px; color: #222;">Diseño de Sensores</p>
-        <p style="font-size: 0.95em; margin: 0; color: #555;">Aprende los fundamentos del sensado, acondicionamiento de señales y su integración en sistemas electrónicos modernos.</p>
+        <p style="font-size: 0.95em; margin: 0; color: #555;">Descripcion taller 2.</p>
     </div>
 
 </div>
