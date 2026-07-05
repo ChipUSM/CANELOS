@@ -58,7 +58,7 @@ En la página de <a href="https://www.youtube.com/@ChipUSM/">ChipUSM en YouTube<
 
 <div class="page-col-wrapper">        
 	<div class="page-col page-col-4">
-		<p align="center"> <img src="../assets/img/past-editions/2023/canelos2.jpg" alt="Gabriel Rincón-Mora presentando en CANELOS 2023" width="350" style="max-width: 100%"/> </p>
+		<p align="center"> <img src="../assets/img/past-editions/2023/canelos2.jpg" alt="Gabriel Rincón-Mora presentando en CANELOS 2023" width="350" style="max-width: 100%"/></p>
 	</div>
 	<div class="page-col page-col-4">
 		<p align="center"> <img src="../assets/img/past-editions/2023/canelos3.jpg" alt="Filip Maksimovic presentando en CANELOS 2023" width="350" style="max-width: 100%"/> </p>
@@ -66,8 +66,9 @@ En la página de <a href="https://www.youtube.com/@ChipUSM/">ChipUSM en YouTube<
 	<div class="page-col page-col-5">
 		<p align="center"> <img src="../assets/img/past-editions/2023/canelos4.jpg" alt="Rodrigo Iga presentando en CANELOS 2023" width="350" style="max-width: 100%"/> </p>
 	</div>
-	<br>
-	
+</div>
+
+<div class="page-col-wrapper">
 	<div class="page-col page-col-4">
 		<p align="center"> <img src="../assets/img/past-editions/2023/canelos5.jpg" alt="Ronald Valenzuela presentando en CANELOS 2023" width="350" style="max-width: 100%"/> </p>
 	</div>
@@ -79,7 +80,6 @@ En la página de <a href="https://www.youtube.com/@ChipUSM/">ChipUSM en YouTube<
 	</div>
 </div>
 
-<br>
 <h1 class="home-title" style="text-align: center"> Canelos 2024 </h1>
 
 <p align="justify">
@@ -125,8 +125,9 @@ La edición 2024 de Canelos fue transmitida por la plataforma USM TV de la unive
 	<div class="page-col page-col-5">
 		<p align="center"> <img src="../assets/img/past-editions/2024/canelos4.jpg" alt="Rodrigo Iga presentando en CANELOS 2024" width="350" style="max-width: 100%"/> </p>
 	</div>
-	<br>
-	
+</div>
+
+<div class="page-col-wrapper">	
 	<div class="page-col page-col-4">
 		<p align="center"> <img src="../assets/img/past-editions/2024/canelos5.jpg" alt="Coffee break en CANELOS 2024" width="350" style="max-width: 100%"/> </p>
 	</div>
@@ -168,8 +169,9 @@ Esta iteración no solo estuvo marcada por la participación de estudiantes de 6
 	<div class="page-col page-col-5">
 		<p align="center"> <img src="../assets/img/past-editions/2025/canelos_2025_3.jpg" width="350" style="max-width: 100%"/> </p>
 	</div>
-	<br>
-	
+</div>
+
+<div class="page-col-wrapper">  	
 	<div class="page-col page-col-4">
 		<p align="center"> <img src="../assets/img/past-editions/2025/canelos_grupal.jpg" width="350" style="max-width: 100%"/> </p>
 	</div>
