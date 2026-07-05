@@ -2,123 +2,99 @@
 layout: home
 ---
 
-
-<h1 class="home-title"> CANELOS: CAD and Nanoelectronics Seminar </h1>
-	
-<h2 class="home-subtitle">Se viene la edición 2026 del mayor evento de microelectrónica y diseño de circuitos integrados de Chile.</h2>
-
-<h3 class="home-subtitle" style="color: #47001e">¡Te esperamos el 8 y 9 de Octubre!</h3>
-<!--
-<h2 class="home-subtitle">No te pierdas el evento más importante de microelectrónica y diseño de circuitos integrados de Chile.</h2>
-
-<h3 class="home-subtitle" style="color: #47001e">¡Inscríbete <a href="{{ "/registro/" | relative_url }}" style="color: #47001e; text-decoration:underline">aquí</a>!</h3>
--->
-
-<p align="justify">
-El seminario CANELOS tiene como principal objetivo reunir a la comunidad chilena de microelectrónica, fomentando su desarrollo técnico en torno a charlas de alto nivel
-y generando un espacio para hacer contactos con la industria y la comunidad latinoamericana. 
-Además, se busca promover la discusión sobre el crecimiento y futuro de la industria nacional de semiconductores.
+<!-- 1. BANNER PRINCIPAL -->
+<p align="center" style="margin-top: -20px;">
+  <img src="https://placehold.co/1200x400/eeeeee/999999?text=Banner+Prueba+8+y+9+Oct" alt="Banner CANELOS 2026" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"/>
 </p>
 
-<p align="center"><br><img src="assets/img/flyer_canelos_25.png" alt="folleto CANELOS 2024" style="max-width: 100%"/> </p>
 
-<p align="justify"><br>
-CANELOS es una instancia organizada por <b>ChipUSM</b>, que es una asociación estudiantil de la Universidad Técnica Federico Santa María.
-</p>
-
-<p align="left">Los principales temas abordados incluyen: </p>
-
-<div class="page-col-wrapper">
-	<div class="page-col page-col-7">
-	<br>
-	    
-	</div>
-	   
-	<div class="page-col page-col-6">
-		<p align="left">
-		• Dispositivos y física nanométrica <br>
-		• Sensado y acondicionamiento <br>	
-		• Conversión energética y sistemas de potencia <br>		
-		• Circuitos y sistemas de radiofrecuencia <br>	
-		• Procesamiento de señales analógico y digital <br>	
-		• Tecnologías de fabricación y testeo de circuitos integrados <br>	 
-		• Herramientas de diseño asistido y automatización <br><br>	
-		</p>
-	</div>
+<!-- 2. RESUMEN BREVE DE CANELOS -->
+<div style="text-align: center; margin: 40px 0;">
+    <h1 style="font-weight: 800; color: #222;">CANELOS 2026</h1>
+    <h3 style="color: #47001e; margin-bottom: 20px;">CAD and Nanoelectronics Seminar</h3>
+    <p style="font-size: 1.2em; line-height: 1.6; max-width: 900px; margin: 0 auto;">
+        El mayor evento de microelectrónica y diseño de circuitos integrados de Chile. 
+        Un espacio de encuentro diseñado para impulsar el desarrollo técnico, conectar con la industria 
+        latinoamericana y descubrir el futuro de los semiconductores a través de charlas de alto nivel.
+    </p>
 </div>
 
-
-<!--
-El Secretario IEEE de ChipUSM, Sebastián Sánchez, ejerce como Chair de la edición 2024 de CANELOS. 
-Además, este año contamos con la participación del <b>Capitulo Chileno de la Circuits And Systems Society</b> como co-anfitrión.
+<hr style="border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0)); margin: 50px auto; width: 75%;">
 
 
-<br>
+<!-- 3. CHARLISTAS -->
+<h2 style="text-align: center; color: #47001e; font-weight: 700; margin-bottom: 40px;">Expositores Destacados</h2>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 40px; margin-bottom: 20px;">
+    
+    <!-- Charlista 1 -->
+    <div style="text-align: center; max-width: 250px;">
+        <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto+1" alt="Charlista 1" style="width: 160px; height: 160px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
+        <h3 style="margin: 0; font-size: 1.3em; color: #222;">Dra. Francesca Iacopi</h3>
+        <p style="font-size: 0.95em; color: #666; margin-top: 5px;"><i>"2D Materials for Nanoelectronics"</i></p>
+    </div>
+    
+    <!-- Charlista 2 -->
+    <div style="text-align: center; max-width: 250px;">
+        <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto+2" alt="Charlista 2" style="width: 160px; height: 160px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
+        <h3 style="margin: 0; font-size: 1.3em; color: #222;">Dr. Ricardo Reis</h3>
+        <p style="font-size: 0.95em; color: #666; margin-top: 5px;"><i>"Trends on Nanoelectronics"</i></p>
+    </div>
+    
+    <!-- Charlista 3 -->
+    <div style="text-align: center; max-width: 250px;">
+        <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto+3" alt="Charlista 3" style="width: 160px; height: 160px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
+        <h3 style="margin: 0; font-size: 1.3em; color: #222;">Dr. Alvin Loke</h3>
+        <p style="font-size: 0.95em; color: #666; margin-top: 5px;"><i>"The Road to Gate-All-Around CMOS"</i></p>
+    </div>
+
+</div>
+
+<hr style="border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0)); margin: 50px auto; width: 75%;">
 
 
+<!-- 4. CAMPAMENTOS / CURSOS -->
+<h2 style="text-align: center; color: #47001e; font-weight: 700; margin-bottom: 40px;">Cursos y Talleres</h2>
 
-<h1 style="text-align: center"> Anfitriones </h1>
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px;">
+    
+    <div style="background-color: #f7f9fc; border-left: 5px solid #003002; padding: 25px; border-radius: 8px; width: 350px; box-shadow: 0 3px 8px rgba(0,0,0,0.05);">
+        <h3 style="margin-top: 0; color: #003002;">Campamento 1</h3>
+        <p style="font-weight: 800; font-size: 1.2em; margin-bottom: 10px; color: #222;">Diseño de Circuitos</p>
+        <p style="font-size: 0.95em; margin: 0; color: #555;">Taller práctico intensivo enfocado en herramientas de diseño asistido e introducción a la creación de circuitos integrados.</p>
+    </div>
+    
+    <div style="background-color: #f7f9fc; border-left: 5px solid #003002; padding: 25px; border-radius: 8px; width: 350px; box-shadow: 0 3px 8px rgba(0,0,0,0.05);">
+        <h3 style="margin-top: 0; color: #003002;">Campamento 2</h3>
+        <p style="font-weight: 800; font-size: 1.2em; margin-bottom: 10px; color: #222;">Diseño de Sensores</p>
+        <p style="font-size: 0.95em; margin: 0; color: #555;">Aprende los fundamentos del sensado, acondicionamiento de señales y su integración en sistemas electrónicos modernos.</p>
+    </div>
 
-## ChipUSM
+</div>
 
-La asociación estudiantil ChipUSM nace en 2022 por voluntad de un grupo autoconvocado de estudiantes de la UTFSM interesados en microelectrónica.
-Sus objetivos son fomentar el aprendizaje de la microelectrónica y su aplicación práctica en proyectos de diseño de circuitos integrados, 
-promover la colaboración entre estudiantes y con entes externos en materia de microelectrónica, 
-y ofrecer los medios técnicos y materiales que habiliten la participación de más estudiantes en el ámbito de los circuitos integrados.
-
-Desde su fundación, ChipUSM ha jugado un rol importante difundiendo oportunidades, generando redes de contactos 
-y valorizando el trabajo estudiantil en el desarrollo de la microelectrónica en la UTFSM y en Chile.
-
-
-## Capítulo CAS del IEEE
-
-El Capítulo profesional CAS es la instancia en Chile de la Circuits And Systems Society del Instituto de Ingenieros Eléctricos y Electrónicos (IEEE).
-Este Capítulo, que reune a los profesionales del área de la microelectrónica del país, gestiona distintas actividades técnicas y profesionalizantes
-mediante el trabajo voluntario de sus miembros y el apoyo de una basta red internacional. 
-En particular, el Capítulo CAS permite realizar charlas de alto nivel técnico invitando a expertos de todo el mundo, como quienes exponen en CANELOS.
-
-
-<h1 style="text-align: center"> Patrocinadores </h1>
-
-## Instituto de Ingenieros Eléctricos y Electrónicos (IEEE)
-
-El IEEE y sus sociedades hacen posible la realización de CANELOS mediante distintos fondos y beneficios que combinamos para el evento.
-Además del apoyo y financiamiento del Capítulo CAS, contamos con los programas Distinguished Lecturer para costear viaje y estadía de charlistas expertos.
-En esta oportunidad, recibiremos un charlista de la Electron Devices Society.
+<hr style="border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0)); margin: 60px auto; width: 75%;">
 
 
-## Departamento de Electrónica de la UTFSM
+<!-- 5. MAPA E ITINERARIO -->
+<h2 style="text-align: center; color: #47001e; font-weight: 700; margin-bottom: 40px;">Ubicación y Programa</h2>
 
-El Departamento de Electrónica es la unidad académica de la Universidad Técnica Federico Santa María que está más estrechamente ligada al tema de la microelectrónica,
-en investigación y docencia.
-La Universidad y el Departamento, en particular, se complacen de apoyar instancias técnicas como CANELOS y valorar también el trabajo extracurricular de los y las
-estudiantes de ChipUSM que organizan el evento.
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; gap: 40px; width: 100%;">
+    
+    <!-- Columna Izquierda: Mapa de Google -->
+    <div style="flex: 1; min-width: 320px;">
+        <h3 style="text-align: center; margin-bottom: 15px;">Sede del Evento</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3344.757041530759!2d-71.5975549233633!3d-33.03651137355554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9689e0c7a52f9c47%3A0x6b1bb02581691238!2sUniversidad%20T%C3%A9cnica%20Federico%20Santa%20Mar%C3%ADa!5e0!3m2!1ses-419!2scl!4v1714490000000!5m2!1ses-419!2scl" width="100%" height="350" style="border:0; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 10px;">Universidad Técnica Federico Santa María<br>Av. España 1680, Valparaíso, Chile</p>
+    </div>
 
+    <!-- Columna Derecha: Imagen del Itinerario -->
+    <div style="flex: 1; min-width: 320px;">
+        <h3 style="text-align: center; margin-bottom: 15px;">Itinerario Preventivo</h3>
+        <p align="center" style="margin: 0;">
+            <img src="https://placehold.co/800x600/eeeeee/999999?text=Imagen+del+Itinerario" alt="Itinerario CANELOS 2026" style="width: 100%; height: 350px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); background-color: #ffffff; padding: 10px;">
+        </p>
+    </div>
 
-## Ingeniería 2030 de la UTFSM
+</div>
 
-El programa ING2030, en el marco de su etapa de consolidación, pone a disposición de la comunidad universitaria los Fondos Concursables para el Fortalecimiento de
-un Ecosistema de I+D+i+e. El seminario CANELOS es el segundo proyecto con que ChipUSM se adjudica fondos de dicho concurso.
-
-
-## Centro AC3E
-
-El Centro Avanzado de Ingeniería Eléctrica y Electrónica de las UTFSM es un centro basal multidisciplinario y con un importante enfoque
-en transferencia tecnológica, para poner la investigación científica al servicio de la industria nacional y las sociedad.
-En los últimos años, el AC3E ha desarrollado gran interés por la microelectrónica y busca potenciar sus capacidades de I+D en la materia.
-
-
-## Synopsys
-
-asdasd
-
-
-<h1 style="text-align: center"> Colaboradores </h1>
-
-## Rama IEEE de la UTFSM
-La Rama Estudiantil es la instancia del IEEE en nuestra universidad, y como tal, persigue el desarrollo tecnológico al servicio de la humanidad.
-Desde su rol de iniciativa estudiantil, la Rama busca complementar la formación ingenieril, tanto en el ámbito técnico como en desarrollo 
-habilidades blandas y vocación de servicio.
-La Rama contiene Capítulos Estudiantiles que persiguen un mayor nivel técnico en temas correspondientes a alguna de las sociedades del IEEE.
-Entre los capítulos que existen en la UTFSM, destaca el nuevo Capítulo Estudiantil conjunto SSCS/CAS/EDS, especializado en microelectrónica.
--->
+<br><br>
