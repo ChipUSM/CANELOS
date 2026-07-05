@@ -3,7 +3,7 @@ layout: home
 ---
 
 <p align="center" style="margin-top: -20px;">
-  <img src="{{ site.baseurl }}/assets/img/Afiche_temp.png" alt="Banner CANELOS 2026 - 8 y 9 de Octubre" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"/>
+  <img src="assets/img/Afiche_temp.png" alt="Banner CANELOS 2026 - 8 y 9 de Octubre" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"/>
 </p>
 
 
