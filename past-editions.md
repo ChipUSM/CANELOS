@@ -173,7 +173,7 @@ Esta iteración no solo estuvo marcada por la participación de estudiantes de 6
 
 <div class="page-col-wrapper">  	
 	<div class="page-col page-col-4">
-		<p align="center"> <img src="../assets/img/past-editions/2025/canelos_grupal.jpg" width="350" style="max-width: 100%"/> </p>
+		<p align="center"> <img src="../assets/img/past-editions/2025/canelos_2025_break.jpeg" width="350" style="max-width: 100%"/> </p>
 	</div>
 	<div class="page-col page-col-4">
 		<p align="center"> <img src="../assets/img/past-editions/2025/canelos_2025_4.jpg" width="350" style="max-width: 100%"/> </p>
