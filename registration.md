@@ -17,7 +17,7 @@ img_link: ../assets/img/jardin.jpg
 	Modificar los formularios para el 2026, hay q resubirlos
 	-->
 	
-	En el mismo formulario podrán también inscribirse en el <b><a href="https://chipusm.github.io/CANELOS/programa/" style="color: #47001e">Workshop</a></b>,
+	Proximamente se publicará la información respecto a la inscripción para el <b><a href="https://chipusm.github.io/CANELOS/programa/" style="color: #47001e">Workshop</a></b>,
 	donde podrán seguir aprendiendo microelectrónica de manera más práctica.
 </p>
 
