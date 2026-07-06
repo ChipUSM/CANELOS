@@ -9,7 +9,7 @@ img_link: ../assets/img/jardin.jpg
 <p align="justify">
 	La participación en CANELOS es totalmente gratuita, gracias al apoyo de nuestros auspiciadores.
 	Sin embargo, <b><span style="color: #47001e">para asistir deben registrarse en el siguiente
-	<a href="https://forms.gle/zh7we1E6kjR6ANtC8" style="color: #47001e; text-decoration:underline">formulario</a>.</span></b>
+	<a href="https://forms.gle/7n8cQrbibkMBUCyr7" style="color: #47001e; text-decoration:underline">formulario</a>.</span></b>
 	Sus respuestas nos ayudan a organizar mejor el evento.
 	<br><br>
 
