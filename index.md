@@ -22,27 +22,59 @@ layout: home
 <hr style="border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0)); margin: 50px auto; width: 75%;">
 
 
-<!-- 3. CHARLISTAS -->
+<!-- 3. CHARLISTAS (FORMATO LISTA/FILA) -->
 <h2 style="text-align: center; color: #47001e; font-weight: 700; margin-bottom: 40px;">Expositores Destacados</h2>
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 40px; margin-bottom: 20px;">
+<div style="display: flex; flex-direction: column; align-items: center; gap: 20px; margin-bottom: 20px;">
     
-    <div style="text-align: center; max-width: 250px;">
-        <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto+1" alt="Charlista 1" style="width: 160px; height: 160px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
-        <h3 style="margin: 0; font-size: 1.3em; color: #222;">Charlista 1</h3>
-        <p style="font-size: 0.95em; color: #666; margin-top: 5px;"><i>"Titulo charla 1"</i></p>
+    <!-- Charlista 1 -->
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 25px; width: 100%; max-width: 800px; background-color: #f7f9fc; padding: 20px; border-radius: 12px; box-shadow: 0 3px 8px rgba(0,0,0,0.05);">
+        <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto+1" alt="Expositor 1" style="width: 120px; height: 120px; border-radius: 8px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+        <div style="text-align: left; flex: 1; min-width: 250px;">
+            <h3 style="margin: 0 0 5px 0; font-size: 1.4em; color: #222;">Expositor 1</h3>
+            <p style="font-size: 1em; color: #47001e; margin: 0 0 10px 0; font-weight: bold;">"Título de la charla 1"</p>
+            <p style="font-size: 0.9em; color: #555; margin: 0; background-color: #e2e8f0; padding: 4px 12px; border-radius: 20px; display: inline-block;">📍 Presencial</p>
+        </div>
     </div>
     
-    <div style="text-align: center; max-width: 250px;">
-        <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto+2" alt="Charlista 2" style="width: 160px; height: 160px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
-        <h3 style="margin: 0; font-size: 1.3em; color: #222;">Charlista 2</h3>
-        <p style="font-size: 0.95em; color: #666; margin-top: 5px;"><i>"Titulo charla 2"</i></p>
+    <!-- Charlista 2 -->
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 25px; width: 100%; max-width: 800px; background-color: #f7f9fc; padding: 20px; border-radius: 12px; box-shadow: 0 3px 8px rgba(0,0,0,0.05);">
+        <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto+2" alt="Expositor 2" style="width: 120px; height: 120px; border-radius: 8px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+        <div style="text-align: left; flex: 1; min-width: 250px;">
+            <h3 style="margin: 0 0 5px 0; font-size: 1.4em; color: #222;">Expositor 2</h3>
+            <p style="font-size: 1em; color: #47001e; margin: 0 0 10px 0; font-weight: bold;">"Título de la charla 2"</p>
+            <p style="font-size: 0.9em; color: #555; margin: 0; background-color: #e2e8f0; padding: 4px 12px; border-radius: 20px; display: inline-block;">📍 Presencial</p>
+        </div>
     </div>
     
-    <div style="text-align: center; max-width: 250px;">
-        <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto+3" alt="Charlista 3" style="width: 160px; height: 160px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
-        <h3 style="margin: 0; font-size: 1.3em; color: #222;">Charlista 3</h3>
-        <p style="font-size: 0.95em; color: #666; margin-top: 5px;"><i>"Titulo charla 3"</i></p>
+    <!-- Charlista 3 -->
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 25px; width: 100%; max-width: 800px; background-color: #f7f9fc; padding: 20px; border-radius: 12px; box-shadow: 0 3px 8px rgba(0,0,0,0.05);">
+        <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto+3" alt="Expositor 3" style="width: 120px; height: 120px; border-radius: 8px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+        <div style="text-align: left; flex: 1; min-width: 250px;">
+            <h3 style="margin: 0 0 5px 0; font-size: 1.4em; color: #222;">Expositor 3</h3>
+            <p style="font-size: 1em; color: #47001e; margin: 0 0 10px 0; font-weight: bold;">"Título de la charla 3"</p>
+            <p style="font-size: 0.9em; color: #555; margin: 0; background-color: #e2e8f0; padding: 4px 12px; border-radius: 20px; display: inline-block;">📍 Presencial</p>
+        </div>
+    </div>
+    
+    <!-- Charlista 4 -->
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 25px; width: 100%; max-width: 800px; background-color: #f7f9fc; padding: 20px; border-radius: 12px; box-shadow: 0 3px 8px rgba(0,0,0,0.05);">
+        <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto+4" alt="Expositor 4" style="width: 120px; height: 120px; border-radius: 8px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+        <div style="text-align: left; flex: 1; min-width: 250px;">
+            <h3 style="margin: 0 0 5px 0; font-size: 1.4em; color: #222;">Expositor 4</h3>
+            <p style="font-size: 1em; color: #47001e; margin: 0 0 10px 0; font-weight: bold;">"Título de la charla 4"</p>
+            <p style="font-size: 0.9em; color: #555; margin: 0; background-color: #e2e8f0; padding: 4px 12px; border-radius: 20px; display: inline-block;">📍 Presencial</p>
+        </div>
+    </div>
+    
+    <!-- Charlista 5 -->
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 25px; width: 100%; max-width: 800px; background-color: #f7f9fc; padding: 20px; border-radius: 12px; box-shadow: 0 3px 8px rgba(0,0,0,0.05);">
+        <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto+5" alt="Expositor 5" style="width: 120px; height: 120px; border-radius: 8px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+        <div style="text-align: left; flex: 1; min-width: 250px;">
+            <h3 style="margin: 0 0 5px 0; font-size: 1.4em; color: #222;">Expositor 5</h3>
+            <p style="font-size: 1em; color: #47001e; margin: 0 0 10px 0; font-weight: bold;">"Título de la charla 5"</p>
+            <p style="font-size: 0.9em; color: #555; margin: 0; background-color: #e2e8f0; padding: 4px 12px; border-radius: 20px; display: inline-block;">📍 Presencial</p>
+        </div>
     </div>
 
 </div>
@@ -76,7 +108,47 @@ layout: home
 <hr style="border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0)); margin: 60px auto; width: 75%;">
 
 
-<!-- 5. MAPA E ITINERARIO -->
+<!-- 5. EQUIPO PROFESIONAL (NUEVO) -->
+<h2 style="text-align: center; color: #47001e; font-weight: 700; margin-bottom: 40px;">Equipo Profesional</h2>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 50px; margin-bottom: 20px; max-width: 900px; margin-left: auto; margin-right: auto;">
+    
+    <div style="text-align: center; width: 220px;">
+        <img src="https://placehold.co/300x300/eeeeee/999999?text=JM" alt="Jorge Marin" style="width: 140px; height: 140px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
+        <h3 style="margin: 0; font-size: 1.3em; color: #222;">Jorge Marin</h3>
+    </div>
+    
+    <div style="text-align: center; width: 220px;">
+        <img src="https://placehold.co/300x300/eeeeee/999999?text=CR" alt="Christian Rojas" style="width: 140px; height: 140px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
+        <h3 style="margin: 0; font-size: 1.3em; color: #222;">Christian Rojas</h3>
+    </div>
+    
+    <div style="text-align: center; width: 220px;">
+        <img src="https://placehold.co/300x300/eeeeee/999999?text=JG" alt="Joel Gak" style="width: 140px; height: 140px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
+        <h3 style="margin: 0; font-size: 1.3em; color: #222;">Joel Gak</h3>
+    </div>
+
+    <div style="text-align: center; width: 220px;">
+        <img src="https://placehold.co/300x300/eeeeee/999999?text=JG" alt="Jorge Gomez" style="width: 140px; height: 140px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
+        <h3 style="margin: 0; font-size: 1.3em; color: #222;">Jorge Gomez</h3>
+    </div>
+
+    <div style="text-align: center; width: 220px;">
+        <img src="https://placehold.co/300x300/eeeeee/999999?text=MF" alt="Miguel Figueroa" style="width: 140px; height: 140px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
+        <h3 style="margin: 0; font-size: 1.3em; color: #222;">Miguel Figueroa</h3>
+    </div>
+
+    <div style="text-align: center; width: 220px;">
+        <img src="https://placehold.co/300x300/eeeeee/999999?text=VG" alt="Victor Grimblatt" style="width: 140px; height: 140px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
+        <h3 style="margin: 0; font-size: 1.3em; color: #222;">Victor Grimblatt</h3>
+    </div>
+
+</div>
+
+<hr style="border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0)); margin: 60px auto; width: 75%;">
+
+
+<!-- 6. MAPA E ITINERARIO -->
 <h2 style="text-align: center; color: #47001e; font-weight: 700; margin-bottom: 40px;">Ubicación y Programa</h2>
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; gap: 40px; width: 100%;">
@@ -90,7 +162,6 @@ layout: home
     <div style="flex: 1; min-width: 320px;">
         <h3 style="text-align: center; margin-bottom: 15px;">Itinerario Preventivo</h3>
         <p align="center" style="margin: 0;">
-            <!-- AQUÍ CAMBIAMOS EL LINK PARA QUE APUNTE AL MODAL INVISIBLE (#img-ampliada) -->
             <a href="#img-ampliada">
                 <img src="https://placehold.co/800x600/eeeeee/999999?text=Imagen+del+Itinerario" alt="Itinerario CANELOS 2026" style="width: 100%; height: 350px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); background-color: #ffffff; padding: 10px; cursor: pointer;">
             </a>
@@ -99,7 +170,7 @@ layout: home
 
 </div>
 
-<!-- 6. CODIGO DEL MODAL (LA IMAGEN EXPANDIDA) -->
+<!-- 7. CODIGO DEL MODAL (LA IMAGEN EXPANDIDA) -->
 <style>
   .lightbox {
     display: none;
@@ -111,7 +182,6 @@ layout: home
     height: 100%;
     background: rgba(0, 0, 0, 0.8);
   }
-  /* Cuando le damos clic a la imagen, el CSS la hace visible */
   .lightbox:target {
     display: flex;
     justify-content: center;
@@ -135,7 +205,6 @@ layout: home
   }
 </style>
 
-<!-- Esta es la caja que aparece por encima de la página -->
 <div id="img-ampliada" class="lightbox">
   <a href="#!" class="cerrar">&times;</a>
   <img src="https://placehold.co/800x600/eeeeee/999999?text=Imagen+del+Itinerario" alt="Itinerario Ampliado">
