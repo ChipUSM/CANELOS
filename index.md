@@ -2,11 +2,13 @@
 layout: home
 ---
 
+<!-- 1. BANNER PRINCIPAL -->
 <p align="center" style="margin-top: -20px;">
   <img src="{{ "/assets/img/Afiche_temp.png" | relative_url }}" alt="Banner CANELOS 2026 - 8 y 9 de Octubre" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"/>
 </p>
 
 
+<!-- 2. RESUMEN BREVE DE CANELOS -->
 <div style="text-align: center; margin: 40px 0;">
     <h1 style="font-weight: 800; color: #222;">CANELOS 2026</h1>
     <h3 style="color: #47001e; margin-bottom: 20px;">CAD and Nanoelectronics Seminar</h3>
@@ -20,6 +22,7 @@ layout: home
 <hr style="border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0)); margin: 50px auto; width: 75%;">
 
 
+<!-- 3. CHARLISTAS -->
 <h2 style="text-align: center; color: #47001e; font-weight: 700; margin-bottom: 40px;">Expositores Destacados</h2>
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 40px; margin-bottom: 20px;">
@@ -47,6 +50,7 @@ layout: home
 <hr style="border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0)); margin: 50px auto; width: 75%;">
 
 
+<!-- 4. CAMPAMENTOS / CURSOS -->
 <h2 style="text-align: center; color: #47001e; font-weight: 700; margin-bottom: 40px;">Cursos y Talleres</h2>
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px;">
@@ -72,6 +76,7 @@ layout: home
 <hr style="border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0)); margin: 60px auto; width: 75%;">
 
 
+<!-- 5. MAPA E ITINERARIO -->
 <h2 style="text-align: center; color: #47001e; font-weight: 700; margin-bottom: 40px;">Ubicación y Programa</h2>
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; gap: 40px; width: 100%;">
@@ -85,12 +90,55 @@ layout: home
     <div style="flex: 1; min-width: 320px;">
         <h3 style="text-align: center; margin-bottom: 15px;">Itinerario Preventivo</h3>
         <p align="center" style="margin: 0;">
-            <a href="{{ "/programa/#charlas-plenarias" | relative_url }}">
+            <!-- AQUÍ CAMBIAMOS EL LINK PARA QUE APUNTE AL MODAL INVISIBLE (#img-ampliada) -->
+            <a href="#img-ampliada">
                 <img src="https://placehold.co/800x600/eeeeee/999999?text=Imagen+del+Itinerario" alt="Itinerario CANELOS 2026" style="width: 100%; height: 350px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); background-color: #ffffff; padding: 10px; cursor: pointer;">
             </a>
         </p>
     </div>
 
+</div>
+
+<!-- 6. CODIGO DEL MODAL (LA IMAGEN EXPANDIDA) -->
+<style>
+  .lightbox {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+  }
+  /* Cuando le damos clic a la imagen, el CSS la hace visible */
+  .lightbox:target {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .lightbox img {
+    max-width: 90vw;
+    max-height: 90vh;
+    border-radius: 8px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.5);
+  }
+  .lightbox .cerrar {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+</style>
+
+<!-- Esta es la caja que aparece por encima de la página -->
+<div id="img-ampliada" class="lightbox">
+  <a href="#!" class="cerrar">&times;</a>
+  <img src="https://placehold.co/800x600/eeeeee/999999?text=Imagen+del+Itinerario" alt="Itinerario Ampliado">
 </div>
 
 <br><br>
