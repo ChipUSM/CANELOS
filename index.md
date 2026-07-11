@@ -57,7 +57,7 @@ layout: home
                 <!-- Burbujas apiladas -->
                 <div style="display: flex; flex-direction: column; gap: 8px; align-items: flex-start;">
                     <p style="font-size: 0.95em; color: #555; margin: 0; background-color: #e2e8f0; padding: 6px 14px; border-radius: 20px; display: inline-block;">Presencial</p>
-                    <p style="font-size: 0.95em; color: #ffffff; margin: 0; background-color: #0066cc; padding: 6px 14px; border-radius: 20px; display: inline-block; font-weight: 600; letter-spacing: 0.5px;">Invitado</p>
+                    <p style="font-size: 0.95em; color: #ffffff; margin: 0; background-color: #47001e; padding: 6px 14px; border-radius: 20px; display: inline-block; font-weight: 600; letter-spacing: 0.5px;">Invitado</p>
                 </div>
                 
             </div>
