@@ -3,7 +3,7 @@ layout: home
 ---
 
 <!-- 1. BANNER PRINCIPAL -->
-<p align="center" style="margin-top: -20px;">
+<p align="center" style="margin-top: 20px;">
   <img src="{{ "/assets/img/Afiche_temp.png" | relative_url }}" alt="Banner CANELOS 2026 - 8 y 9 de Octubre" style="max-width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"/>
 </p>
 
@@ -33,7 +33,13 @@ layout: home
             <img src="{{ "/assets/img/material26/pedro_toledo.png" | relative_url }}" alt="Pedro Toledo" style="width: 150px; height: 150px; border-radius: 12px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
             <div style="text-align: left;">
                 <h3 style="margin: 0 0 10px 0; font-size: 1.7em; color: #222;">Pedro Toledo</h3>
-                <p style="font-size: 0.95em; color: #555; margin: 0; background-color: #e2e8f0; padding: 6px 14px; border-radius: 20px; display: inline-block;">Presencial</p>
+                
+                <!-- Contenedor de las burbujas apiladas -->
+                <div style="display: flex; flex-direction: column; gap: 8px; align-items: flex-start;">
+                    <p style="font-size: 0.95em; color: #555; margin: 0; background-color: #e2e8f0; padding: 6px 14px; border-radius: 20px; display: inline-block;">Presencial</p>
+                    <p style="font-size: 0.95em; color: #ffffff; margin: 0; background-color: #4ba549; padding: 6px 14px; border-radius: 20px; display: inline-block; font-weight: 600; letter-spacing: 0.5px;">CASS iDL</p>
+                </div>
+                
             </div>
         </div>
         <div style="text-align: right; flex: 1.5; min-width: 250px;">
@@ -47,11 +53,17 @@ layout: home
             <img src="{{ "/assets/img/material26/joel_gak.jpg" | relative_url }}" alt="Joel Gak" style="width: 150px; height: 150px; border-radius: 12px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
             <div style="text-align: left;">
                 <h3 style="margin: 0 0 10px 0; font-size: 1.7em; color: #222;">Joel Gak</h3>
-                <p style="font-size: 0.95em; color: #555; margin: 0; background-color: #e2e8f0; padding: 6px 14px; border-radius: 20px; display: inline-block;">Presencial</p>
+                
+                <!-- Burbujas apiladas -->
+                <div style="display: flex; flex-direction: column; gap: 8px; align-items: flex-start;">
+                    <p style="font-size: 0.95em; color: #555; margin: 0; background-color: #e2e8f0; padding: 6px 14px; border-radius: 20px; display: inline-block;">Presencial</p>
+                    <p style="font-size: 0.95em; color: #ffffff; margin: 0; background-color: #0066cc; padding: 6px 14px; border-radius: 20px; display: inline-block; font-weight: 600; letter-spacing: 0.5px;">Invitado</p>
+                </div>
+                
             </div>
         </div>
         <div style="text-align: right; flex: 1.5; min-width: 250px;">
-            <p style="font-size: 1.25em; color: #47001e; margin: 0; font-weight: 800; line-height: 1.4; font-style: italic;">"Desafios y tecnicas de diseño en implantables"</p>
+            <p style="font-size: 1.25em; color: #47001e; margin: 0; font-weight: 800; line-height: 1.4; font-style: italic;">"Desafíos y técnicas de diseño en implantables"</p>
         </div>
     </div>
     
@@ -61,7 +73,13 @@ layout: home
             <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto+3" alt="Expositor 3" style="width: 150px; height: 150px; border-radius: 12px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
             <div style="text-align: left;">
                 <h3 style="margin: 0 0 10px 0; font-size: 1.7em; color: #222;">Expositor 3</h3>
-                <p style="font-size: 0.95em; color: #555; margin: 0; background-color: #e2e8f0; padding: 6px 14px; border-radius: 20px; display: inline-block;">Presencial</p>
+                
+                <!-- Burbujas apiladas -->
+                <div style="display: flex; flex-direction: column; gap: 8px; align-items: flex-start;">
+                    <p style="font-size: 0.95em; color: #555; margin: 0; background-color: #e2e8f0; padding: 6px 14px; border-radius: 20px; display: inline-block;">Por anunciar</p>
+                    <p style="font-size: 0.95em; color: #555; margin: 0; background-color: #e2e8f0; padding: 6px 14px; border-radius: 20px; display: inline-block; font-weight: 600;">-</p>
+                </div>
+                
             </div>
         </div>
         <div style="text-align: right; flex: 1; min-width: 250px;">
@@ -75,7 +93,13 @@ layout: home
             <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto+4" alt="Expositor 4" style="width: 150px; height: 150px; border-radius: 12px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
             <div style="text-align: left;">
                 <h3 style="margin: 0 0 10px 0; font-size: 1.7em; color: #222;">Expositor 4</h3>
-                <p style="font-size: 0.95em; color: #555; margin: 0; background-color: #e2e8f0; padding: 6px 14px; border-radius: 20px; display: inline-block;">Presencial</p>
+                
+                <!-- Burbujas apiladas -->
+                <div style="display: flex; flex-direction: column; gap: 8px; align-items: flex-start;">
+                    <p style="font-size: 0.95em; color: #555; margin: 0; background-color: #e2e8f0; padding: 6px 14px; border-radius: 20px; display: inline-block;">Por anunciar</p>
+                    <p style="font-size: 0.95em; color: #555; margin: 0; background-color: #e2e8f0; padding: 6px 14px; border-radius: 20px; display: inline-block; font-weight: 600;">-</p>
+                </div>
+                
             </div>
         </div>
         <div style="text-align: right; flex: 1; min-width: 250px;">
@@ -89,7 +113,13 @@ layout: home
             <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto+5" alt="Expositor 5" style="width: 150px; height: 150px; border-radius: 12px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
             <div style="text-align: left;">
                 <h3 style="margin: 0 0 10px 0; font-size: 1.7em; color: #222;">Expositor 5</h3>
-                <p style="font-size: 0.95em; color: #555; margin: 0; background-color: #e2e8f0; padding: 6px 14px; border-radius: 20px; display: inline-block;">Presencial</p>
+                
+                <!-- Burbujas apiladas -->
+                <div style="display: flex; flex-direction: column; gap: 8px; align-items: flex-start;">
+                    <p style="font-size: 0.95em; color: #555; margin: 0; background-color: #e2e8f0; padding: 6px 14px; border-radius: 20px; display: inline-block;">Por anunciar</p>
+                    <p style="font-size: 0.95em; color: #555; margin: 0; background-color: #e2e8f0; padding: 6px 14px; border-radius: 20px; display: inline-block; font-weight: 600;">-</p>
+                </div>
+                
             </div>
         </div>
         <div style="text-align: right; flex: 1; min-width: 250px;">
@@ -152,7 +182,7 @@ layout: home
     </div>
 
     <div style="text-align: center; width: 220px;">
-        <img src="{{ "/assets/img/material26/Jorge_Gomez.png" | relative_url }}" alt="Jorge Gomez" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
+        <img src="{{ "/assets/img/material26/Jorge_Gomez.png" | relative_url }}" alt="Jorge Gomez" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; object-position: top; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
         <h3 style="margin: 0; font-size: 1.3em; color: #222;">Jorge Gomez</h3>
         <p style="margin: 8px auto 0 auto; font-size: 0.85em; color: #666; font-style: italic; line-height: 1.3; max-width: 200px;">Universidad de los Andes</p>
     </div>
