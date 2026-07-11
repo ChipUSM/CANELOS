@@ -103,23 +103,23 @@ layout: home
 
 
 <!-- 4. CAMPAMENTOS / CURSOS -->
-<h2 style="text-align: center; color: #47001e; font-weight: 700; margin-bottom: 40px;">Cursos y Talleres</h2>
+<h2 style="text-align: center; color: #47001e; font-weight: 700; margin-bottom: 40px;">Talleres</h2>
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; width: 100%;">
     
     <a href="{{ "/programa/#workshop" | relative_url }}" style="text-decoration: none; color: inherit; flex: 1; min-width: 300px;">
         <div style="background-color: #f7f9fc; border-left: 5px solid #003002; padding: 30px; border-radius: 8px; box-shadow: 0 3px 8px rgba(0,0,0,0.05); cursor: pointer; height: 100%;">
             <h3 style="margin-top: 0; color: #003002; font-size: 1.4em;">Taller 1</h3>
-            <p style="font-weight: 800; font-size: 1.3em; margin-bottom: 15px; color: #222;">Diseño de Circuitos</p>
-            <p style="font-size: 1em; margin: 0; color: #555; line-height: 1.5;">Descripcion taller 1.</p>
+            <p style="font-weight: 800; font-size: 1.3em; margin-bottom: 15px; color: #222;">Diseño de Implantables</p>
+            <p style="font-size: 1em; margin: 0; color: #555; line-height: 1.5;"> - </p>
         </div>
     </a>
     
     <a href="{{ "/programa/#workshop" | relative_url }}" style="text-decoration: none; color: inherit; flex: 1; min-width: 300px;">
         <div style="background-color: #f7f9fc; border-left: 5px solid #003002; padding: 30px; border-radius: 8px; box-shadow: 0 3px 8px rgba(0,0,0,0.05); cursor: pointer; height: 100%;">
             <h3 style="margin-top: 0; color: #003002; font-size: 1.4em;">Taller 2</h3>
-            <p style="font-weight: 800; font-size: 1.3em; margin-bottom: 15px; color: #222;">Diseño de Sensores</p>
-            <p style="font-size: 1em; margin: 0; color: #555; line-height: 1.5;">Descripcion taller 2.</p>
+            <p style="font-weight: 800; font-size: 1.3em; margin-bottom: 15px; color: #222;">Diseño de Circuitos Digitales</p>
+            <p style="font-size: 1em; margin: 0; color: #555; line-height: 1.5;"> - </p>
         </div>
     </a>
 
@@ -152,13 +152,13 @@ layout: home
     </div>
 
     <div style="text-align: center; width: 220px;">
-        <img src="{{ "/assets/img/material26/Jorge_Gomez.png" alt="Jorge Gomez" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
+        <img src="{{ "/assets/img/material26/Jorge_Gomez.png" | relative_url }}" alt="Jorge Gomez" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
         <h3 style="margin: 0; font-size: 1.3em; color: #222;">Jorge Gomez</h3>
         <p style="margin: 8px auto 0 auto; font-size: 0.85em; color: #666; font-style: italic; line-height: 1.3; max-width: 200px;">Universidad de los Andes</p>
     </div>
 
     <div style="text-align: center; width: 220px;">
-        <img src="{{ "/assets/img/material26/Miguel_Figueroa.png" alt="Miguel Figueroa" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
+        <img src="{{ "/assets/img/material26/Miguel_Figueroa.png" | relative_url }}" alt="Miguel Figueroa" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
         <h3 style="margin: 0; font-size: 1.3em; color: #222;">Miguel Figueroa</h3>
         <p style="margin: 8px auto 0 auto; font-size: 0.85em; color: #666; font-style: italic; line-height: 1.3; max-width: 200px;">Universidad de Concepción</p>
     </div>
@@ -172,7 +172,6 @@ layout: home
 </div>
 
 <hr style="border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0)); margin: 60px auto; width: 85%;">
-
 
 <!-- 6. MAPA E ITINERARIO -->
 <h2 style="text-align: center; color: #47001e; font-weight: 700; margin-bottom: 40px;">Ubicación y Programa</h2>
