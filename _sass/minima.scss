@@ -55,3 +55,12 @@ $on-laptop:        1200px !default;
   "minima/layout",
   "minima/syntax-highlighting"
 ;
+
+/* --- STICKY HEADER --- */
+.site-header {
+  position: -webkit-sticky !important; /* Soporte para Safari */
+  position: sticky !important;
+  top: 0;
+  z-index: 9998; /* Un número alto para que flote por encima del texto e imágenes */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); /* Sombra para separarlo del contenido al hacer scroll */
+}
