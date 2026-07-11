@@ -55,3 +55,19 @@ $on-laptop:        1200px !default;
   "minima/layout",
   "minima/syntax-highlighting"
 ;
+
+/* --- STICKY HEADER --- */
+.site-header {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  z-index: 9998 !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3) !important;
+  /* Asegura que el fondo del header no sea transparente al bajar */
+  background-color: $background-color; 
+}
+
+body {
+  padding-top: 80px !important; 
+}

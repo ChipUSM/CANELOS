@@ -30,28 +30,28 @@ layout: home
     <!-- Charlista 1 -->
     <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px; width: 100%; background-color: #f7f9fc; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
         <div style="display: flex; align-items: center; gap: 25px; flex: 1; min-width: 300px;">
-            <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto+1" alt="Expositor 1" style="width: 150px; height: 150px; border-radius: 12px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+            <img src="{{ "/assets/img/material26/pedro_toledo.png" | relative_url }}" alt="Pedro Toledo" style="width: 150px; height: 150px; border-radius: 12px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
             <div style="text-align: left;">
-                <h3 style="margin: 0 0 10px 0; font-size: 1.7em; color: #222;">Expositor 1</h3>
-                <p style="font-size: 0.95em; color: #555; margin: 0; background-color: #e2e8f0; padding: 6px 14px; border-radius: 20px; display: inline-block;">📍 Presencial</p>
+                <h3 style="margin: 0 0 10px 0; font-size: 1.7em; color: #222;">Pedro Toledo</h3>
+                <p style="font-size: 0.95em; color: #555; margin: 0; background-color: #e2e8f0; padding: 6px 14px; border-radius: 20px; display: inline-block;">Presencial</p>
             </div>
         </div>
-        <div style="text-align: right; flex: 1; min-width: 250px;">
-            <p style="font-size: 1.5em; color: #47001e; margin: 0; font-weight: 800; line-height: 1.3; font-style: italic;">"Título de la charla 1"</p>
+        <div style="text-align: right; flex: 1.5; min-width: 250px;">
+            <p style="font-size: 1.25em; color: #47001e; margin: 0; font-weight: 800; line-height: 1.4; font-style: italic;">"Nanoscale Digital-Based Analog Processing: Circuits and Systems Solutions for Emerging Applications and Technologies"</p>
         </div>
     </div>
     
     <!-- Charlista 2 -->
     <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px; width: 100%; background-color: #f7f9fc; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
         <div style="display: flex; align-items: center; gap: 25px; flex: 1; min-width: 300px;">
-            <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto+2" alt="Expositor 2" style="width: 150px; height: 150px; border-radius: 12px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+            <img src="{{ "/assets/img/material26/joel_gak.jpg" | relative_url }}" alt="Joel Gak" style="width: 150px; height: 150px; border-radius: 12px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
             <div style="text-align: left;">
-                <h3 style="margin: 0 0 10px 0; font-size: 1.7em; color: #222;">Expositor 2</h3>
-                <p style="font-size: 0.95em; color: #555; margin: 0; background-color: #e2e8f0; padding: 6px 14px; border-radius: 20px; display: inline-block;">📍 Presencial</p>
+                <h3 style="margin: 0 0 10px 0; font-size: 1.7em; color: #222;">Joel Gak</h3>
+                <p style="font-size: 0.95em; color: #555; margin: 0; background-color: #e2e8f0; padding: 6px 14px; border-radius: 20px; display: inline-block;">Presencial</p>
             </div>
         </div>
-        <div style="text-align: right; flex: 1; min-width: 250px;">
-            <p style="font-size: 1.5em; color: #47001e; margin: 0; font-weight: 800; line-height: 1.3; font-style: italic;">"Título de la charla 2"</p>
+        <div style="text-align: right; flex: 1.5; min-width: 250px;">
+            <p style="font-size: 1.25em; color: #47001e; margin: 0; font-weight: 800; line-height: 1.4; font-style: italic;">"Desafios y tecnicas de diseño en implantables"</p>
         </div>
     </div>
     
@@ -61,7 +61,7 @@ layout: home
             <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto+3" alt="Expositor 3" style="width: 150px; height: 150px; border-radius: 12px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
             <div style="text-align: left;">
                 <h3 style="margin: 0 0 10px 0; font-size: 1.7em; color: #222;">Expositor 3</h3>
-                <p style="font-size: 0.95em; color: #555; margin: 0; background-color: #e2e8f0; padding: 6px 14px; border-radius: 20px; display: inline-block;">📍 Presencial</p>
+                <p style="font-size: 0.95em; color: #555; margin: 0; background-color: #e2e8f0; padding: 6px 14px; border-radius: 20px; display: inline-block;">Presencial</p>
             </div>
         </div>
         <div style="text-align: right; flex: 1; min-width: 250px;">
@@ -75,7 +75,7 @@ layout: home
             <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto+4" alt="Expositor 4" style="width: 150px; height: 150px; border-radius: 12px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
             <div style="text-align: left;">
                 <h3 style="margin: 0 0 10px 0; font-size: 1.7em; color: #222;">Expositor 4</h3>
-                <p style="font-size: 0.95em; color: #555; margin: 0; background-color: #e2e8f0; padding: 6px 14px; border-radius: 20px; display: inline-block;">📍 Presencial</p>
+                <p style="font-size: 0.95em; color: #555; margin: 0; background-color: #e2e8f0; padding: 6px 14px; border-radius: 20px; display: inline-block;">Presencial</p>
             </div>
         </div>
         <div style="text-align: right; flex: 1; min-width: 250px;">
@@ -89,7 +89,7 @@ layout: home
             <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto+5" alt="Expositor 5" style="width: 150px; height: 150px; border-radius: 12px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
             <div style="text-align: left;">
                 <h3 style="margin: 0 0 10px 0; font-size: 1.7em; color: #222;">Expositor 5</h3>
-                <p style="font-size: 0.95em; color: #555; margin: 0; background-color: #e2e8f0; padding: 6px 14px; border-radius: 20px; display: inline-block;">📍 Presencial</p>
+                <p style="font-size: 0.95em; color: #555; margin: 0; background-color: #e2e8f0; padding: 6px 14px; border-radius: 20px; display: inline-block;">Presencial</p>
             </div>
         </div>
         <div style="text-align: right; flex: 1; min-width: 250px;">
@@ -103,23 +103,23 @@ layout: home
 
 
 <!-- 4. CAMPAMENTOS / CURSOS -->
-<h2 style="text-align: center; color: #47001e; font-weight: 700; margin-bottom: 40px;">Cursos y Talleres</h2>
+<h2 style="text-align: center; color: #47001e; font-weight: 700; margin-bottom: 40px;">Talleres</h2>
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; width: 100%;">
     
     <a href="{{ "/programa/#workshop" | relative_url }}" style="text-decoration: none; color: inherit; flex: 1; min-width: 300px;">
         <div style="background-color: #f7f9fc; border-left: 5px solid #003002; padding: 30px; border-radius: 8px; box-shadow: 0 3px 8px rgba(0,0,0,0.05); cursor: pointer; height: 100%;">
             <h3 style="margin-top: 0; color: #003002; font-size: 1.4em;">Taller 1</h3>
-            <p style="font-weight: 800; font-size: 1.3em; margin-bottom: 15px; color: #222;">Diseño de Circuitos</p>
-            <p style="font-size: 1em; margin: 0; color: #555; line-height: 1.5;">Descripcion taller 1.</p>
+            <p style="font-weight: 800; font-size: 1.3em; margin-bottom: 15px; color: #222;">Diseño de Implantables</p>
+            <p style="font-size: 1em; margin: 0; color: #555; line-height: 1.5;"> - </p>
         </div>
     </a>
     
     <a href="{{ "/programa/#workshop" | relative_url }}" style="text-decoration: none; color: inherit; flex: 1; min-width: 300px;">
         <div style="background-color: #f7f9fc; border-left: 5px solid #003002; padding: 30px; border-radius: 8px; box-shadow: 0 3px 8px rgba(0,0,0,0.05); cursor: pointer; height: 100%;">
             <h3 style="margin-top: 0; color: #003002; font-size: 1.4em;">Taller 2</h3>
-            <p style="font-weight: 800; font-size: 1.3em; margin-bottom: 15px; color: #222;">Diseño de Sensores</p>
-            <p style="font-size: 1em; margin: 0; color: #555; line-height: 1.5;">Descripcion taller 2.</p>
+            <p style="font-weight: 800; font-size: 1.3em; margin-bottom: 15px; color: #222;">Diseño de Circuitos Digitales</p>
+            <p style="font-size: 1em; margin: 0; color: #555; line-height: 1.5;"> - </p>
         </div>
     </a>
 
@@ -134,45 +134,44 @@ layout: home
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 50px; margin-bottom: 20px; width: 100%;">
     
     <div style="text-align: center; width: 220px;">
-        <img src="https://placehold.co/300x300/eeeeee/999999?text=JM" alt="Jorge Marin" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
+        <img src="{{ "/assets/img/material26/jorge_marin.jpg" | relative_url }}" alt="Jorge Marin" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
         <h3 style="margin: 0; font-size: 1.3em; color: #222;">Jorge Marin</h3>
-        <p style="margin: 5px 0 0 0; font-size: 0.95em; color: #666; font-style: italic;">Universidad</p>
+        <p style="margin: 8px auto 0 auto; font-size: 0.85em; color: #666; font-style: italic; line-height: 1.3; max-width: 200px;">Pontificia Universidad Católica de Valparaíso</p>
     </div>
     
     <div style="text-align: center; width: 220px;">
-        <img src="https://placehold.co/300x300/eeeeee/999999?text=CR" alt="Christian Rojas" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
+        <img src="{{ "/assets/img/material26/Christian_Rojas.jpg" | relative_url }}" alt="Christian Rojas" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
         <h3 style="margin: 0; font-size: 1.3em; color: #222;">Christian Rojas</h3>
-        <p style="margin: 5px 0 0 0; font-size: 0.95em; color: #666; font-style: italic;">Universidad</p>
+        <p style="margin: 8px auto 0 auto; font-size: 0.85em; color: #666; font-style: italic; line-height: 1.3; max-width: 200px;">Universidad Técnica Federico Santa María</p>
     </div>
     
     <div style="text-align: center; width: 220px;">
-        <img src="https://placehold.co/300x300/eeeeee/999999?text=JG" alt="Joel Gak" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
+        <img src="{{ "/assets/img/material26/joel_gak.jpg" | relative_url }}" alt="Joel Gak" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
         <h3 style="margin: 0; font-size: 1.3em; color: #222;">Joel Gak</h3>
-        <p style="margin: 5px 0 0 0; font-size: 0.95em; color: #666; font-style: italic;">Universidad</p>
+        <p style="margin: 8px auto 0 auto; font-size: 0.85em; color: #666; font-style: italic; line-height: 1.3; max-width: 200px;">Universidad Católica del Uruguay</p>
     </div>
 
     <div style="text-align: center; width: 220px;">
-        <img src="https://placehold.co/300x300/eeeeee/999999?text=JG" alt="Jorge Gomez" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
+        <img src="{{ "/assets/img/material26/Jorge_Gomez.png" | relative_url }}" alt="Jorge Gomez" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
         <h3 style="margin: 0; font-size: 1.3em; color: #222;">Jorge Gomez</h3>
-        <p style="margin: 5px 0 0 0; font-size: 0.95em; color: #666; font-style: italic;">Universidad</p>
+        <p style="margin: 8px auto 0 auto; font-size: 0.85em; color: #666; font-style: italic; line-height: 1.3; max-width: 200px;">Universidad de los Andes</p>
     </div>
 
     <div style="text-align: center; width: 220px;">
-        <img src="https://placehold.co/300x300/eeeeee/999999?text=MF" alt="Miguel Figueroa" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
+        <img src="{{ "/assets/img/material26/Miguel_Figueroa.png" | relative_url }}" alt="Miguel Figueroa" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
         <h3 style="margin: 0; font-size: 1.3em; color: #222;">Miguel Figueroa</h3>
-        <p style="margin: 5px 0 0 0; font-size: 0.95em; color: #666; font-style: italic;">Universidad</p>
+        <p style="margin: 8px auto 0 auto; font-size: 0.85em; color: #666; font-style: italic; line-height: 1.3; max-width: 200px;">Universidad de Concepción</p>
     </div>
 
     <div style="text-align: center; width: 220px;">
-        <img src="https://placehold.co/300x300/eeeeee/999999?text=VG" alt="Victor Grimblatt" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
+        <img src="{{ "/assets/img/material26/victor_grimblatt.jpg" | relative_url }}" alt="Victor Grimblatt" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
         <h3 style="margin: 0; font-size: 1.3em; color: #222;">Victor Grimblatt</h3>
-        <p style="margin: 5px 0 0 0; font-size: 0.95em; color: #666; font-style: italic;">Universidad</p>
+        <p style="margin: 8px auto 0 auto; font-size: 0.85em; color: #666; font-style: italic; line-height: 1.3; max-width: 200px;">Synopsys</p>
     </div>
 
 </div>
 
 <hr style="border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0)); margin: 60px auto; width: 85%;">
-
 
 <!-- 6. MAPA E ITINERARIO -->
 <h2 style="text-align: center; color: #47001e; font-weight: 700; margin-bottom: 40px;">Ubicación y Programa</h2>
@@ -189,7 +188,8 @@ layout: home
         <h3 style="text-align: center; margin-bottom: 15px;">Itinerario Preventivo</h3>
         <p align="center" style="margin: 0;">
             <a href="#img-ampliada">
-                <img src="https://placehold.co/800x600/eeeeee/999999?text=Imagen+del+Itinerario" alt="Itinerario CANELOS 2026" style="width: 100%; height: 350px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); background-color: #ffffff; padding: 10px; cursor: pointer;">
+                <!-- PRIMER CAMBIO: La imagen pequeña -->
+                <img src="{{ "/assets/img/material26/iterinario_preventivo.png" | relative_url }}" alt="Itinerario CANELOS 2026" style="width: 100%; height: 350px; object-fit: contain; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); background-color: #ffffff; padding: 10px; cursor: pointer;">
             </a>
         </p>
     </div>
@@ -233,7 +233,8 @@ layout: home
 
 <div id="img-ampliada" class="lightbox">
   <a href="#!" class="cerrar">&times;</a>
-  <img src="https://placehold.co/800x600/eeeeee/999999?text=Imagen+del+Itinerario" alt="Itinerario Ampliado">
+  <!-- SEGUNDO CAMBIO: La imagen grande que se abre al hacer clic -->
+  <img src="{{ "/assets/img/material26/iterinario_preventivo.png" | relative_url }}" alt="Itinerario Ampliado">
 </div>
 
 <br><br>
