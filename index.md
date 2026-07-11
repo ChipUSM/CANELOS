@@ -3,8 +3,8 @@ layout: home
 ---
 
 <!-- 1. BANNER PRINCIPAL -->
-<p align="center" style="margin-top: 20px;">
-  <img src="{{ "/assets/img/Afiche_temp.png" | relative_url }}" alt="Banner CANELOS 2026 - 8 y 9 de Octubre" style="max-width: 90%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"/>
+<p align="center" style="margin-top: 100px;">
+  <img src="{{ "/assets/img/Afiche_temp.png" | relative_url }}" alt="Banner CANELOS 2026 - 8 y 9 de Octubre" style="max-width: 80%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"/>
 </p>
 
 <!-- 2. RESUMEN BREVE DE CANELOS -->
