@@ -21,7 +21,7 @@ img_link: ../assets/img/charla.jpg
 <div class="reveal">
 
 	<h3 align="justify" style="font-size: 1.2em; line-height: 1.6; max-width: 1200px; margin: 0;">
-			La asignación de horarios para cada charlista se encuentra sujeta a disponibilidad de los mismos pero la posible asignación de bloques es la siguiente:
+			La asignación de horarios para cada charlista se encuentra sujeta a disponibilidad de los mismos pero los horarios tentativos para el evento son los siguientes:
 	</h3>
 
 	<p align="center" style="margin-top: 40px;"> <img src="..\assets\img\material26\iterinario_preventivo.png" alt="Descripción de la imagen" width="600" style="max-width: 100%"/>
