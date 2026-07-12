@@ -18,7 +18,15 @@ img_link: ../assets/img/charla.jpg
   }
 </style>
 
-<h2 align="center" style="font-weight: bold; margin-top: 40px; margin-bottom: 40px;">Próximamente...</h2>
+<div class="reveal">
+
+	<h3 align="justify" style="font-size: 1.2em; line-height: 1.6; max-width: 1200px; margin: 0;">
+			La asignación de horarios para cada charlista se encuentra sujeta a disponibilidad de los mismos pero la posible asignación de bloques es la siguiente:
+	</h3>
+
+	<p align="center" style="margin-top: 40px;"> <img src="..\assets\img\material26\iterinario_preventivo.png" alt="Descripción de la imagen" width="600" style="max-width: 100%"/>
+	</p>
+</div>
 
 <br>
 <hr>
