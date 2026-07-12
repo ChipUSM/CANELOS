@@ -21,6 +21,8 @@ img_link: ../assets/img/charla.jpg
 	Además, se incluyen instancias de networking y un foro para cerrar el seminario discutiendo sobre el futuro de la microelectrónica en nuestro país.
 </p>
 
+<p align="center"> <img src="../assets/img/canelos_poster_brilloso.jpg" alt="Descripción de la imagen" width="600" style="max-width: 100%"/> </p>
+
 <br>
 <hr>
 <br>
