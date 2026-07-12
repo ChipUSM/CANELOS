@@ -82,7 +82,7 @@ layout: home
             </div>
         </div>
         <div style="text-align: right; flex: 1; min-width: 250px;">
-            <p style="font-size: 1.5em; color: #47001e; margin: 0; font-weight: 800; line-height: 1.3; font-style: italic;">"Título de la charla 3"</p>
+            <p style="font-size: 1.5em; color: #47001e; margin: 0; font-weight: 800; line-height: 1.3; font-style: italic;">"Por Anunciar"</p>
         </div>
     </div>
     
@@ -102,7 +102,7 @@ layout: home
             </div>
         </div>
         <div style="text-align: right; flex: 1; min-width: 250px;">
-            <p style="font-size: 1.5em; color: #47001e; margin: 0; font-weight: 800; line-height: 1.3; font-style: italic;">"Título de la charla 4"</p>
+            <p style="font-size: 1.5em; color: #47001e; margin: 0; font-weight: 800; line-height: 1.3; font-style: italic;">"Por Anunciar"</p>
         </div>
     </div>
     
@@ -122,7 +122,7 @@ layout: home
             </div>
         </div>
         <div style="text-align: right; flex: 1; min-width: 250px;">
-            <p style="font-size: 1.5em; color: #47001e; margin: 0; font-weight: 800; line-height: 1.3; font-style: italic;">"Título de la charla 5"</p>
+            <p style="font-size: 1.5em; color: #47001e; margin: 0; font-weight: 800; line-height: 1.3; font-style: italic;">"Por Anunciar"</p>
         </div>
     </div>
 
