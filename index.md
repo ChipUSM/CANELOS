@@ -2,6 +2,18 @@
 layout: home
 ---
 
+<style>
+  .reveal {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+  }
+  .reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+</style>
+
 <!-- 1. BANNER PRINCIPAL -->
 <p align="center" style="margin-top: 100px;">
   <img src="{{ "/assets/img/Afiche_temp.png" | relative_url }}" alt="Banner CANELOS 2026 - 8 y 9 de Octubre" style="max-width: 80%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"/>
@@ -27,7 +39,7 @@ layout: home
 <div style="display: flex; flex-direction: column; align-items: center; gap: 25px; margin-bottom: 20px; width: 100%;">
     
     <!-- Charlista 1 -->
-    <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px; width: 100%; background-color: #f7f9fc; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+    <div class="reveal" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px; width: 100%; background-color: #f7f9fc; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
         <div style="display: flex; align-items: center; gap: 25px; flex: 1; min-width: 300px;">
             <img src="{{ "/assets/img/material26/pedro_toledo.png" | relative_url }}" alt="Pedro Toledo" style="width: 150px; height: 150px; border-radius: 12px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
             <div style="text-align: left;">
@@ -47,7 +59,7 @@ layout: home
     </div>
     
     <!-- Charlista 2 -->
-    <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px; width: 100%; background-color: #f7f9fc; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+    <div class="reveal" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px; width: 100%; background-color: #f7f9fc; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
         <div style="display: flex; align-items: center; gap: 25px; flex: 1; min-width: 300px;">
             <img src="{{ "/assets/img/material26/joel_gak.jpg" | relative_url }}" alt="Joel Gak" style="width: 150px; height: 150px; border-radius: 12px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
             <div style="text-align: left;">
@@ -67,7 +79,7 @@ layout: home
     </div>
     
     <!-- Charlista 3 -->
-    <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px; width: 100%; background-color: #f7f9fc; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+    <div class="reveal" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px; width: 100%; background-color: #f7f9fc; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
         <div style="display: flex; align-items: center; gap: 25px; flex: 1; min-width: 300px;">
             <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto+3" alt="Expositor 3" style="width: 150px; height: 150px; border-radius: 12px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
             <div style="text-align: left;">
@@ -87,7 +99,7 @@ layout: home
     </div>
     
     <!-- Charlista 4 -->
-    <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px; width: 100%; background-color: #f7f9fc; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+    <div class="reveal" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px; width: 100%; background-color: #f7f9fc; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
         <div style="display: flex; align-items: center; gap: 25px; flex: 1; min-width: 300px;">
             <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto+4" alt="Expositor 4" style="width: 150px; height: 150px; border-radius: 12px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
             <div style="text-align: left;">
@@ -107,7 +119,7 @@ layout: home
     </div>
     
     <!-- Charlista 5 -->
-    <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px; width: 100%; background-color: #f7f9fc; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+    <div class="reveal" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px; width: 100%; background-color: #f7f9fc; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
         <div style="display: flex; align-items: center; gap: 25px; flex: 1; min-width: 300px;">
             <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto+5" alt="Expositor 5" style="width: 150px; height: 150px; border-radius: 12px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
             <div style="text-align: left;">
@@ -134,7 +146,7 @@ layout: home
 <!-- 4. CAMPAMENTOS / CURSOS -->
 <h2 style="text-align: center; color: #47001e; font-weight: 700; margin-bottom: 40px;">Talleres</h2>
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; width: 100%;">
+<div class="reveal" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; width: 100%;">
     
     <a href="{{ "/programa/#workshop" | relative_url }}" style="text-decoration: none; color: inherit; flex: 1; min-width: 300px;">
         <div style="background-color: #f7f9fc; border-left: 5px solid #003002; padding: 30px; border-radius: 8px; box-shadow: 0 3px 8px rgba(0,0,0,0.05); cursor: pointer; height: 100%;">
@@ -160,7 +172,7 @@ layout: home
 <!-- 5. EQUIPO PROFESIONAL -->
 <h2 style="text-align: center; color: #47001e; font-weight: 700; margin-bottom: 40px;">Equipo Profesional</h2>
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 50px; margin-bottom: 20px; width: 100%;">
+<div class="reveal" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 50px; margin-bottom: 20px; width: 100%;">
     
     <div style="text-align: center; width: 220px;">
         <img src="{{ "/assets/img/material26/jorge_marin.jpg" | relative_url }}" alt="Jorge Marin" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
@@ -205,7 +217,7 @@ layout: home
 <!-- 6. MAPA E ITINERARIO -->
 <h2 style="text-align: center; color: #47001e; font-weight: 700; margin-bottom: 40px;">Ubicación y Programa</h2>
 
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; gap: 40px; width: 100%;">
+<div class="reveal" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; gap: 40px; width: 100%;">
     
     <div style="flex: 1; min-width: 320px;">
         <h3 style="text-align: center; margin-bottom: 15px;">Sede del Evento</h3>
@@ -267,3 +279,19 @@ layout: home
 </div>
 
 <br><br>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const items = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('active');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15 });
+
+    items.forEach((item) => observer.observe(item));
+  });
+</script>
