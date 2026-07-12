@@ -34,10 +34,12 @@ layout: home
 
 
 <!-- 3. CHARLISTAS (FORMATO GRANDE CON TÍTULO A LA DERECHA) -->
-<h2 style="text-align: center; color: #47001e; font-weight: 700; margin-bottom: 40px;">Expositores Destacados</h2>
+<div class="reveal" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 50px; margin-bottom: 20px; width: 100%;">
+    <h2 style="text-align: center; color: #47001e; font-weight: 700; margin-bottom: 40px;">Expositores Destacados</h2>
+</div>
 
 <div style="display: flex; flex-direction: column; align-items: center; gap: 25px; margin-bottom: 20px; width: 100%;">
-    
+
     <!-- Charlista 1 -->
     <div class="reveal" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px; width: 100%; background-color: #f7f9fc; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
         <div style="display: flex; align-items: center; gap: 25px; flex: 1; min-width: 300px;">
@@ -144,7 +146,9 @@ layout: home
 
 
 <!-- 4. CAMPAMENTOS / CURSOS -->
-<h2 style="text-align: center; color: #47001e; font-weight: 700; margin-bottom: 40px;">Talleres</h2>
+<div class="reveal" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 50px; margin-bottom: 20px; width: 100%;">
+    <h2 style="text-align: center; color: #47001e; font-weight: 700; margin-bottom: 40px;">Talleres</h2>
+</div>
 
 <div class="reveal" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; width: 100%;">
     
@@ -170,7 +174,9 @@ layout: home
 
 
 <!-- 5. EQUIPO PROFESIONAL -->
-<h2 style="text-align: center; color: #47001e; font-weight: 700; margin-bottom: 40px;">Equipo Profesional</h2>
+<div class="reveal" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 50px; margin-bottom: 20px; width: 100%;">
+    <h2 style="text-align: center; color: #47001e; font-weight: 700; margin-bottom: 40px;">Equipo Profesional</h2>
+</div>
 
 <div class="reveal" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 50px; margin-bottom: 20px; width: 100%;">
     
@@ -207,8 +213,16 @@ layout: home
     <div style="text-align: center; width: 220px;">
         <img src="{{ "/assets/img/material26/victor_grimblatt.jpg" | relative_url }}" alt="Victor Grimblatt" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
         <h3 style="margin: 0; font-size: 1.3em; color: #222;">Victor Grimblatt</h3>
-        <p style="margin: 8px auto 0 auto; font-size: 0.85em; color: #666; font-style: italic; line-height: 1.3; max-width: 200px;">Synopsys</p>
+        <p style="margin: 8px auto 0 auto; font-size: 0.85em; color: #666; font-style: italic; line-height: 1.3; max-width: 200px;">Managing Director at Synopsys</p>
     </div>
+
+</div>
+
+<div class="reveal" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 50px; margin-bottom: 20px; width: 100%;">
+
+    <hr style="border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0)); margin: 60px auto; width: 85%;">
+    
+    <h2 style="text-align: center; color: #47001e; font-weight: 700; margin-bottom: 40px;">Equipo Estudiantil</h2>
 
 </div>
 
@@ -235,6 +249,12 @@ layout: home
         </p>
     </div>
 
+</div>
+
+<div id="img-ampliada" class="lightbox">
+  <a href="#!" class="cerrar">&times;</a>
+  <!-- SEGUNDO CAMBIO: La imagen grande que se abre al hacer clic -->
+  <img src="{{ "/assets/img/material26/iterinario_preventivo.png" | relative_url }}" alt="Itinerario Ampliado">
 </div>
 
 <!-- 7. CODIGO DEL MODAL (LA IMAGEN EXPANDIDA) -->
@@ -271,14 +291,6 @@ layout: home
     cursor: pointer;
   }
 </style>
-
-<div id="img-ampliada" class="lightbox">
-  <a href="#!" class="cerrar">&times;</a>
-  <!-- SEGUNDO CAMBIO: La imagen grande que se abre al hacer clic -->
-  <img src="{{ "/assets/img/material26/iterinario_preventivo.png" | relative_url }}" alt="Itinerario Ampliado">
-</div>
-
-<br><br>
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {
