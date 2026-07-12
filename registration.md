@@ -27,6 +27,8 @@ El formulario de inscripción además ofrece a estudiantes de otras regiones la 
 <!--
 Este beneficio contempla estadía de 3 noches y almuerzo los 2 días del evento. Se recibirán solicitudes para la beca hasta el día <b>viernes 27 de septiembre</b>.
 -->
+
+<!--
 <br>
 
 
@@ -48,7 +50,7 @@ Este beneficio contempla estadía de 3 noches y almuerzo los 2 días del evento.
 		<p align="center"> <img src="../assets/img/CANELOS25_afiche_D.png" alt="Afiche CANELOS 2025 4" width="400" style="max-width: 100%"/> </p>
 	</div>
 </div>
-
+-->
 
 <!--
 # Dónde comer
