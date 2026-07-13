@@ -82,55 +82,51 @@ img_link: ../assets/img/charla.jpg
   }
   
   /* =========================================
-     NUEVO DISEÑO: MARCO FOTO + SUBMARCO TEXTO
+     NUEVO DISEÑO: MARCO FOTO + SUBMARCO ANCHO
      ========================================= */
   
   /* 1. Marco Principal (Solo Foto) */
   .modal-marco-foto {
     width: 240px;
     height: 240px;
-    background-color: #47001e; /* Borde grueso burdeos */
+    background-color: #47001e; 
     padding: 6px; 
-    /* Octágono perfecto: Cortes de 30px. La base plana mide exactamente 180px */
     clip-path: polygon(30px 0%, calc(100% - 30px) 0%, 100% 30px, 100% calc(100% - 30px), calc(100% - 30px) 100%, 30px 100%, 0% calc(100% - 30px), 0% 30px);
     z-index: 2;
+    position: relative;
   }
   
-  /* La imagen dentro del marco principal */
   .modal-foto-recorte {
     width: 100%;
     height: 100%;
     object-fit: cover;
     background-color: #fff;
-    /* Recorte interno ajustado por el padding de 6px (30 - 6 = 24) */
     clip-path: polygon(24px 0%, calc(100% - 24px) 0%, 100% 24px, 100% calc(100% - 24px), calc(100% - 24px) 100%, 24px 100%, 0% calc(100% - 24px), 0% 24px);
   }
 
-  /* 2. Submarco (Solo Texto) */
+  /* 2. Submarco (Más ancho, encaja en las diagonales) */
   .modal-submarco {
-    width: 180px; /* Calza exacto con la base plana de 180px del marco de arriba */
+    width: 210px; /* Ancho matemático para que encaje a 15px de altura */
     background-color: #47001e; 
-    padding: 0 2px 2px 2px; /* Borde más delgado para el submarco */
-    /* Recorta solo las esquinas inferiores */
+    padding: 0 3px 3px 3px; 
     clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 15px), calc(100% - 15px) 100%, 15px 100%, 0% calc(100% - 15px));
-    margin-top: -1px; /* Para que se fusione sin dejar líneas blancas */
+    margin-top: -15px; /* Sube y se oculta detrás de las diagonales */
     z-index: 1;
+    position: relative;
   }
 
-  /* Fondo blanco interno del submarco */
   .modal-submarco-interno {
     background-color: #fff;
     height: 100%;
-    padding: 12px 10px 15px 10px;
+    padding: 25px 10px 15px 10px; /* Padding top extra para compensar lo que queda oculto */
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* Recorte interno acompañando la forma exterior */
-    clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 13px), calc(100% - 13px) 100%, 13px 100%, 0% calc(100% - 13px));
+    clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 12px), calc(100% - 12px) 100%, 12px 100%, 0% calc(100% - 12px));
   }
 
-  /* Cajas de la derecha y descripción */
+  /* Cajas de la derecha */
   .modal-boxes-right {
     flex: 1;
     min-width: 250px;
@@ -146,7 +142,7 @@ img_link: ../assets/img/charla.jpg
   }
   .caja-2 {
     border: 1px solid #ddd;
-    padding: 15px 20px;
+    padding: 20px;
     border-radius: 8px;
     background-color: #f7f9fc;
     flex-grow: 1;
@@ -156,6 +152,86 @@ img_link: ../assets/img/charla.jpg
     padding: 25px;
     border-radius: 8px;
     background-color: #f7f9fc;
+  }
+
+  /* =========================================
+     ESTILOS LÍNEA DE TIEMPO (TIMELINE POSTERS)
+     ========================================= */
+  .timeline-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+    margin: 50px auto 40px auto;
+    width: 100%;
+    max-width: 800px;
+  }
+  .timeline-line {
+    position: absolute;
+    top: 38px; /* Centrado con el punto */
+    left: 10%;
+    width: 80%;
+    height: 4px;
+    background: linear-gradient(to right, #47001e, #0056b3);
+    z-index: 1;
+  }
+  .timeline-step {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 33%;
+  }
+  .timeline-number {
+    font-size: 1.5em;
+    font-weight: 800;
+    color: #0056b3;
+    margin-bottom: 5px;
+    font-family: 'Courier New', Courier, monospace; /* Estilo tecnológico */
+  }
+  .timeline-dot {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border: 4px solid #0056b3;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    box-shadow: 0 0 12px rgba(0, 86, 179, 0.4);
+  }
+  .timeline-date {
+    font-size: 0.85em;
+    color: #0056b3;
+    font-weight: 700;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .timeline-text {
+    font-size: 0.95em;
+    color: #222;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+
+  /* Botón Inscripción */
+  .btn-inscripcion {
+    background-color: #47001e;
+    color: #ffffff !important;
+    padding: 15px 35px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.1em;
+    box-shadow: 0 6px 15px rgba(71,0,30,0.25);
+    display: inline-block;
+    transition: all 0.3s ease;
+  }
+  .btn-inscripcion:hover {
+    background-color: #63002a;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(71,0,30,0.35);
   }
 </style>
 
@@ -258,9 +334,52 @@ img_link: ../assets/img/charla.jpg
 <hr>
 <br>
 
+<!-- ========================================== -->
+<!-- NUEVA SECCIÓN: SESIÓN DE POSTERS           -->
+<!-- ========================================== -->
 <div class="reveal">
-	<h2 align="left" style="font-weight: bold;">Sesión de Posters</h2>
-	<h3 align="center" style="font-weight: bold; margin-top: 40px; margin-bottom: 40px;">Próximamente...</h3>
+	<h2 align="left" style="font-weight: bold; margin-bottom: 20px;">Sesión de Posters</h2>
+	
+    <p style="font-size: 1.1em; line-height: 1.6; color: #444; max-width: 1000px; margin-bottom: 30px;">
+        La Sesión de Posters de CANELOS 2026 es el espacio ideal para que estudiantes, investigadores y profesionales presenten sus últimos trabajos e innovaciones en microelectrónica. Durante esta instancia, los autores podrán interactuar directamente con expertos de la industria y la academia en un ambiente colaborativo y cercano.
+    </p>
+
+    <!-- Línea de Tiempo (Timeline) -->
+    <div class="timeline-container">
+        <div class="timeline-line"></div>
+        
+        <!-- Paso 1 -->
+        <div class="timeline-step">
+            <div class="timeline-number">01</div>
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">30 de junio, 2026</div>
+            <div class="timeline-text">Cierre de<br>Postulaciones</div>
+        </div>
+        
+        <!-- Paso 2 -->
+        <div class="timeline-step">
+            <div class="timeline-number">02</div>
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">05 de julio, 2026</div>
+            <div class="timeline-text">Notificación de<br>Resultados</div>
+        </div>
+        
+        <!-- Paso 3 -->
+        <div class="timeline-step">
+            <div class="timeline-number">03</div>
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">18 de agosto, 2026</div>
+            <div class="timeline-text">Inicio del<br>Evento</div>
+        </div>
+    </div>
+
+    <!-- Botón de Inscripción -->
+    <div style="text-align: center; margin-top: 50px; margin-bottom: 30px;">
+        <a href="https://chipusm.github.io/CANELOS/registro/" class="btn-inscripcion">
+            Haz clic aquí para ir a la inscripción
+        </a>
+    </div>
+
 </div>
 
 
@@ -273,7 +392,7 @@ img_link: ../assets/img/charla.jpg
     
     <div class="modal-layout-top">
       
-      <!-- DISEÑO CREDENCIAL (Marco Foto + Submarco Texto) -->
+      <!-- DISEÑO CREDENCIAL (Marco Foto + Submarco Ancho) -->
       <div style="display: flex; flex-direction: column; align-items: center; filter: drop-shadow(0 10px 16px rgba(0,0,0,0.25)); flex-shrink: 0; margin: auto;">
         
         <!-- PARTE SUPERIOR: Marco grueso octogonal con la foto -->
@@ -281,27 +400,25 @@ img_link: ../assets/img/charla.jpg
             <img id="m-foto" src="" class="modal-foto-recorte" alt="Foto">
         </div>
         
-        <!-- PARTE INFERIOR: Submarco con los datos que cuelga de la foto -->
+        <!-- PARTE INFERIOR: Submarco ancho que encaja en las diagonales -->
         <div class="modal-submarco">
             <div class="modal-submarco-interno">
-                <h3 id="m-nombre-badge" style="margin: 0; font-size: 1.25em; font-weight: 800; color: #222;">Nombre</h3>
-                <p id="m-cargo-badge" style="margin: 5px 0; font-size: 0.9em; color: #555; line-height: 1.2;">Cargo / Trabajo</p>
-                <p id="m-afiliacion-badge" style="margin: 0; font-size: 0.85em; color: #47001e; font-weight: 600;">Institución / País</p>
+                <h3 id="m-nombre-badge" style="margin: 0; font-size: 1.3em; font-weight: 800; color: #222;">Nombre</h3>
+                <p id="m-cargo-badge" style="margin: 6px 0; font-size: 0.9em; color: #555; line-height: 1.2;">Cargo / Trabajo</p>
+                <p id="m-afiliacion-badge" style="margin: 0; font-size: 0.9em; color: #47001e; font-weight: 700;">Institución / País</p>
             </div>
         </div>
 
       </div>
       
       <div class="modal-boxes-right">
-        <!-- Caja 1: Solo el Título de la Charla -->
+        <!-- Caja 1: Ahora muestra directamente el título -->
         <div class="caja-1" style="display: flex; flex-direction: column; justify-content: center;">
-            <p style="margin: 0 0 5px 0; font-size: 0.9em; color: #666; text-transform: uppercase; letter-spacing: 1px;">Título de la charla:</p>
-            <h4 id="m-titulo" style="margin: 0; font-size: 1.3em; color: #47001e; font-style: italic; line-height: 1.4; font-weight: 800;">"Título"</h4>
+            <h4 id="m-titulo" style="margin: 0; font-size: 1.35em; color: #47001e; font-style: italic; line-height: 1.4; font-weight: 800;">"Título de la charla"</h4>
         </div>
-        <!-- Caja 2: Biografía -->
+        <!-- Caja 2: Ahora muestra directamente la biografía -->
         <div class="caja-2">
-            <h4 style="margin: 0 0 8px 0; font-size: 1.1em; color: #222; font-weight: bold;">Mini Biografía</h4>
-            <p id="m-bio" style="margin: 0; font-size: 0.95em; color: #555; line-height: 1.5;">Bio...</p>
+            <p id="m-bio" style="margin: 0; font-size: 1em; color: #444; line-height: 1.6;">Texto de la biografía...</p>
         </div>
       </div>
     </div>
@@ -327,7 +444,7 @@ img_link: ../assets/img/charla.jpg
       cargo: 'Director / Investigador',
       afiliacion: 'CASS iDL / País',
       titulo: '"Nanoscale Digital-Based Analog Processing: Circuits and Systems Solutions for Emerging Applications and Technologies"',
-      bio: 'Pedro Toledo es [Añade aquí la universidad o experiencia breve de Pedro Toledo para el recuadro 2].',
+      bio: 'Pedro Toledo es un reconocido investigador enfocado en el procesamiento analógico digital. [Añade aquí más detalles sobre su experiencia, estudios y aportes a la industria].',
       desc: 'En esta presentación se abordarán los desafíos actuales del procesamiento analógico en escalas nanométricas. Se presentarán soluciones a nivel de circuitos y sistemas que habilitan nuevas aplicaciones tecnológicas, optimizando el consumo energético y mejorando el rendimiento en arquitecturas modernas.'
     },
     'joel': {
@@ -336,7 +453,7 @@ img_link: ../assets/img/charla.jpg
       cargo: 'Profesor Titular',
       afiliacion: 'Universidad Católica del Uruguay',
       titulo: '"Desafíos y técnicas de diseño en implantables"',
-      bio: 'Joel Gak es un destacado investigador invitado, experto en el desarrollo de tecnologías biomédicas.',
+      bio: 'Joel Gak es un destacado investigador invitado, experto en el desarrollo de tecnologías biomédicas y sistemas de bajo consumo de potencia para aplicaciones en salud.',
       desc: 'El diseño de dispositivos médicos implantables requiere técnicas de vanguardia para asegurar miniaturización extrema, biocompatibilidad y un consumo ultra bajo de potencia. En esta charla exploraremos las metodologías y barreras actuales que enfrenta la industria microelectrónica en el campo de la biomedicina.'
     },
     'exp3': {
@@ -345,7 +462,7 @@ img_link: ../assets/img/charla.jpg
       cargo: 'Cargo por confirmar',
       afiliacion: 'Institución',
       titulo: '"Por Anunciar"',
-      bio: 'Pronto revelaremos la biografía de nuestro próximo expositor destacado.',
+      bio: 'Pronto revelaremos la biografía de nuestro próximo expositor destacado. Mantente atento a nuestras actualizaciones.',
       desc: 'Pronto revelaremos la información detallada sobre esta charla plenaria y las temáticas específicas que nuestro expositor compartirá con los asistentes del evento.'
     },
     'exp4': {
@@ -354,7 +471,7 @@ img_link: ../assets/img/charla.jpg
       cargo: 'Cargo por confirmar',
       afiliacion: 'Institución',
       titulo: '"Por Anunciar"',
-      bio: 'Pronto revelaremos la biografía de nuestro próximo expositor destacado.',
+      bio: 'Pronto revelaremos la biografía de nuestro próximo expositor destacado. Mantente atento a nuestras actualizaciones.',
       desc: 'Pronto revelaremos la información detallada sobre esta charla plenaria y las temáticas específicas que nuestro expositor compartirá con los asistentes del evento.'
     },
     'exp5': {
@@ -363,7 +480,7 @@ img_link: ../assets/img/charla.jpg
       cargo: 'Cargo por confirmar',
       afiliacion: 'Institución',
       titulo: '"Por Anunciar"',
-      bio: 'Pronto revelaremos la biografía de nuestro próximo expositor destacado.',
+      bio: 'Pronto revelaremos la biografía de nuestro próximo expositor destacado. Mantente atento a nuestras actualizaciones.',
       desc: 'Pronto revelaremos la información detallada sobre esta charla plenaria y las temáticas específicas que nuestro expositor compartirá con los asistentes del evento.'
     }
   };
@@ -373,13 +490,13 @@ img_link: ../assets/img/charla.jpg
     const data = datosCharlas[id];
     if(!data) return;
 
-    // Rellenamos el nuevo Submarco
+    // Rellenamos la credencial
     document.getElementById('m-foto').src = data.foto;
     document.getElementById('m-nombre-badge').innerText = data.nombre;
     document.getElementById('m-cargo-badge').innerText = data.cargo;
     document.getElementById('m-afiliacion-badge').innerText = data.afiliacion;
 
-    // Rellenamos las Cajas grandes
+    // Rellenamos las Cajas limpias
     document.getElementById('m-titulo').innerText = data.titulo;
     document.getElementById('m-bio').innerText = data.bio;
     document.getElementById('m-desc').innerText = data.desc;
