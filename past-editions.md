@@ -20,6 +20,9 @@ img_link: ../assets/img/past-editions/canelos1.jpg
 <div class="reveal">
 
 	<h1 class="home-title" style="text-align: center"> Canelos 2023 </h1>
+</div>
+
+<div class="reveal">
 
 	<p align="justify">
 	En junio del año 2023 ChipUSM realizó por primera vez el seminario CANELOS, con el centro <b>AC3E</b> y el <b>Departamento de Electrónica de la UTFSM</b> como co-anfitriones. 
@@ -97,6 +100,10 @@ img_link: ../assets/img/past-editions/canelos1.jpg
 
 	<h1 class="home-title" style="text-align: center"> Canelos 2024 </h1>
 
+</div>
+
+<div class="reveal">
+
 	<p align="justify">
 	La segunda edición del seminario se realizó en octubre de 2024, con el <b>Capítulo Chileno de CAS</b> como co-anfitrión. 
 	Esta vez, CANELOS duró toda una semana donde, ya que a las charlas se sumó un <b>workshop</b> del fabricante de semiconductores alemán <b>IHP</b>.
@@ -158,6 +165,10 @@ img_link: ../assets/img/past-editions/canelos1.jpg
 <div class="reveal">
 
 	<h1 class="home-title" style="text-align: center"> Canelos 2025 </h1>
+
+</div>
+
+<div class="reveal">
 
 	<p align="justify">
 	En Agosto del 2025 se celebró la tercera iteración del CANELOS, contando con el capítulo chileno de CASS cómo co-anfitrion. Esta iteración, con una duración de dos días, contemplo una gran variedad charlas técnicas, industriales y motivacionales, destacando la participación de los centros de investiación INRIA de París, IMEC de Estados Unidos y AC3E de Chile, así como la empresa Intel.
