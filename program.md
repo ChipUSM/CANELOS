@@ -320,7 +320,7 @@ img_link: ../assets/img/charla.jpg
 		con participación de destacados invitados de la academia e industria microelectrónica, tanto de Chile como del extranjero.
 		Además, se incluyen instancias de networking y un foro para cerrar el seminario discutiendo sobre el futuro de la microelectrónica en nuestro país.
 	</h3>
-	<p align="center" style="margin-top: 40px;"> <img src="{{ "/assets/img/canelos_poster_brilante.jpg" | relative_url }}" alt="Poster CANELOS" width="600" style="max-width: 100%"/> </p>
+	<p align="center" style="margin-top: 40px;"> <img src="{{ "/assets/img/canelos_poster_brillante.jpg" | relative_url }}" alt="Poster CANELOS" width="600" style="max-width: 100%"/> </p>
 </div>
 
 <br>
