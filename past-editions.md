@@ -53,7 +53,7 @@ img_link: ../assets/img/past-editions/canelos1.jpg
 	</div>
 	-->
 
-	### Videos
+	<h3 style="font-weight: bold;">Videos</h3>
 
 	<p align="justify">
 	En la página de <a href="https://www.youtube.com/@ChipUSM/">ChipUSM en YouTube</a> pueden encontrar videos de las charlas:
@@ -66,7 +66,7 @@ img_link: ../assets/img/past-editions/canelos1.jpg
 	</div>
 
 
-	### Fotos
+	<h3 style="font-weight: bold;">Fotos</h3>
 
 	<div class="page-col-wrapper">        
 		<div class="page-col page-col-4">
@@ -115,7 +115,7 @@ img_link: ../assets/img/past-editions/canelos1.jpg
 	</div>
 
 
-	### Videos
+	<h3 style="font-weight: bold;">Videos</h3>
 
 	<p align="justify">
 	La edición 2024 de Canelos fue transmitida por la plataforma USM TV de la universidad:
@@ -128,7 +128,7 @@ img_link: ../assets/img/past-editions/canelos1.jpg
 	</div>
 
 
-	### Fotos
+	<h3 style="font-weight: bold;">Fotos</h3>
 
 	<div class="page-col-wrapper">        
 		<div class="page-col page-col-4">
@@ -175,7 +175,7 @@ img_link: ../assets/img/past-editions/canelos1.jpg
 		</div>
 	</div>
 
-	### Fotos
+	<h3 style="font-weight: bold;">Fotos</h3>
 
 	<div class="page-col-wrapper">        
 		<div class="page-col page-col-4">
