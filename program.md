@@ -73,7 +73,7 @@ img_link: ../assets/img/charla.jpg
   }
   .cerrar-modal-btn:hover { color: #47001e; }
 
-  /* Estructura interior del modal (Basada en tu dibujo) */
+  /* Estructura interior del modal */
   .modal-layout-top {
     display: flex;
     flex-wrap: wrap;
@@ -81,24 +81,44 @@ img_link: ../assets/img/charla.jpg
     margin-bottom: 20px;
   }
   
-  /* MARCO OCTOGONAL BURDEOS GENERADO POR CSS */
-  .modal-photo-wrapper {
-    width: 200px;
-    height: 200px;
-    background-color: #47001e; /* Color burdeos */
+  /* =========================================
+     NUEVO DISEÑO DE CREDENCIAL (BADGE)
+     ========================================= */
+  .modal-badge-wrapper {
+    width: 250px;
+    background-color: #47001e; /* Borde burdeos */
     padding: 6px; /* Grosor del borde */
-    /* Corta el contenedor en forma octogonal */
-    clip-path: polygon(18% 0%, 82% 0%, 100% 18%, 100% 82%, 82% 100%, 18% 100%, 0% 82%, 0% 18%);
+    /* Corta las esquinas a 30px exactos */
+    clip-path: polygon(30px 0%, calc(100% - 30px) 0%, 100% 30px, 100% calc(100% - 30px), calc(100% - 30px) 100%, 30px 100%, 0% calc(100% - 30px), 0% 30px);
   }
   
-  /* La foto interior con el mismo corte */
-  .modal-foto-perfil {
-    width: 100%;
+  .modal-badge-inner {
+    background-color: #fff; /* Fondo blanco para el texto */
     height: 100%;
-    object-fit: cover;
-    clip-path: polygon(18% 0%, 82% 0%, 100% 18%, 100% 82%, 82% 100%, 18% 100%, 0% 82%, 0% 18%);
+    display: flex;
+    flex-direction: column;
+    /* Corte interno un poco más pequeño para que el borde se vea parejo */
+    clip-path: polygon(25px 0%, calc(100% - 25px) 0%, 100% 25px, 100% calc(100% - 25px), calc(100% - 25px) 100%, 25px 100%, 0% calc(100% - 25px), 0% 25px);
   }
 
+  .modal-badge-img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-bottom: 1px solid #eee; /* Una sutil línea que separa foto del texto */
+  }
+
+  .modal-badge-text {
+    padding: 15px 10px 25px 10px;
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  /* Cajas de la derecha y descripción */
   .modal-boxes-right {
     flex: 1;
     min-width: 250px;
@@ -106,14 +126,12 @@ img_link: ../assets/img/charla.jpg
     flex-direction: column;
     gap: 15px;
   }
-  /* Recuadro 1: Nombre y Título */
   .caja-1 {
     border: 2px solid #47001e;
-    padding: 15px 20px;
+    padding: 20px;
     border-radius: 8px;
     background-color: #fff;
   }
-  /* Recuadro 2: Mini Bio */
   .caja-2 {
     border: 1px solid #ddd;
     padding: 15px 20px;
@@ -121,7 +139,6 @@ img_link: ../assets/img/charla.jpg
     background-color: #f7f9fc;
     flex-grow: 1;
   }
-  /* Recuadro 3: Descripción */
   .caja-3 {
     border: 1px solid #ddd;
     padding: 25px;
@@ -138,7 +155,9 @@ img_link: ../assets/img/charla.jpg
 	</p>
 </div>
 
-<br><hr><br>
+<br>
+<hr>
+<br>
 
 <div class="reveal">
 	<h2 align="left" style="font-weight: bold;">Actividades</h2>
@@ -151,20 +170,31 @@ img_link: ../assets/img/charla.jpg
 	<p align="center" style="margin-top: 40px;"> <img src="{{ "/assets/img/canelos_poster_brilloso.jpg" | relative_url }}" alt="Poster CANELOS" width="600" style="max-width: 100%"/> </p>
 </div>
 
-<br><hr><br>
+<br>
+<hr>
+<br>
 
 <div class="reveal">
 	<h2 align="left" style="font-weight: bold;">Talleres</h2>
 	<h3 align="center" style="font-weight: bold; margin-top: 40px; margin-bottom: 40px;">Próximamente...</h3>
 </div>
 
-<br><hr><br>
+<br>
+<hr>
+<br>
 
 <div class="reveal">
-	<h2 align="left" style="font-weight: bold; margin-bottom: 40px;">Charlas plenarias</h2>
+	<h2 align="left" style="font-weight: bold; margin-bottom: 40px; display: flex; align-items: center; flex-wrap: wrap; gap: 12px;">
+	    Charlas plenarias
+	    <span style="font-size: 0.55em; font-weight: 500; color: #777; font-style: italic; letter-spacing: 0.5px; padding-top: 4px;">
+	        (Haz clic en cada charla para más detalles)
+	    </span>
+	</h2>
 
+    <!-- LISTA PRINCIPAL (TARJETAS SIMPLES) -->
     <div style="display: flex; flex-direction: column; align-items: center; gap: 20px; width: 100%;">
 
+        <!-- Charla 1 -->
         <div class="charla-card reveal" onclick="abrirCharla('pedro')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #47001e;">
             <img src="{{ "/assets/img/material26/pedro_toledo.png" | relative_url }}" alt="Pedro Toledo" style="width: 90px; height: 90px; border-radius: 10px; object-fit: cover;">
             <div style="text-align: left;">
@@ -173,6 +203,7 @@ img_link: ../assets/img/charla.jpg
             </div>
         </div>
         
+        <!-- Charla 2 -->
         <div class="charla-card reveal" onclick="abrirCharla('joel')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #47001e;">
             <img src="{{ "/assets/img/material26/joel_gak.jpg" | relative_url }}" alt="Joel Gak" style="width: 90px; height: 90px; border-radius: 10px; object-fit: cover;">
             <div style="text-align: left;">
@@ -181,10 +212,29 @@ img_link: ../assets/img/charla.jpg
             </div>
         </div>
 
+        <!-- Charla 3 -->
         <div class="charla-card reveal" onclick="abrirCharla('exp3')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #666666;">
-            <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto" alt="Expositor 3" style="width: 90px; height: 90px; border-radius: 10px; object-fit: cover;">
+            <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto+3" alt="Expositor 3" style="width: 90px; height: 90px; border-radius: 10px; object-fit: cover;">
             <div style="text-align: left;">
                 <h3 style="margin: 0 0 5px 0; font-size: 1.4em; color: #222; font-weight: 700;">Expositor 3</h3>
+                <h4 style="margin: 0; font-size: 1.1em; color: #666; font-weight: 600; font-style: italic; line-height: 1.3;">"Por Anunciar"</h4>
+            </div>
+        </div>
+
+        <!-- Charla 4 -->
+        <div class="charla-card reveal" onclick="abrirCharla('exp4')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #666666;">
+            <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto+4" alt="Expositor 4" style="width: 90px; height: 90px; border-radius: 10px; object-fit: cover;">
+            <div style="text-align: left;">
+                <h3 style="margin: 0 0 5px 0; font-size: 1.4em; color: #222; font-weight: 700;">Expositor 4</h3>
+                <h4 style="margin: 0; font-size: 1.1em; color: #666; font-weight: 600; font-style: italic; line-height: 1.3;">"Por Anunciar"</h4>
+            </div>
+        </div>
+
+        <!-- Charla 5 -->
+        <div class="charla-card reveal" onclick="abrirCharla('exp5')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #666666;">
+            <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto+5" alt="Expositor 5" style="width: 90px; height: 90px; border-radius: 10px; object-fit: cover;">
+            <div style="text-align: left;">
+                <h3 style="margin: 0 0 5px 0; font-size: 1.4em; color: #222; font-weight: 700;">Expositor 5</h3>
                 <h4 style="margin: 0; font-size: 1.1em; color: #666; font-weight: 600; font-style: italic; line-height: 1.3;">"Por Anunciar"</h4>
             </div>
         </div>
@@ -192,7 +242,9 @@ img_link: ../assets/img/charla.jpg
     </div>
 </div>
 
-<br><hr><br>
+<br>
+<hr>
+<br>
 
 <div class="reveal">
 	<h2 align="left" style="font-weight: bold;">Sesión de Posters</h2>
@@ -200,23 +252,38 @@ img_link: ../assets/img/charla.jpg
 </div>
 
 
+<!-- ========================================== -->
+<!-- EL MODAL (MINIPAGE QUE SE ABRE AL HACER CLIC) -->
+<!-- ========================================== -->
 <div id="modalCharlas" class="charla-modal-overlay" onclick="cerrarCharlaFuera(event)">
   <div class="charla-modal-content">
     <a href="#!" class="cerrar-modal-btn" onclick="cerrarCharla()">&times;</a>
     
     <div class="modal-layout-top">
       
+      <!-- Credencial / Badge (La imagen que me pediste) -->
       <div style="filter: drop-shadow(0 10px 16px rgba(0,0,0,0.35)); flex-shrink: 0; margin: auto;">
-        <div class="modal-photo-wrapper">
-          <img id="m-foto" src="" class="modal-foto-perfil" alt="Foto">
+        <div class="modal-badge-wrapper">
+          <div class="modal-badge-inner">
+            <!-- Arriba: Foto -->
+            <img id="m-foto" src="" class="modal-badge-img" alt="Foto">
+            <!-- Abajo: Textos (Nombre, Cargo, País) -->
+            <div class="modal-badge-text">
+                <h3 id="m-nombre-badge" style="margin: 0; font-size: 1.3em; font-weight: 800; color: #222;">Nombre</h3>
+                <p id="m-cargo-badge" style="margin: 0; font-size: 0.95em; color: #555; line-height: 1.2;">Cargo / Trabajo</p>
+                <p id="m-afiliacion-badge" style="margin: 0; font-size: 0.9em; color: #47001e; font-weight: 600;">Institución / País</p>
+            </div>
+          </div>
         </div>
       </div>
       
       <div class="modal-boxes-right">
-        <div class="caja-1">
-            <h2 id="m-nombre" style="margin: 0 0 5px 0; font-size: 1.8em; color: #222; font-weight: 700;">Nombre</h2>
-            <h4 id="m-titulo" style="margin: 0; font-size: 1.1em; color: #47001e; font-style: italic; line-height: 1.3;">"Título"</h4>
+        <!-- Caja 1: Solo el Título de la Charla (Porque el nombre ya está en la credencial) -->
+        <div class="caja-1" style="display: flex; flex-direction: column; justify-content: center;">
+            <p style="margin: 0 0 5px 0; font-size: 0.9em; color: #666; text-transform: uppercase; letter-spacing: 1px;">Título de la charla:</p>
+            <h4 id="m-titulo" style="margin: 0; font-size: 1.3em; color: #47001e; font-style: italic; line-height: 1.4; font-weight: 800;">"Título"</h4>
         </div>
+        <!-- Caja 2: Biografía -->
         <div class="caja-2">
             <h4 style="margin: 0 0 8px 0; font-size: 1.1em; color: #222; font-weight: bold;">Mini Biografía</h4>
             <p id="m-bio" style="margin: 0; font-size: 0.95em; color: #555; line-height: 1.5;">Bio...</p>
@@ -224,6 +291,7 @@ img_link: ../assets/img/charla.jpg
       </div>
     </div>
 
+    <!-- Caja 3: Descripción de la Charla -->
     <div class="caja-3">
         <h4 style="margin: 0 0 12px 0; font-size: 1.2em; color: #47001e; font-weight: bold;">Sobre la charla</h4>
         <p id="m-desc" style="margin: 0; font-size: 1em; color: #444; line-height: 1.6;">Descripción...</p>
@@ -232,28 +300,54 @@ img_link: ../assets/img/charla.jpg
   </div>
 </div>
 
-
+<!-- ========================================== -->
+<!-- SCRIPTS (Animaciones y Lógica del Modal)   -->
+<!-- ========================================== -->
 <script>
   // 1. BASE DE DATOS DE LOS CHARLISTAS
-  // Edita los textos de biografías y descripciones fácilmente desde aquí
+  // Ahora incluye los campos 'cargo' y 'afiliacion' para la credencial
   const datosCharlas = {
     'pedro': {
       foto: '{{ "/assets/img/material26/pedro_toledo.png" | relative_url }}',
       nombre: 'Pedro Toledo',
+      cargo: 'Director / Investigador',
+      afiliacion: 'CASS iDL / País',
       titulo: '"Nanoscale Digital-Based Analog Processing: Circuits and Systems Solutions for Emerging Applications and Technologies"',
-      bio: 'Pedro Toledo es [Añade aquí el cargo, universidad o experiencia breve de Pedro Toledo para el recuadro 2].',
+      bio: 'Pedro Toledo es [Añade aquí la universidad o experiencia breve de Pedro Toledo para el recuadro 2].',
       desc: 'En esta presentación se abordarán los desafíos actuales del procesamiento analógico en escalas nanométricas. Se presentarán soluciones a nivel de circuitos y sistemas que habilitan nuevas aplicaciones tecnológicas, optimizando el consumo energético y mejorando el rendimiento en arquitecturas modernas.'
     },
     'joel': {
       foto: '{{ "/assets/img/material26/joel_gak.jpg" | relative_url }}',
       nombre: 'Joel Gak',
+      cargo: 'Profesor Titular',
+      afiliacion: 'Universidad Católica del Uruguay',
       titulo: '"Desafíos y técnicas de diseño en implantables"',
-      bio: 'Joel Gak es un destacado investigador invitado, experto en el desarrollo de tecnologías biomédicas. [Puedes extender su biografía aquí para el recuadro 2].',
+      bio: 'Joel Gak es un destacado investigador invitado, experto en el desarrollo de tecnologías biomédicas.',
       desc: 'El diseño de dispositivos médicos implantables requiere técnicas de vanguardia para asegurar miniaturización extrema, biocompatibilidad y un consumo ultra bajo de potencia. En esta charla exploraremos las metodologías y barreras actuales que enfrenta la industria microelectrónica en el campo de la biomedicina.'
     },
     'exp3': {
-      foto: 'https://placehold.co/300x300/eeeeee/999999?text=Foto',
+      foto: 'https://placehold.co/300x300/eeeeee/999999?text=Foto+3',
       nombre: 'Expositor 3',
+      cargo: 'Cargo por confirmar',
+      afiliacion: 'Institución',
+      titulo: '"Por Anunciar"',
+      bio: 'Pronto revelaremos la biografía de nuestro próximo expositor destacado.',
+      desc: 'Pronto revelaremos la información detallada sobre esta charla plenaria y las temáticas específicas que nuestro expositor compartirá con los asistentes del evento.'
+    },
+    'exp4': {
+      foto: 'https://placehold.co/300x300/eeeeee/999999?text=Foto+4',
+      nombre: 'Expositor 4',
+      cargo: 'Cargo por confirmar',
+      afiliacion: 'Institución',
+      titulo: '"Por Anunciar"',
+      bio: 'Pronto revelaremos la biografía de nuestro próximo expositor destacado.',
+      desc: 'Pronto revelaremos la información detallada sobre esta charla plenaria y las temáticas específicas que nuestro expositor compartirá con los asistentes del evento.'
+    },
+    'exp5': {
+      foto: 'https://placehold.co/300x300/eeeeee/999999?text=Foto+5',
+      nombre: 'Expositor 5',
+      cargo: 'Cargo por confirmar',
+      afiliacion: 'Institución',
       titulo: '"Por Anunciar"',
       bio: 'Pronto revelaremos la biografía de nuestro próximo expositor destacado.',
       desc: 'Pronto revelaremos la información detallada sobre esta charla plenaria y las temáticas específicas que nuestro expositor compartirá con los asistentes del evento.'
@@ -265,16 +359,19 @@ img_link: ../assets/img/charla.jpg
     const data = datosCharlas[id];
     if(!data) return;
 
-    // Rellenamos el modal con los datos
+    // Rellenamos la credencial (Badge)
     document.getElementById('m-foto').src = data.foto;
-    document.getElementById('m-nombre').innerText = data.nombre;
+    document.getElementById('m-nombre-badge').innerText = data.nombre;
+    document.getElementById('m-cargo-badge').innerText = data.cargo;
+    document.getElementById('m-afiliacion-badge').innerText = data.afiliacion;
+
+    // Rellenamos las Cajas
     document.getElementById('m-titulo').innerText = data.titulo;
     document.getElementById('m-bio').innerText = data.bio;
     document.getElementById('m-desc').innerText = data.desc;
 
-    // Mostramos el modal
+    // Mostramos el modal y bloqueamos scroll de fondo
     document.getElementById('modalCharlas').classList.add('show');
-    // Bloqueamos el scroll de la página de fondo
     document.body.style.overflow = 'hidden';
   }
 
@@ -284,7 +381,6 @@ img_link: ../assets/img/charla.jpg
   }
 
   function cerrarCharlaFuera(event) {
-    // Si el clic fue en el fondo oscuro y no dentro del cuadro blanco, se cierra
     if (event.target === document.getElementById('modalCharlas')) {
       cerrarCharla();
     }
