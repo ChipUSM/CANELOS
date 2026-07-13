@@ -153,36 +153,46 @@ img_link: ../assets/img/charla.jpg
   }
 
   /* =========================================
-     NUEVOS ESTILOS LÍNEA DE TIEMPO (TIMELINE)
+     ESTILOS LÍNEA DE TIEMPO (TIMELINE POSTERS)
      ========================================= */
   .timeline-container {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
     position: relative;
-    margin: 80px auto 50px auto; /* Espacio extra para los números gigantes */
+    margin: 80px auto 50px auto; 
     width: 100%;
-    max-width: 900px;
+    max-width: 1000px;
   }
+  
+  /* Línea gris base (Ajustada matemáticamente para 4 puntos) */
   .timeline-line {
     position: absolute;
-    top: 24px; /* Alineado al centro del punto */
-    left: 10%;
-    width: 80%;
+    top: 24px; 
+    left: 12.5%; 
+    width: 75%; 
     height: 4px;
-    background-color: #e2e8f0; /* Línea gris de base */
+    background-color: #e2e8f0; 
     z-index: 1;
     border-radius: 2px;
   }
+  
+  /* ========================================================
+     LA LÍNEA DE PROGRESO BURDEOS
+     Cambia el "width: 0%;" a "33%", "66%" o "100%" 
+     según vayan avanzando las fechas.
+     ======================================================== */
   .timeline-line::before {
     content: '';
     position: absolute;
     top: 0; left: 0;
     height: 100%;
-    width: 50%; /* Esto simula un "progreso" de las fechas */
+    width: 0%; /* <-- CAMBIA ESTE PORCENTAJE PARA AVANZAR LA LÍNEA */
     background-color: #47001e;
     border-radius: 2px;
+    transition: width 0.5s ease;
   }
+
   .timeline-step {
     position: relative;
     z-index: 2;
@@ -192,18 +202,19 @@ img_link: ../assets/img/charla.jpg
     text-align: center;
     flex: 1;
   }
-  /* Efecto moderno de número gigante de fondo */
+  
   .timeline-bg-number {
     position: absolute;
     top: -45px;
     font-size: 4.5em;
     font-weight: 900;
     color: #47001e;
-    opacity: 0.08; /* Marca de agua sutil */
+    opacity: 0.08; 
     z-index: -1;
     line-height: 1;
     user-select: none;
   }
+  
   .timeline-dot {
     width: 24px;
     height: 24px;
@@ -212,12 +223,20 @@ img_link: ../assets/img/charla.jpg
     border-radius: 50%;
     margin-bottom: 20px;
     box-shadow: 0 0 0 5px rgba(71, 0, 30, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
   }
+  
+  /* Clase especial para el punto "activo" o rellenado */
+  .timeline-dot.active {
+    background-color: #47001e;
+    box-shadow: 0 0 0 5px rgba(71, 0, 30, 0.25);
+  }
+
   .timeline-step:hover .timeline-dot {
     transform: scale(1.2);
     box-shadow: 0 0 0 8px rgba(71, 0, 30, 0.15);
   }
+  
   .timeline-date {
     font-size: 0.9em;
     color: #47001e;
@@ -226,6 +245,7 @@ img_link: ../assets/img/charla.jpg
     text-transform: uppercase;
     letter-spacing: 1px;
   }
+  
   .timeline-text {
     font-size: 1.05em;
     color: #333;
@@ -233,7 +253,6 @@ img_link: ../assets/img/charla.jpg
     line-height: 1.3;
   }
   
-  /* Ajuste responsivo para celulares */
   @media (max-width: 768px) {
     .timeline-container {
       flex-direction: column;
@@ -346,7 +365,7 @@ img_link: ../assets/img/charla.jpg
             </div>
         </div>
 
-        <!-- Charla 3 (Ajustado a Burdeos) -->
+        <!-- Charla 3 -->
         <div class="charla-card reveal" onclick="abrirCharla('exp3')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #47001e;">
             <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto+3" alt="Expositor 3" style="width: 90px; height: 90px; border-radius: 10px; object-fit: cover;">
             <div style="text-align: left;">
@@ -355,7 +374,7 @@ img_link: ../assets/img/charla.jpg
             </div>
         </div>
 
-        <!-- Charla 4 (Ajustado a Burdeos) -->
+        <!-- Charla 4 -->
         <div class="charla-card reveal" onclick="abrirCharla('exp4')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #47001e;">
             <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto+4" alt="Expositor 4" style="width: 90px; height: 90px; border-radius: 10px; object-fit: cover;">
             <div style="text-align: left;">
@@ -364,7 +383,7 @@ img_link: ../assets/img/charla.jpg
             </div>
         </div>
 
-        <!-- Charla 5 (Ajustado a Burdeos) -->
+        <!-- Charla 5 -->
         <div class="charla-card reveal" onclick="abrirCharla('exp5')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #47001e;">
             <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto+5" alt="Expositor 5" style="width: 90px; height: 90px; border-radius: 10px; object-fit: cover;">
             <div style="text-align: left;">
@@ -394,32 +413,44 @@ img_link: ../assets/img/charla.jpg
     <div class="timeline-container">
         <div class="timeline-line"></div>
         
-        <!-- Paso 1 -->
+        <!-- Paso 00 (Punto inicial / Actual) -->
+        <div class="timeline-step">
+            <div class="timeline-bg-number">00</div>
+            <!-- Nota que este punto tiene la clase "active" para verse relleno -->
+            <div class="timeline-dot active"></div>
+            <div class="timeline-content">
+                <div class="timeline-date">xx de xx, 2026</div>
+                <div class="timeline-text">Inicio de<br>Postulaciones</div>
+            </div>
+        </div>
+
+        <!-- Paso 01 -->
         <div class="timeline-step">
             <div class="timeline-bg-number">01</div>
+            <!-- Cuando llegue este paso, puedes agregarle la clase "active" al div de abajo -->
             <div class="timeline-dot"></div>
             <div class="timeline-content">
-                <div class="timeline-date">30 de junio, 2026</div>
+                <div class="timeline-date">xx de xx, 2026</div>
                 <div class="timeline-text">Cierre de<br>Postulaciones</div>
             </div>
         </div>
         
-        <!-- Paso 2 -->
+        <!-- Paso 02 -->
         <div class="timeline-step">
             <div class="timeline-bg-number">02</div>
             <div class="timeline-dot"></div>
             <div class="timeline-content">
-                <div class="timeline-date">05 de julio, 2026</div>
+                <div class="timeline-date">xx de xx, 2026</div>
                 <div class="timeline-text">Notificación de<br>Resultados</div>
             </div>
         </div>
         
-        <!-- Paso 3 -->
+        <!-- Paso 03 -->
         <div class="timeline-step">
             <div class="timeline-bg-number">03</div>
             <div class="timeline-dot"></div>
             <div class="timeline-content">
-                <div class="timeline-date">18 de agosto, 2026</div>
+                <div class="timeline-date">08 de octubre, 2026</div>
                 <div class="timeline-text">Inicio del<br>Evento</div>
             </div>
         </div>
@@ -548,7 +579,7 @@ img_link: ../assets/img/charla.jpg
     document.getElementById('m-cargo-badge').innerText = data.cargo;
     document.getElementById('m-afiliacion-badge').innerText = data.afiliacion;
 
-    // Rellenamos las Cajas
+    // Rellenamos las Cajas limpias
     document.getElementById('m-titulo').innerText = data.titulo;
     document.getElementById('m-bio').innerText = data.bio;
     document.getElementById('m-desc').innerText = data.desc;
