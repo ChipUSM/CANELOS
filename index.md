@@ -20,9 +20,13 @@ layout: home
 </p>
 
 <!-- 2. RESUMEN BREVE DE CANELOS -->
-<div style="text-align: center; margin: 40px 0;">
+<div style="text-align: center; justify-content: center; margin: 40px 0;">
     <h1 style="font-weight: 800; color: #222;">CANELOS 2026</h1>
     <h3 style="color: #47001e; margin-bottom: 20px;">CAD and Nanoelectronics Seminar</h3>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 50px; margin-bottom: 20px; width: 100%;">
+    
     <p style="font-size: 1.2em; line-height: 1.6; max-width: 1000px; margin: 0 auto;">
         Del 5 al 9 de octubre, la Universidad Técnica Federico Santa María (Valparaíso) será el punto de encuentro de la microelectrónica chilena y latinoamericana. CANELOS llega a su cuarta edición consolidado como el evento de diseño de circuitos integrados más grande de Chile, reuniendo a estudiantes, académicos, empresas del rubro e invitados internacionales en una misma instancia.
     </p>
@@ -32,6 +36,10 @@ layout: home
     </p>
     <p style="font-size: 1.2em; line-height: 1.6; max-width: 1000px; margin: 0 auto;">
         No necesitas experiencia previa para participar, CANELOS está pensado tanto para quienes ya trabajan en el área como para quienes quieren descubrir cómo se diseñan los chips que mueven al mundo. Habrá instancias para todos los niveles, oportunidades de networking con la comunidad nacional e internacional. El evento cuenta con becas de transporte/alojamiento para estudiantes de regiones externas a la V región y del extranjero.
+    </p>
+
+    <p style="font-size: 1.2em; line-height: 1.6; max-width: 1000px; margin: 0 auto;">
+    Además, este año CANELOS abre su primer llamado a student posters: una convocatoria para que estudiantes de pregrado y postgrado presenten sus proyectos e investigaciones en microelectrónica ante la comunidad reunida en el evento. Los postulantes seleccionados podrán optar a becas de hasta USD $300 para financiar su transporte y alojamiento. ¡Prepara tu proyecto y postula!
     </p>
 </div>
 
