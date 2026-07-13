@@ -296,7 +296,7 @@ layout: home
     <div style="text-align: center; width: 220px;">
         <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto" alt="Daniel Quiroz" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
         <h3 style="margin: 0; font-size: 1.3em; color: #222;">Daniel Quiroz</h3>
-        <p style="margin: 8px auto 0 auto; font-size: 0.9em; color: #47001e; font-weight: 600; line-height: 1.2; max-width: 200px;">Gestor asuntos nacionales</p>
+        <p style="margin: 8px auto 0 auto; font-size: 0.9em; color: #47001e; font-weight: 600; line-height: 1.2; max-width: 200px;">Gestor Asuntos Nacionales</p>
         <p style="margin: 5px auto 0 auto; font-size: 0.85em; max-width: 200px;">
             <a href="mailto:correo@usm.cl" style="color: #666; text-decoration: none; font-style: italic;">daniel.quirozl@usm.cl</a>
         </p>
