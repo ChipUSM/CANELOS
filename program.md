@@ -303,10 +303,6 @@ img_link: ../assets/img/charla.jpg
 
 
 <div class="reveal">
-	
-	<h3 align="justify" style="font-size: 1.2em; line-height: 1.6; max-width: 1200px; margin: 0;">
-		Durante los días previos al seminario, del 5 al 7 de octubre, CANELOS ofrecerá una serie de talleres prácticos para aprender y adquirir nuevas habilidades. Los talleres abarcarán distintas áreas de la microelectrónica, diseñados y armados para distintos perfiles y demográficas.  La intención es abrir un abanico de oportunidades variado, con talleres pensados para estudiantes de distintos intereses e incluso para escolares. Sin importar tu nivel de experiencia, habrá un espacio para que profundices tus conocimientos o des comienzo a tu ruta en la microelectrónica.
-	</h3>
 
 	<p align="center" style="margin-top: 40px;"> <img src="{{ "/assets/img/canelos_poster_brillante.jpg" | relative_url }}" alt="Poster CANELOS" width="600" style="max-width: 100%"/> </p>
 </div>
