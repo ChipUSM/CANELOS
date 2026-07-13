@@ -274,7 +274,7 @@ layout: home
     
     <!-- Estudiante 1 -->
     <div style="text-align: center; width: 220px;">
-        <img src="./assets/img/material26/equipo/felipe_illanes.jpg" alt="Felipe Illanes" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
+        <img src="./assets/img/material26/equipo/felipe_illanes_test.jpeg" alt="Felipe Illanes" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
         <h3 style="margin: 0; font-size: 1.3em; color: #222;">Felipe Illanes</h3>
         <p style="margin: 8px auto 0 auto; font-size: 0.9em; color: #47001e; font-weight: 600; line-height: 1.2; max-width: 200px;">Organizador</p>
         <p style="margin: 5px auto 0 auto; font-size: 0.85em; max-width: 200px;">
