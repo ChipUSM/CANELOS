@@ -301,9 +301,18 @@ img_link: ../assets/img/charla.jpg
 </style>
 
 
-
+<div class="reveal" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 50px; margin-bottom: 20px; width: 100%;">
+    <p style="font-size: 1.2em; line-height: 1.6; max-width: 1200px; margin: 0 auto;">
+        CANELOS 2026 se desarrollará entre el 5 y el 9 de octubre, en dos etapas complementarias. Los tres primeros días (5 al 7 de octubre) están dedicados a talleres prácticos en distintas áreas del diseño de circuitos integrados, cada uno con horario e inscripción propios. Los dos días finales (8 y 9 de octubre) corresponden al seminario central, el corazón del evento.
+    </p>
+    <p style="font-size: 1.2em; line-height: 1.6; max-width: 1200px; margin: 0 auto;">
+        El seminario está dividido en dos jornadas, cada una con un enfoque particular. El primer día está dedicado a charlas de carácter académico y educativo, e incluye la sesión de student posters, donde estudiantes seleccionados mediante convocatoria presentarán sus proyectos e investigaciones ante la comunidad, optando a becas de transporte y alojamiento. El segundo día contempla bloques que buscan exponer al público las distintas facetas y personas involucradas en este rubro a lo largo de Latinoamérica —empresas de diseño de microchips, centros de investigación y la comunidad local—, cerrando con un panel compuesto por profesionales y docentes prominentes de nuestro país.
+    </p>
+    <p style="font-size: 1.2em; line-height: 1.6; max-width: 1200px; margin: 0 auto;">
+        Cada transición entre bloques incluirá un coffee break libre de costo para los asistentes (el almuerzo corre por cuenta de cada participante). Durante estos recesos podrás además recorrer las exhibiciones y stands anexos a CANELOS.
+    </p>
+</div>
 <div class="reveal">
-
 	<p align="center" style="margin-top: 40px;"> <img src="{{ "/assets/img/canelos_poster_brillante.jpg" | relative_url }}" alt="Poster CANELOS" width="600" style="max-width: 100%"/> </p>
 </div>
 
@@ -516,7 +525,7 @@ img_link: ../assets/img/charla.jpg
       cargo: 'Director / Investigador',
       afiliacion: 'CASS iDL / País',
       titulo: '"Nanoscale Digital-Based Analog Processing: Circuits and Systems Solutions for Emerging Applications and Technologies"',
-      bio: 'Pedro Toledo es un reconocido investigador enfocado en el procesamiento analógico digital. [Añade aquí más detalles sobre su experiencia, estudios y aportes a la industria].',
+      bio: 'Pedro Toledo is a Staff Analog Design at Synopsys, Lisbon, where he works in the development of high-speed SerDes and equalization circuits in advanced CMOS technologies, including nanosheet, GAA, and FinFET. His work focuses on PHY building blocks for PCIe, USB, and MPHY interfaces, covering CTLE, DFE, CDR, LDO, and signaldetection circuits. He received the Ph.D. degree in Microelectronics from Politecnico di Torino, Italy, and the Federal University of Rio Grande do Sul (UFRGS), Brazil, where he graduated Summa Cum Laude. His research interests include DIGOTA architectures, ZTC/GZTC MOSFET modeling, low-voltage analog design, and digital-based analog processing. Dr. Toledo has authored numerous papers in IEEE journals and conferences and serves as reviewer for several IEEE Transactions and Letters. He is the recipient of multiple awards, including the SBMicro Best PhD Thesis Award, the IEEE ICECS Best Student Paper Award, and the YEF-ECE Best Paper Award.',
       desc: 'En esta presentación se abordarán los desafíos actuales del procesamiento analógico en escalas nanométricas. Se presentarán soluciones a nivel de circuitos y sistemas que habilitan nuevas aplicaciones tecnológicas, optimizando el consumo energético y mejorando el rendimiento en arquitecturas modernas.'
     },
     'joel': {
