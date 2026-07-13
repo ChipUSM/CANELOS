@@ -16,177 +16,281 @@ img_link: ../assets/img/charla.jpg
     opacity: 1;
     transform: translateY(0);
   }
+  
+  /* Efecto hover para las tarjetas de charla */
+  .charla-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+  }
+  .charla-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12) !important;
+  }
+
+  /* Estilos del Modal (Minipage) */
+  .charla-modal-overlay {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .charla-modal-overlay.show {
+    display: flex;
+    opacity: 1;
+  }
+  .charla-modal-content {
+    background: #ffffff;
+    width: 90%;
+    max-width: 850px;
+    max-height: 90vh;
+    overflow-y: auto;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+    position: relative;
+    transform: translateY(20px);
+    transition: transform 0.3s ease;
+  }
+  .charla-modal-overlay.show .charla-modal-content {
+    transform: translateY(0);
+  }
+  .cerrar-modal-btn {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 35px;
+    color: #444;
+    cursor: pointer;
+    line-height: 1;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .cerrar-modal-btn:hover { color: #47001e; }
+
+  /* Estructura interior del modal (Basada en tu dibujo) */
+  .modal-layout-top {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 20px;
+  }
+  
+  /* MARCO OCTOGONAL BURDEOS GENERADO POR CSS */
+  .modal-photo-wrapper {
+    width: 200px;
+    height: 200px;
+    background-color: #47001e; /* Color burdeos */
+    padding: 6px; /* Grosor del borde */
+    /* Corta el contenedor en forma octogonal */
+    clip-path: polygon(18% 0%, 82% 0%, 100% 18%, 100% 82%, 82% 100%, 18% 100%, 0% 82%, 0% 18%);
+  }
+  
+  /* La foto interior con el mismo corte */
+  .modal-foto-perfil {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    clip-path: polygon(18% 0%, 82% 0%, 100% 18%, 100% 82%, 82% 100%, 18% 100%, 0% 82%, 0% 18%);
+  }
+
+  .modal-boxes-right {
+    flex: 1;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  /* Recuadro 1: Nombre y Título */
+  .caja-1 {
+    border: 2px solid #47001e;
+    padding: 15px 20px;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  /* Recuadro 2: Mini Bio */
+  .caja-2 {
+    border: 1px solid #ddd;
+    padding: 15px 20px;
+    border-radius: 8px;
+    background-color: #f7f9fc;
+    flex-grow: 1;
+  }
+  /* Recuadro 3: Descripción */
+  .caja-3 {
+    border: 1px solid #ddd;
+    padding: 25px;
+    border-radius: 8px;
+    background-color: #f7f9fc;
+  }
 </style>
 
 <div class="reveal">
-
 	<h3 align="justify" style="font-size: 1.2em; line-height: 1.6; max-width: 1200px; margin: 0;">
 			La asignación de horarios para cada charlista se encuentra sujeta a disponibilidad de los mismos pero los horarios tentativos para el evento son los siguientes:
 	</h3>
-
-	<p align="center" style="margin-top: 40px;"> <img src="..\assets\img\material26\iterinario_preventivo.png" alt="Itinerario" width="600" style="max-width: 100%"/>
+	<p align="center" style="margin-top: 40px;"> <img src="{{ "/assets/img/material26/iterinario_preventivo.png" | relative_url }}" alt="Itinerario" width="600" style="max-width: 100%"/>
 	</p>
 </div>
 
-<br>
-<hr>
-<br>
+<br><hr><br>
 
 <div class="reveal">
 	<h2 align="left" style="font-weight: bold;">Actividades</h2>
-
 	<h3 align="justify" style="font-size: 1.2em; line-height: 1.6; max-width: 1200px; margin: 0;">
 		La edición 2026 de CANELOS tendrá lugar los días 8 y 9 de Octubre, de forma presencial. 
 		Serán dos días llenos de charlas plenarias técnicas y presentaciones de empresas, 
 		con participación de destacados invitados de la academia e industria microelectrónica, tanto de Chile como del extranjero.
 		Además, se incluyen instancias de networking y un foro para cerrar el seminario discutiendo sobre el futuro de la microelectrónica en nuestro país.
 	</h3>
-
-	<p align="center" style="margin-top: 40px;"> <img src="../assets/img/canelos_poster_brilloso.jpg" alt="Poster CANELOS" width="600" style="max-width: 100%"/> </p>
-
+	<p align="center" style="margin-top: 40px;"> <img src="{{ "/assets/img/canelos_poster_brilloso.jpg" | relative_url }}" alt="Poster CANELOS" width="600" style="max-width: 100%"/> </p>
 </div>
 
-<br>
-<hr>
-<br>
+<br><hr><br>
 
 <div class="reveal">
 	<h2 align="left" style="font-weight: bold;">Talleres</h2>
 	<h3 align="center" style="font-weight: bold; margin-top: 40px; margin-bottom: 40px;">Próximamente...</h3>
 </div>
 
-<br>
-<hr>
-<br>
+<br><hr><br>
 
 <div class="reveal">
 	<h2 align="left" style="font-weight: bold; margin-bottom: 40px;">Charlas plenarias</h2>
 
-    <div style="display: flex; flex-direction: column; align-items: center; gap: 30px; width: 100%;">
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 20px; width: 100%;">
 
-        <!-- Charla 1 -->
-        <div class="reveal" style="display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); border-left: 5px solid #47001e;">
-            
-            <div style="display: flex; align-items: center; gap: 20px; flex: 1; min-width: 280px;">
-                <img src="{{ "/assets/img/material26/pedro_toledo.png" | relative_url }}" alt="Pedro Toledo" style="width: 130px; height: 130px; border-radius: 12px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
-                <div style="text-align: left;">
-                    <h3 style="margin: 0 0 10px 0; font-size: 1.5em; color: #222; font-weight: 700;">Pedro Toledo</h3>
-                    <div style="display: flex; flex-direction: column; gap: 6px; align-items: flex-start;">
-                        <p style="font-size: 0.9em; color: #555; margin: 0; background-color: #e2e8f0; padding: 5px 12px; border-radius: 20px; display: inline-block;">Presencial</p>
-                        <p style="font-size: 0.9em; color: #ffffff; margin: 0; background-color: #4ba549; padding: 5px 12px; border-radius: 20px; display: inline-block; font-weight: 600; letter-spacing: 0.5px;">CASS iDL</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div style="text-align: left; flex: 2; min-width: 300px;">
-                <h4 style="font-size: 1.3em; color: #47001e; margin: 0 0 12px 0; font-weight: 800; line-height: 1.4; font-style: italic;">"Nanoscale Digital-Based Analog Processing: Circuits and Systems Solutions for Emerging Applications and Technologies"</h4>
-                <p style="font-size: 1em; color: #444; line-height: 1.6; margin: 0;">
-                    [Agrega aquí la descripción de la charla]. En esta presentación se abordarán los desafíos actuales del procesamiento analógico en escalas nanométricas. Se presentarán soluciones a nivel de circuitos y sistemas que habilitan nuevas aplicaciones tecnológicas, optimizando el consumo energético y mejorando el rendimiento en arquitecturas modernas.
-                </p>
+        <div class="charla-card reveal" onclick="abrirCharla('pedro')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #47001e;">
+            <img src="{{ "/assets/img/material26/pedro_toledo.png" | relative_url }}" alt="Pedro Toledo" style="width: 90px; height: 90px; border-radius: 10px; object-fit: cover;">
+            <div style="text-align: left;">
+                <h3 style="margin: 0 0 5px 0; font-size: 1.4em; color: #222; font-weight: 700;">Pedro Toledo</h3>
+                <h4 style="margin: 0; font-size: 1.1em; color: #47001e; font-weight: 600; font-style: italic; line-height: 1.3;">"Nanoscale Digital-Based Analog Processing: Circuits and Systems Solutions..."</h4>
             </div>
         </div>
         
-        <!-- Charla 2 -->
-        <div class="reveal" style="display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); border-left: 5px solid #47001e;">
-            
-            <div style="display: flex; align-items: center; gap: 20px; flex: 1; min-width: 280px;">
-                <img src="{{ "/assets/img/material26/joel_gak.jpg" | relative_url }}" alt="Joel Gak" style="width: 130px; height: 130px; border-radius: 12px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
-                <div style="text-align: left;">
-                    <h3 style="margin: 0 0 10px 0; font-size: 1.5em; color: #222; font-weight: 700;">Joel Gak</h3>
-                    <div style="display: flex; flex-direction: column; gap: 6px; align-items: flex-start;">
-                        <p style="font-size: 0.9em; color: #555; margin: 0; background-color: #e2e8f0; padding: 5px 12px; border-radius: 20px; display: inline-block;">Presencial</p>
-                        <p style="font-size: 0.9em; color: #ffffff; margin: 0; background-color: #47001e; padding: 5px 12px; border-radius: 20px; display: inline-block; font-weight: 600; letter-spacing: 0.5px;">Invitado</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div style="text-align: left; flex: 2; min-width: 300px;">
-                <h4 style="font-size: 1.3em; color: #47001e; margin: 0 0 12px 0; font-weight: 800; line-height: 1.4; font-style: italic;">"Desafíos y técnicas de diseño en implantables"</h4>
-                <p style="font-size: 1em; color: #444; line-height: 1.6; margin: 0;">
-                    [Agrega aquí la descripción de la charla]. El diseño de dispositivos médicos implantables requiere técnicas de vanguardia para asegurar miniaturización extrema, biocompatibilidad y un consumo ultra bajo de potencia. En esta charla exploraremos las metodologías y barreras actuales que enfrenta la industria microelectrónica en el campo de la biomedicina.
-                </p>
+        <div class="charla-card reveal" onclick="abrirCharla('joel')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #47001e;">
+            <img src="{{ "/assets/img/material26/joel_gak.jpg" | relative_url }}" alt="Joel Gak" style="width: 90px; height: 90px; border-radius: 10px; object-fit: cover;">
+            <div style="text-align: left;">
+                <h3 style="margin: 0 0 5px 0; font-size: 1.4em; color: #222; font-weight: 700;">Joel Gak</h3>
+                <h4 style="margin: 0; font-size: 1.1em; color: #47001e; font-weight: 600; font-style: italic; line-height: 1.3;">"Desafíos y técnicas de diseño en implantables"</h4>
             </div>
         </div>
 
-        <!-- Charla 3 -->
-        <div class="reveal" style="display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); border-left: 5px solid #666666;">
-            
-            <div style="display: flex; align-items: center; gap: 20px; flex: 1; min-width: 280px;">
-                <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto+3" alt="Expositor 3" style="width: 130px; height: 130px; border-radius: 12px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
-                <div style="text-align: left;">
-                    <h3 style="margin: 0 0 10px 0; font-size: 1.5em; color: #222; font-weight: 700;">Expositor 3</h3>
-                    <div style="display: flex; flex-direction: column; gap: 6px; align-items: flex-start;">
-                        <p style="font-size: 0.9em; color: #555; margin: 0; background-color: #e2e8f0; padding: 5px 12px; border-radius: 20px; display: inline-block;">Por anunciar</p>
-                        <p style="font-size: 0.9em; color: #555; margin: 0; background-color: #e2e8f0; padding: 5px 12px; border-radius: 20px; display: inline-block; font-weight: 600;">-</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div style="text-align: left; flex: 2; min-width: 300px;">
-                <h4 style="font-size: 1.3em; color: #47001e; margin: 0 0 12px 0; font-weight: 800; line-height: 1.4; font-style: italic;">"Por Anunciar"</h4>
-                <p style="font-size: 1em; color: #444; line-height: 1.6; margin: 0;">
-                    Pronto revelaremos la información detallada sobre esta charla plenaria y las temáticas específicas que nuestro expositor compartirá con los asistentes del evento.
-                </p>
-            </div>
-        </div>
-
-        <!-- Charla 4 -->
-        <div class="reveal" style="display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); border-left: 5px solid #666666;">
-            
-            <div style="display: flex; align-items: center; gap: 20px; flex: 1; min-width: 280px;">
-                <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto+4" alt="Expositor 4" style="width: 130px; height: 130px; border-radius: 12px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
-                <div style="text-align: left;">
-                    <h3 style="margin: 0 0 10px 0; font-size: 1.5em; color: #222; font-weight: 700;">Expositor 4</h3>
-                    <div style="display: flex; flex-direction: column; gap: 6px; align-items: flex-start;">
-                        <p style="font-size: 0.9em; color: #555; margin: 0; background-color: #e2e8f0; padding: 5px 12px; border-radius: 20px; display: inline-block;">Por anunciar</p>
-                        <p style="font-size: 0.9em; color: #555; margin: 0; background-color: #e2e8f0; padding: 5px 12px; border-radius: 20px; display: inline-block; font-weight: 600;">-</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div style="text-align: left; flex: 2; min-width: 300px;">
-                <h4 style="font-size: 1.3em; color: #47001e; margin: 0 0 12px 0; font-weight: 800; line-height: 1.4; font-style: italic;">"Por Anunciar"</h4>
-                <p style="font-size: 1em; color: #444; line-height: 1.6; margin: 0;">
-                    Pronto revelaremos la información detallada sobre esta charla plenaria y las temáticas específicas que nuestro expositor compartirá con los asistentes del evento.
-                </p>
-            </div>
-        </div>
-
-        <!-- Charla 5 -->
-        <div class="reveal" style="display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); border-left: 5px solid #666666;">
-            
-            <div style="display: flex; align-items: center; gap: 20px; flex: 1; min-width: 280px;">
-                <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto+5" alt="Expositor 5" style="width: 130px; height: 130px; border-radius: 12px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
-                <div style="text-align: left;">
-                    <h3 style="margin: 0 0 10px 0; font-size: 1.5em; color: #222; font-weight: 700;">Expositor 5</h3>
-                    <div style="display: flex; flex-direction: column; gap: 6px; align-items: flex-start;">
-                        <p style="font-size: 0.9em; color: #555; margin: 0; background-color: #e2e8f0; padding: 5px 12px; border-radius: 20px; display: inline-block;">Por anunciar</p>
-                        <p style="font-size: 0.9em; color: #555; margin: 0; background-color: #e2e8f0; padding: 5px 12px; border-radius: 20px; display: inline-block; font-weight: 600;">-</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div style="text-align: left; flex: 2; min-width: 300px;">
-                <h4 style="font-size: 1.3em; color: #47001e; margin: 0 0 12px 0; font-weight: 800; line-height: 1.4; font-style: italic;">"Por Anunciar"</h4>
-                <p style="font-size: 1em; color: #444; line-height: 1.6; margin: 0;">
-                    Pronto revelaremos la información detallada sobre esta charla plenaria y las temáticas específicas que nuestro expositor compartirá con los asistentes del evento.
-                </p>
+        <div class="charla-card reveal" onclick="abrirCharla('exp3')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #666666;">
+            <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto" alt="Expositor 3" style="width: 90px; height: 90px; border-radius: 10px; object-fit: cover;">
+            <div style="text-align: left;">
+                <h3 style="margin: 0 0 5px 0; font-size: 1.4em; color: #222; font-weight: 700;">Expositor 3</h3>
+                <h4 style="margin: 0; font-size: 1.1em; color: #666; font-weight: 600; font-style: italic; line-height: 1.3;">"Por Anunciar"</h4>
             </div>
         </div>
 
     </div>
 </div>
 
-<br>
-<hr>
-<br>
+<br><hr><br>
 
 <div class="reveal">
 	<h2 align="left" style="font-weight: bold;">Sesión de Posters</h2>
 	<h3 align="center" style="font-weight: bold; margin-top: 40px; margin-bottom: 40px;">Próximamente...</h3>
 </div>
 
+
+<div id="modalCharlas" class="charla-modal-overlay" onclick="cerrarCharlaFuera(event)">
+  <div class="charla-modal-content">
+    <a href="#!" class="cerrar-modal-btn" onclick="cerrarCharla()">&times;</a>
+    
+    <div class="modal-layout-top">
+      
+      <div style="filter: drop-shadow(0 10px 16px rgba(0,0,0,0.35)); flex-shrink: 0; margin: auto;">
+        <div class="modal-photo-wrapper">
+          <img id="m-foto" src="" class="modal-foto-perfil" alt="Foto">
+        </div>
+      </div>
+      
+      <div class="modal-boxes-right">
+        <div class="caja-1">
+            <h2 id="m-nombre" style="margin: 0 0 5px 0; font-size: 1.8em; color: #222; font-weight: 700;">Nombre</h2>
+            <h4 id="m-titulo" style="margin: 0; font-size: 1.1em; color: #47001e; font-style: italic; line-height: 1.3;">"Título"</h4>
+        </div>
+        <div class="caja-2">
+            <h4 style="margin: 0 0 8px 0; font-size: 1.1em; color: #222; font-weight: bold;">Mini Biografía</h4>
+            <p id="m-bio" style="margin: 0; font-size: 0.95em; color: #555; line-height: 1.5;">Bio...</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="caja-3">
+        <h4 style="margin: 0 0 12px 0; font-size: 1.2em; color: #47001e; font-weight: bold;">Sobre la charla</h4>
+        <p id="m-desc" style="margin: 0; font-size: 1em; color: #444; line-height: 1.6;">Descripción...</p>
+    </div>
+
+  </div>
+</div>
+
+
 <script>
+  // 1. BASE DE DATOS DE LOS CHARLISTAS
+  // Edita los textos de biografías y descripciones fácilmente desde aquí
+  const datosCharlas = {
+    'pedro': {
+      foto: '{{ "/assets/img/material26/pedro_toledo.png" | relative_url }}',
+      nombre: 'Pedro Toledo',
+      titulo: '"Nanoscale Digital-Based Analog Processing: Circuits and Systems Solutions for Emerging Applications and Technologies"',
+      bio: 'Pedro Toledo es [Añade aquí el cargo, universidad o experiencia breve de Pedro Toledo para el recuadro 2].',
+      desc: 'En esta presentación se abordarán los desafíos actuales del procesamiento analógico en escalas nanométricas. Se presentarán soluciones a nivel de circuitos y sistemas que habilitan nuevas aplicaciones tecnológicas, optimizando el consumo energético y mejorando el rendimiento en arquitecturas modernas.'
+    },
+    'joel': {
+      foto: '{{ "/assets/img/material26/joel_gak.jpg" | relative_url }}',
+      nombre: 'Joel Gak',
+      titulo: '"Desafíos y técnicas de diseño en implantables"',
+      bio: 'Joel Gak es un destacado investigador invitado, experto en el desarrollo de tecnologías biomédicas. [Puedes extender su biografía aquí para el recuadro 2].',
+      desc: 'El diseño de dispositivos médicos implantables requiere técnicas de vanguardia para asegurar miniaturización extrema, biocompatibilidad y un consumo ultra bajo de potencia. En esta charla exploraremos las metodologías y barreras actuales que enfrenta la industria microelectrónica en el campo de la biomedicina.'
+    },
+    'exp3': {
+      foto: 'https://placehold.co/300x300/eeeeee/999999?text=Foto',
+      nombre: 'Expositor 3',
+      titulo: '"Por Anunciar"',
+      bio: 'Pronto revelaremos la biografía de nuestro próximo expositor destacado.',
+      desc: 'Pronto revelaremos la información detallada sobre esta charla plenaria y las temáticas específicas que nuestro expositor compartirá con los asistentes del evento.'
+    }
+  };
+
+  // 2. FUNCIONES DEL MODAL
+  function abrirCharla(id) {
+    const data = datosCharlas[id];
+    if(!data) return;
+
+    // Rellenamos el modal con los datos
+    document.getElementById('m-foto').src = data.foto;
+    document.getElementById('m-nombre').innerText = data.nombre;
+    document.getElementById('m-titulo').innerText = data.titulo;
+    document.getElementById('m-bio').innerText = data.bio;
+    document.getElementById('m-desc').innerText = data.desc;
+
+    // Mostramos el modal
+    document.getElementById('modalCharlas').classList.add('show');
+    // Bloqueamos el scroll de la página de fondo
+    document.body.style.overflow = 'hidden';
+  }
+
+  function cerrarCharla() {
+    document.getElementById('modalCharlas').classList.remove('show');
+    document.body.style.overflow = 'auto'; // Devolvemos el scroll
+  }
+
+  function cerrarCharlaFuera(event) {
+    // Si el clic fue en el fondo oscuro y no dentro del cuadro blanco, se cierra
+    if (event.target === document.getElementById('modalCharlas')) {
+      cerrarCharla();
+    }
+  }
+
+  // 3. ANIMACIÓN REVEAL AL HACER SCROLL
   document.addEventListener('DOMContentLoaded', function () {
     const items = document.querySelectorAll('.reveal');
     const observer = new IntersectionObserver((entries) => {
