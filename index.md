@@ -276,7 +276,7 @@ layout: home
     <div style="text-align: center; width: 220px;">
         <img src="./assets/img/material26/equipo/felipe_illanes.jpg" alt="Felipe Illanes" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
         <h3 style="margin: 0; font-size: 1.3em; color: #222;">Felipe Illanes</h3>
-        <p style="margin: 8px auto 0 auto; font-size: 0.9em; color: #47001e; font-weight: 600; line-height: 1.2; max-width: 200px;">Cargo 1</p>
+        <p style="margin: 8px auto 0 auto; font-size: 0.9em; color: #47001e; font-weight: 600; line-height: 1.2; max-width: 200px;">Organizador</p>
         <p style="margin: 5px auto 0 auto; font-size: 0.85em; max-width: 200px;">
             <a href="mailto:correo@usm.cl" style="color: #666; text-decoration: none; font-style: italic;">felipe.illanes@usm.cl</a>
         </p>
@@ -286,7 +286,7 @@ layout: home
     <div style="text-align: center; width: 220px;">
         <img src="./assets/img/material26/equipo/leonidas_sandoval.png" alt="Leonidas Sandoval" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
         <h3 style="margin: 0; font-size: 1.3em; color: #222;">Leonidas Sandoval</h3>
-        <p style="margin: 8px auto 0 auto; font-size: 0.9em; color: #47001e; font-weight: 600; line-height: 1.2; max-width: 200px;">Cargo 2</p>
+        <p style="margin: 8px auto 0 auto; font-size: 0.9em; color: #47001e; font-weight: 600; line-height: 1.2; max-width: 200px;">Co-organizador</p>
         <p style="margin: 5px auto 0 auto; font-size: 0.85em; max-width: 200px;">
             <a href="mailto:correo@usm.cl" style="color: #666; text-decoration: none; font-style: italic;">leonidas.sandoval@sansano.usm.cl</a>
         </p>
@@ -296,7 +296,7 @@ layout: home
     <div style="text-align: center; width: 220px;">
         <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto" alt="Daniel Quiroz" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
         <h3 style="margin: 0; font-size: 1.3em; color: #222;">Daniel Quiroz</h3>
-        <p style="margin: 8px auto 0 auto; font-size: 0.9em; color: #47001e; font-weight: 600; line-height: 1.2; max-width: 200px;">Cargo 3</p>
+        <p style="margin: 8px auto 0 auto; font-size: 0.9em; color: #47001e; font-weight: 600; line-height: 1.2; max-width: 200px;">Gestor asuntos nacionales</p>
         <p style="margin: 5px auto 0 auto; font-size: 0.85em; max-width: 200px;">
             <a href="mailto:correo@usm.cl" style="color: #666; text-decoration: none; font-style: italic;">daniel.quirozl@usm.cl</a>
         </p>
@@ -306,7 +306,7 @@ layout: home
     <div style="text-align: center; width: 220px;">
         <img src="./assets/img/material26/equipo/vicente_martinez.png" alt="Vicente Martinez" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
         <h3 style="margin: 0; font-size: 1.3em; color: #222;">Vicente Martinez</h3>
-        <p style="margin: 8px auto 0 auto; font-size: 0.9em; color: #47001e; font-weight: 600; line-height: 1.2; max-width: 200px;">Cargo 4</p>
+        <p style="margin: 8px auto 0 auto; font-size: 0.9em; color: #47001e; font-weight: 600; line-height: 1.2; max-width: 200px;">Tesorero</p>
         <p style="margin: 5px auto 0 auto; font-size: 0.85em; max-width: 200px;">
             <a href="mailto:correo@usm.cl" style="color: #666; text-decoration: none; font-style: italic;">vmartinezm@usm.cl</a>
         </p>
@@ -316,7 +316,7 @@ layout: home
     <div style="text-align: center; width: 220px;">
         <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto" alt="Josefa Pino" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
         <h3 style="margin: 0; font-size: 1.3em; color: #222;">Josefa Pino</h3>
-        <p style="margin: 8px auto 0 auto; font-size: 0.9em; color: #47001e; font-weight: 600; line-height: 1.2; max-width: 200px;">Cargo 5</p>
+        <p style="margin: 8px auto 0 auto; font-size: 0.9em; color: #47001e; font-weight: 600; line-height: 1.2; max-width: 200px;">Community Manager</p>
         <p style="margin: 5px auto 0 auto; font-size: 0.85em; max-width: 200px;">
             <a href="mailto:correo@usm.cl" style="color: #666; text-decoration: none; font-style: italic;">josefa.pino@usm.cl</a>
         </p>
@@ -326,7 +326,7 @@ layout: home
     <div style="text-align: center; width: 220px;">
         <img src="./assets/img/material26/equipo/sebastian_sanchez.png" alt="Sebantian Sanchez" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
         <h3 style="margin: 0; font-size: 1.3em; color: #222;">Sebantian Sanchez</h3>
-        <p style="margin: 8px auto 0 auto; font-size: 0.9em; color: #47001e; font-weight: 600; line-height: 1.2; max-width: 200px;">Cargo 6</p>
+        <p style="margin: 8px auto 0 auto; font-size: 0.9em; color: #47001e; font-weight: 600; line-height: 1.2; max-width: 200px;">Gestor Asuntos Internacionales</p>
         <p style="margin: 5px auto 0 auto; font-size: 0.85em; max-width: 200px;">
             <a href="mailto:correo@usm.cl" style="color: #666; text-decoration: none; font-style: italic;">sebastian.sanchezp@usm.cl</a>
         </p>
