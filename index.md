@@ -15,7 +15,7 @@ layout: home
 </style>
 
 <!-- 1. BANNER PRINCIPAL -->
-<p align="center" style="margin-top: 100px;">
+<p align="center" style="margin-top: 0px;">
   <img src="{{ "/assets/img/Afiche_temp.png" | relative_url }}" alt="Banner CANELOS 2026 - 8 y 9 de Octubre" style="max-width: 80%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"/>
 </p>
 
@@ -218,14 +218,6 @@ layout: home
 
 </div>
 
-<div class="reveal" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 50px; margin-bottom: 20px; width: 100%;">
-
-    <hr style="border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0)); margin: 60px auto; width: 85%;">
-    
-    <h2 style="text-align: center; color: #47001e; font-weight: 700; margin-bottom: 40px;">Equipo Estudiantil</h2>
-
-</div>
-
 <hr style="border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0)); margin: 60px auto; width: 85%;">
 
 <!-- 6. MAPA E ITINERARIO -->
@@ -243,7 +235,6 @@ layout: home
         <h3 style="text-align: center; margin-bottom: 15px;">Itinerario Preventivo</h3>
         <p align="center" style="margin: 0;">
             <a href="#img-ampliada">
-                <!-- PRIMER CAMBIO: La imagen pequeña -->
                 <img src="{{ "/assets/img/material26/iterinario_preventivo.png" | relative_url }}" alt="Itinerario CANELOS 2026" style="width: 100%; height: 350px; object-fit: contain; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); background-color: #ffffff; padding: 10px; cursor: pointer;">
             </a>
         </p>
@@ -251,13 +242,81 @@ layout: home
 
 </div>
 
+<hr style="border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0)); margin: 60px auto; width: 85%;">
+
+<!-- 7. EQUIPO ESTUDIANTIL -->
+<h2 class="reveal" style="text-align: center; color: #47001e; font-weight: 700; margin-bottom: 40px;">Equipo Estudiantil</h2>
+
+<div class="reveal" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 50px; margin-bottom: 20px; width: 100%;">
+    
+    <!-- Estudiante 1 -->
+    <div style="text-align: center; width: 220px;">
+        <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto" alt="Felipe Illanes" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
+        <h3 style="margin: 0; font-size: 1.3em; color: #222;">Felipe Illanes</h3>
+        <p style="margin: 8px auto 0 auto; font-size: 0.9em; color: #47001e; font-weight: 600; line-height: 1.2; max-width: 200px;">Cargo 1</p>
+        <p style="margin: 5px auto 0 auto; font-size: 0.85em; max-width: 200px;">
+            <a href="mailto:correo@usm.cl" style="color: #666; text-decoration: none; font-style: italic;">felipe.illanes@usm.cl</a>
+        </p>
+    </div>
+
+    <!-- Estudiante 2 -->
+    <div style="text-align: center; width: 220px;">
+        <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto" alt="Leonidas Sandoval" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
+        <h3 style="margin: 0; font-size: 1.3em; color: #222;">Leonidas Sandoval</h3>
+        <p style="margin: 8px auto 0 auto; font-size: 0.9em; color: #47001e; font-weight: 600; line-height: 1.2; max-width: 200px;">Cargo 2</p>
+        <p style="margin: 5px auto 0 auto; font-size: 0.85em; max-width: 200px;">
+            <a href="mailto:correo@usm.cl" style="color: #666; text-decoration: none; font-style: italic;">leonidas.sandoval@sansano.usm.cl</a>
+        </p>
+    </div>
+
+    <!-- Estudiante 3 -->
+    <div style="text-align: center; width: 220px;">
+        <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto" alt="Daniel Quiroz" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
+        <h3 style="margin: 0; font-size: 1.3em; color: #222;">Daniel Quiroz</h3>
+        <p style="margin: 8px auto 0 auto; font-size: 0.9em; color: #47001e; font-weight: 600; line-height: 1.2; max-width: 200px;">Cargo 3</p>
+        <p style="margin: 5px auto 0 auto; font-size: 0.85em; max-width: 200px;">
+            <a href="mailto:correo@usm.cl" style="color: #666; text-decoration: none; font-style: italic;">daniel.quirozl@usm.cl</a>
+        </p>
+    </div>
+
+    <!-- Estudiante 4 -->
+    <div style="text-align: center; width: 220px;">
+        <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto" alt="Vicente Martinez" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
+        <h3 style="margin: 0; font-size: 1.3em; color: #222;">Vicente Martinez</h3>
+        <p style="margin: 8px auto 0 auto; font-size: 0.9em; color: #47001e; font-weight: 600; line-height: 1.2; max-width: 200px;">Cargo 4</p>
+        <p style="margin: 5px auto 0 auto; font-size: 0.85em; max-width: 200px;">
+            <a href="mailto:correo@usm.cl" style="color: #666; text-decoration: none; font-style: italic;">vmartinezm@usm.cl</a>
+        </p>
+    </div>
+
+    <!-- Estudiante 5 -->
+    <div style="text-align: center; width: 220px;">
+        <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto" alt="Josefa Pino" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
+        <h3 style="margin: 0; font-size: 1.3em; color: #222;">Josefa Pino</h3>
+        <p style="margin: 8px auto 0 auto; font-size: 0.9em; color: #47001e; font-weight: 600; line-height: 1.2; max-width: 200px;">Cargo 5</p>
+        <p style="margin: 5px auto 0 auto; font-size: 0.85em; max-width: 200px;">
+            <a href="mailto:correo@usm.cl" style="color: #666; text-decoration: none; font-style: italic;">josefa.pino@usm.cl</a>
+        </p>
+    </div>
+
+    <!-- Estudiante 6 -->
+    <div style="text-align: center; width: 220px;">
+        <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto" alt="Sebantian Sanchez" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); margin-bottom: 15px;">
+        <h3 style="margin: 0; font-size: 1.3em; color: #222;">Sebantian Sanchez</h3>
+        <p style="margin: 8px auto 0 auto; font-size: 0.9em; color: #47001e; font-weight: 600; line-height: 1.2; max-width: 200px;">Cargo 6</p>
+        <p style="margin: 5px auto 0 auto; font-size: 0.85em; max-width: 200px;">
+            <a href="mailto:correo@usm.cl" style="color: #666; text-decoration: none; font-style: italic;">sebastian.sanchezp@usm.cl</a>
+        </p>
+    </div>
+
+</div>
+
+<!-- 8. CODIGO DEL MODAL (LA IMAGEN EXPANDIDA) -->
 <div id="img-ampliada" class="lightbox">
   <a href="#!" class="cerrar">&times;</a>
-  <!-- SEGUNDO CAMBIO: La imagen grande que se abre al hacer clic -->
   <img src="{{ "/assets/img/material26/iterinario_preventivo.png" | relative_url }}" alt="Itinerario Ampliado">
 </div>
 
-<!-- 7. CODIGO DEL MODAL (LA IMAGEN EXPANDIDA) -->
 <style>
   .lightbox {
     display: none;
