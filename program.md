@@ -2,7 +2,7 @@
 layout: page
 title: Actividades
 short_title: Actividades
-permalink: /programa/
+permalink: /Actividades/
 img_link: ../assets/img/charla.jpg
 ---
 
