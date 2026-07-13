@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Programa
-short_title: Programa
+title: Actividades
+short_title: Actividades
 permalink: /programa/
 img_link: ../assets/img/charla.jpg
 ---
@@ -300,32 +300,28 @@ img_link: ../assets/img/charla.jpg
   }
 </style>
 
+
+
 <div class="reveal">
+	
+	<h3 align="justify" style="font-size: 1.2em; line-height: 1.6; max-width: 1200px; margin: 0;">
+		Durante los días previos al seminario, del 5 al 7 de octubre, CANELOS ofrecerá una serie de talleres prácticos para aprender y adquirir nuevas habilidades. Los talleres abarcarán distintas áreas de la microelectrónica, diseñados y armados para distintos perfiles y demográficas.  La intención es abrir un abanico de oportunidades variado, con talleres pensados para estudiantes de distintos intereses e incluso para escolares. Sin importar tu nivel de experiencia, habrá un espacio para que profundices tus conocimientos o des comienzo a tu ruta en la microelectrónica.
+	</h3>
+
+  <h3 align="justify" style="font-size: 1.2em; line-height: 1.6; max-width: 1200px; margin: 0;">
+    Además, este año CANELOS abre su primer llamado a student posters: una convocatoria para que estudiantes de pregrado y postgrado presenten sus proyectos e investigaciones en microelectrónica ante la comunidad reunida en el evento. Los postulantes seleccionados podrán optar a becas de hasta USD $300 para financiar su transporte y alojamiento. ¡Prepara tu proyecto y postula!
+  </h3>
+	<p align="center" style="margin-top: 40px;"> <img src="{{ "/assets/img/canelos_poster_brillante.jpg" | relative_url }}" alt="Poster CANELOS" width="600" style="max-width: 100%"/> </p>
+</div>
+
+<div class="reveal">
+  <h2 align="left" style="font-weight: bold;">Programa</h2>
 	<h3 align="justify" style="font-size: 1.2em; line-height: 1.6; max-width: 1200px; margin: 0;">
 			La asignación de horarios para cada charlista se encuentra sujeta a disponibilidad de los mismos pero los horarios tentativos para el evento son los siguientes:
 	</h3>
 	<p align="center" style="margin-top: 40px;"> <img src="{{ "/assets/img/material26/iterinario_preventivo.png" | relative_url }}" alt="Itinerario" width="600" style="max-width: 100%"/>
 	</p>
 </div>
-
-<br>
-<hr>
-<br>
-
-<div class="reveal">
-	<h2 align="left" style="font-weight: bold;">Actividades</h2>
-	<h3 align="justify" style="font-size: 1.2em; line-height: 1.6; max-width: 1200px; margin: 0;">
-		La edición 2026 de CANELOS tendrá lugar los días 8 y 9 de Octubre, de forma presencial. 
-		Serán dos días llenos de charlas plenarias técnicas y presentaciones de empresas, 
-		con participación de destacados invitados de la academia e industria microelectrónica, tanto de Chile como del extranjero.
-		Además, se incluyen instancias de networking y un foro para cerrar el seminario discutiendo sobre el futuro de la microelectrónica en nuestro país.
-	</h3>
-	<p align="center" style="margin-top: 40px;"> <img src="{{ "/assets/img/canelos_poster_brillante.jpg" | relative_url }}" alt="Poster CANELOS" width="600" style="max-width: 100%"/> </p>
-</div>
-
-<br>
-<hr>
-<br>
 
 <div class="reveal">
 	<h2 align="left" style="font-weight: bold;">Talleres</h2>
