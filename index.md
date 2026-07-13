@@ -24,9 +24,14 @@ layout: home
     <h1 style="font-weight: 800; color: #222;">CANELOS 2026</h1>
     <h3 style="color: #47001e; margin-bottom: 20px;">CAD and Nanoelectronics Seminar</h3>
     <p style="font-size: 1.2em; line-height: 1.6; max-width: 1000px; margin: 0 auto;">
-        El mayor evento de microelectrónica y diseño de circuitos integrados de Chile. 
-        Un espacio de encuentro diseñado para impulsar el desarrollo técnico, conectar con la industria 
-        latinoamericana y descubrir el futuro de los semiconductores a través de charlas de alto nivel.
+        Del 5 al 9 de octubre, la Universidad Técnica Federico Santa María (Valparaíso) será el punto de encuentro de la microelectrónica chilena y latinoamericana. CANELOS llega a su cuarta edición consolidado como el evento de diseño de circuitos integrados más grande de Chile, reuniendo a estudiantes, académicos, empresas del rubro e invitados internacionales en una misma instancia.
+    </p>
+    <p style="font-size: 1.2em; line-height: 1.6; max-width: 1000px; margin: 0 auto;">
+
+        El programa contempla tres días de talleres prácticos (5 al 7 de octubre) y dos días de seminario (8 y 9 de octubre), con charlas de figuras destacadas de la microelectrónica mundial, una sesión de student posters, presentaciones de centros de investigación, exhibiciones y un panel sobre el presente y futuro de la nanoelectrónica en Chile.
+    </p>
+    <p style="font-size: 1.2em; line-height: 1.6; max-width: 1000px; margin: 0 auto;">
+        No necesitas experiencia previa para participar, CANELOS está pensado tanto para quienes ya trabajan en el área como para quienes quieren descubrir cómo se diseñan los chips que mueven al mundo. Habrá instancias para todos los niveles, oportunidades de networking con la comunidad nacional e internacional. El evento cuenta con becas de transporte/alojamiento para estudiantes de regiones externas a la V región y del extranjero.
     </p>
 </div>
 
@@ -36,6 +41,12 @@ layout: home
 <!-- 3. CHARLISTAS (FORMATO GRANDE CON TÍTULO A LA DERECHA) -->
 <div class="reveal" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 50px; margin-bottom: 20px; width: 100%;">
     <h2 style="text-align: center; color: #47001e; font-weight: 700; margin-bottom: 40px;">Expositores Destacados</h2>
+    <p style="font-size: 1.2em; line-height: 1.6; max-width: 1000px; margin: 0 auto;">
+        CANELOS 2026 contará con charlistas de primer nivel provenientes de las sociedades del IEEE dedicadas a la microelectrónica: Solid-State Circuits Society (SSCS), Electron Devices Society (EDS) y Circuits and Systems Society (CASS), a través de sus programas de Distinguished Lecturers (DL e iDL), que llevan a los expositores más reconocidos de cada área a audiencias alrededor del mundo. A ellos se suman invitados internacionales convocados directamente por la organización, completando un panel de expertos que rara vez coincide en un mismo escenario en Chile.
+    </p>
+    <p style="font-size: 1.2em; line-height: 1.6; max-width: 1000px; margin: 0 auto;">
+        Las charlas abarcan un espectro amplio de la disciplina: desde el diseño análogo y digital de circuitos integrados, pasando por nichos como los dispositivos implantables, hasta temáticas que van más allá del diseño de microchips. No necesitas ser diseñador de circuitos para encontrar una charla que tenga valor para tus intereses.
+    </p>
 </div>
 
 <div style="display: flex; flex-direction: column; align-items: center; gap: 25px; margin-bottom: 20px; width: 100%;">
