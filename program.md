@@ -82,40 +82,52 @@ img_link: ../assets/img/charla.jpg
   }
   
   /* =========================================
-     NUEVO DISEÑO DE CREDENCIAL (BADGE)
+     NUEVO DISEÑO: MARCO FOTO + SUBMARCO TEXTO
      ========================================= */
-  .modal-badge-wrapper {
-    width: 250px;
-    background-color: #47001e; /* Borde burdeos */
-    padding: 6px; /* Grosor del borde */
-    /* Corta las esquinas a 30px exactos */
+  
+  /* 1. Marco Principal (Solo Foto) */
+  .modal-marco-foto {
+    width: 240px;
+    height: 240px;
+    background-color: #47001e; /* Borde grueso burdeos */
+    padding: 6px; 
+    /* Octágono perfecto: Cortes de 30px. La base plana mide exactamente 180px */
     clip-path: polygon(30px 0%, calc(100% - 30px) 0%, 100% 30px, 100% calc(100% - 30px), calc(100% - 30px) 100%, 30px 100%, 0% calc(100% - 30px), 0% 30px);
+    z-index: 2;
   }
   
-  .modal-badge-inner {
-    background-color: #fff; /* Fondo blanco para el texto */
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    /* Corte interno un poco más pequeño para que el borde se vea parejo */
-    clip-path: polygon(25px 0%, calc(100% - 25px) 0%, 100% 25px, 100% calc(100% - 25px), calc(100% - 25px) 100%, 25px 100%, 0% calc(100% - 25px), 0% 25px);
-  }
-
-  .modal-badge-img {
+  /* La imagen dentro del marco principal */
+  .modal-foto-recorte {
     width: 100%;
-    height: 230px;
+    height: 100%;
     object-fit: cover;
-    border-bottom: 1px solid #eee; /* Una sutil línea que separa foto del texto */
+    background-color: #fff;
+    /* Recorte interno ajustado por el padding de 6px (30 - 6 = 24) */
+    clip-path: polygon(24px 0%, calc(100% - 24px) 0%, 100% 24px, 100% calc(100% - 24px), calc(100% - 24px) 100%, 24px 100%, 0% calc(100% - 24px), 0% 24px);
   }
 
-  .modal-badge-text {
-    padding: 15px 10px 25px 10px;
+  /* 2. Submarco (Solo Texto) */
+  .modal-submarco {
+    width: 180px; /* Calza exacto con la base plana de 180px del marco de arriba */
+    background-color: #47001e; 
+    padding: 0 2px 2px 2px; /* Borde más delgado para el submarco */
+    /* Recorta solo las esquinas inferiores */
+    clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 15px), calc(100% - 15px) 100%, 15px 100%, 0% calc(100% - 15px));
+    margin-top: -1px; /* Para que se fusione sin dejar líneas blancas */
+    z-index: 1;
+  }
+
+  /* Fondo blanco interno del submarco */
+  .modal-submarco-interno {
+    background-color: #fff;
+    height: 100%;
+    padding: 12px 10px 15px 10px;
     text-align: center;
-    flex-grow: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 5px;
+    /* Recorte interno acompañando la forma exterior */
+    clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 13px), calc(100% - 13px) 100%, 13px 100%, 0% calc(100% - 13px));
   }
 
   /* Cajas de la derecha y descripción */
@@ -261,24 +273,27 @@ img_link: ../assets/img/charla.jpg
     
     <div class="modal-layout-top">
       
-      <!-- Credencial / Badge (La imagen que me pediste) -->
-      <div style="filter: drop-shadow(0 10px 16px rgba(0,0,0,0.35)); flex-shrink: 0; margin: auto;">
-        <div class="modal-badge-wrapper">
-          <div class="modal-badge-inner">
-            <!-- Arriba: Foto -->
-            <img id="m-foto" src="" class="modal-badge-img" alt="Foto">
-            <!-- Abajo: Textos (Nombre, Cargo, País) -->
-            <div class="modal-badge-text">
-                <h3 id="m-nombre-badge" style="margin: 0; font-size: 1.3em; font-weight: 800; color: #222;">Nombre</h3>
-                <p id="m-cargo-badge" style="margin: 0; font-size: 0.95em; color: #555; line-height: 1.2;">Cargo / Trabajo</p>
-                <p id="m-afiliacion-badge" style="margin: 0; font-size: 0.9em; color: #47001e; font-weight: 600;">Institución / País</p>
-            </div>
-          </div>
+      <!-- DISEÑO CREDENCIAL (Marco Foto + Submarco Texto) -->
+      <div style="display: flex; flex-direction: column; align-items: center; filter: drop-shadow(0 10px 16px rgba(0,0,0,0.25)); flex-shrink: 0; margin: auto;">
+        
+        <!-- PARTE SUPERIOR: Marco grueso octogonal con la foto -->
+        <div class="modal-marco-foto">
+            <img id="m-foto" src="" class="modal-foto-recorte" alt="Foto">
         </div>
+        
+        <!-- PARTE INFERIOR: Submarco con los datos que cuelga de la foto -->
+        <div class="modal-submarco">
+            <div class="modal-submarco-interno">
+                <h3 id="m-nombre-badge" style="margin: 0; font-size: 1.25em; font-weight: 800; color: #222;">Nombre</h3>
+                <p id="m-cargo-badge" style="margin: 5px 0; font-size: 0.9em; color: #555; line-height: 1.2;">Cargo / Trabajo</p>
+                <p id="m-afiliacion-badge" style="margin: 0; font-size: 0.85em; color: #47001e; font-weight: 600;">Institución / País</p>
+            </div>
+        </div>
+
       </div>
       
       <div class="modal-boxes-right">
-        <!-- Caja 1: Solo el Título de la Charla (Porque el nombre ya está en la credencial) -->
+        <!-- Caja 1: Solo el Título de la Charla -->
         <div class="caja-1" style="display: flex; flex-direction: column; justify-content: center;">
             <p style="margin: 0 0 5px 0; font-size: 0.9em; color: #666; text-transform: uppercase; letter-spacing: 1px;">Título de la charla:</p>
             <h4 id="m-titulo" style="margin: 0; font-size: 1.3em; color: #47001e; font-style: italic; line-height: 1.4; font-weight: 800;">"Título"</h4>
@@ -305,7 +320,6 @@ img_link: ../assets/img/charla.jpg
 <!-- ========================================== -->
 <script>
   // 1. BASE DE DATOS DE LOS CHARLISTAS
-  // Ahora incluye los campos 'cargo' y 'afiliacion' para la credencial
   const datosCharlas = {
     'pedro': {
       foto: '{{ "/assets/img/material26/pedro_toledo.png" | relative_url }}',
@@ -359,18 +373,18 @@ img_link: ../assets/img/charla.jpg
     const data = datosCharlas[id];
     if(!data) return;
 
-    // Rellenamos la credencial (Badge)
+    // Rellenamos el nuevo Submarco
     document.getElementById('m-foto').src = data.foto;
     document.getElementById('m-nombre-badge').innerText = data.nombre;
     document.getElementById('m-cargo-badge').innerText = data.cargo;
     document.getElementById('m-afiliacion-badge').innerText = data.afiliacion;
 
-    // Rellenamos las Cajas
+    // Rellenamos las Cajas grandes
     document.getElementById('m-titulo').innerText = data.titulo;
     document.getElementById('m-bio').innerText = data.bio;
     document.getElementById('m-desc').innerText = data.desc;
 
-    // Mostramos el modal y bloqueamos scroll de fondo
+    // Mostramos el modal
     document.getElementById('modalCharlas').classList.add('show');
     document.body.style.overflow = 'hidden';
   }
