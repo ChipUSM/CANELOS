@@ -1,111 +1,121 @@
-<header class="site-header" role="banner" 
-        style="
-          background-image: linear-gradient(#cfdac8cc, #cfdac8cc), 
-          url('{{ site.baseurl }}/assets/img/tu_imagen_traslucidaa.jpg'); 
-          background-size: cover; 
-          background-position: center; 
-          border-bottom: none;
-          position: relative;
-        ">
+<header class="site-header" role="banner">
+  <div class="header-wrapper">
+    
+    <!-- IZQUIERDA: Logo -->
+    <a class="site-title" rel="author" href="{{ '/' | relative_url }}">
+      <img src="{{ site.baseurl}}/assets/img/imagen_header_canelos_v3.png" alt="CANELOS">
+    </a>
 
-  <div class="wrapper" 
-       style="
-         display: flex; 
-         flex-direction: row; 
-         justify-content: space-between; 
-         align-items: center; 
-         padding: 10px 20px;
-       ">
-    {%- assign default_paths = site.pages | map: "path" -%}
-    {%- assign page_paths = site.header_pages | default: default_paths -%}
-	
-    {%- if page_paths -%}
-      <nav class="site-nav" style="margin: 0; padding: 0;">
-        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-        <label for="nav-trigger">
-          <span class="menu-icon">
-            <svg viewBox="0 0 18 15" width="18px" height="15px">
-              <path fill="#222222" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
-            </svg>
-          </span>
-        </label>
-        
-        <div class="trigger" style="display: flex; align-items: center;">
-          <a class="page-link" href="{{ '/' | relative_url }}" style="color: #222222; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; text-decoration: none; padding: 5px 20px; margin: 0; line-height: 1.2; text-align: center; display: flex; align-items: center; justify-content: center;">Inicio</a>
-
-          {%- for path in page_paths -%}
-            {%- assign my_page = site.pages | where: "path", path | first -%}
-            {%- if my_page.title and my_page.title != "" -%}
-              {%- assign p_title = my_page.short_title | default: my_page.title -%}
-              <a class="page-link" href="{{ my_page.url | relative_url }}" style="color: #222222; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; text-decoration: none; padding: 5px 20px; margin: 0; line-height: 1.2; text-align: center; display: flex; align-items: center; justify-content: center; border-left: 1px solid rgba(34, 34, 34, 0.3);">{{ p_title | escape }}</a>
-            {%- endif -%}
-          {%- endfor -%}
-        </div>
-      </nav>
-    {%- endif -%}
-
-    <!-- CONTENEDOR DERECHO: Logo + Banderas -->
-    <div style="margin-left: auto; display: flex; align-items: center; gap: 20px; padding-left: 40px;">
+    <!-- DERECHA: Navegación + Banderas -->
+    <div class="header-right">
       
-      <!-- Logo CANELOS -->
-      <a class="site-title" rel="author" href="{{ '/' | relative_url }}" style="display: flex; align-items: center; text-decoration: none;">
-        <img src="{{ site.baseurl}}/assets/img/imagen_header_canelos_v3.png" alt="CANELOS" style="height: 75px; width: auto; max-width: none;">
-      </a>
+      {%- assign default_paths = site.pages | map: "path" -%}
+      {%- assign page_paths = site.header_pages | default: default_paths -%}
+      
+      {%- if page_paths -%}
+        <nav class="site-nav">
+          <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+          <label for="nav-trigger" class="nav-trigger-label">
+            <span class="menu-icon">
+              <svg viewBox="0 0 18 15" width="24px" height="20px">
+                <path fill="#47001e" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+              </svg>
+            </span>
+          </label>
+          
+          <div class="trigger">
+            <a class="page-link" href="{{ '/' | relative_url }}">Inicio</a>
+            {%- for path in page_paths -%}
+              {%- assign my_page = site.pages | where: "path", path | first -%}
+              {%- if my_page.title and my_page.title != "" -%}
+                {%- assign p_title = my_page.short_title | default: my_page.title -%}
+                <a class="page-link" href="{{ my_page.url | relative_url }}">{{ p_title | escape }}</a>
+              {%- endif -%}
+            {%- endfor -%}
+          </div>
+        </nav>
+      {%- endif -%}
 
       <!-- Selector de Idiomas (Banderas) -->
-      <div style="display: flex; gap: 8px;">
+      <div class="flags-container">
         <button onclick="changeLanguage('es')" class="btn-flag" title="Ver en Español">
-          <!-- Bandera de España como estándar de idioma ES -->
           <img src="https://flagcdn.com/es.svg" alt="ES">
         </button>
         <button onclick="changeLanguage('en')" class="btn-flag" title="View in English">
-          <!-- Bandera de UK como estándar de idioma EN -->
           <img src="https://flagcdn.com/gb.svg" alt="EN">
         </button>
       </div>
 
     </div>
-
   </div>
 
-  <!-- MOTOR OCULTO DE GOOGLE TRANSLATE -->
+  <!-- MOTOR OCULTO DE GOOGLE TRANSLATE Y SCRIPT -->
   <div id="google_translate_element" style="display: none;"></div>
-
   <script type="text/javascript">
   function googleTranslateElementInit() {
-    new google.translate.TranslateElement({
-      pageLanguage: 'es', 
-      includedLanguages: 'en,es,pt', 
-      autoDisplay: false
-    }, 'google_translate_element');
+    new google.translate.TranslateElement({ pageLanguage: 'es', includedLanguages: 'en,es,pt', autoDisplay: false }, 'google_translate_element');
   }
-
-  // Script para manejar las banderas simulando clics en Google Translate mediante cookies
   function changeLanguage(langCode) {
     if (langCode === 'es') {
-      // Si elige español, limpiamos la cookie de traducción para volver al idioma original
       document.cookie = "googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
       document.cookie = "googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; domain=" + window.location.hostname + "; path=/;";
     } else {
-      // Si elige inglés, forzamos la cookie al idioma correspondiente
       document.cookie = "googtrans=/es/" + langCode + "; path=/";
       document.cookie = "googtrans=/es/" + langCode + "; domain=" + window.location.hostname + "; path=/";
     }
-    // Recargamos la página para aplicar el cambio
     window.location.reload();
   }
   </script>
   <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
-  <!-- ESTILOS DE LAS BANDERAS Y LIMPIEZA DE GOOGLE -->
+  <!-- ESTILOS RESPONSIVOS AVANZADOS -->
   <style>
-  /* Diseño circular y profesional para las banderas */
+  /* Base del Header */
+  .site-header {
+      background-image: linear-gradient(#cfdac8cc, #cfdac8cc), url('{{ site.baseurl }}/assets/img/tu_imagen_traslucidaa.jpg');
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      z-index: 1000;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* Sombra suave para separar del contenido */
+  }
+
+  .header-wrapper {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .site-title img {
+      height: 70px;
+      width: auto;
+      transition: transform 0.3s ease;
+  }
+
+  .header-right {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+  }
+
+  /* Banderas */
+  .flags-container {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      border-left: 2px solid rgba(71, 0, 30, 0.2); /* Divisor burdeos suave */
+      padding-left: 20px;
+  }
+
   .btn-flag {
       background: #f7f9fc;
       border: 2px solid transparent;
       border-radius: 50%;
-      width: 32px;
-      height: 32px;
+      width: 30px;
+      height: 30px;
       padding: 0;
       cursor: pointer;
       overflow: hidden;
@@ -117,27 +127,92 @@
   }
 
   .btn-flag img {
-      width: 120%; /* Ampliado ligeramente para llenar todo el círculo */
-      height: 120%;
-      object-fit: cover;
+      width: 120%; height: 120%; object-fit: cover;
   }
 
   .btn-flag:hover {
       transform: scale(1.15);
-      border-color: #47001e; /* Color corporativo al pasar el mouse */
-      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+      border-color: #47001e;
   }
 
-  /* Ocultar por completo las barras invasivas de Google */
-  .goog-te-banner-frame.skiptranslate {
-      display: none !important;
+  /* Navegación Desktop */
+  .site-nav {
+      position: relative;
   }
-  body {
-      top: 0px !important; 
+  .nav-trigger, .nav-trigger-label {
+      display: none; /* Oculto en PC */
   }
-  #goog-gt-tt {
-      display: none !important;
+  .site-nav .trigger {
+      display: flex;
+      gap: 25px;
+      align-items: center;
   }
+  .page-link {
+      color: #222222;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      text-decoration: none;
+      font-size: 0.95em;
+      transition: color 0.2s ease;
+  }
+  .page-link:hover {
+      color: #47001e; /* Color corporativo al pasar el mouse */
+  }
+
+  /* --- MEDIA QUERIES PARA CELULARES (Magia Responsiva) --- */
+  @media screen and (max-width: 800px) {
+      .header-wrapper {
+          padding: 10px 15px;
+      }
+      .site-title img {
+          height: 50px; /* Logo más pequeño en móvil */
+      }
+      
+      /* Reorganizar elementos derechos */
+      .flags-container {
+          border-left: none; /* Quitamos la línea vertical */
+          padding-left: 0;
+          margin-right: 15px; /* Separar del botón menú */
+      }
+      
+      /* Menú Hamburguesa */
+      .nav-trigger-label {
+          display: block;
+          cursor: pointer;
+          padding: 5px;
+      }
+      
+      /* Ocultar links y prepararlos para el menú desplegable */
+      .site-nav .trigger {
+          display: none;
+          position: absolute;
+          top: 100%;
+          right: 0;
+          background-color: #f7f9fc;
+          width: 100vw; /* Ocupa todo el ancho */
+          box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+          flex-direction: column;
+          gap: 0;
+          padding: 10px 0;
+          border-top: 3px solid #47001e;
+      }
+      
+      .site-nav .page-link {
+          padding: 15px 25px;
+          border-bottom: 1px solid #eaeaea;
+          width: 100%;
+          text-align: right;
+      }
+
+      /* Mostrar menú al hacer clic en la hamburguesa */
+      .nav-trigger:checked ~ .trigger {
+          display: flex;
+      }
+  }
+
+  /* Ocultar Google Translate */
+  .goog-te-banner-frame.skiptranslate, #goog-gt-tt { display: none !important; }
+  body { top: 0px !important; }
   </style>
-
 </header>
