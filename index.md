@@ -3,6 +3,29 @@ layout: home
 ---
 
 <style>
+  /* --- FIX RESPONSIVO MÓVIL (PASO 3) --- */
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  *, *::before, *::after {
+    box-sizing: border-box; /* Evita que los paddings rompan el ancho en celulares */
+  }
+
+  img, iframe, video {
+    max-width: 100%;
+    height: auto;
+  }
+
+  table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  /* ------------------------------------- */
+
   .reveal {
     opacity: 0;
     transform: translateY(40px);
