@@ -201,7 +201,7 @@ layout: home
     <a href="{{ "/programa/#workshop" | relative_url }}" style="text-decoration: none; color: inherit; flex: 1; min-width: 300px;">
         <div style="background-color: #f7f9fc; border-left: 5px solid #003002; padding: 30px; border-radius: 8px; box-shadow: 0 3px 8px rgba(0,0,0,0.05); cursor: pointer; height: 100%;">
             <h3 style="margin-top: 0; color: #003002; font-size: 1.4em;">Taller 1</h3>
-            <p style="font-weight: 800; font-size: 1.3em; margin-bottom: 15px; color: #222;">Diseño de Implantables</p>
+            <p style="font-weight: 800; font-size: 1.3em; margin-bottom: 15px; color: #222;">Diseño de Chips Implantables</p>
             <p style="font-size: 1em; margin: 0; color: #555; line-height: 1.5;"> - </p>
         </div>
     </a>
