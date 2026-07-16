@@ -1,14 +1,15 @@
 <header class="site-header" role="banner">
   <div class="header-wrapper">
     
-    <!-- IZQUIERDA: Logo -->
-    <a class="site-title" rel="author" href="{{ '/' | relative_url }}">
-      <img src="{{ site.baseurl}}/assets/img/imagen_header_canelos_v3.png" alt="CANELOS">
-    </a>
+    <!-- COLUMNA 1: Logo (Izquierda) -->
+    <div class="header-logo">
+      <a class="site-title" rel="author" href="{{ '/' | relative_url }}">
+        <img src="{{ site.baseurl}}/assets/img/imagen_header_canelos_v3.png" alt="CANELOS">
+      </a>
+    </div>
 
-    <!-- DERECHA: Navegación + Banderas -->
-    <div class="header-right">
-      
+    <!-- COLUMNA 2: Navegación (Centro Absoluto) -->
+    <div class="header-nav">
       {%- assign default_paths = site.pages | map: "path" -%}
       {%- assign page_paths = site.header_pages | default: default_paths -%}
       
@@ -35,8 +36,10 @@
           </div>
         </nav>
       {%- endif -%}
+    </div>
 
-      <!-- Selector de Idiomas (Banderas) -->
+    <!-- COLUMNA 3: Banderas (Derecha) -->
+    <div class="header-flags">
       <div class="flags-container">
         <button onclick="changeLanguage('es')" class="btn-flag" title="Ver en Español">
           <img src="https://flagcdn.com/es.svg" alt="ES">
@@ -45,8 +48,8 @@
           <img src="https://flagcdn.com/gb.svg" alt="EN">
         </button>
       </div>
-
     </div>
+
   </div>
 
   <!-- MOTOR OCULTO DE GOOGLE TRANSLATE Y SCRIPT -->
@@ -68,7 +71,7 @@
   </script>
   <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
-  <!-- ESTILOS RESPONSIVOS AVANZADOS -->
+  <!-- ESTILOS AVANZADOS DEL HEADER -->
   <style>
   /* Base del Header */
   .site-header {
@@ -77,37 +80,47 @@
       background-position: center;
       position: relative;
       z-index: 1000;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* Sombra suave para separar del contenido */
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
   }
 
+  /* SISTEMA DE 3 COLUMNAS PERFECTAMENTE CENTRADO */
   .header-wrapper {
-      max-width: 1200px;
+      max-width: 1400px; /* Ancho ajustado para pantallas grandes */
+      width: 95%;
       margin: 0 auto;
       padding: 10px 20px;
-      display: flex;
-      justify-content: space-between;
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
       align-items: center;
+      gap: 20px;
   }
 
+  .header-logo {
+      display: flex;
+      justify-content: flex-start;
+  }
+
+  .header-nav {
+      display: flex;
+      justify-content: center;
+  }
+
+  .header-flags {
+      display: flex;
+      justify-content: flex-end;
+  }
+
+  /* Elementos Visuales */
   .site-title img {
       height: 70px;
       width: auto;
       transition: transform 0.3s ease;
   }
 
-  .header-right {
-      display: flex;
-      align-items: center;
-      gap: 20px;
-  }
-
-  /* Banderas */
   .flags-container {
       display: flex;
       gap: 10px;
       align-items: center;
-      border-left: 2px solid rgba(71, 0, 30, 0.2); /* Divisor burdeos suave */
-      padding-left: 20px;
   }
 
   .btn-flag {
@@ -136,9 +149,6 @@
   }
 
   /* Navegación Desktop */
-  .site-nav {
-      position: relative;
-  }
   .nav-trigger, .nav-trigger-label {
       display: none; /* Oculto en PC */
   }
@@ -157,40 +167,42 @@
       transition: color 0.2s ease;
   }
   .page-link:hover {
-      color: #47001e; /* Color corporativo al pasar el mouse */
+      color: #47001e;
   }
 
-  /* --- MEDIA QUERIES PARA CELULARES (Magia Responsiva) --- */
-  @media screen and (max-width: 800px) {
+  /* --- MEDIA QUERIES PARA CELULARES --- */
+  @media screen and (max-width: 900px) {
       .header-wrapper {
+          display: flex; /* En celular pasamos a flexbox para reordenar */
+          justify-content: space-between;
           padding: 10px 15px;
       }
       .site-title img {
-          height: 50px; /* Logo más pequeño en móvil */
+          height: 50px;
       }
       
-      /* Reorganizar elementos derechos */
-      .flags-container {
-          border-left: none; /* Quitamos la línea vertical */
-          padding-left: 0;
-          margin-right: 15px; /* Separar del botón menú */
-      }
+      /* Reorganización Celular: Logo a la izq, banderas al centro, menú a la der */
+      .header-nav { order: 3; }
+      .header-flags { order: 2; margin-left: auto; margin-right: 20px; }
       
-      /* Menú Hamburguesa */
+      /* Botón Hamburguesa */
       .nav-trigger-label {
           display: block;
           cursor: pointer;
           padding: 5px;
       }
       
-      /* Ocultar links y prepararlos para el menú desplegable */
+      /* Menú Desplegable (Cae sobre la pantalla) */
+      .site-nav {
+          position: static;
+      }
       .site-nav .trigger {
           display: none;
           position: absolute;
           top: 100%;
-          right: 0;
+          left: 0;
+          width: 100%;
           background-color: #f7f9fc;
-          width: 100vw; /* Ocupa todo el ancho */
           box-shadow: 0 5px 10px rgba(0,0,0,0.1);
           flex-direction: column;
           gap: 0;
@@ -205,13 +217,13 @@
           text-align: right;
       }
 
-      /* Mostrar menú al hacer clic en la hamburguesa */
+      /* Apertura del menú en móvil */
       .nav-trigger:checked ~ .trigger {
           display: flex;
       }
   }
 
-  /* Ocultar Google Translate */
+  /* Ocultar Google Translate por defecto */
   .goog-te-banner-frame.skiptranslate, #goog-gt-tt { display: none !important; }
   body { top: 0px !important; }
   </style>
