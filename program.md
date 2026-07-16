@@ -438,7 +438,7 @@ img_link: ../assets/img/charla.jpg
             <div class="timeline-bg-number">02</div>
             <div class="timeline-dot"></div>
             <div class="timeline-content">
-                <div class="timeline-date">3 al 7 de Septiembre, 2026</div>
+                <div class="timeline-date">03-07 de Septiembre, 2026</div>
                 <div class="timeline-text">Notificación de<br>Resultados</div>
             </div>
         </div>
