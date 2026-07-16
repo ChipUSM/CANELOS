@@ -417,7 +417,7 @@ img_link: ../assets/img/charla.jpg
             <!-- Nota que este punto tiene la clase "active" para verse relleno -->
             <div class="timeline-dot active"></div>
             <div class="timeline-content">
-                <div class="timeline-date">xx de xx, 2026</div>
+                <div class="timeline-date">20 de Julio, 2026</div>
                 <div class="timeline-text">Inicio de<br>Postulaciones</div>
             </div>
         </div>
@@ -428,7 +428,7 @@ img_link: ../assets/img/charla.jpg
             <!-- Cuando llegue este paso, puedes agregarle la clase "active" al div de abajo -->
             <div class="timeline-dot"></div>
             <div class="timeline-content">
-                <div class="timeline-date">xx de xx, 2026</div>
+                <div class="timeline-date">20 de Agosto, 2026</div>
                 <div class="timeline-text">Cierre de<br>Postulaciones</div>
             </div>
         </div>
@@ -438,7 +438,7 @@ img_link: ../assets/img/charla.jpg
             <div class="timeline-bg-number">02</div>
             <div class="timeline-dot"></div>
             <div class="timeline-content">
-                <div class="timeline-date">xx de xx, 2026</div>
+                <div class="timeline-date">3 al 7 de Septiembre, 2026</div>
                 <div class="timeline-text">Notificación de<br>Resultados</div>
             </div>
         </div>
