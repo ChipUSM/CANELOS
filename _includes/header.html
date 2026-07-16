@@ -5,6 +5,7 @@
           background-size: cover; 
           background-position: center; 
           border-bottom: none;
+          position: relative;
         ">
 
   <div class="wrapper" 
@@ -29,12 +30,7 @@
           </span>
         </label>
         
-        <div class="trigger" 
-             style="
-               display: flex; 
-               align-items: center; 
-             ">
-          
+        <div class="trigger" style="display: flex; align-items: center;">
           <a class="page-link" href="{{ '/' | relative_url }}" style="color: #222222; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; text-decoration: none; padding: 5px 20px; margin: 0; line-height: 1.2; text-align: center; display: flex; align-items: center; justify-content: center;">Inicio</a>
 
           {%- for path in page_paths -%}
@@ -44,77 +40,103 @@
               <a class="page-link" href="{{ my_page.url | relative_url }}" style="color: #222222; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; text-decoration: none; padding: 5px 20px; margin: 0; line-height: 1.2; text-align: center; display: flex; align-items: center; justify-content: center; border-left: 1px solid rgba(34, 34, 34, 0.3);">{{ p_title | escape }}</a>
             {%- endif -%}
           {%- endfor -%}
-
-          <div id="google_translate_element" class="traductor-canelos" style="padding-left: 20px; margin-left: 5px; border-left: 1px solid rgba(34, 34, 34, 0.3); display: flex; align-items: center;"></div>
-          </div>
+        </div>
       </nav>
     {%- endif -%}
 
-    <a class="site-title" rel="author" href="{{ '/' | relative_url }}" style="margin-left: auto; padding-left: 40px; display: flex; align-items: center; text-decoration: none;">
-		<img src="{{ site.baseurl}}/assets/img/imagen_header_canelos_v3.png" alt="CANELOS" style="height: 75px; width: auto; max-width: none;">
-	</a>
+    <!-- CONTENEDOR DERECHO: Logo + Banderas -->
+    <div style="margin-left: auto; display: flex; align-items: center; gap: 20px; padding-left: 40px;">
+      
+      <!-- Logo CANELOS -->
+      <a class="site-title" rel="author" href="{{ '/' | relative_url }}" style="display: flex; align-items: center; text-decoration: none;">
+        <img src="{{ site.baseurl}}/assets/img/imagen_header_canelos_v3.png" alt="CANELOS" style="height: 75px; width: auto; max-width: none;">
+      </a>
+
+      <!-- Selector de Idiomas (Banderas) -->
+      <div style="display: flex; gap: 8px;">
+        <button onclick="changeLanguage('es')" class="btn-flag" title="Ver en Español">
+          <!-- Bandera de España como estándar de idioma ES -->
+          <img src="https://flagcdn.com/es.svg" alt="ES">
+        </button>
+        <button onclick="changeLanguage('en')" class="btn-flag" title="View in English">
+          <!-- Bandera de UK como estándar de idioma EN -->
+          <img src="https://flagcdn.com/gb.svg" alt="EN">
+        </button>
+      </div>
+
+    </div>
+
   </div>
+
+  <!-- MOTOR OCULTO DE GOOGLE TRANSLATE -->
+  <div id="google_translate_element" style="display: none;"></div>
 
   <script type="text/javascript">
   function googleTranslateElementInit() {
     new google.translate.TranslateElement({
       pageLanguage: 'es', 
       includedLanguages: 'en,es,pt', 
-      layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+      autoDisplay: false
     }, 'google_translate_element');
+  }
+
+  // Script para manejar las banderas simulando clics en Google Translate mediante cookies
+  function changeLanguage(langCode) {
+    if (langCode === 'es') {
+      // Si elige español, limpiamos la cookie de traducción para volver al idioma original
+      document.cookie = "googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+      document.cookie = "googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; domain=" + window.location.hostname + "; path=/;";
+    } else {
+      // Si elige inglés, forzamos la cookie al idioma correspondiente
+      document.cookie = "googtrans=/es/" + langCode + "; path=/";
+      document.cookie = "googtrans=/es/" + langCode + "; domain=" + window.location.hostname + "; path=/";
+    }
+    // Recargamos la página para aplicar el cambio
+    window.location.reload();
   }
   </script>
   <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
+  <!-- ESTILOS DE LAS BANDERAS Y LIMPIEZA DE GOOGLE -->
   <style>
-  /* Moldear el botón inyectado por Google (InlineLayout.SIMPLE) */
-  .goog-te-gadget-simple {
-      background-color: #f7f9fc !important;
-      border: 2px solid #47001e !important;
-      border-radius: 20px !important;
-      padding: 4px 10px !important;
-      display: inline-flex !important;
-      align-items: center !important;
-      transition: all 0.3s ease !important;
-      cursor: pointer !important;
+  /* Diseño circular y profesional para las banderas */
+  .btn-flag {
+      background: #f7f9fc;
+      border: 2px solid transparent;
+      border-radius: 50%;
+      width: 32px;
+      height: 32px;
+      padding: 0;
+      cursor: pointer;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      transition: all 0.3s ease;
   }
 
-  .goog-te-gadget-simple:hover {
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1) !important;
+  .btn-flag img {
+      width: 120%; /* Ampliado ligeramente para llenar todo el círculo */
+      height: 120%;
+      object-fit: cover;
   }
 
-  /* Color del texto del botón de Google */
-  .goog-te-gadget-simple .goog-te-menu-value {
-      color: #47001e !important;
-      text-decoration: none !important;
-  }
-  
-  .goog-te-gadget-simple .goog-te-menu-value span {
-      color: #47001e !important;
-      font-weight: bold !important;
-      text-transform: uppercase !important;
-      font-size: 13px !important;
+  .btn-flag:hover {
+      transform: scale(1.15);
+      border-color: #47001e; /* Color corporativo al pasar el mouse */
+      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
   }
 
-  /* Ocultar elementos sobrantes y logos de Google */
-  .goog-te-gadget-simple img, 
-  .goog-te-gadget-simple .goog-te-menu-value span[style*="border-left"] {
-      display: none !important;
-  }
-  .goog-logo-link {
-      display: none !important;
-  }
-  .goog-te-gadget {
-      color: transparent !important;
-      font-size: 0px !important;
-  }
+  /* Ocultar por completo las barras invasivas de Google */
   .goog-te-banner-frame.skiptranslate {
       display: none !important;
   }
-  
-  /* Protección del Header Sticky */
   body {
       top: 0px !important; 
+  }
+  #goog-gt-tt {
+      display: none !important;
   }
   </style>
 
