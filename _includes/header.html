@@ -44,7 +44,9 @@
               <a class="page-link" href="{{ my_page.url | relative_url }}" style="color: #222222; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; text-decoration: none; padding: 5px 20px; margin: 0; line-height: 1.2; text-align: center; display: flex; align-items: center; justify-content: center; border-left: 1px solid rgba(34, 34, 34, 0.3);">{{ p_title | escape }}</a>
             {%- endif -%}
           {%- endfor -%}
-        </div>
+
+          <div id="google_translate_element" class="traductor-canelos" style="padding-left: 20px; margin-left: 5px; border-left: 1px solid rgba(34, 34, 34, 0.3); display: flex; align-items: center;"></div>
+          </div>
       </nav>
     {%- endif -%}
 
@@ -52,4 +54,68 @@
 		<img src="{{ site.baseurl}}/assets/img/imagen_header_canelos_v3.png" alt="CANELOS" style="height: 75px; width: auto; max-width: none;">
 	</a>
   </div>
+
+  <script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({
+      pageLanguage: 'es', 
+      includedLanguages: 'en,es,pt', 
+      layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+    }, 'google_translate_element');
+  }
+  </script>
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+  <style>
+  /* Moldear el botón inyectado por Google (InlineLayout.SIMPLE) */
+  .goog-te-gadget-simple {
+      background-color: #f7f9fc !important;
+      border: 2px solid #47001e !important;
+      border-radius: 20px !important;
+      padding: 4px 10px !important;
+      display: inline-flex !important;
+      align-items: center !important;
+      transition: all 0.3s ease !important;
+      cursor: pointer !important;
+  }
+
+  .goog-te-gadget-simple:hover {
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1) !important;
+  }
+
+  /* Color del texto del botón de Google */
+  .goog-te-gadget-simple .goog-te-menu-value {
+      color: #47001e !important;
+      text-decoration: none !important;
+  }
+  
+  .goog-te-gadget-simple .goog-te-menu-value span {
+      color: #47001e !important;
+      font-weight: bold !important;
+      text-transform: uppercase !important;
+      font-size: 13px !important;
+  }
+
+  /* Ocultar elementos sobrantes y logos de Google */
+  .goog-te-gadget-simple img, 
+  .goog-te-gadget-simple .goog-te-menu-value span[style*="border-left"] {
+      display: none !important;
+  }
+  .goog-logo-link {
+      display: none !important;
+  }
+  .goog-te-gadget {
+      color: transparent !important;
+      font-size: 0px !important;
+  }
+  .goog-te-banner-frame.skiptranslate {
+      display: none !important;
+  }
+  
+  /* Protección del Header Sticky */
+  body {
+      top: 0px !important; 
+  }
+  </style>
+
 </header>
