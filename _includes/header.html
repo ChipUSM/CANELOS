@@ -148,6 +148,19 @@
       border-color: #47001e;
   }
 
+  /* Anula estilos heredados del theme Minima que inflan el header */
+  .site-title {
+      margin: 0;
+      line-height: 1;
+      float: none;
+  }
+
+  .site-nav {
+      margin-top: 0;
+      float: none;
+      line-height: normal;
+  }
+
   /* Navegación Desktop */
   .nav-trigger, .nav-trigger-label {
       display: none; /* Oculto en PC */
@@ -170,28 +183,34 @@
       color: #47001e;
   }
 
-  /* --- MEDIA QUERIES PARA CELULARES --- */
+/* --- MEDIA QUERIES PARA CELULARES --- */
   @media screen and (max-width: 900px) {
       .header-wrapper {
           display: flex; /* En celular pasamos a flexbox para reordenar */
           justify-content: space-between;
+          align-items: center;
           padding: 10px 15px;
       }
       .site-title img {
           height: 50px;
       }
-      
-      /* Reorganización Celular: Logo a la izq, banderas al centro, menú a la der */
+
+      /* Orden visual: logo -> banderas -> hamburguesa, sin márgenes forzados */
+      .header-logo { order: 1; }
+      .header-flags { order: 2; }
       .header-nav { order: 3; }
-      .header-flags { order: 2; margin-left: auto; margin-right: 20px; }
-      
+
       /* Botón Hamburguesa */
       .nav-trigger-label {
           display: block;
           cursor: pointer;
           padding: 5px;
       }
-      
+
+      .menu-icon {
+          display: block !important;
+      }
+
       /* Menú Desplegable (Cae sobre la pantalla) */
       .site-nav {
           position: static;
@@ -209,7 +228,7 @@
           padding: 10px 0;
           border-top: 3px solid #47001e;
       }
-      
+
       .site-nav .page-link {
           padding: 15px 25px;
           border-bottom: 1px solid #eaeaea;
@@ -220,6 +239,16 @@
       /* Apertura del menú en móvil */
       .nav-trigger:checked ~ .trigger {
           display: flex;
+      }
+  }
+
+  /* Ajuste extra SOLO cuando el celular está en horizontal y con poca altura */
+  @media screen and (max-height: 500px) and (max-width: 900px) and (orientation: landscape) {
+      .header-wrapper {
+          padding: 5px 15px;
+      }
+      .site-title img {
+          height: 35px;
       }
   }
 
