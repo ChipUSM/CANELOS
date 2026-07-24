@@ -321,7 +321,7 @@ img_link: ../assets/img/charla.jpg
 	<h3 align="justify" style="font-size: 1.2em; line-height: 1.6; max-width: 1200px; margin: 0;">
 			La asignación de horarios para cada charlista se encuentra sujeta a disponibilidad de los mismos pero los horarios tentativos para el evento son los siguientes:
 	</h3>
-	<p align="center" style="margin-top: 40px;"> <img src="{{ "/assets/img/material26/iterinario_preventivo.png" | relative_url }}" alt="Itinerario" width="600" style="max-width: 100%"/>
+	<p align="center" style="margin-top: 40px;"> <img src="{{ "/assets/img/material26/horario_v3.jpeg" | relative_url }}" alt="Itinerario" width="600" style="max-width: 100%"/>
 	</p>
 </div>
 
@@ -406,6 +406,8 @@ img_link: ../assets/img/charla.jpg
     <p style="font-size: 1.1em; line-height: 1.6; color: #444; max-width: 1000px; margin-bottom: 30px;">
         La Sesión de Posters de CANELOS 2026 es el espacio ideal para que estudiantes, investigadores y profesionales presenten sus últimos trabajos e innovaciones en microelectrónica. Durante esta instancia, los autores podrán interactuar directamente con expertos de la industria y la academia en un ambiente colaborativo y cercano.
     </p>
+
+	  <p align="center" style="margin-top: 40px;"> <img src="{{ "/assets/img/material26/CANELOS26_D.png" | relative_url }}" alt="Poster CANELOS" width="600" style="max-width: 100%"/> </p>
 
     <!-- Línea de Tiempo Profesional -->
     <div class="timeline-container">
