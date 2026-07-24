@@ -274,7 +274,7 @@ layout: home
     
     <div style="flex: 1; min-width: 320px;">
         <h3 style="text-align: center; margin-bottom: 15px;">Sede del Evento</h3>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3344.423019889505!2d-71.59858348427976!3d-33.03749448089332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9689e0c69d80d1e3%3A0x6b24eb14b51c0993!2sUniversidad%20T%C3%A9cnica%20Federico%20Santa%20Mar%C3%ADa!5e0!3m2!1ses!2scl!4v1714000000000!5m2!1ses!2scl" width="100%" height="350" style="border:0; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3344.423019889505!2d-71.59858348427976!3d-33.03749448089332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9689e0c69d80d1e3%3A0x6b24eb14b51c0993!2sUniversidad%20T%C3%A9cnica%20Federico%20Santa%20Mar%C3%ADa!5e0!3m2!1ses!2scl!4v1714000000000!5m2!1ses!2scl" width="100%" height="700" style="border:0; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 10px;">Universidad Técnica Federico Santa María<br>Av. España 1680, Valparaíso, Chile</p>
     </div>
 
