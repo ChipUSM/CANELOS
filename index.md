@@ -361,7 +361,7 @@ layout: home
 <!-- 8. CODIGO DEL MODAL (LA IMAGEN EXPANDIDA) -->
 <div id="img-ampliada" class="lightbox">
   <a href="#!" class="cerrar">&times;</a>
-  <img src="{{ "/assets/img/material26/iterinario_preventivo.png" | relative_url }}" alt="Itinerario Ampliado">
+  <img src="{{ "/assets/img/material26/horario_v4.jpeg" | relative_url }}" alt="Itinerario Ampliado">
 </div>
 
 <style>
