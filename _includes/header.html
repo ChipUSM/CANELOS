@@ -93,7 +93,6 @@
       grid-template-columns: 1fr auto 1fr;
       align-items: center;
       gap: 20px;
-
   }
 
   .header-logo {
@@ -149,19 +148,6 @@
       border-color: #47001e;
   }
 
-  /* Anula estilos heredados del theme Minima que inflan el header */
-  .site-title {
-      margin: 0;
-      line-height: 1;
-      float: none;
-  }
-
-  .site-nav {
-      margin-top: 0;
-      float: none;
-      line-height: normal;
-  }
-
   /* Navegación Desktop */
   .nav-trigger, .nav-trigger-label {
       display: none; /* Oculto en PC */
@@ -184,39 +170,31 @@
       color: #47001e;
   }
 
-/* --- MEDIA QUERIES PARA CELULARES --- */
+  /* --- MEDIA QUERIES PARA CELULARES --- */
   @media screen and (max-width: 900px) {
       .header-wrapper {
           display: flex; /* En celular pasamos a flexbox para reordenar */
           justify-content: space-between;
-          align-items: center;
           padding: 10px 15px;
       }
       .site-title img {
           height: 50px;
       }
-
-      /* Orden visual: logo -> banderas -> hamburguesa, sin márgenes forzados */
-      .header-logo { order: 1; }
-      .header-flags { order: 2; }
+      
+      /* Reorganización Celular: Logo a la izq, banderas al centro, menú a la der */
       .header-nav { order: 3; }
-
+      .header-flags { order: 2; margin-left: auto; margin-right: 20px; }
+      
       /* Botón Hamburguesa */
       .nav-trigger-label {
           display: block;
           cursor: pointer;
           padding: 5px;
       }
-
-      .menu-icon {
-          display: block !important;
-      }
-
+      
       /* Menú Desplegable (Cae sobre la pantalla) */
       .site-nav {
-        margin-top: 0;
-        float: none;
-        line-height: normal;
+          position: static;
       }
       .site-nav .trigger {
           display: none;
@@ -231,7 +209,7 @@
           padding: 10px 0;
           border-top: 3px solid #47001e;
       }
-
+      
       .site-nav .page-link {
           padding: 15px 25px;
           border-bottom: 1px solid #eaeaea;
@@ -245,21 +223,8 @@
       }
   }
 
-  /* Ajuste extra SOLO cuando el celular está en horizontal y con poca altura */
-  @media screen and (max-height: 500px) and (max-width: 900px) and (orientation: landscape) {
-      .header-wrapper {
-          padding: 5px 15px;
-      }
-      .site-title img {
-          height: 35px;
-      }
-  }
-
   /* Ocultar Google Translate por defecto */
   .goog-te-banner-frame.skiptranslate, #goog-gt-tt { display: none !important; }
-  body { 
-
-    top: 0px !important;
-  }
+  body { top: 0px !important; }
   </style>
 </header>
