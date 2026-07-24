@@ -125,14 +125,14 @@ layout: home
     <!-- Charlista 3 -->
     <div class="reveal" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px; width: 100%; background-color: #f7f9fc; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
         <div style="display: flex; align-items: center; gap: 25px; flex: 1; min-width: 300px;">
-            <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto+3" alt="Expositor 3" style="width: 150px; height: 150px; border-radius: 12px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+            <img src="./assets/img/material26/alva_avila.jpg" alt="Alva Avila" style="width: 150px; height: 150px; border-radius: 12px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
             <div style="text-align: left;">
-                <h3 style="margin: 0 0 10px 0; font-size: 1.7em; color: #222;">Expositor 3</h3>
+                <h3 style="margin: 0 0 10px 0; font-size: 1.7em; color: #222;">Alva Avila</h3>
                 
                 <!-- Burbujas apiladas -->
                 <div style="display: flex; flex-direction: column; gap: 8px; align-items: flex-start;">
-                    <p style="font-size: 0.95em; color: #555; margin: 0; background-color: #e2e8f0; padding: 6px 14px; border-radius: 20px; display: inline-block;">Por anunciar</p>
-                    <p style="font-size: 0.95em; color: #555; margin: 0; background-color: #e2e8f0; padding: 6px 14px; border-radius: 20px; display: inline-block; font-weight: 600;">-</p>
+                    <p style="font-size: 0.95em; color: #555; margin: 0; background-color: #e2e8f0; padding: 6px 14px; border-radius: 20px; display: inline-block;">Presencial</p>
+                    <p style="font-size: 0.95em; color: #FFF; margin: 0; background-color: #702f8a; padding: 6px 14px; border-radius: 20px; display: inline-block; font-weight: 600;">WIE</p>
                 </div>
                 
             </div>
@@ -145,20 +145,20 @@ layout: home
     <!-- Charlista 4 -->
     <div class="reveal" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px; width: 100%; background-color: #f7f9fc; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
         <div style="display: flex; align-items: center; gap: 25px; flex: 1; min-width: 300px;">
-            <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto+4" alt="Expositor 4" style="width: 150px; height: 150px; border-radius: 12px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+            <img src="./assets/img/material26/carlos_silva.jpeg" alt="Carlos Silva" style="width: 150px; height: 150px; border-radius: 12px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
             <div style="text-align: left;">
-                <h3 style="margin: 0 0 10px 0; font-size: 1.7em; color: #222;">Expositor 4</h3>
+                <h3 style="margin: 0 0 10px 0; font-size: 1.7em; color: #222;">Carlos Silva</h3>
                 
                 <!-- Burbujas apiladas -->
                 <div style="display: flex; flex-direction: column; gap: 8px; align-items: flex-start;">
-                    <p style="font-size: 0.95em; color: #555; margin: 0; background-color: #e2e8f0; padding: 6px 14px; border-radius: 20px; display: inline-block;">Por anunciar</p>
-                    <p style="font-size: 0.95em; color: #555; margin: 0; background-color: #e2e8f0; padding: 6px 14px; border-radius: 20px; display: inline-block; font-weight: 600;">-</p>
+                    <p style="font-size: 0.95em; color: #555; margin: 0; background-color: #e2e8f0; padding: 6px 14px; border-radius: 20px; display: inline-block;">Presencial</p>
+                    <p style="font-size: 0.95em; color: #FFF; margin: 0; background-color: #47001e; padding: 6px 14px; border-radius: 20px; display: inline-block; font-weight: 600;">Invitado</p>
                 </div>
                 
             </div>
         </div>
         <div style="text-align: right; flex: 1; min-width: 250px;">
-            <p style="font-size: 1.5em; color: #47001e; margin: 0; font-weight: 800; line-height: 1.3; font-style: italic;">"Por Anunciar"</p>
+            <p style="font-size: 1.5em; color: #47001e; margin: 0; font-weight: 800; line-height: 1.3; font-style: italic;">"Introducción al Diseño de Circuitos Integrados Digitales"</p>
         </div>
     </div>
     

@@ -364,20 +364,20 @@ img_link: ../assets/img/charla.jpg
         </div>
 
         <!-- Charla 3 -->
-        <div class="charla-card reveal" onclick="abrirCharla('exp3')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #47001e;">
-            <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto+3" alt="Expositor 3" style="width: 90px; height: 90px; border-radius: 10px; object-fit: cover;">
+        <div class="charla-card reveal" onclick="abrirCharla('alva')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #47001e;">
+            <img src="../assets/img/material26/alva_avila.jpg" alt="Alva Avila" style="width: 90px; height: 90px; border-radius: 10px; object-fit: cover;">
             <div style="text-align: left;">
-                <h3 style="margin: 0 0 5px 0; font-size: 1.4em; color: #222; font-weight: 700;">Expositor 3</h3>
+                <h3 style="margin: 0 0 5px 0; font-size: 1.4em; color: #222; font-weight: 700;">Alva Avila</h3>
                 <h4 style="margin: 0; font-size: 1.1em; color: #47001e; font-weight: 600; font-style: italic; line-height: 1.3;">"Por Anunciar"</h4>
             </div>
         </div>
 
         <!-- Charla 4 -->
-        <div class="charla-card reveal" onclick="abrirCharla('exp4')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #47001e;">
-            <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto+4" alt="Expositor 4" style="width: 90px; height: 90px; border-radius: 10px; object-fit: cover;">
+        <div class="charla-card reveal" onclick="abrirCharla('carlos')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #47001e;">
+            <img src="../assets/img/material26/carlos_silva.jpeg" alt="Expositor 4" style="width: 90px; height: 90px; border-radius: 10px; object-fit: cover;">
             <div style="text-align: left;">
                 <h3 style="margin: 0 0 5px 0; font-size: 1.4em; color: #222; font-weight: 700;">Expositor 4</h3>
-                <h4 style="margin: 0; font-size: 1.1em; color: #47001e; font-weight: 600; font-style: italic; line-height: 1.3;">"Por Anunciar"</h4>
+                <h4 style="margin: 0; font-size: 1.1em; color: #47001e; font-weight: 600; font-style: italic; line-height: 1.3;">"Introducción al Diseño de Circuitos Integrados Digitales"</h4>
             </div>
         </div>
 
@@ -539,23 +539,23 @@ img_link: ../assets/img/charla.jpg
       bio: 'Joel Gak es un destacado investigador invitado, experto en el desarrollo de tecnologías biomédicas y sistemas de bajo consumo de potencia para aplicaciones en salud.',
       desc: 'El diseño de dispositivos médicos implantables requiere técnicas de vanguardia para asegurar miniaturización extrema, biocompatibilidad y un consumo ultra bajo de potencia. En esta charla exploraremos las metodologías y barreras actuales que enfrenta la industria microelectrónica en el campo de la biomedicina.'
     },
-    'exp3': {
-      foto: 'https://placehold.co/300x300/eeeeee/999999?text=Foto+3',
-      nombre: 'Expositor 3',
+    'alva': {
+      foto: '../assets/img/material26/alva_avila.jpg',
+      nombre: 'Alva Avila',
       cargo: 'Cargo por confirmar',
-      afiliacion: 'Institución',
+      afiliacion: 'Universidad de los Andes',
       titulo: '"Por Anunciar"',
-      bio: 'Pronto revelaremos la biografía de nuestro próximo expositor destacado. Mantente atento a nuestras actualizaciones.',
+      bio: 'Alba Avila es la directora del centro de microelectrónica (CMUA) y Profesora e investigadora del departamento de Ingeniería Eléctrica y Electrónica de la Universidad de los Andes. Es física, ingeniera eléctrica, máster en ingeniera eléctrica de la Universidad de los Andes y doctora de la Universidad de Cambridge en el Reino Unido. Es una apasionada investigadora interdisciplinaria en la ciencia e ingeniería de materiales. Ha trabajado en nanomateriales para aplicaciones en energía y sensado, también ha desarrollado tecnologías humanitarias para monitoreo de agua, almacenamiento de enrgía y alfabetización tecnológica. Así mismo, ha estudiado propiedades de materiales a diferentes escalas y generados kits educativos para la enseñanza de nanotecnología y nuevos materiales. Además, ha promovido programas de inclusión y vocaciones científico-técnicas en colaboración con proyectos de EU y LATAM. Es fellow del resilence center del imperial college, Distinguished lecturer of EDS IEEE y miembro de WIE.',
       desc: 'Pronto revelaremos la información detallada sobre esta charla plenaria y las temáticas específicas que nuestro expositor compartirá con los asistentes del evento.'
     },
-    'exp4': {
-      foto: 'https://placehold.co/300x300/eeeeee/999999?text=Foto+4',
-      nombre: 'Expositor 4',
+    'carlos': {
+      foto: '../assets/img/material26/carlos_silva.jpeg',
+      nombre: 'Carlos Silva',
       cargo: 'Cargo por confirmar',
-      afiliacion: 'Institución',
-      titulo: '"Por Anunciar"',
-      bio: 'Pronto revelaremos la biografía de nuestro próximo expositor destacado. Mantente atento a nuestras actualizaciones.',
-      desc: 'Pronto revelaremos la información detallada sobre esta charla plenaria y las temáticas específicas que nuestro expositor compartirá con los asistentes del evento.'
+      afiliacion: 'Universidad Autónoma de Barcelona',
+      titulo: 'Introducción al Diseño de Circuitos Integrados Digitales',
+      bio: 'Es doctor por la Universidad Autónoma de Barcelona. Ha realizado estancias de Posdoc en el Instituto Nacional Politécnico de Grenoble, Grenoble-Francia y en Texas A&M University. Actualmente es Profesor titular de la PUCP. Director-Fundador del Grupo de Investigación en Microelectrónica. Desde 2019-2024 fue director de la Dirección de Fomento de la Investigación de la PUCP. Silva-Cárdenas es autor del primer circuito integrado digital peruano que logró su fabricación y cuenta con más de 80 publicaciones, es autor de un libro, tres capítulos de libros y coeditor de dos libros. Ha impartido cursos de posgrado en las universidades: Complutense de Madrid, Valencia y Autónoma de Barcelona, y en la Universidad Nacional de Tucumán en Argentina. Ha sido General Chair de una docena de congresos internacionales y del evento flagship de latinoamérica LASCAS2026 realizado en Arequipa-Peru en febrero de 2026.. Ha recibido premios, como el Premio de RECONOCIMIENTO A LA INVESTIGACIÓN de la PUCP durante los últimos 9 años, el Premio al Ingeniero Eminente de la Región 9 de IEEE Latinoamérica en 2019 y el Premio ELEKTRON en 2025 por su “liderazgo en Microelectrónica, su rol clave en la regulación de las telecomunicaciones y su aporte decisivo a la formación e investigación en ingeniería en el Perú”. Es miembro del Board of Goverment de CASS-IEEE desde 2024-2026.',
+      desc: 'La charla provee los conceptos básicos para realizar el diseño de circuitos integrados digitales por medio de varios métodos de integración como la lógica complementaria MOS (CMOS) y lógica dinámica que permitan realizar el diseños de circuitos integrados de aplicación específica (ASIC).Los temas cubren: Conceptos y funcionamiento del MOSFET, Regiones de funcionamiento, Voltaje umbral, Efecto de cuerpo, Ecuaciones de diseño MOS y Curvas Características, Nivel de Inversión, Efecto de Modulación de Canal. Métodos de implementación de circuitos digitales tanto combinacional como secuencial. Latches y registros estáticos y dinámicos. Flip flop. Diagrama de máscaras, layout y reglas de diseño, simulación y caracterización de dispositivos.'
     },
     'exp5': {
       foto: 'https://placehold.co/300x300/eeeeee/999999?text=Foto+5',
