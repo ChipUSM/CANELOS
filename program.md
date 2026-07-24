@@ -321,7 +321,7 @@ img_link: ../assets/img/charla.jpg
 	<h3 align="justify" style="font-size: 1.2em; line-height: 1.6; max-width: 1200px; margin: 0;">
 			La asignación de horarios para cada charlista se encuentra sujeta a disponibilidad de los mismos pero los horarios tentativos para el evento son los siguientes:
 	</h3>
-	<p align="center" style="margin-top: 40px;"> <img src="{{ "/assets/img/material26/horario_v3.jpeg" | relative_url }}" alt="Itinerario" width="600" style="max-width: 100%"/>
+	<p align="center" style="margin-top: 40px;"> <img src="{{ "/assets/img/material26/horario_v4.jpeg" | relative_url }}" alt="Itinerario" width="600" style="max-width: 100%"/>
 	</p>
 </div>
 
