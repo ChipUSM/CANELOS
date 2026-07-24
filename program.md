@@ -368,7 +368,7 @@ img_link: ../assets/img/charla.jpg
             <img src="../assets/img/material26/alva_avila.jpg" alt="Alva Avila" style="width: 90px; height: 90px; border-radius: 10px; object-fit: cover;">
             <div style="text-align: left;">
                 <h3 style="margin: 0 0 5px 0; font-size: 1.4em; color: #222; font-weight: 700;">Alva Avila</h3>
-                <h4 style="margin: 0; font-size: 1.1em; color: #47001e; font-weight: 600; font-style: italic; line-height: 1.3;">"Por Anunciar"</h4>
+                <h4 style="margin: 0; font-size: 1.1em; color: #47001e; font-weight: 600; font-style: italic; line-height: 1.3;">"Materiales de Transistores Avanzados de Extracción a Fabricación"</h4>
             </div>
         </div>
 
