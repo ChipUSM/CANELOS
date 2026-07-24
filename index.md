@@ -133,6 +133,7 @@ layout: home
                 <div style="display: flex; flex-direction: column; gap: 8px; align-items: flex-start;">
                     <p style="font-size: 0.95em; color: #555; margin: 0; background-color: #e2e8f0; padding: 6px 14px; border-radius: 20px; display: inline-block;">Presencial</p>
                     <p style="font-size: 0.95em; color: #FFF; margin: 0; background-color: #702f8a; padding: 6px 14px; border-radius: 20px; display: inline-block; font-weight: 600;">WIE</p>
+                    <p style="font-size: 0.95em; color: #FFF; margin: 0; background-color: #1a49a1; padding: 6px 14px; border-radius: 20px; display: inline-block; font-weight: 600;">EDS IDL</p>
                 </div>
                 
             </div>
