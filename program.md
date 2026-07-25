@@ -321,7 +321,7 @@ img_link: ../assets/img/charla.jpg
 	<h3 align="justify" style="font-size: 1.2em; line-height: 1.6; max-width: 1200px; margin: 0;">
 			La asignación de horarios para cada charlista se encuentra sujeta a disponibilidad de los mismos pero los horarios tentativos para el evento son los siguientes:
 	</h3>
-	<p align="center" style="margin-top: 40px;"> <img src="{{ "/assets/img/material26/horario_v4.jpeg" | relative_url }}" alt="Itinerario" width="600" style="max-width: 100%"/>
+	<p align="center" style="margin-top: 40px;"> <img src="{{ "/assets/img/material26/horario_v5.jpeg" | relative_url }}" alt="Itinerario" width="600" style="max-width: 100%"/>
 	</p>
 </div>
 
@@ -552,7 +552,7 @@ img_link: ../assets/img/charla.jpg
       foto: '../assets/img/material26/carlos_silva.jpeg',
       nombre: 'Carlos Silva',
       cargo: 'Profesor Titular',
-      afiliacion: 'Universidad Autónoma de Barcelona',
+      afiliacion: 'Pontificia Universidad Católica del Perú',
       titulo: 'Introducción al Diseño de Circuitos Integrados Digitales',
       bio: 'Es doctor por la Universidad Autónoma de Barcelona. Ha realizado estancias de Posdoc en el Instituto Nacional Politécnico de Grenoble, Grenoble-Francia y en Texas A&M University. Actualmente es Profesor titular de la PUCP. Director-Fundador del Grupo de Investigación en Microelectrónica. Desde 2019-2024 fue director de la Dirección de Fomento de la Investigación de la PUCP. Silva-Cárdenas es autor del primer circuito integrado digital peruano que logró su fabricación y cuenta con más de 80 publicaciones, es autor de un libro, tres capítulos de libros y coeditor de dos libros. Ha impartido cursos de posgrado en las universidades: Complutense de Madrid, Valencia y Autónoma de Barcelona, y en la Universidad Nacional de Tucumán en Argentina. Ha sido General Chair de una docena de congresos internacionales y del evento flagship de latinoamérica LASCAS2026 realizado en Arequipa-Peru en febrero de 2026.. Ha recibido premios, como el Premio de RECONOCIMIENTO A LA INVESTIGACIÓN de la PUCP durante los últimos 9 años, el Premio al Ingeniero Eminente de la Región 9 de IEEE Latinoamérica en 2019 y el Premio ELEKTRON en 2025 por su “liderazgo en Microelectrónica, su rol clave en la regulación de las telecomunicaciones y su aporte decisivo a la formación e investigación en ingeniería en el Perú”. Es miembro del Board of Goverment de CASS-IEEE desde 2024-2026.',
       desc: 'La charla provee los conceptos básicos para realizar el diseño de circuitos integrados digitales por medio de varios métodos de integración como la lógica complementaria MOS (CMOS) y lógica dinámica que permitan realizar el diseños de circuitos integrados de aplicación específica (ASIC).Los temas cubren: Conceptos y funcionamiento del MOSFET, Regiones de funcionamiento, Voltaje umbral, Efecto de cuerpo, Ecuaciones de diseño MOS y Curvas Características, Nivel de Inversión, Efecto de Modulación de Canal. Métodos de implementación de circuitos digitales tanto combinacional como secuencial. Latches y registros estáticos y dinámicos. Flip flop. Diagrama de máscaras, layout y reglas de diseño, simulación y caracterización de dispositivos.'
