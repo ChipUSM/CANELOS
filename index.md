@@ -139,7 +139,7 @@ layout: home
             </div>
         </div>
         <div style="text-align: right; flex: 1; min-width: 250px;">
-            <p style="font-size: 1.5em; color: #47001e; margin: 0; font-weight: 800; line-height: 1.3; font-style: italic;">"Materiales de Transistores Avanzados de Extracción a Fabricación"</p>
+            <p style="font-size: 1.5em; color: #47001e; margin: 0; font-weight: 800; line-height: 1.3; font-style: italic;">"Materiales de Transistores Avanzados: De Extracción a Fabricación"</p>
         </div>
     </div>
     
