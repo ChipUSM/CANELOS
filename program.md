@@ -542,7 +542,7 @@ img_link: ../assets/img/charla.jpg
     'alva': {
       foto: '../assets/img/material26/alva_avila.jpg',
       nombre: 'Alva Avila',
-      cargo: 'Cargo por confirmar',
+      cargo: 'Profesor Titular',
       afiliacion: 'Universidad de los Andes',
       titulo: 'Materiales de Transistores Avanzados de Extracción a Fabricación',
       bio: 'Alba Avila es la directora del centro de microelectrónica (CMUA) y Profesora e investigadora del departamento de Ingeniería Eléctrica y Electrónica de la Universidad de los Andes. Es física, ingeniera eléctrica, máster en ingeniera eléctrica de la Universidad de los Andes y doctora de la Universidad de Cambridge en el Reino Unido. Es una apasionada investigadora interdisciplinaria en la ciencia e ingeniería de materiales. Ha trabajado en nanomateriales para aplicaciones en energía y sensado, también ha desarrollado tecnologías humanitarias para monitoreo de agua, almacenamiento de enrgía y alfabetización tecnológica. Así mismo, ha estudiado propiedades de materiales a diferentes escalas y generados kits educativos para la enseñanza de nanotecnología y nuevos materiales. Además, ha promovido programas de inclusión y vocaciones científico-técnicas en colaboración con proyectos de EU y LATAM. Es fellow del resilence center del imperial college, Distinguished lecturer of EDS IEEE y miembro de WIE.',
@@ -551,7 +551,7 @@ img_link: ../assets/img/charla.jpg
     'carlos': {
       foto: '../assets/img/material26/carlos_silva.jpeg',
       nombre: 'Carlos Silva',
-      cargo: 'Cargo por confirmar',
+      cargo: 'Profesor Titular',
       afiliacion: 'Universidad Autónoma de Barcelona',
       titulo: 'Introducción al Diseño de Circuitos Integrados Digitales',
       bio: 'Es doctor por la Universidad Autónoma de Barcelona. Ha realizado estancias de Posdoc en el Instituto Nacional Politécnico de Grenoble, Grenoble-Francia y en Texas A&M University. Actualmente es Profesor titular de la PUCP. Director-Fundador del Grupo de Investigación en Microelectrónica. Desde 2019-2024 fue director de la Dirección de Fomento de la Investigación de la PUCP. Silva-Cárdenas es autor del primer circuito integrado digital peruano que logró su fabricación y cuenta con más de 80 publicaciones, es autor de un libro, tres capítulos de libros y coeditor de dos libros. Ha impartido cursos de posgrado en las universidades: Complutense de Madrid, Valencia y Autónoma de Barcelona, y en la Universidad Nacional de Tucumán en Argentina. Ha sido General Chair de una docena de congresos internacionales y del evento flagship de latinoamérica LASCAS2026 realizado en Arequipa-Peru en febrero de 2026.. Ha recibido premios, como el Premio de RECONOCIMIENTO A LA INVESTIGACIÓN de la PUCP durante los últimos 9 años, el Premio al Ingeniero Eminente de la Región 9 de IEEE Latinoamérica en 2019 y el Premio ELEKTRON en 2025 por su “liderazgo en Microelectrónica, su rol clave en la regulación de las telecomunicaciones y su aporte decisivo a la formación e investigación en ingeniería en el Perú”. Es miembro del Board of Goverment de CASS-IEEE desde 2024-2026.',
