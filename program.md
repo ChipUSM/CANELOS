@@ -364,7 +364,7 @@ img_link: ../assets/img/charla.jpg
         </div>
 
         <!-- Charla 3 -->
-        <div class="charla-card reveal" onclick="abrirCharla('alva')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #47001e;">
+        <div class="charla-card reveal" onclick="abrirCharla('alba')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #47001e;">
             <img src="../assets/img/material26/alva_avila.jpg" alt="Alva Avila" style="width: 90px; height: 90px; border-radius: 10px; object-fit: cover;">
             <div style="text-align: left;">
                 <h3 style="margin: 0 0 5px 0; font-size: 1.4em; color: #222; font-weight: 700;">Alva Avila</h3>
@@ -542,7 +542,7 @@ img_link: ../assets/img/charla.jpg
     'alba': {
       foto: '../assets/img/material26/alba_avila.jpg',
       nombre: 'Alba Avila',
-      cargo: 'Profesor Titular',
+      cargo: 'Profesora Titular',
       afiliacion: 'Universidad de los Andes',
       titulo: 'Materiales de Transistores Avanzados de Extracción a Fabricación',
       bio: 'Alba Avila es la directora del centro de microelectrónica (CMUA) y Profesora e investigadora del departamento de Ingeniería Eléctrica y Electrónica de la Universidad de los Andes. Es física, ingeniera eléctrica, máster en ingeniera eléctrica de la Universidad de los Andes y doctora de la Universidad de Cambridge en el Reino Unido. Es una apasionada investigadora interdisciplinaria en la ciencia e ingeniería de materiales. Ha trabajado en nanomateriales para aplicaciones en energía y sensado, también ha desarrollado tecnologías humanitarias para monitoreo de agua, almacenamiento de enrgía y alfabetización tecnológica. Así mismo, ha estudiado propiedades de materiales a diferentes escalas y generados kits educativos para la enseñanza de nanotecnología y nuevos materiales. Además, ha promovido programas de inclusión y vocaciones científico-técnicas en colaboración con proyectos de EU y LATAM. Es fellow del resilence center del imperial college, Distinguished lecturer of EDS IEEE y miembro de WIE.',
