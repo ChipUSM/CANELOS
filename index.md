@@ -127,7 +127,7 @@ layout: home
         <div style="display: flex; align-items: center; gap: 25px; flex: 1; min-width: 300px;">
             <img src="./assets/img/material26/alva_avila.jpg" alt="Alva Avila" style="width: 150px; height: 150px; border-radius: 12px; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
             <div style="text-align: left;">
-                <h3 style="margin: 0 0 10px 0; font-size: 1.7em; color: #222;">Alva Avila</h3>
+                <h3 style="margin: 0 0 10px 0; font-size: 1.7em; color: #222;">Alba Avila</h3>
                 
                 <!-- Burbujas apiladas -->
                 <div style="display: flex; flex-direction: column; gap: 8px; align-items: flex-start;">

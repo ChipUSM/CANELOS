@@ -539,9 +539,9 @@ img_link: ../assets/img/charla.jpg
       bio: 'Joel Gak es un destacado investigador invitado, experto en el desarrollo de tecnologías biomédicas y sistemas de bajo consumo de potencia para aplicaciones en salud.',
       desc: 'El diseño de dispositivos médicos implantables requiere técnicas de vanguardia para asegurar miniaturización extrema, biocompatibilidad y un consumo ultra bajo de potencia. En esta charla exploraremos las metodologías y barreras actuales que enfrenta la industria microelectrónica en el campo de la biomedicina.'
     },
-    'alva': {
-      foto: '../assets/img/material26/alva_avila.jpg',
-      nombre: 'Alva Avila',
+    'alba': {
+      foto: '../assets/img/material26/alba_avila.jpg',
+      nombre: 'Alba Avila',
       cargo: 'Profesor Titular',
       afiliacion: 'Universidad de los Andes',
       titulo: 'Materiales de Transistores Avanzados de Extracción a Fabricación',
