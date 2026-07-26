@@ -172,14 +172,14 @@ layout: home
                 
                 <!-- Burbujas apiladas -->
                 <div style="display: flex; flex-direction: column; gap: 8px; align-items: flex-start;">
-                    <p style="font-size: 0.95em; color: #555; margin: 0; background-color: #e2e8f0; padding: 6px 14px; border-radius: 20px; display: inline-block;">Presencial</p>
-                    <p style="font-size: 0.95em; color: #FFF; margin: 0; background-color: #FF0000; padding: 6px 14px; border-radius: 20px; display: inline-block; font-weight: 600;">SSCS</p>
+                    <p style="font-size: 0.95em; color: #555; margin: 0; background-color: #e2e8f0; padding: 6px 14px; border-radius: 20px; display: inline-block;">Online</p>
+                    <p style="font-size: 0.95em; color: #FFF; margin: 0; background-color: #FF0000; padding: 6px 14px; border-radius: 20px; display: inline-block; font-weight: 600;">SSCS DL</p>
                 </div>
                 
             </div>
         </div>
         <div style="text-align: right; flex: 1; min-width: 250px;">
-            <p style="font-size: 1.5em; color: #47001e; margin: 0; font-weight: 800; line-height: 1.3; font-style: italic;">"Por Anunciar"</p>
+            <p style="font-size: 1.5em; color: #47001e; margin: 0; font-weight: 800; line-height: 1.3; font-style: italic;">"Circuit Labs at the Lunch Table with MOSbius"</p>
         </div>
     </div>
 
