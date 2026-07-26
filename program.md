@@ -392,9 +392,9 @@ img_link: ../assets/img/charla.jpg
 
         <!-- Charla 6 -->
         <div class="charla-card reveal" onclick="abrirCharla('kai')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #47001e;">
-            <img src="https://placehold.co/300x300/eeeeee/999999?text=Foto+5" alt="Expositor 5" style="width: 90px; height: 90px; border-radius: 10px; object-fit: cover;">
+            <img src="../assets/img/material26/kai_ni.jpg" alt="Expositor 6" style="width: 90px; height: 90px; border-radius: 10px; object-fit: cover;">
             <div style="text-align: left;">
-                <h3 style="margin: 0 0 5px 0; font-size: 1.4em; color: #222; font-weight: 700;">Expositor 5</h3>
+                <h3 style="margin: 0 0 5px 0; font-size: 1.4em; color: #222; font-weight: 700;">Kai Ni</h3>
                 <h4 style="margin: 0; font-size: 1.1em; color: #47001e; font-weight: 600; font-style: italic; line-height: 1.3;">"Por Anunciar"</h4>
             </div>
         </div>
@@ -576,10 +576,10 @@ img_link: ../assets/img/charla.jpg
       desc: 'Learning integrated circuit design requires gaining a broad range of skills and knowledge including circuit analysis and design, signals & systems, applied electro-magnetics, and semiconductor physics. Learning theory has always been most accessible through books or now the internet. Simulation tools are now also widely available on personal computers, including open-source versions. But, learning measurements so far has been mostly confined to school or industry laboratories. Yet, physical intuition and practical experience keeps playing a significant role in the development of successful, high performance integrated circuits. We will present the MOSbius platform that allows a student or designer to experiment with IC-style, analog, CMOS circuits at the lunch table. This unique platform uses a custom chip with CMOS building blocks that can be wired on a breadboard or with a programmable on-chip switch matrix. Measurements can be conducted using an affordable, all-in-one, USB lab instrument. Ready-to-go experiments are provided to learners and instructors on https://mosbius.org. Nothing can substitute for the aha moment when you observe a circuit finally working. The debugging process to bring-up the circuit teaches the designer essential lessons that carry over to high performance circuits in highly scaled technologies. The MOSbius platform aims to make lab experience widely accessible and affordable to learners.'
     },
     'kai': {
-      foto: 'https://placehold.co/300x300/eeeeee/999999?text=Foto+5',
-      nombre: 'Expositor 6',
+      foto: '../assets/img/material26/kai_ni.jpg',
+      nombre: 'Kai Ni',
       cargo: 'Cargo por confirmar',
-      afiliacion: 'Institución',
+      afiliacion: 'Por Confirmar',
       titulo: '"Por Anunciar"',
       bio: 'Pronto revelaremos la biografía de nuestro próximo expositor destacado. Mantente atento a nuestras actualizaciones.',
       desc: 'Pronto revelaremos la información detallada sobre esta charla plenaria y las temáticas específicas que nuestro expositor compartirá con los asistentes del evento.'
