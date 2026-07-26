@@ -298,19 +298,19 @@ layout: home
 <!-- 6. MAPA E ITINERARIO -->
 <h2 style="text-align: center; color: #47001e; font-weight: 700; margin-bottom: 40px;">Ubicación y Programa</h2>
 
-<div class="reveal" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; gap: 40px; width: 100%;">
+<div class="reveal" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: stretch; gap: 40px; width: 100%;">
     
-    <div style="flex: 1; min-width: 320px;">
+    <div style="flex: 1; min-width: 320px; display: flex; flex-direction: column;">
         <h3 style="text-align: center; margin-bottom: 15px;">Sede del Evento</h3>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3344.423019889505!2d-71.59858348427976!3d-33.03749448089332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9689e0c69d80d1e3%3A0x6b24eb14b51c0993!2sUniversidad%20T%C3%A9cnica%20Federico%20Santa%20Mar%C3%ADa!5e0!3m2!1ses!2scl!4v1714000000000!5m2!1ses!2scl" width="100%" height="700" style="border:0; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3344.423019889505!2d-71.59858348427976!3d-33.03749448089332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9689e0c69d80d1e3%3A0x6b24eb14b51c0993!2sUniversidad%20T%C3%A9cnica%20Federico%20Santa%20Mar%C3%ADa!5e0!3m2!1ses!2scl!4v1714000000000!5m2!1ses!2scl" width="100%" style="border:0; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); flex: 1; min-height: 250px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <p style="text-align: center; font-size: 0.9em; color: #666; margin-top: 10px;">Universidad Técnica Federico Santa María<br>Av. España 1680, Valparaíso, Chile</p>
     </div>
 
-    <div style="flex: 1; min-width: 320px;">
+    <div style="flex: 1; min-width: 320px; display: flex; flex-direction: column;">
         <h3 style="text-align: center; margin-bottom: 15px;">Itinerario Preventivo</h3>
-        <p align="center" style="margin: 0;">
-            <a href="#img-ampliada">
-                <img src="{{ "/assets/img/material26/horario_v6.jpeg" | relative_url }}" alt="Itinerario CANELOS 2026" style="width: 100%; height: 350px; object-fit: contain; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); background-color: #ffffff; padding: 10px; cursor: pointer;">
+        <p align="center" style="margin: 0; flex: 1; display: flex; align-items: center; justify-content: center;">
+            <a href="#img-ampliada" style="display: block; width: 100%; height: 100%;">
+                <img src="{{ "/assets/img/material26/horario_v6.jpeg" | relative_url }}" alt="Itinerario CANELOS 2026" style="width: 100%; height: 100%; object-fit: contain; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); background-color: #ffffff; padding: 10px; cursor: pointer;">
             </a>
         </p>
     </div>
