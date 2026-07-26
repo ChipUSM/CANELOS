@@ -230,7 +230,15 @@ layout: home
     <a href="{{ "/programa/#workshop" | relative_url }}" style="text-decoration: none; color: inherit; flex: 1; min-width: 300px;">
         <div style="background-color: #f7f9fc; border-left: 5px solid #003002; padding: 30px; border-radius: 8px; box-shadow: 0 3px 8px rgba(0,0,0,0.05); cursor: pointer; height: 100%;">
             <h3 style="margin-top: 0; color: #003002; font-size: 1.4em;">Taller 2</h3>
-            <p style="font-weight: 800; font-size: 1.3em; margin-bottom: 15px; color: #222;">Diseño de Circuitos Digitales</p>
+            <p style="font-weight: 800; font-size: 1.3em; margin-bottom: 15px; color: #222;">Taller Tiny TapeOut</p>
+            <p style="font-size: 1em; margin: 0; color: #555; line-height: 1.5;"> - </p>
+        </div>
+    </a>
+
+    <a href="{{ "/programa/#workshop" | relative_url }}" style="text-decoration: none; color: inherit; flex: 1; min-width: 300px;">
+        <div style="background-color: #f7f9fc; border-left: 5px solid #003002; padding: 30px; border-radius: 8px; box-shadow: 0 3px 8px rgba(0,0,0,0.05); cursor: pointer; height: 100%;">
+            <h3 style="margin-top: 0; color: #003002; font-size: 1.4em;">Taller 3</h3>
+            <p style="font-weight: 800; font-size: 1.3em; margin-bottom: 15px; color: #222;">Taller ACATEC</p>
             <p style="font-size: 1em; margin: 0; color: #555; line-height: 1.5;"> - </p>
         </div>
     </a>
@@ -302,7 +310,7 @@ layout: home
         <h3 style="text-align: center; margin-bottom: 15px;">Itinerario Preventivo</h3>
         <p align="center" style="margin: 0;">
             <a href="#img-ampliada">
-                <img src="{{ "/assets/img/material26/horario_v5.jpeg" | relative_url }}" alt="Itinerario CANELOS 2026" style="width: 100%; height: 350px; object-fit: contain; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); background-color: #ffffff; padding: 10px; cursor: pointer;">
+                <img src="{{ "/assets/img/material26/horario_v6.jpeg" | relative_url }}" alt="Itinerario CANELOS 2026" style="width: 100%; height: 350px; object-fit: contain; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); background-color: #ffffff; padding: 10px; cursor: pointer;">
             </a>
         </p>
     </div>
@@ -381,7 +389,7 @@ layout: home
 <!-- 8. CODIGO DEL MODAL (LA IMAGEN EXPANDIDA) -->
 <div id="img-ampliada" class="lightbox">
   <a href="#!" class="cerrar">&times;</a>
-  <img src="{{ "/assets/img/material26/horario_v5.jpeg" | relative_url }}" alt="Itinerario Ampliado">
+  <img src="{{ "/assets/img/material26/horario_v6.jpeg" | relative_url }}" alt="Itinerario Ampliado">
 </div>
 
 <style>
