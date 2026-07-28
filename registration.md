@@ -28,7 +28,7 @@ img_link: ../assets/img/jardin.jpg
 ### Poster Sesion
 
 <p align="justify">
-	La primera sesión de posters en CANELOS 2026 se llevara a cabo en el primer día del seminario. Las únicas restricciones para admisibilidad son que el proyecto este relacionado a la microelectrónica y el abstract o poster subido tenga la información solicitada. Se admiten posters ya mostrados en otros eventos, trabajos de carácter técnico y avances en alguna linea. Aquellos que deseen postular deben rellenar el siguiente <a href="https://forms.gle/41zNtLYUj2nuwvk5A" style="color: #47001e; text-decoration:underline">formulario</a>.</span></b>. Los resultados se notificaran en los tiempos estipulados.
+	La primera sesión de posters en CANELOS 2026 se llevara a cabo en el primer día del seminario. Las únicas restricciones para admisibilidad son que el proyecto este relacionado a la microelectrónica y el abstract o poster subido tenga la información solicitada. Se admiten posters ya mostrados en otros eventos, trabajos de carácter técnico y avances en alguna linea. Aquellos que deseen postular deben rellenar el siguiente <b><span style="color: #47001e"><a href="https://forms.gle/41zNtLYUj2nuwvk5A" style="color: #47001e; text-decoration:underline">formulario</a>.</span></b>. Los resultados se notificaran en los tiempos estipulados.
 
 	<br><br>
 </p>
