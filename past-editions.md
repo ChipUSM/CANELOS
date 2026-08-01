@@ -45,17 +45,6 @@ img_link: ../assets/img/past-editions/canelos1.jpg
 		</div>
 	</div>
 
-	<!--
-	<div class="page-col-wrapper">        
-		<div class="page-col page-col-3">
-			<object data="../assets/img/past-editions/Afiche_1a.pdf" height="500" width="350" type='application/pdf'></object> 
-		</div>
-		<div class="page-col page-col-3">
-			<object data="../assets/img/past-editions/Afiche_1b.pdf" height="500" width="350" type='application/pdf'></object> 
-		</div>
-	</div>
-	-->
-
 	<h3 style="font-weight: bold;">Videos</h3>
 
 	<p align="justify">

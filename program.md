@@ -416,7 +416,14 @@ img_link: ../assets/img/charla.jpg
         La Sesión de Posters de CANELOS 2026 es el espacio ideal para que estudiantes, investigadores y profesionales presenten sus últimos trabajos e innovaciones en microelectrónica. Durante esta instancia, los autores podrán interactuar directamente con expertos de la industria y la academia en un ambiente colaborativo y cercano.
     </p>
 
-	  <p align="center" style="margin-top: 40px;"> <img src="{{ "/assets/img/material26/CANELOS26_D.png" | relative_url }}" alt="Poster CANELOS" width="600" style="max-width: 100%"/> </p>
+	<div class="page-col-wrapper">        
+		<div class="page-col page-col-3">
+			<p align="center"> <img src="../assets/img/material26/CANELOS26_D.png" alt="Afiche poster sesion 1" width="400" style="max-width: 100%"/> </p>
+		</div>
+		<div class="page-col page-col-3">
+			<p align="center"> <img src="../assets/img/material26/CANELOS26_E.jpeg" alt="Afiche poster sesion 1" width="400" style="max-width: 100%"/> </p>
+		</div>
+	</div>
 
     <!-- Línea de Tiempo Profesional -->
     <div class="timeline-container">

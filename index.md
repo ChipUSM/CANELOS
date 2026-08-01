@@ -35,6 +35,7 @@ layout: home
     opacity: 1;
     transform: translateY(0);
   }
+
 </style>
 
 <!-- 1. BANNER PRINCIPAL -->
@@ -213,36 +214,46 @@ layout: home
     <h2 style="text-align: center; color: #47001e; font-weight: 700; margin-bottom: 40px;">Talleres</h2>
 </div>
 
-<div class="reveal" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; width: 100%;">
-
-    <h3 align="justify" style="font-size: 1.2em; line-height: 1.6; max-width: 1200px; margin: 0;">
+<div class="reveal" style="width: 100%;">
+    <h3 align="justify" style="font-size: 1.2em; line-height: 1.6; max-width: 1200px; margin: 0 auto 30px auto;">
 		Durante los días previos al seminario, del 5 al 7 de octubre, CANELOS ofrecerá una serie de talleres prácticos para aprender y adquirir nuevas habilidades. Los talleres abarcarán distintas áreas de la microelectrónica, diseñados y armados para distintos perfiles y demográficas.  La intención es abrir un abanico de oportunidades variado, con talleres pensados para estudiantes de distintos intereses e incluso para escolares. Sin importar tu nivel de experiencia, habrá un espacio para que profundices tus conocimientos o des comienzo a tu ruta en la microelectrónica.
 	</h3>
-    
-    <a href="{{ "/programa/#workshop" | relative_url }}" style="text-decoration: none; color: inherit; flex: 1; min-width: 300px;">
-        <div style="background-color: #f7f9fc; border-left: 5px solid #003002; padding: 30px; border-radius: 8px; box-shadow: 0 3px 8px rgba(0,0,0,0.05); cursor: pointer; height: 100%;">
-            <h3 style="margin-top: 0; color: #003002; font-size: 1.4em;">Taller 1</h3>
-            <p style="font-weight: 800; font-size: 1.3em; margin-bottom: 15px; color: #222;">Diseño de Chips Implantables</p>
-            <p style="font-size: 1em; margin: 0; color: #555; line-height: 1.5;"> - </p>
-        </div>
-    </a>
-    
-    <a href="{{ "/programa/#workshop" | relative_url }}" style="text-decoration: none; color: inherit; flex: 1; min-width: 300px;">
-        <div style="background-color: #f7f9fc; border-left: 5px solid #003002; padding: 30px; border-radius: 8px; box-shadow: 0 3px 8px rgba(0,0,0,0.05); cursor: pointer; height: 100%;">
-            <h3 style="margin-top: 0; color: #003002; font-size: 1.4em;">Taller 2</h3>
-            <p style="font-weight: 800; font-size: 1.3em; margin-bottom: 15px; color: #222;">Taller Tiny TapeOut</p>
-            <p style="font-size: 1em; margin: 0; color: #555; line-height: 1.5;"> - </p>
-        </div>
-    </a>
 
-    <a href="{{ "/programa/#workshop" | relative_url }}" style="text-decoration: none; color: inherit; flex: 1; min-width: 300px;">
-        <div style="background-color: #f7f9fc; border-left: 5px solid #003002; padding: 30px; border-radius: 8px; box-shadow: 0 3px 8px rgba(0,0,0,0.05); cursor: pointer; height: 100%;">
-            <h3 style="margin-top: 0; color: #003002; font-size: 1.4em;">Taller 3</h3>
-            <p style="font-weight: 800; font-size: 1.3em; margin-bottom: 15px; color: #222;">Taller ACATEC</p>
-            <p style="font-size: 1em; margin: 0; color: #555; line-height: 1.5;"> - </p>
-        </div>
-    </a>
+    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 30px; max-width: 1200px; margin: 0 auto;">
 
+        <a href="{{ "/programa/#workshop" | relative_url }}" style="text-decoration: none; color: inherit;">
+            <div style="background-color: #f7f9fc; border-left: 5px solid #003002; padding: 30px; border-radius: 8px; box-shadow: 0 3px 8px rgba(0,0,0,0.05); cursor: pointer; height: 100%;">
+                <h3 style="margin-top: 0; color: #003002; font-size: 1.4em;">Taller 1</h3>
+                <p style="font-weight: 800; font-size: 1.3em; margin-bottom: 15px; color: #222;">Diseño de Chips Implantables</p>
+                <p style="font-size: 1em; margin: 0; color: #555; line-height: 1.5;"> - </p>
+            </div>
+        </a>
+
+        <a href="{{ "/programa/#workshop" | relative_url }}" style="text-decoration: none; color: inherit;">
+            <div style="background-color: #f7f9fc; border-left: 5px solid #003002; padding: 30px; border-radius: 8px; box-shadow: 0 3px 8px rgba(0,0,0,0.05); cursor: pointer; height: 100%;">
+                <h3 style="margin-top: 0; color: #003002; font-size: 1.4em;">Taller 2</h3>
+                <p style="font-weight: 800; font-size: 1.3em; margin-bottom: 15px; color: #222;">Taller Tiny TapeOut</p>
+                <p style="font-size: 1em; margin: 0; color: #555; line-height: 1.5;"> - </p>
+            </div>
+        </a>
+
+        <a href="{{ "/programa/#workshop" | relative_url }}" style="text-decoration: none; color: inherit;">
+            <div style="background-color: #f7f9fc; border-left: 5px solid #003002; padding: 30px; border-radius: 8px; box-shadow: 0 3px 8px rgba(0,0,0,0.05); cursor: pointer; height: 100%;">
+                <h3 style="margin-top: 0; color: #003002; font-size: 1.4em;">Taller 3</h3>
+                <p style="font-weight: 800; font-size: 1.3em; margin-bottom: 15px; color: #222;">Taller ACATEC</p>
+                <p style="font-size: 1em; margin: 0; color: #555; line-height: 1.5;"> - </p>
+            </div>
+        </a>
+
+        <a href="{{ "/programa/#workshop" | relative_url }}" style="text-decoration: none; color: inherit;">
+            <div style="background-color: #f7f9fc; border-left: 5px solid #003002; padding: 30px; border-radius: 8px; box-shadow: 0 3px 8px rgba(0,0,0,0.05); cursor: pointer; height: 100%;">
+                <h3 style="margin-top: 0; color: #003002; font-size: 1.4em;">Taller 4</h3>
+                <p style="font-weight: 800; font-size: 1.3em; margin-bottom: 15px; color: #222;">Por Anunciar</p>
+                <p style="font-size: 1em; margin: 0; color: #555; line-height: 1.5;"> - </p>
+            </div>
+        </a>
+
+    </div>
 </div>
 
 <hr style="border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0)); margin: 60px auto; width: 85%;">
