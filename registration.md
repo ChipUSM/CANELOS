@@ -83,8 +83,4 @@ Todo participante que complete su inscripción mediante el formulario oficial ac
         <span style="color: #47001e; position: absolute; left: 0; top: 0; font-size: 1.2em; font-weight: bold;">&#10003;</span>
         <b>Souvenirs:</b> recuerdos de variados tipos alusivos al evento, disponibles durante las jornadas.
     </li>
-    <li style="margin-bottom: 15px; padding-left: 35px; position: relative; line-height: 1.6;">
-        <span style="color: #47001e; position: absolute; left: 0; top: 0; font-size: 1.2em; font-weight: bold;">&#10003;</span>
-        <b>Certificación en talleres seleccionados:</b> algunos de los talleres previos al seminario contarán con certificado de participación. Los talleres que incluyen certificación se anunciarán junto con sus inscripciones.
-    </li>
 </ul>
