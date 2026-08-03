@@ -313,7 +313,7 @@ img_link: ../assets/img/charla.jpg
     </p>
 </div>
 <div class="reveal">
-	<p align="center" style="margin-top: 40px;"> <img src="{{ "/assets/img/canelos_poster_brillante.jpg" | relative_url }}" alt="Poster CANELOS" width="600" style="max-width: 100%"/> </p>
+	<p align="center" style="margin-top: 40px;"> <img src="{{ "/assets/img/material26/canelos2026_poster_EN_Final.png" | relative_url }}" alt="Poster CANELOS" width="600" style="max-width: 100%"/> </p>
 </div>
 
 <div class="reveal">
