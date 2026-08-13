@@ -318,7 +318,7 @@ layout: home
     </div>
 
     <div style="flex: 1; min-width: 320px; display: flex; flex-direction: column;">
-        <h3 style="text-align: center; margin-bottom: 15px;">Itinerario Preventivo</h3>
+        <h3 style="text-align: center; margin-bottom: 15px;">Itinerario Preliminar</h3>
         <p align="center" style="margin: 0; flex: 1; display: flex; align-items: center; justify-content: center;">
             <a href="#img-ampliada" style="display: block; width: 100%; height: 100%;">
                 <img src="{{ "/assets/img/material26/horario_v6.jpeg" | relative_url }}" alt="Itinerario CANELOS 2026" style="width: 100%; height: 100%; object-fit: contain; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); background-color: #ffffff; padding: 10px; cursor: pointer;">
