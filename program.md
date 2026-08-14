@@ -615,8 +615,8 @@ img_link: ../assets/img/charla.jpg
 
     // Rellenamos las Cajas limpias
     document.getElementById('m-titulo').innerText = data.titulo;
-    document.getElementById('m-bio').innerText = data.bio;
-    document.getElementById('m-desc').innerText = data.desc;
+    document.getElementById('m-bio').innerHTML = data.bio;   // Cambiado a innerHTML por si acaso
+    document.getElementById('m-desc').innerHTML = data.desc; // <--- CAMBIADO A innerHTML
 
     // Mostramos el modal
     document.getElementById('modalCharlas').classList.add('show');
