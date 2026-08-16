@@ -395,7 +395,7 @@ img_link: ../assets/img/charla.jpg
             <img src="../assets/img/material26/kai_ni.jpg" alt="Expositor 6" style="width: 90px; height: 90px; border-radius: 10px; object-fit: cover;">
             <div style="text-align: left;">
                 <h3 style="margin: 0 0 5px 0; font-size: 1.4em; color: #222; font-weight: 700;">Kai Ni</h3>
-                <h4 style="margin: 0; font-size: 1.1em; color: #47001e; font-weight: 600; font-style: italic; line-height: 1.3;">"Por Anunciar"</h4>
+                <h4 style="margin: 0; font-size: 1.1em; color: #47001e; font-weight: 600; font-style: italic; line-height: 1.3;">"A New Look at Charge-Based Memories for Storage and Computing"</h4>
             </div>
         </div>
 
@@ -585,11 +585,11 @@ img_link: ../assets/img/charla.jpg
     'kai': {
       foto: '../assets/img/material26/kai_ni.jpg',
       nombre: 'Kai Ni',
-      cargo: 'Cargo por confirmar',
-      afiliacion: 'Por Confirmar',
-      titulo: '"Por Anunciar"',
-      bio: 'Pronto revelaremos la biografía de nuestro próximo expositor destacado. Mantente atento a nuestras actualizaciones.',
-      desc: 'Pronto revelaremos la información detallada sobre esta charla plenaria y las temáticas específicas que nuestro expositor compartirá con los asistentes del evento.'
+      cargo: 'Profesor Titular',
+      afiliacion: 'University of Notre Dame',
+      titulo: 'A New Look at Charge-Based Memories for Storage and Computing',
+      bio: 'Kai Ni received the B.S. degree in Electrical Engineering from University of Science and Technology of China, Hefei, China in 2011, and Ph.D. degree of Electrical Engineering from Vanderbilt University, Nashville, TN, USA in 2016 by working on characterization, modeling, and reliability of III-V MOSFETs. Since then, he became a postdoctoral associate at University of Notre Dame, working on ferroelectric devices for nonvolatile memory and novel computing paradigms. He is now an associate professor in University of Notre Dame since 2023 after joining Rochester Institute of Technology as an assistant professor. He has around 200 publications in top journals and conference proceedings, including Nature Electronics, IEDM, VLSI Symposium, IRPS, EDL, etc. His current interests lie in nanoelectronic devices empowering unconventional computing, domain-specific accelerator, and memory technology.',
+      desc: 'Charge-based memories, including SRAM, DRAM, and Flash, form the backbone of modern memory systems. Decades of technology scaling have enabled tremendous improvements in memory density, performance, and energy efficiency, supporting the storage and processing of data being generated at an unprecedented rate. The availability of these advanced memory technologies has also been a key enabler of the rapid growth of artificial intelligence. However, continued scaling is pushing conventional memory technologies toward their physical and geometric limits, creating an increasing need for new device concepts and architectures that can provide sustainable scaling paths toward higher density, improved performance, and greater energy efficiency.\n\n In this talk, we will discuss two representative emerging memory technologies: HfO₂-based ferroelectric memories and oxide-semiconductor-channel-based monolithic 3D DRAM. We will highlight recent advances in these technologies, examine their key device and integration challenges, and discuss their potential for future high-density memory systems. Beyond conventional data storage, we will further explore how these emerging memory technologies can enable compute-in-memory architectures to address the growing memory wall in AI computing. In particular, we will present their applications to key computational primitives, including matrix–vector multiplication accelerators and associative memories, illustrating opportunities to extend emerging memory technologies from high-density storage toward energy-efficient computing.'
     },
     'molde': {
       foto: 'https://placehold.co/300x300/eeeeee/999999?text=Foto+x',
