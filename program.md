@@ -313,7 +313,7 @@ img_link: ../assets/img/charla.jpg
     </p>
 </div>
 <div class="reveal">
-	<p align="center" style="margin-top: 40px;"> <img src="{{ "/assets/img/material26/canelos2026_poster_EN_Final.png" | relative_url }}" alt="Poster CANELOS" width="600" style="max-width: 100%"/> </p>
+	<p align="center" style="margin-top: 40px;"> <img src="{{ "/assets/img/material26/canelos2026_poster_EN_CELERO.png" | relative_url }}" alt="Poster CANELOS" width="600" style="max-width: 100%"/> </p>
 </div>
 
 <div class="reveal">
@@ -418,7 +418,7 @@ img_link: ../assets/img/charla.jpg
 
 	<div class="page-col-wrapper">        
 		<div class="page-col page-col-3">
-			<p align="center"> <img src="../assets/img/material26/CANELOS26_D.png" alt="Afiche poster sesion 1" width="400" style="max-width: 100%"/> </p>
+			<p align="center"> <img src="../assets/img/material26/CANELOS26_D2.png" alt="Afiche poster sesion 1" width="400" style="max-width: 100%"/> </p>
 		</div>
 		<div class="page-col page-col-3">
 			<p align="center"> <img src="../assets/img/material26/CANELOS26_E.jpeg" alt="Afiche poster sesion 1" width="400" style="max-width: 100%"/> </p>
@@ -446,7 +446,7 @@ img_link: ../assets/img/charla.jpg
             <!-- Cuando llegue este paso, puedes agregarle la clase "active" al div de abajo -->
             <div class="timeline-dot"></div>
             <div class="timeline-content">
-                <div class="timeline-date">23 de Agosto, 2026</div>
+                <div class="timeline-date">31 de Agosto, 2026</div>
                 <div class="timeline-text">Cierre de<br>Postulaciones</div>
             </div>
         </div>
