@@ -6,6 +6,27 @@ permalink: /registro/
 img_link: ../assets/img/jardin.jpg
 ---
 
+<style>
+  /* Estilo para los botones (mismo de la página de programa) */
+  .btn-inscripcion {
+    background-color: #47001e;
+    color: #ffffff !important;
+    padding: 15px 35px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.1em;
+    box-shadow: 0 6px 15px rgba(71,0,30,0.25);
+    display: inline-block;
+    transition: all 0.3s ease;
+  }
+  .btn-inscripcion:hover {
+    background-color: #63002a;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(71,0,30,0.35);
+  }
+</style>
+
 ### Inscripción
 
 <p align="justify">
@@ -13,8 +34,16 @@ img_link: ../assets/img/jardin.jpg
 	Sin embargo, <b><span style="color: #47001e">para disfrutar de los coffee breaks, obtener lanyards + tarjetones y otros beneficios deben registrarse en el siguiente
 	<a href="https://forms.gle/6LYknxkAfNUqdUHn7" style="color: #47001e; text-decoration:underline">formulario</a>.</span></b>
 	Sus respuestas nos ayudan a organizar mejor el evento.
-	<br><br>
+</p>
 
+<!-- Botón de Inscripción -->
+<div style="text-align: center; margin-top: 30px; margin-bottom: 30px;">
+    <a href="https://forms.gle/6LYknxkAfNUqdUHn7" target="_blank" class="btn-inscripcion">
+        Haz clic aquí para ir a la inscripción
+    </a>
+</div>
+
+<p align="justify">
 	<!--
 	Modificar los formularios para el 2026, hay q resubirlos
 	-->
@@ -29,9 +58,14 @@ img_link: ../assets/img/jardin.jpg
 
 <p align="justify">
 	La <b><span style="color: #47001e">primera sesión de posters en CANELOS 2026</span></b> se llevara a cabo en el primer día del seminario. Las únicas restricciones para admisibilidad son que el proyecto este relacionado a la microelectrónica y el abstract o poster subido tenga la información solicitada. Se admiten posters ya mostrados en otros eventos, trabajos de carácter técnico y avances en alguna linea. Aquellos que deseen postular deben rellenar el siguiente <b><span style="color: #47001e"><a href="https://forms.gle/41zNtLYUj2nuwvk5A" style="color: #47001e; text-decoration:underline">formulario</a>.</span></b> Los resultados se notificaran en los tiempos estipulados.
-
-	<br><br>
 </p>
+
+<!-- Botón de Postulación de Posters -->
+<div style="text-align: center; margin-top: 30px; margin-bottom: 30px;">
+    <a href="https://forms.gle/41zNtLYUj2nuwvk5A" target="_blank" class="btn-inscripcion">
+        Haz clic aquí para postular a la Sesión de Posters
+    </a>
+</div>
 
 <hr style="border: none; height: 2px; background-color: #47001e; opacity: 0.15; margin: 35px 0;">
 
