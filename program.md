@@ -161,6 +161,20 @@ img_link: ../assets/img/charla.jpg
     height: auto;
     object-fit: contain;
   }
+  #m-taller-logo-placeholder {
+    width: 180px; 
+    height: 60px; 
+    background: #f7f9fc; 
+    border: 2px dashed #cbd5e1; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    color: #94a3b8; 
+    font-weight: 800; 
+    font-size: 1.2em; 
+    border-radius: 6px; 
+    letter-spacing: 2px;
+  }
   
   /* TEMAS DE COLOR PARA TALLERES */
   /* Tema Celeste (Taller 4) */
@@ -480,21 +494,25 @@ img_link: ../assets/img/charla.jpg
         </div>
     </div>
 
-    <!-- CONTENEDOR 2: PARA TALLERES (ESTILO REQUERIDO POR IMAGEN) -->
+    <!-- CONTENEDOR 2: PARA TALLERES -->
     <div id="layout-talleres">
-        <!-- Esquina Superior Izquierda: LOGO (Sin enlace) -->
+        <!-- Esquina Superior Izquierda: LOGO -->
         <div id="m-taller-logo-box">
-            <img id="m-taller-logo-img" src="" alt="Logo Taller">
+            <img id="m-taller-logo-img" src="" alt="Logo Taller" style="display: none;">
+            <div id="m-taller-logo-placeholder" style="display: none;">LOGO</div>
         </div>
 
-        <!-- Caja 1: Título completo -->
-        <div class="caja-1">
+        <!-- Caja 1: Título completo e impartido por -->
+        <div class="caja-1" style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px;">
             <h4 id="m-taller-titulo" style="margin: 0; font-size: 1.6em; font-weight: 800; font-style: italic; text-align: center;">Título del Taller</h4>
+            <div style="font-size: 1em; color: #222; font-weight: 700; text-align: center;">
+                Impartido por: <span id="m-taller-instructor" style="font-weight: 500; color: #555;"></span>
+            </div>
         </div>
         
-        <!-- Caja 2: Impartido por y Descripción Introductoria -->
+        <!-- Caja 2: Descripción Introductoria -->
         <div class="caja-2">
-            <p id="m-taller-bio" style="margin: 0; font-size: 1em; color: #444; line-height: 1.6;">Impartido por...</p>
+            <p id="m-taller-bio" style="margin: 0; font-size: 1em; color: #444; line-height: 1.6;">Introducción...</p>
         </div>
         
         <!-- Caja 3: Contenido / Sobre el taller -->
@@ -569,30 +587,34 @@ img_link: ../assets/img/charla.jpg
     }
   };
 
-  // 1.5 BASE DE DATOS DE LOS TALLERES (ESTRUCTURA NUEVA IMAGEN)
+  // 1.5 BASE DE DATOS DE LOS TALLERES 
   const datosTalleres = {
     'taller1': {
-      logo: 'https://via.placeholder.com/350x150/eeeeee/888888?text=LOGO',
+      logo: '', // Vacío para que active el placeholder
       titulo: 'Diseño de Chips Implantables',
-      bio: '<strong>Impartido por: Joel Gak</strong><br><br>Los detalles específicos sobre los requisitos y la dinámica de este taller se revelarán de manera oficial próximamente.',
+      instructor: 'Joel Gak',
+      bio: 'Los detalles específicos sobre los requisitos y la dinámica de este taller se revelarán de manera oficial próximamente.',
       desc: 'Estamos trabajando para brindarte el mejor contenido. Pronto publicaremos el programa detallado y los módulos que se abordarán.'
     },
     'taller2': {
-      logo: 'https://via.placeholder.com/350x150/eeeeee/888888?text=LOGO',
+      logo: '', // Vacío para que active el placeholder
       titulo: 'Taller Tiny TapeOut',
-      bio: '<strong>Impartido por: ChipUSM</strong><br><br>Los detalles específicos sobre los requisitos y la dinámica de este taller se revelarán de manera oficial próximamente.',
+      instructor: 'ChipUSM',
+      bio: 'Los detalles específicos sobre los requisitos y la dinámica de este taller se revelarán de manera oficial próximamente.',
       desc: 'Estamos trabajando para brindarte el mejor contenido. Pronto publicaremos el programa detallado y los módulos que se abordarán.'
     },
     'taller3': {
-      logo: 'https://via.placeholder.com/350x150/eeeeee/888888?text=LOGO',
+      logo: '', // Vacío para que active el placeholder
       titulo: 'Taller ACATEC',
-      bio: '<strong>Impartido por: Academias de Tecnologías</strong><br><br>Los detalles específicos sobre los requisitos y la dinámica de este taller se revelarán de manera oficial próximamente.',
+      instructor: 'Academias de Tecnologías',
+      bio: 'Los detalles específicos sobre los requisitos y la dinámica de este taller se revelarán de manera oficial próximamente.',
       desc: 'Estamos trabajando para brindarte el mejor contenido. Pronto publicaremos el programa detallado y los módulos que se abordarán.'
     },
     'taller4': {
       logo: '{{ site.baseurl }}/assets/img/logo_celero_color.png',
       titulo: 'Digital Design for DSP Applications',
-      bio: '<strong>Impartido por: Celero Communications Inc</strong><br><br>This course introduces the fundamental concepts of digital design with a specific focus on implementing Digital Signal Processing (DSP) algorithms in FPGA-based systems.<br><br>The learning process is organized into three progressive phases. First, students learn the fundamentals of digital hardware design and HDL-based development. Next, they explore the basic concepts of DSP and fixed-point arithmetic. Finally, they apply these concepts to the implementation of DSP blocks on FPGAs.',
+      instructor: 'Celero Communications Inc',
+      bio: 'This course introduces the fundamental concepts of digital design with a specific focus on implementing Digital Signal Processing (DSP) algorithms in FPGA-based systems.<br><br>The learning process is organized into three progressive phases. First, students learn the fundamentals of digital hardware design and HDL-based development. Next, they explore the basic concepts of DSP and fixed-point arithmetic. Finally, they apply these concepts to the implementation of DSP blocks on FPGAs.',
       desc: `
         The course emphasizes that a successful digital design must be correct not only from a logical perspective, but also from a timing perspective. Students will learn how propagation delays, setup and hold times, clock frequency, and signal timing affect the performance and reliability of a digital circuit.<br><br>
         
@@ -647,7 +669,7 @@ img_link: ../assets/img/charla.jpg
     document.body.style.overflow = 'hidden';
   }
 
-  // 3. FUNCIONES DEL MODAL PARA TALLERES (DISEÑO IMAGEN.JPG)
+  // 3. FUNCIONES DEL MODAL PARA TALLERES 
   function abrirTaller(id) {
     const data = datosTalleres[id];
     if(!data) return;
@@ -668,9 +690,22 @@ img_link: ../assets/img/charla.jpg
         layoutTalleres.classList.add('tema-rojo');
     }
 
-    // Rellenar datos (Logo sin enlace)
-    document.getElementById('m-taller-logo-img').src = data.logo;
+    // Gestionar si tiene logo o necesita placeholder
+    const logoImg = document.getElementById('m-taller-logo-img');
+    const logoPlaceholder = document.getElementById('m-taller-logo-placeholder');
+    
+    if (data.logo && data.logo.trim() !== '') {
+        logoImg.src = data.logo;
+        logoImg.style.display = 'block';
+        logoPlaceholder.style.display = 'none';
+    } else {
+        logoImg.style.display = 'none';
+        logoPlaceholder.style.display = 'flex'; // Muestra la cajita punteada "LOGO"
+    }
+
+    // Rellenar el resto de los datos
     document.getElementById('m-taller-titulo').innerText = data.titulo;
+    document.getElementById('m-taller-instructor').innerText = data.instructor;
     document.getElementById('m-taller-bio').innerHTML = data.bio;   
     document.getElementById('m-taller-desc').innerHTML = data.desc; 
 
