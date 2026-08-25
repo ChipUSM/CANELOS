@@ -300,7 +300,7 @@ img_link: ../assets/img/charla.jpg
     <div style="display: flex; flex-direction: column; align-items: center; gap: 20px; width: 100%;">
         
         <!-- Taller 1 (Rojo) -->
-        <div class="charla-card reveal" onclick="abrirTaller('taller1')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #47001e;">
+        <div id="taller1" class="charla-card reveal" onclick="abrirTaller('taller1')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #47001e;">
             <div style="text-align: left;">
                 <span style="font-size: 0.85em; font-weight: 700; color: #47001e; text-transform: uppercase; letter-spacing: 1px;">Taller 1</span>
                 <h3 style="margin: 2px 0 5px 0; font-size: 1.4em; color: #222; font-weight: 700;">Diseño de Chips Implantables</h3>
@@ -309,7 +309,7 @@ img_link: ../assets/img/charla.jpg
         </div>
 
         <!-- Taller 2 (Rojo) -->
-        <div class="charla-card reveal" onclick="abrirTaller('taller2')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #47001e;">
+        <div id="taller2" class="charla-card reveal" onclick="abrirTaller('taller2')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #47001e;">
             <div style="text-align: left;">
                 <span style="font-size: 0.85em; font-weight: 700; color: #47001e; text-transform: uppercase; letter-spacing: 1px;">Taller 2</span>
                 <h3 style="margin: 2px 0 5px 0; font-size: 1.4em; color: #222; font-weight: 700;">Taller Tiny TapeOut</h3>
@@ -318,7 +318,7 @@ img_link: ../assets/img/charla.jpg
         </div>
 
         <!-- Taller 3 (Rojo) -->
-        <div class="charla-card reveal" onclick="abrirTaller('taller3')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #47001e;">
+        <div id="taller3" class="charla-card reveal" onclick="abrirTaller('taller3')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #47001e;">
             <div style="text-align: left;">
                 <span style="font-size: 0.85em; font-weight: 700; color: #47001e; text-transform: uppercase; letter-spacing: 1px;">Taller 3</span>
                 <h3 style="margin: 2px 0 5px 0; font-size: 1.4em; color: #222; font-weight: 700;">Taller ACATEC</h3>
@@ -327,7 +327,7 @@ img_link: ../assets/img/charla.jpg
         </div>
 
         <!-- Taller 4 (Celeste, Celero) -->
-        <div class="charla-card reveal" onclick="abrirTaller('taller4')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #0284c7;">
+        <div id="taller4" class="charla-card reveal" onclick="abrirTaller('taller4')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #0284c7;">
             <div style="text-align: left;">
                 <span style="font-size: 0.85em; font-weight: 700; color: #0284c7; text-transform: uppercase; letter-spacing: 1px;">Taller 4</span>
                 <h3 style="margin: 2px 0 5px 0; font-size: 1.4em; color: #222; font-weight: 700;">Digital Design for DSP Applications</h3>
@@ -353,7 +353,7 @@ img_link: ../assets/img/charla.jpg
     <!-- LISTA PRINCIPAL CHARLAS -->
     <div style="display: flex; flex-direction: column; align-items: center; gap: 20px; width: 100%;">
         <!-- Charla 1 -->
-        <div class="charla-card reveal" onclick="abrirCharla('pedro')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #47001e;">
+        <div id="pedro" class="charla-card reveal" onclick="abrirCharla('pedro')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #47001e;">
             <img src="{{ "/assets/img/material26/pedro_toledo.png" | relative_url }}" alt="Pedro Toledo" style="width: 90px; height: 90px; border-radius: 10px; object-fit: cover;">
             <div style="text-align: left;">
                 <h3 style="margin: 0 0 5px 0; font-size: 1.4em; color: #222; font-weight: 700;">Pedro Toledo</h3>
@@ -362,7 +362,7 @@ img_link: ../assets/img/charla.jpg
         </div>
         
         <!-- Charla 2 -->
-        <div class="charla-card reveal" onclick="abrirCharla('joel')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #47001e;">
+        <div id="joel" class="charla-card reveal" onclick="abrirCharla('joel')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #47001e;">
             <img src="{{ "/assets/img/material26/joel_gak.jpg" | relative_url }}" alt="Joel Gak" style="width: 90px; height: 90px; border-radius: 10px; object-fit: cover;">
             <div style="text-align: left;">
                 <h3 style="margin: 0 0 5px 0; font-size: 1.4em; color: #222; font-weight: 700;">Joel Gak</h3>
@@ -371,7 +371,7 @@ img_link: ../assets/img/charla.jpg
         </div>
 
         <!-- Charla 3 -->
-        <div class="charla-card reveal" onclick="abrirCharla('alba')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #47001e;">
+        <div id="alba" class="charla-card reveal" onclick="abrirCharla('alba')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #47001e;">
             <img src="../assets/img/material26/alba_avila.jpg" alt="Alva Avila" style="width: 90px; height: 90px; border-radius: 10px; object-fit: cover;">
             <div style="text-align: left;">
                 <h3 style="margin: 0 0 5px 0; font-size: 1.4em; color: #222; font-weight: 700;">Alba Avila</h3>
@@ -380,7 +380,7 @@ img_link: ../assets/img/charla.jpg
         </div>
 
         <!-- Charla 4 -->
-        <div class="charla-card reveal" onclick="abrirCharla('carlos')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #47001e;">
+        <div id="carlos" class="charla-card reveal" onclick="abrirCharla('carlos')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #47001e;">
             <img src="../assets/img/material26/carlos_silva.jpeg" alt="Expositor 4" style="width: 90px; height: 90px; border-radius: 10px; object-fit: cover;">
             <div style="text-align: left;">
                 <h3 style="margin: 0 0 5px 0; font-size: 1.4em; color: #222; font-weight: 700;">Carlos Silva</h3>
@@ -389,7 +389,7 @@ img_link: ../assets/img/charla.jpg
         </div>
 
         <!-- Charla 5 -->
-        <div class="charla-card reveal" onclick="abrirCharla('peter')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #47001e;">
+        <div id="peter" class="charla-card reveal" onclick="abrirCharla('peter')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #47001e;">
             <img src="../assets/img/material26/peter_kinget.png" alt="Expositor 5" style="width: 90px; height: 90px; border-radius: 10px; object-fit: cover;">
             <div style="text-align: left;">
                 <h3 style="margin: 0 0 5px 0; font-size: 1.4em; color: #222; font-weight: 700;">Peter R. Kinget</h3>
@@ -398,7 +398,7 @@ img_link: ../assets/img/charla.jpg
         </div>
 
         <!-- Charla 6 -->
-        <div class="charla-card reveal" onclick="abrirCharla('kai')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #47001e;">
+        <div id="kai" class="charla-card reveal" onclick="abrirCharla('kai')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #47001e;">
             <img src="../assets/img/material26/kai_ni.jpg" alt="Expositor 6" style="width: 90px; height: 90px; border-radius: 10px; object-fit: cover;">
             <div style="text-align: left;">
                 <h3 style="margin: 0 0 5px 0; font-size: 1.4em; color: #222; font-weight: 700;">Kai Ni</h3>
@@ -725,7 +725,7 @@ img_link: ../assets/img/charla.jpg
     }
   }
 
-  // 5. ANIMACIÓN REVEAL AL HACER SCROLL
+  // 5. ANIMACIÓN REVEAL Y ABRIR AUTOMÁTICAMENTE
   document.addEventListener('DOMContentLoaded', function () {
     const items = document.querySelectorAll('.reveal');
     const observer = new IntersectionObserver((entries) => {
@@ -738,5 +738,19 @@ img_link: ../assets/img/charla.jpg
     }, { threshold: 0.15 });
 
     items.forEach((item) => observer.observe(item));
+
+    // NUEVO: Abrir modal automáticamente basado en la URL
+    if (window.location.hash) {
+      const hash = window.location.hash.substring(1); // Extrae "taller1", "pedro", etc.
+      
+      // Añade un pequeño retraso para permitir que la página cargue y haga scroll
+      setTimeout(() => {
+        if (datosTalleres[hash]) {
+          abrirTaller(hash);
+        } else if (datosCharlas[hash]) {
+          abrirCharla(hash);
+        }
+      }, 500);
+    }
   });
 </script>
