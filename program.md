@@ -17,7 +17,7 @@ img_link: ../assets/img/charla.jpg
     transform: translateY(0);
   }
   
-  /* Efecto hover para las tarjetas de charla */
+  /* Efecto hover para las tarjetas de charla y talleres */
   .charla-card {
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     cursor: pointer;
@@ -165,7 +165,6 @@ img_link: ../assets/img/charla.jpg
     max-width: 1000px;
   }
   
-  /* Línea gris base (Ajustada matemáticamente para 4 puntos) */
   .timeline-line {
     position: absolute;
     top: 24px; 
@@ -177,17 +176,12 @@ img_link: ../assets/img/charla.jpg
     border-radius: 2px;
   }
   
-  /* ========================================================
-     LA LÍNEA DE PROGRESO BURDEOS
-     Cambia el "width: 0%;" a "33%", "66%" o "100%" 
-     según vayan avanzando las fechas.
-     ======================================================== */
   .timeline-line::before {
     content: '';
     position: absolute;
     top: 0; left: 0;
     height: 100%;
-    width: 0%; /* <-- CAMBIA ESTE PORCENTAJE PARA AVANZAR LA LÍNEA */
+    width: 0%; 
     background-color: #47001e;
     border-radius: 2px;
     transition: width 0.5s ease;
@@ -226,7 +220,6 @@ img_link: ../assets/img/charla.jpg
     transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
   }
   
-  /* Clase especial para el punto "activo" o rellenado */
   .timeline-dot.active {
     background-color: #47001e;
     box-shadow: 0 0 0 5px rgba(71, 0, 30, 0.25);
@@ -280,7 +273,6 @@ img_link: ../assets/img/charla.jpg
     }
   }
 
-  /* Botón Inscripción */
   .btn-inscripcion {
     background-color: #47001e;
     color: #ffffff !important;
@@ -326,8 +318,24 @@ img_link: ../assets/img/charla.jpg
 </div>
 
 <div class="reveal">
-	<h2 align="left" style="font-weight: bold;">Talleres</h2>
-	<h3 align="center" style="font-weight: bold; margin-top: 40px; margin-bottom: 40px;">Próximamente...</h3>
+	<h2 align="left" style="font-weight: bold; margin-bottom: 40px; display: flex; align-items: center; flex-wrap: wrap; gap: 12px;">
+	    Talleres
+	    <span style="font-size: 0.55em; font-weight: 500; color: #777; font-style: italic; letter-spacing: 0.5px; padding-top: 4px;">
+	        (Haz clic en cada taller para más detalles)
+	    </span>
+	</h2>
+
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 20px; width: 100%;">
+        <!-- Taller 1 -->
+        <div class="charla-card reveal" onclick="abrirTaller('dsp')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #47001e;">
+            <!-- Puedes reemplazar esta imagen por una de referencia para el taller o el instructor -->
+            <img src="https://placehold.co/100x100/eeeeee/999999?text=Taller" alt="Digital Design DSP" style="width: 90px; height: 90px; border-radius: 10px; object-fit: cover;">
+            <div style="text-align: left;">
+                <h3 style="margin: 0 0 5px 0; font-size: 1.4em; color: #222; font-weight: 700;">Digital Design for DSP Applications</h3>
+                <h4 style="margin: 0; font-size: 1.1em; color: #47001e; font-weight: 600; font-style: italic; line-height: 1.3;">Taller de implementación y diseño en FPGA</h4>
+            </div>
+        </div>
+    </div>
 </div>
 
 <br>
@@ -432,7 +440,6 @@ img_link: ../assets/img/charla.jpg
         <!-- Paso 00 (Punto inicial / Actual) -->
         <div class="timeline-step">
             <div class="timeline-bg-number">00</div>
-            <!-- Nota que este punto tiene la clase "active" para verse relleno -->
             <div class="timeline-dot active"></div>
             <div class="timeline-content">
                 <div class="timeline-date">23 de Julio, 2026</div>
@@ -443,7 +450,6 @@ img_link: ../assets/img/charla.jpg
         <!-- Paso 01 -->
         <div class="timeline-step">
             <div class="timeline-bg-number">01</div>
-            <!-- Cuando llegue este paso, puedes agregarle la clase "active" al div de abajo -->
             <div class="timeline-dot"></div>
             <div class="timeline-content">
                 <div class="timeline-date">31 de Agosto, 2026</div>
@@ -522,9 +528,9 @@ img_link: ../assets/img/charla.jpg
       </div>
     </div>
 
-    <!-- Caja 3: Descripción de la Charla -->
+    <!-- Caja 3: Descripción -->
     <div class="caja-3">
-        <h4 style="margin: 0 0 12px 0; font-size: 1.2em; color: #47001e; font-weight: bold;">Sobre la charla</h4>
+        <h4 id="m-desc-titulo" style="margin: 0 0 12px 0; font-size: 1.2em; color: #47001e; font-weight: bold;">Sobre la charla</h4>
         <p id="m-desc" style="margin: 0; font-size: 1em; color: #444; line-height: 1.6;">Descripción...</p>
     </div>
 
@@ -590,42 +596,92 @@ img_link: ../assets/img/charla.jpg
       titulo: 'A New Look at Charge-Based Memories for Storage and Computing',
       bio: 'Kai Ni received the B.S. degree in Electrical Engineering from University of Science and Technology of China, Hefei, China in 2011, and Ph.D. degree of Electrical Engineering from Vanderbilt University, Nashville, TN, USA in 2016 by working on characterization, modeling, and reliability of III-V MOSFETs. Since then, he became a postdoctoral associate at University of Notre Dame, working on ferroelectric devices for nonvolatile memory and novel computing paradigms. He is now an associate professor in University of Notre Dame since 2023 after joining Rochester Institute of Technology as an assistant professor. He has around 200 publications in top journals and conference proceedings, including Nature Electronics, IEDM, VLSI Symposium, IRPS, EDL, etc. His current interests lie in nanoelectronic devices empowering unconventional computing, domain-specific accelerator, and memory technology.',
       desc: 'Charge-based memories, including SRAM, DRAM, and Flash, form the backbone of modern memory systems. Decades of technology scaling have enabled tremendous improvements in memory density, performance, and energy efficiency, supporting the storage and processing of data being generated at an unprecedented rate. The availability of these advanced memory technologies has also been a key enabler of the rapid growth of artificial intelligence. However, continued scaling is pushing conventional memory technologies toward their physical and geometric limits, creating an increasing need for new device concepts and architectures that can provide sustainable scaling paths toward higher density, improved performance, and greater energy efficiency.\n\n In this talk, we will discuss two representative emerging memory technologies: HfO₂-based ferroelectric memories and oxide-semiconductor-channel-based monolithic 3D DRAM. We will highlight recent advances in these technologies, examine their key device and integration challenges, and discuss their potential for future high-density memory systems. Beyond conventional data storage, we will further explore how these emerging memory technologies can enable compute-in-memory architectures to address the growing memory wall in AI computing. In particular, we will present their applications to key computational primitives, including matrix–vector multiplication accelerators and associative memories, illustrating opportunities to extend emerging memory technologies from high-density storage toward energy-efficient computing.'
-    },
-    'molde': {
-      foto: 'https://placehold.co/300x300/eeeeee/999999?text=Foto+x',
-      nombre: 'Expositor x',
-      cargo: 'Cargo por confirmar',
-      afiliacion: 'Institución',
-      titulo: '"Por Anunciar"',
-      bio: 'Pronto revelaremos la biografía de nuestro próximo expositor destacado. Mantente atento a nuestras actualizaciones.',
-      desc: 'Pronto revelaremos la información detallada sobre esta charla plenaria y las temáticas específicas que nuestro expositor compartirá con los asistentes del evento.'
     }
   };
 
-  // 2. FUNCIONES DEL MODAL
+  // 1.5 BASE DE DATOS DE LOS TALLERES
+  const datosTalleres = {
+    'dsp': {
+      foto: 'https://placehold.co/300x300/eeeeee/999999?text=Taller', // Imagen por defecto, la puedes cambiar
+      nombre: 'Instructor por confirmar', // Se puede actualizar cuando tengas el nombre
+      cargo: 'Taller Práctico',
+      afiliacion: 'CANELOS 2026',
+      titulo: 'Digital Design for DSP Applications',
+      bio: 'This course introduces the fundamental concepts of digital design with a specific focus on implementing Digital Signal Processing (DSP) algorithms in FPGA-based systems.<br><br>The learning process is organized into three progressive phases. First, students learn the fundamentals of digital hardware design and HDL-based development. Next, they explore the basic concepts of DSP and fixed-point arithmetic. Finally, they apply these concepts to the implementation of DSP blocks on FPGAs.',
+      desc: `
+        The course emphasizes that a successful digital design must be correct not only from a logical perspective, but also from a timing perspective. Students will learn how propagation delays, setup and hold times, clock frequency, and signal timing affect the performance and reliability of a digital circuit.<br><br>
+        
+        <strong>Course Learning Path:</strong><br><br>
+        <strong>Part 1 — Digital Design Fundamentals</strong><br>
+        The first part introduces the Verilog HDL language and the fundamental building blocks of digital systems. Students will study both combinational and sequential circuits and learn how to describe, simulate, and synthesize them using HDL.<br><br>
+        
+        <strong>Part 2 — DSP Fundamentals and Fixed-Point Implementation</strong><br>
+        The second part introduces fundamental DSP building blocks and the principles required to implement DSP algorithms in hardware.<br><br>
+        
+        <strong>Part 3 — FPGA Implementation of DSP Blocks</strong><br>
+        The third part focuses on translating DSP algorithms into practical FPGA implementations.<br><br>
+        
+        <strong>Minimum Course Content:</strong>
+        <ul style="padding-left: 20px; margin-top: 5px;">
+          <li>Introduction to Verilog HDL</li>
+          <li>Combinational and sequential digital circuits</li>
+          <li>Binary, fixed-point, and floating-point number representations</li>
+          <li>Timing diagrams for combinational and sequential circuits</li>
+          <li>Gate and signal propagation delays</li>
+          <li>Basic hierarchical design and synthesis</li>
+          <li>Introduction to FIR and IIR filters</li>
+          <li>Fixed-point implementation of DSP algorithms</li>
+          <li>FPGA implementation of FIR and IIR filters</li>
+          <li>Timing and resource considerations in FPGA-based DSP designs</li>
+        </ul><br>
+        
+        <strong>Course Materials:</strong> Students are required to bring their own laptop for the practical exercises and laboratory activities.
+      `
+    }
+  };
+
+  // 2. FUNCIONES DEL MODAL PARA CHARLAS
   function abrirCharla(id) {
     const data = datosCharlas[id];
     if(!data) return;
 
-    // Rellenamos la credencial
     document.getElementById('m-foto').src = data.foto;
     document.getElementById('m-nombre-badge').innerText = data.nombre;
     document.getElementById('m-cargo-badge').innerText = data.cargo;
     document.getElementById('m-afiliacion-badge').innerText = data.afiliacion;
-
-    // Rellenamos las Cajas limpias
     document.getElementById('m-titulo').innerText = data.titulo;
-    document.getElementById('m-bio').innerHTML = data.bio;   // Cambiado a innerHTML por si acaso
-    document.getElementById('m-desc').innerHTML = data.desc; // <--- CAMBIADO A innerHTML
+    document.getElementById('m-bio').innerHTML = data.bio;   
+    
+    document.getElementById('m-desc-titulo').innerText = "Sobre la charla";
+    document.getElementById('m-desc').innerHTML = data.desc; 
 
-    // Mostramos el modal
     document.getElementById('modalCharlas').classList.add('show');
     document.body.style.overflow = 'hidden';
   }
 
+  // 3. FUNCIONES DEL MODAL PARA TALLERES
+  function abrirTaller(id) {
+    const data = datosTalleres[id];
+    if(!data) return;
+
+    document.getElementById('m-foto').src = data.foto;
+    document.getElementById('m-nombre-badge').innerText = data.nombre;
+    document.getElementById('m-cargo-badge').innerText = data.cargo;
+    document.getElementById('m-afiliacion-badge').innerText = data.afiliacion;
+    document.getElementById('m-titulo').innerText = data.titulo;
+    document.getElementById('m-bio').innerHTML = data.bio;   
+    
+    document.getElementById('m-desc-titulo').innerText = "Sobre el taller y el contenido";
+    document.getElementById('m-desc').innerHTML = data.desc; 
+
+    document.getElementById('modalCharlas').classList.add('show');
+    document.body.style.overflow = 'hidden';
+  }
+
+  // 4. FUNCIONES GLOBALES DEL MODAL
   function cerrarCharla() {
     document.getElementById('modalCharlas').classList.remove('show');
-    document.body.style.overflow = 'auto'; // Devolvemos el scroll
+    document.body.style.overflow = 'auto'; 
   }
 
   function cerrarCharlaFuera(event) {
@@ -634,7 +690,7 @@ img_link: ../assets/img/charla.jpg
     }
   }
 
-  // 3. ANIMACIÓN REVEAL AL HACER SCROLL
+  // 5. ANIMACIÓN REVEAL AL HACER SCROLL
   document.addEventListener('DOMContentLoaded', function () {
     const items = document.querySelectorAll('.reveal');
     const observer = new IntersectionObserver((entries) => {
