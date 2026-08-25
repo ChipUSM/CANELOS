@@ -17,7 +17,7 @@ img_link: ../assets/img/charla.jpg
     transform: translateY(0);
   }
   
-  /* Efecto hover para las tarjetas de charla y talleres */
+  /* Tarjetas genéricas */
   .charla-card {
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     cursor: pointer;
@@ -25,6 +25,14 @@ img_link: ../assets/img/charla.jpg
   .charla-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 20px rgba(0,0,0,0.12) !important;
+  }
+
+  /* Tarjetas de Talleres (Tema Celeste) */
+  .taller-card {
+    border-left: 5px solid #0284c7 !important;
+  }
+  .taller-card:hover {
+    box-shadow: 0 8px 20px rgba(2, 132, 199, 0.2) !important;
   }
 
   /* Estilos del Modal (Minipage) */
@@ -71,7 +79,7 @@ img_link: ../assets/img/charla.jpg
     text-decoration: none;
     font-weight: bold;
   }
-  .cerrar-modal-btn:hover { color: #47001e; }
+  .cerrar-modal-btn:hover { color: #0284c7; }
 
   /* Estructura interior del modal */
   .modal-layout-top {
@@ -79,12 +87,26 @@ img_link: ../assets/img/charla.jpg
     flex-wrap: wrap;
     gap: 30px;
     margin-bottom: 20px;
+    align-items: center;
+  }
+
+  /* Contenedor de Logo para Talleres */
+  .modal-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto;
+    padding: 15px;
+  }
+  .modal-logo-container img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
   }
   
-  /* =========================================
-     DISEÑO CREDENCIAL (MARCO FOTO + SUBMARCO)
-     ========================================= */
-  
+  /* DISEÑO CREDENCIAL PARA CHARLAS */
   .modal-marco-foto {
     width: 240px;
     height: 240px;
@@ -124,7 +146,7 @@ img_link: ../assets/img/charla.jpg
     clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 12px), calc(100% - 12px) 100%, 12px 100%, 0% calc(100% - 12px));
   }
 
-  /* Cajas de la derecha */
+  /* Cajas del modal */
   .modal-boxes-right {
     flex: 1;
     min-width: 250px;
@@ -137,6 +159,7 @@ img_link: ../assets/img/charla.jpg
     padding: 20px;
     border-radius: 8px;
     background-color: #fff;
+    transition: border-color 0.3s ease;
   }
   .caja-2 {
     border: 1px solid #ddd;
@@ -152,8 +175,19 @@ img_link: ../assets/img/charla.jpg
     background-color: #f7f9fc;
   }
 
+  /* Estilos dinámicos cuando es Taller (Celeste) */
+  .modal-taller-theme .caja-1 {
+    border-color: #0284c7 !important;
+  }
+  .modal-taller-theme #m-titulo {
+    color: #0284c7 !important;
+  }
+  .modal-taller-theme #m-desc-titulo {
+    color: #0284c7 !important;
+  }
+
   /* =========================================
-     ESTILOS LÍNEA DE TIEMPO (TIMELINE POSTERS)
+     ESTILOS LÍNEA DE TIEMPO
      ========================================= */
   .timeline-container {
     display: flex;
@@ -318,7 +352,7 @@ img_link: ../assets/img/charla.jpg
 </div>
 
 <div class="reveal">
-	<h2 align="left" style="font-weight: bold; margin-bottom: 40px; display: flex; align-items: center; flex-wrap: wrap; gap: 12px;">
+	<h2 align="left" style="font-weight: bold; margin-bottom: 40px; display: flex; align-items: center; flex-wrap: wrap; gap: 12px; color: #0284c7;">
 	    Talleres
 	    <span style="font-size: 0.55em; font-weight: 500; color: #777; font-style: italic; letter-spacing: 0.5px; padding-top: 4px;">
 	        (Haz clic en cada taller para más detalles)
@@ -326,15 +360,43 @@ img_link: ../assets/img/charla.jpg
 	</h2>
 
     <div style="display: flex; flex-direction: column; align-items: center; gap: 20px; width: 100%;">
+        
         <!-- Taller 1 -->
-        <div class="charla-card reveal" onclick="abrirTaller('dsp')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #47001e;">
-            <!-- Puedes reemplazar esta imagen por una de referencia para el taller o el instructor -->
-            <img src="https://placehold.co/100x100/eeeeee/999999?text=Taller" alt="Digital Design DSP" style="width: 90px; height: 90px; border-radius: 10px; object-fit: cover;">
+        <div class="charla-card taller-card reveal" onclick="abrirTaller('taller1')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
             <div style="text-align: left;">
-                <h3 style="margin: 0 0 5px 0; font-size: 1.4em; color: #222; font-weight: 700;">Digital Design for DSP Applications</h3>
-                <h4 style="margin: 0; font-size: 1.1em; color: #47001e; font-weight: 600; font-style: italic; line-height: 1.3;">Taller de implementación y diseño en FPGA</h4>
+                <span style="font-size: 0.85em; font-weight: 700; color: #0284c7; text-transform: uppercase; letter-spacing: 1px;">Taller 1</span>
+                <h3 style="margin: 2px 0 5px 0; font-size: 1.4em; color: #222; font-weight: 700;">Diseño de Chips Implantables</h3>
+                <h4 style="margin: 0; font-size: 1.1em; color: #555; font-weight: 600; font-style: italic; line-height: 1.3;">Joel Gak</h4>
             </div>
         </div>
+
+        <!-- Taller 2 -->
+        <div class="charla-card taller-card reveal" onclick="abrirTaller('taller2')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
+            <div style="text-align: left;">
+                <span style="font-size: 0.85em; font-weight: 700; color: #0284c7; text-transform: uppercase; letter-spacing: 1px;">Taller 2</span>
+                <h3 style="margin: 2px 0 5px 0; font-size: 1.4em; color: #222; font-weight: 700;">Taller Tiny TapeOut</h3>
+                <h4 style="margin: 0; font-size: 1.1em; color: #555; font-weight: 600; font-style: italic; line-height: 1.3;">ChipUSM</h4>
+            </div>
+        </div>
+
+        <!-- Taller 3 -->
+        <div class="charla-card taller-card reveal" onclick="abrirTaller('taller3')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
+            <div style="text-align: left;">
+                <span style="font-size: 0.85em; font-weight: 700; color: #0284c7; text-transform: uppercase; letter-spacing: 1px;">Taller 3</span>
+                <h3 style="margin: 2px 0 5px 0; font-size: 1.4em; color: #222; font-weight: 700;">Taller ACATEC</h3>
+                <h4 style="margin: 0; font-size: 1.1em; color: #555; font-weight: 600; font-style: italic; line-height: 1.3;">Academias de Tecnologías</h4>
+            </div>
+        </div>
+
+        <!-- Taller 4 (Celero) -->
+        <div class="charla-card taller-card reveal" onclick="abrirTaller('taller4')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
+            <div style="text-align: left;">
+                <span style="font-size: 0.85em; font-weight: 700; color: #0284c7; text-transform: uppercase; letter-spacing: 1px;">Taller 4</span>
+                <h3 style="margin: 2px 0 5px 0; font-size: 1.4em; color: #222; font-weight: 700;">Digital Design for DSP Applications</h3>
+                <h4 style="margin: 0; font-size: 1.1em; color: #0284c7; font-weight: 600; font-style: italic; line-height: 1.3;">Celero Communications Inc</h4>
+            </div>
+        </div>
+
     </div>
 </div>
 
@@ -350,7 +412,7 @@ img_link: ../assets/img/charla.jpg
 	    </span>
 	</h2>
 
-    <!-- LISTA PRINCIPAL (TARJETAS SIMPLES - TODOS CON BURDEOS) -->
+    <!-- LISTA PRINCIPAL CHARLAS -->
     <div style="display: flex; flex-direction: column; align-items: center; gap: 20px; width: 100%;">
 
         <!-- Charla 1 -->
@@ -437,7 +499,7 @@ img_link: ../assets/img/charla.jpg
     <div class="timeline-container">
         <div class="timeline-line"></div>
         
-        <!-- Paso 00 (Punto inicial / Actual) -->
+        <!-- Paso 00 -->
         <div class="timeline-step">
             <div class="timeline-bg-number">00</div>
             <div class="timeline-dot active"></div>
@@ -492,20 +554,23 @@ img_link: ../assets/img/charla.jpg
 <!-- EL MODAL (MINIPAGE QUE SE ABRE AL HACER CLIC) -->
 <!-- ========================================== -->
 <div id="modalCharlas" class="charla-modal-overlay" onclick="cerrarCharlaFuera(event)">
-  <div class="charla-modal-content">
+  <div class="charla-modal-content" id="m-content-box">
     <a href="#!" class="cerrar-modal-btn" onclick="cerrarCharla()">&times;</a>
     
     <div class="modal-layout-top">
       
-      <!-- DISEÑO CREDENCIAL -->
-      <div style="display: flex; flex-direction: column; align-items: center; filter: drop-shadow(0 10px 16px rgba(0,0,0,0.25)); flex-shrink: 0; margin: auto;">
-        
-        <!-- PARTE SUPERIOR -->
+      <!-- CONTENEDOR LOGO (Para Talleres) -->
+      <div id="m-logo-box" class="modal-logo-container" style="display: none;">
+        <a id="m-logo-link" href="https://celero.inc" target="_blank" rel="noopener noreferrer">
+            <img id="m-logo-img" src="{{ site.baseurl }}/assets/img/logo_celero_color.png" alt="Logo" width="430">
+        </a>
+      </div>
+
+      <!-- DISEÑO CREDENCIAL (Para Charlas Plenarias) -->
+      <div id="m-credencial-box" style="display: flex; flex-direction: column; align-items: center; filter: drop-shadow(0 10px 16px rgba(0,0,0,0.25)); flex-shrink: 0; margin: auto;">
         <div class="modal-marco-foto">
             <img id="m-foto" src="" class="modal-foto-recorte" alt="Foto">
         </div>
-        
-        <!-- PARTE INFERIOR -->
         <div class="modal-submarco">
             <div class="modal-submarco-interno">
                 <h3 id="m-nombre-badge" style="margin: 0; font-size: 1.3em; font-weight: 800; color: #222;">Nombre</h3>
@@ -513,24 +578,23 @@ img_link: ../assets/img/charla.jpg
                 <p id="m-afiliacion-badge" style="margin: 0; font-size: 0.9em; color: #47001e; font-weight: 700;">Institución / País</p>
             </div>
         </div>
-
       </div>
       
       <div class="modal-boxes-right">
         <!-- Caja 1: Título -->
         <div class="caja-1" style="display: flex; flex-direction: column; justify-content: center;">
-            <h4 id="m-titulo" style="margin: 0; font-size: 1.35em; color: #47001e; font-style: italic; line-height: 1.4; font-weight: 800;">"Título de la charla"</h4>
+            <h4 id="m-titulo" style="margin: 0; font-size: 1.35em; color: #47001e; font-style: italic; line-height: 1.4; font-weight: 800;">"Título"</h4>
         </div>
-        <!-- Caja 2: Biografía -->
+        <!-- Caja 2: Biografía / Presentación -->
         <div class="caja-2">
-            <p id="m-bio" style="margin: 0; font-size: 1em; color: #444; line-height: 1.6;">Texto de la biografía...</p>
+            <p id="m-bio" style="margin: 0; font-size: 1em; color: #444; line-height: 1.6;">Texto...</p>
         </div>
       </div>
     </div>
 
     <!-- Caja 3: Descripción -->
     <div class="caja-3">
-        <h4 id="m-desc-titulo" style="margin: 0 0 12px 0; font-size: 1.2em; color: #47001e; font-weight: bold;">Sobre la charla</h4>
+        <h4 id="m-desc-titulo" style="margin: 0 0 12px 0; font-size: 1.2em; color: #47001e; font-weight: bold;">Sobre la actividad</h4>
         <p id="m-desc" style="margin: 0; font-size: 1em; color: #444; line-height: 1.6;">Descripción...</p>
     </div>
 
@@ -601,11 +665,30 @@ img_link: ../assets/img/charla.jpg
 
   // 1.5 BASE DE DATOS DE LOS TALLERES
   const datosTalleres = {
-    'dsp': {
-      foto: 'https://placehold.co/300x300/eeeeee/999999?text=Taller', // Imagen por defecto, la puedes cambiar
-      nombre: 'Instructor por confirmar', // Se puede actualizar cuando tengas el nombre
-      cargo: 'Taller Práctico',
-      afiliacion: 'CANELOS 2026',
+    'taller1': {
+      logo: '{{ site.baseurl }}/assets/img/logo_celero_color.png',
+      link: 'https://celero.inc',
+      titulo: 'Diseño de Chips Implantables',
+      bio: 'Impartido por: Joel Gak<br><br>Información detallada próximamente...',
+      desc: 'Pronto se anunciarán los requisitos, fechas exactas y contenidos específicos para este taller.'
+    },
+    'taller2': {
+      logo: '{{ site.baseurl }}/assets/img/logo_celero_color.png',
+      link: 'https://celero.inc',
+      titulo: 'Taller Tiny TapeOut',
+      bio: 'Impartido por: ChipUSM<br><br>Información detallada próximamente...',
+      desc: 'Pronto se anunciarán los requisitos, fechas exactas y contenidos específicos para este taller.'
+    },
+    'taller3': {
+      logo: '{{ site.baseurl }}/assets/img/logo_celero_color.png',
+      link: 'https://celero.inc',
+      titulo: 'Taller ACATEC',
+      bio: 'Impartido por: Academias de Tecnologías<br><br>Información detallada próximamente...',
+      desc: 'Pronto se anunciarán los requisitos, fechas exactas y contenidos específicos para este taller.'
+    },
+    'taller4': {
+      logo: '{{ site.baseurl }}/assets/img/logo_celero_color.png',
+      link: 'https://celero.inc',
       titulo: 'Digital Design for DSP Applications',
       bio: 'This course introduces the fundamental concepts of digital design with a specific focus on implementing Digital Signal Processing (DSP) algorithms in FPGA-based systems.<br><br>The learning process is organized into three progressive phases. First, students learn the fundamentals of digital hardware design and HDL-based development. Next, they explore the basic concepts of DSP and fixed-point arithmetic. Finally, they apply these concepts to the implementation of DSP blocks on FPGAs.',
       desc: `
@@ -645,6 +728,13 @@ img_link: ../assets/img/charla.jpg
     const data = datosCharlas[id];
     if(!data) return;
 
+    // Cambiar al tema visual de Charlas (Burdeos)
+    document.getElementById('m-content-box').classList.remove('modal-taller-theme');
+
+    // Mostrar Credencial y ocultar Logo
+    document.getElementById('m-logo-box').style.display = 'none';
+    document.getElementById('m-credencial-box').style.display = 'flex';
+
     document.getElementById('m-foto').src = data.foto;
     document.getElementById('m-nombre-badge').innerText = data.nombre;
     document.getElementById('m-cargo-badge').innerText = data.cargo;
@@ -664,10 +754,20 @@ img_link: ../assets/img/charla.jpg
     const data = datosTalleres[id];
     if(!data) return;
 
-    document.getElementById('m-foto').src = data.foto;
-    document.getElementById('m-nombre-badge').innerText = data.nombre;
-    document.getElementById('m-cargo-badge').innerText = data.cargo;
-    document.getElementById('m-afiliacion-badge').innerText = data.afiliacion;
+    // Aplicar tema visual Celeste para Talleres
+    document.getElementById('m-content-box').classList.add('modal-taller-theme');
+
+    // Mostrar Logo y ocultar marco de Credencial
+    document.getElementById('m-credencial-box').style.display = 'none';
+    document.getElementById('m-logo-box').style.display = 'flex';
+
+    if(data.logo) {
+      document.getElementById('m-logo-img').src = data.logo;
+    }
+    if(data.link) {
+      document.getElementById('m-logo-link').href = data.link;
+    }
+
     document.getElementById('m-titulo').innerText = data.titulo;
     document.getElementById('m-bio').innerHTML = data.bio;   
     
