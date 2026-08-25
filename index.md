@@ -221,7 +221,7 @@ layout: home
 
     <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 30px; max-width: 1200px; margin: 0 auto;">
 
-        <a href="{{ "/programa/#workshop" | relative_url }}" style="text-decoration: none; color: inherit;">
+        <a href="{{ "/program/#taller-1" | relative_url }}" style="text-decoration: none; color: inherit;">
             <div style="background-color: #f7f9fc; border-left: 5px solid #003002; padding: 30px; border-radius: 8px; box-shadow: 0 3px 8px rgba(0,0,0,0.05); cursor: pointer; height: 100%;">
                 <h3 style="margin-top: 0; color: #003002; font-size: 1.4em;">Taller 1</h3>
                 <p style="font-weight: 800; font-size: 1.3em; margin-bottom: 15px; color: #222;">Diseño de Chips Implantables</p>
@@ -229,7 +229,7 @@ layout: home
             </div>
         </a>
 
-        <a href="{{ "/programa/#workshop" | relative_url }}" style="text-decoration: none; color: inherit;">
+        <a href="{{ "/program/#taller-2" | relative_url }}" style="text-decoration: none; color: inherit;">
             <div style="background-color: #f7f9fc; border-left: 5px solid #003002; padding: 30px; border-radius: 8px; box-shadow: 0 3px 8px rgba(0,0,0,0.05); cursor: pointer; height: 100%;">
                 <h3 style="margin-top: 0; color: #003002; font-size: 1.4em;">Taller 2</h3>
                 <p style="font-weight: 800; font-size: 1.3em; margin-bottom: 15px; color: #222;">Taller Tiny TapeOut</p>
@@ -237,7 +237,7 @@ layout: home
             </div>
         </a>
 
-        <a href="{{ "/programa/#workshop" | relative_url }}" style="text-decoration: none; color: inherit;">
+        <a href="{{ "/program/#taller-3" | relative_url }}" style="text-decoration: none; color: inherit;">
             <div style="background-color: #f7f9fc; border-left: 5px solid #003002; padding: 30px; border-radius: 8px; box-shadow: 0 3px 8px rgba(0,0,0,0.05); cursor: pointer; height: 100%;">
                 <h3 style="margin-top: 0; color: #003002; font-size: 1.4em;">Taller 3</h3>
                 <p style="font-weight: 800; font-size: 1.3em; margin-bottom: 15px; color: #222;">Taller ACATEC</p>
@@ -245,10 +245,10 @@ layout: home
             </div>
         </a>
 
-        <a href="{{ "/programa/#workshop" | relative_url }}" style="text-decoration: none; color: inherit;">
-            <div style="background-color: #f7f9fc; border-left: 5px solid #003002; padding: 30px; border-radius: 8px; box-shadow: 0 3px 8px rgba(0,0,0,0.05); cursor: pointer; height: 100%;">
-                <h3 style="margin-top: 0; color: #003002; font-size: 1.4em;">Taller 4</h3>
-                <p style="font-weight: 800; font-size: 1.3em; margin-bottom: 15px; color: #222;">Por Anunciar</p>
+        <a href="{{ "/program/#taller-4" | relative_url }}" style="text-decoration: none; color: inherit;">
+            <div style="background-color: #f7f9fc; border-left: 5px solid #0056b3; padding: 30px; border-radius: 8px; box-shadow: 0 3px 8px rgba(0,0,0,0.05); cursor: pointer; height: 100%;">
+                <h3 style="margin-top: 0; color: #0056b3; font-size: 1.4em;">Taller 4</h3>
+                <p style="font-weight: 800; font-size: 1.3em; margin-bottom: 15px; color: #222;">Digital Design for DSP Applications</p>
                 <p style="font-size: 1em; margin: 0; color: #555; line-height: 1.5;"> Celero Communications Inc </p>
             </div>
         </a>
