@@ -223,7 +223,7 @@ layout: home
 
         <a href="{{ "/programa/#taller1" | relative_url }}" style="text-decoration: none; color: inherit;">
             <div style="background-color: #f7f9fc; border-left: 5px solid #0284c7; padding: 30px; border-radius: 8px; box-shadow: 0 3px 8px rgba(0,0,0,0.05); cursor: pointer; height: 100%;">
-                <h3 style="margin-top: 0; color: #0284c7; font-size: 1.4em;">Taller 1</h3>
+                <h3 style="margin-top: 0; color: #012b66; font-size: 1.4em;">Taller 1</h3>
                 <p style="font-weight: 800; font-size: 1.3em; margin-bottom: 15px; color: #222;">Diseño de Circuitos Integrados para Aplicaciones Médicas Implantables</p>
                 <p style="font-size: 1em; margin: 0; color: #555; line-height: 1.5;"> Joel Gak </p>
             </div>
