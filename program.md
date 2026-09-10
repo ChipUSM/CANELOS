@@ -182,10 +182,15 @@ img_link: ../assets/img/charla.jpg
   #layout-talleres.tema-celeste #m-taller-titulo { color: #0284c7; }
   #layout-talleres.tema-celeste #m-taller-desc-titulo { color: #0284c7; }
   
-  /* Tema Rojo (Talleres 1, 2 y 3) */
+  /* Tema Rojo (Talleres 2 y 3) */
   #layout-talleres.tema-rojo .caja-1 { border-color: #47001e; }
   #layout-talleres.tema-rojo #m-taller-titulo { color: #47001e; }
   #layout-talleres.tema-rojo #m-taller-desc-titulo { color: #47001e; }
+
+  /* Tema Azul UCU (Taller 1) */
+  #layout-talleres.tema-ucu .caja-1 { border-color: #012b66; }
+  #layout-talleres.tema-ucu #m-taller-titulo { color: #012b66; }
+  #layout-talleres.tema-ucu #m-taller-desc-titulo { color: #012b66; }
 
   /* =========================================
      ESTILOS LÍNEA DE TIEMPO
@@ -299,12 +304,12 @@ img_link: ../assets/img/charla.jpg
 
     <div style="display: flex; flex-direction: column; align-items: center; gap: 20px; width: 100%;">
         
-        <!-- Taller 1 (Rojo) -->
-        <div id="taller1" class="charla-card reveal" onclick="abrirTaller('taller1')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #47001e;">
+        <!-- Taller 1 (Azul UCU) -->
+        <div id="taller1" class="charla-card reveal" onclick="abrirTaller('taller1')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #012b66;">
             <div style="text-align: left;">
-                <span style="font-size: 0.85em; font-weight: 700; color: #47001e; text-transform: uppercase; letter-spacing: 1px;">Taller 1</span>
-                <h3 style="margin: 2px 0 5px 0; font-size: 1.4em; color: #222; font-weight: 700;">Diseño de Chips Implantables</h3>
-                <h4 style="margin: 0; font-size: 1.1em; color: #555; font-weight: 600; font-style: italic; line-height: 1.3;">Joel Gak</h4>
+                <span style="font-size: 0.85em; font-weight: 700; color: #012b66; text-transform: uppercase; letter-spacing: 1px;">Taller 1</span>
+                <h3 style="margin: 2px 0 5px 0; font-size: 1.4em; color: #222; font-weight: 700;">Diseño de Circuitos Integrados para Aplicaciones Médicas Implantables</h3>
+                <h4 style="margin: 0; font-size: 1.1em; color: #555; font-weight: 600; font-style: italic; line-height: 1.3;">Dr. Joel Gak</h4>
             </div>
         </div>
 
@@ -590,11 +595,32 @@ img_link: ../assets/img/charla.jpg
   // 1.5 BASE DE DATOS DE LOS TALLERES 
   const datosTalleres = {
     'taller1': {
-      logo: '', // Vacío para que active el placeholder
-      titulo: 'Diseño de Chips Implantables',
-      instructor: 'Joel Gak',
-      bio: 'Los detalles específicos sobre los requisitos y la dinámica de este taller se revelarán de manera oficial próximamente.',
-      desc: 'Estamos trabajando para brindarte el mejor contenido. Pronto publicaremos el programa detallado y los módulos que se abordarán.'
+      logo: '{{ site.baseurl }}/assets/img/material26/LogoUCU.png',
+      titulo: 'Diseño de Circuitos Integrados para Aplicaciones Médicas Implantables',
+      instructor: 'Dr. Joel Gak',
+      bio: 'En este curso se abordará el diseño y aplicación de electrónica a los sistemas médicos portables e implantables, con énfasis en los circuitos integrados.<br><br>This course will focus on the design and application of portable and implantable medical electronics, with an emphasis on integrated circuits.',
+      desc: `
+        <strong>Objetivos:</strong><br>
+        El objetivo de esta asignatura es introducir en el diseño y aplicación de electrónica médica portable e implantable, con énfasis en los circuitos integrados. No pretende ser un curso útil solo para aquellos que van a diseñar circuitos integrados, sino para un conjunto más amplio de ingenieros trabajando en el diseño de electrónica y sistemas embebidos para el área de dispositivos implantables o portátiles. Se verán los requerimientos especiales que requieren los dispositivos médicos, así como los estándares que deben cumplir.<br><br>
+        
+        <strong>Resultados del aprendizaje:</strong><br>
+        Al final de este curso el estudiante estará capacitado para abordar proyectos para el diseño en Circuitos Integrados para Aplicaciones Médicas Implantables aplicando microelectrónica incluyendo, definición de especificaciones técnicas, manejo de normas internacionales vinculadas a temas de seguridad en dispositivos implantables y selección de tecnología de fabricación.<br><br>
+        
+        <strong>Contenidos del Curso:</strong>
+        <ul style="padding-left: 20px; margin-top: 5px;">
+          <li>Introducción a la microelectrónica y sistemas implantables.</li>
+          <li>Confiabilidad y seguridad de dispositivos médicos.</li>
+          <li>Diseño de circuitos integrados analógicos de micro consumo.</li>
+          <li>Tecnología microelectrónica (HV, componentes pasivos, ESD, Latchup).</li>
+          <li>Otras tecnologías asociadas (baterías, encapsulado, tecnologías de montaje, MEMs).</li>
+          <li>Circuitos de estimulación y conversores DC-DC.</li>
+          <li>Técnicas de procesamiento de señal (filtros y procesado digital).</li>
+          <li>Diseño para bajo ruido y bajo offset.</li>
+          <li>Circuitos digitales para aplicaciones médicas y sistemas embebidos de muy bajo consumo.</li>
+          <li>Telemetría y estándares aplicables.</li>
+          <li>Análisis de ejemplos prácticos (marcapasos completo, estimulador multipropósito, microprocesador).</li>
+        </ul>
+      `
     },
     'taller2': {
       logo: '', // Vacío para que active el placeholder
@@ -681,12 +707,15 @@ img_link: ../assets/img/charla.jpg
     const layoutTalleres = document.getElementById('layout-talleres');
     layoutTalleres.style.display = 'flex';
 
-    // Aplicar temas de color (Taller 4: Celeste, Resto: Rojo)
+    // Limpiar todos los temas previos
+    layoutTalleres.classList.remove('tema-celeste', 'tema-rojo', 'tema-ucu');
+
+    // Aplicar temas de color (Taller 4: Celeste, Taller 1: UCU Azul, Resto: Rojo)
     if(id === 'taller4') {
-        layoutTalleres.classList.remove('tema-rojo');
         layoutTalleres.classList.add('tema-celeste');
+    } else if(id === 'taller1') {
+        layoutTalleres.classList.add('tema-ucu');
     } else {
-        layoutTalleres.classList.remove('tema-celeste');
         layoutTalleres.classList.add('tema-rojo');
     }
 
