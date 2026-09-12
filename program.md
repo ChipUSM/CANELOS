@@ -211,7 +211,8 @@ img_link: ../assets/img/charla.jpg
   }
   .timeline-line::before {
     content: ''; position: absolute; top: 0; left: 0;
-    height: 100%; width: 0%; background-color: #47001e;
+    height: 100%; width: 66%; /* <-- CAMBIADO AL 66% PARA AVANZAR HASTA EL PASO 02 */
+    background-color: #47001e;
     border-radius: 2px; transition: width 0.5s ease;
   }
   .timeline-step {
@@ -440,9 +441,13 @@ img_link: ../assets/img/charla.jpg
     <!-- Línea de Tiempo Profesional -->
     <div class="timeline-container">
         <div class="timeline-line"></div>
+        <!-- Paso 00 (Añadida clase "active") -->
         <div class="timeline-step"><div class="timeline-bg-number">00</div><div class="timeline-dot active"></div><div class="timeline-content"><div class="timeline-date">23 de Julio, 2026</div><div class="timeline-text">Inicio de<br>Postulaciones</div></div></div>
-        <div class="timeline-step"><div class="timeline-bg-number">01</div><div class="timeline-dot"></div><div class="timeline-content"><div class="timeline-date">31 de Agosto, 2026</div><div class="timeline-text">Cierre de<br>Postulaciones</div></div></div>
-        <div class="timeline-step"><div class="timeline-bg-number">02</div><div class="timeline-dot"></div><div class="timeline-content"><div class="timeline-date">03-07 de Septiembre, 2026</div><div class="timeline-text">Notificación de<br>Resultados</div></div></div>
+        <!-- Paso 01 (Añadida clase "active") -->
+        <div class="timeline-step"><div class="timeline-bg-number">01</div><div class="timeline-dot active"></div><div class="timeline-content"><div class="timeline-date">31 de Agosto, 2026</div><div class="timeline-text">Cierre de<br>Postulaciones</div></div></div>
+        <!-- Paso 02 (Añadida clase "active") -->
+        <div class="timeline-step"><div class="timeline-bg-number">02</div><div class="timeline-dot active"></div><div class="timeline-content"><div class="timeline-date">03-07 de Septiembre, 2026</div><div class="timeline-text">Notificación de<br>Resultados</div></div></div>
+        <!-- Paso 03 -->
         <div class="timeline-step"><div class="timeline-bg-number">03</div><div class="timeline-dot"></div><div class="timeline-content"><div class="timeline-date">08 de octubre, 2026</div><div class="timeline-text">Inicio del<br>Evento</div></div></div>
     </div>
 
@@ -559,9 +564,9 @@ img_link: ../assets/img/charla.jpg
       nombre: 'Alba Avila',
       cargo: 'Profesora Titular',
       afiliacion: 'Universidad de los Andes, Colombia',
-      titulo: 'Materiales de Transistores Avanzados de Extracción a Fabricación',
+      titulo: '100 Years of the FieldEffect Transistor and Its Transformative Impact on Technology and Society vs challenges ',
       bio: 'Alba Avila es la directora del centro de microelectrónica (CMUA) y Profesora e investigadora del departamento de Ingeniería Eléctrica y Electrónica de la Universidad de los Andes. Es física, ingeniera eléctrica, máster en ingeniera eléctrica de la Universidad de los Andes y doctora de la Universidad de Cambridge en el Reino Unido. Es una apasionada investigadora interdisciplinaria en la ciencia e ingeniería de materiales. Ha trabajado en nanomateriales para aplicaciones en energía y sensado, también ha desarrollado tecnologías humanitarias para monitoreo de agua, almacenamiento de enrgía y alfabetización tecnológica. Así mismo, ha estudiado propiedades de materiales a diferentes escalas y generados kits educativos para la enseñanza de nanotecnología y nuevos materiales. Además, ha promovido programas de inclusión y vocaciones científico-técnicas en colaboración con proyectos de EU y LATAM. Es fellow del resilence center del imperial college, Distinguished lecturer of EDS IEEE y miembro de WIE.',
-      desc: 'Pronto revelaremos la información detallada sobre esta charla plenaria y las temáticas específicas que nuestro expositor compartirá con los asistentes del evento.'
+      desc: 'The Field-Effect Transistor (FET) stands as one of the most transformative innovations in modern electronics. Its conceptual roots trace back to Julius Lilienfeld’s 1925 patent for a three-terminal device capable of controlling current through an electric field an idea far ahead of its time. While early experimental attempts failed to realize a working device, they laid the scientific groundwork for the later success of solid-state transistors and deepened our understanding of semiconductor physics. <br><br>The invention of the FET was not merely a technical milestone but a cultural shift in electronic design. It challenged engineers to think beyond the thermionic principles of vacuum tubes and embrace a new paradigm based on charge carriers and field control. This reorientation from current driven by heat to current governed by an electric field transformed how we conceive, build, and interact with technologies. Devices are not just discrete elements for digital or analog electronics. They represent the core of our technological relationships, reminding us to approach engineering with a more holistic and systems-oriented mindset. <br><br>In this talk, we will highlight one of the most persistent engineering challenges that has accompanied transistor evolution: material and thermal management.'
     },
     'carlos': {
       foto: '../assets/img/material26/carlos_silva.jpeg',
@@ -783,3 +788,4 @@ img_link: ../assets/img/charla.jpg
     }
   });
 </script>
+"
