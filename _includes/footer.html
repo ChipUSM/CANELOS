@@ -5,20 +5,24 @@
   <div class="wrapper" style="max-width: 100%; padding: 0 5%; box-sizing: border-box;">
 
     <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
+      <!-- Agregamos padding-left aquí para empujar toda la columna hacia el centro -->
+      <div class="footer-col footer-col-1" style="padding-left: 40px;">
         <h2 class="footer-heading">{{ site.title | escape }}</h2>
         <ul class="contact-list">
-          <li class="p-name" style="display: flex; align-items: center; gap: 15px;">
+          <!-- Aumentamos el gap a 20px y agregamos un pequeño margen vertical -->
+          <li class="p-name" style="display: flex; align-items: center; gap: 20px; margin: 10px 0;">
             {%- if site.author -%}
               {{ site.author | escape }}
             {%- endif -%}
             
             <a href="https://www.instagram.com/chip_usm/" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center;">
-              <img src="{{ site.baseurl }}/assets/img/tu_logo_instagram.png" alt="Instagram ChipUSM" style="width: 40px; height: auto;">
+              <!-- Aumentamos el ancho a 52px -->
+              <img src="{{ site.baseurl }}/assets/img/tu_logo_instagram.png" alt="Instagram ChipUSM" style="width: 52px; height: auto;">
             </a>
             
             <a href="https://linktr.ee/chip_usm" target="_blank" rel="noopener noreferrer" style="display: flex; align-items: center;">
-              <img src="{{ site.baseurl }}/assets/img/logo_linktree.png" alt="Linktree ChipUSM" style="width: 40px; height: auto;">
+              <!-- Aumentamos el ancho a 52px -->
+              <img src="{{ site.baseurl }}/assets/img/logo_linktree.png" alt="Linktree ChipUSM" style="width: 52px; height: auto;">
             </a>
           </li>
 
