@@ -230,16 +230,16 @@ layout: home
         </a>
 
         <a href="{{ "/programa/#taller2" | relative_url }}" style="text-decoration: none; color: inherit;">
-            <div style="background-color: #f7f9fc; border-left: 5px solid #003002; padding: 30px; border-radius: 8px; box-shadow: 0 3px 8px rgba(0,0,0,0.05); cursor: pointer; height: 100%;">
-                <h3 style="margin-top: 0; color: #003002; font-size: 1.4em;">Taller 2</h3>
+            <div style="background-color: #f7f9fc; border-left: 5px solid #fe9c9d; padding: 30px; border-radius: 8px; box-shadow: 0 3px 8px rgba(0,0,0,0.05); cursor: pointer; height: 100%;">
+                <h3 style="margin-top: 0; color: #fe9c9d; font-size: 1.4em;">Taller 2</h3>
                 <p style="font-weight: 800; font-size: 1.3em; margin-bottom: 15px; color: #222;">Taller Tiny TapeOut</p>
                 <p style="font-size: 1em; margin: 0; color: #555; line-height: 1.5;"> ChipUSM </p>
             </div>
         </a>
 
         <a href="{{ "/programa/#taller3" | relative_url }}" style="text-decoration: none; color: inherit;">
-            <div style="background-color: #f7f9fc; border-left: 5px solid #003002; padding: 30px; border-radius: 8px; box-shadow: 0 3px 8px rgba(0,0,0,0.05); cursor: pointer; height: 100%;">
-                <h3 style="margin-top: 0; color: #003002; font-size: 1.4em;">Taller 3</h3>
+            <div style="background-color: #f7f9fc; border-left: 5px solid #5aa529; padding: 30px; border-radius: 8px; box-shadow: 0 3px 8px rgba(0,0,0,0.05); cursor: pointer; height: 100%;">
+                <h3 style="margin-top: 0; color: #5aa529; font-size: 1.4em;">Taller 3</h3>
                 <p style="font-weight: 800; font-size: 1.3em; margin-bottom: 15px; color: #222;">Taller ACATEC</p>
                 <p style="font-size: 1em; margin: 0; color: #555; line-height: 1.5;"> Academias de Tecnologías </p>
             </div>
