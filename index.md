@@ -40,7 +40,7 @@ layout: home
 
 <!-- 1. BANNER PRINCIPAL -->
 <div style="width: 100vw; position: relative; left: 50%; transform: translateX(-50%); text-align: center; margin-top: 20px; margin-bottom: 20px;">
-  <img src="{{ "/assets/img/material26/Banner_V1.png" | relative_url }}" alt="Banner CANELOS 2026 - 8 y 9 de Octubre" style="width: 1100px; max-width: 95%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"/>
+  <img src="{{ "/assets/img/material26/Banner_V1.png" | relative_url }}" alt="Banner CANELOS 2026 - 8 y 9 de Octubre" style="width: 1800px; max-width: 98%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"/>
 </div>
 
 <!-- 2. RESUMEN BREVE DE CANELOS -->
