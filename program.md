@@ -181,8 +181,13 @@ img_link: ../assets/img/charla.jpg
   #layout-talleres.tema-celeste .caja-1 { border-color: #0284c7; }
   #layout-talleres.tema-celeste #m-taller-titulo { color: #0284c7; }
   #layout-talleres.tema-celeste #m-taller-desc-titulo { color: #0284c7; }
+
+  /* Tema Verde ACATEC (Taller 3) */
+  #layout-talleres.tema-acatec .caja-1 { border-color: #5aa529; }
+  #layout-talleres.tema-acatec #m-taller-titulo { color: #5aa529; }
+  #layout-talleres.tema-acatec #m-taller-desc-titulo { color: #5aa529; }
   
-  /* Tema Rojo (Talleres 2 y 3) */
+  /* Tema Rojo (Taller 2) */
   #layout-talleres.tema-rojo .caja-1 { border-color: #47001e; }
   #layout-talleres.tema-rojo #m-taller-titulo { color: #47001e; }
   #layout-talleres.tema-rojo #m-taller-desc-titulo { color: #47001e; }
@@ -310,7 +315,7 @@ img_link: ../assets/img/charla.jpg
             <div style="text-align: left;">
                 <span style="font-size: 0.85em; font-weight: 700; color: #012b66; text-transform: uppercase; letter-spacing: 1px;">Taller 1</span>
                 <h3 style="margin: 2px 0 5px 0; font-size: 1.4em; color: #222; font-weight: 700;">Diseño de Circuitos Integrados para Aplicaciones Médicas Implantables</h3>
-                <h4 style="margin: 0; font-size: 1.1em; color: #555; font-weight: 600; font-style: italic; line-height: 1.3;">Dr. Joel Gak</h4>
+                <h4 style="margin: 0; font-size: 1.1em; color: #012b66; font-weight: 600; font-style: italic; line-height: 1.3;">Dr. Joel Gak</h4>
             </div>
         </div>
 
@@ -328,7 +333,7 @@ img_link: ../assets/img/charla.jpg
             <div style="text-align: left;">
                 <span style="font-size: 0.85em; font-weight: 700; color: #5aa529; text-transform: uppercase; letter-spacing: 1px;">Taller 3</span>
                 <h3 style="margin: 2px 0 5px 0; font-size: 1.4em; color: #222; font-weight: 700;">Taller ACATEC</h3>
-                <h4 style="margin: 0; font-size: 1.1em; color: #555; font-weight: 600; font-style: italic; line-height: 1.3;">Academias de Tecnologías</h4>
+                <h4 style="margin: 0; font-size: 1.1em; color: #5aa529; font-weight: 600; font-style: italic; line-height: 1.3;">Academias de Tecnologías</h4>
             </div>
         </div>
 
@@ -743,14 +748,16 @@ img_link: ../assets/img/charla.jpg
     layoutTalleres.style.display = 'flex';
 
     // Limpiar todos los temas previos
-    layoutTalleres.classList.remove('tema-celeste', 'tema-rojo', 'tema-ucu');
+    layoutTalleres.classList.remove('tema-celeste', 'tema-acatec', 'tema-rojo', 'tema-ucu');
 
     // Aplicar temas de color (Taller 4: Celeste, Taller 1: UCU Azul, Resto: Rojo)
     if(id === 'taller4') {
         layoutTalleres.classList.add('tema-celeste');
     } else if(id === 'taller1') {
         layoutTalleres.classList.add('tema-ucu');
-    } else {
+    } else if(id === 'taller3') {
+        layoutTalleres.classList.add('tema-acatec');
+    }else {
         layoutTalleres.classList.add('tema-rojo');
     }
 
