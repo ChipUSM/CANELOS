@@ -314,7 +314,7 @@ img_link: ../assets/img/charla.jpg
             </div>
         </div>
 
-        <!-- Taller 2 (Rojo) -->
+        <!-- Taller 2 (Rojo, TinyTapeOut) -->
         <div id="taller2" class="charla-card reveal" onclick="abrirTaller('taller2')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #47001e;">
             <div style="text-align: left;">
                 <span style="font-size: 0.85em; font-weight: 700; color: #47001e; text-transform: uppercase; letter-spacing: 1px;">Taller 2</span>
@@ -323,10 +323,10 @@ img_link: ../assets/img/charla.jpg
             </div>
         </div>
 
-        <!-- Taller 3 (Rojo) -->
-        <div id="taller3" class="charla-card reveal" onclick="abrirTaller('taller3')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #47001e;">
+        <!-- Taller 3 (Verde, ACATEC) -->
+        <div id="taller3" class="charla-card reveal" onclick="abrirTaller('taller3')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #5aa529;">
             <div style="text-align: left;">
-                <span style="font-size: 0.85em; font-weight: 700; color: #47001e; text-transform: uppercase; letter-spacing: 1px;">Taller 3</span>
+                <span style="font-size: 0.85em; font-weight: 700; color: #5aa529; text-transform: uppercase; letter-spacing: 1px;">Taller 3</span>
                 <h3 style="margin: 2px 0 5px 0; font-size: 1.4em; color: #222; font-weight: 700;">Taller ACATEC</h3>
                 <h4 style="margin: 0; font-size: 1.1em; color: #555; font-weight: 600; font-style: italic; line-height: 1.3;">Academias de Tecnologías</h4>
             </div>
