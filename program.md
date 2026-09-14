@@ -628,10 +628,13 @@ img_link: ../assets/img/charla.jpg
       `
     },
     'taller2': {
-      logo: '', // Vacío para que active el placeholder
+      logo: '{{ site.baseurl }}/assets/img/logo_chipusm.png', // Vacío para que active el placeholder
       titulo: 'Taller Tiny TapeOut',
       instructor: 'ChipUSM',
-      bio: 'Este taller introduce los conceptos fundamentales del diseño en circuitos integrados a estudiantes sin conocimientos previos de sistemas digitales ni de lenguajes de descripción de hardware, con el fin de entregarles una perspectiva del mundo de la microelectrónica: sus competencias clave, sus conocimientos básicos y la gran variedad de caminos posibles dentro del rubro.\nEl proceso de aprendizaje se organiza en tres fases progresivas. Primero, los participantes estudian los fundamentos de la lógica combinacional y del procesamiento de datos. Luego, incorporan las variables temporales de los circuitos reales y la plataforma WokWi de Tiny Tapeout. Finalmente, aplican lo aprendido en el desarrollo autónomo de un proyecto propio o de un desafío planteado por los tutores.',
+      bio: `Este taller introduce los conceptos fundamentales del diseño en circuitos integrados a estudiantes sin conocimientos previos de sistemas digitales ni de lenguajes de descripción de hardware, con el fin de entregarles una perspectiva del mundo de la microelectrónica: sus competencias clave, sus conocimientos básicos y la gran variedad de caminos posibles dentro del rubro.<br><br>
+      El proceso de aprendizaje se organiza en tres fases progresivas. Primero, los participantes estudian los fundamentos de la lógica combinacional y del procesamiento de datos. Luego, incorporan las variables temporales de los circuitos reales y la plataforma WokWi de Tiny Tapeout. Finalmente, aplican lo aprendido en el desarrollo autónomo de un proyecto propio o de un desafío planteado por los tutores.
+      `
+      ,
       desc: `El taller enfatiza que un diseño  correcto no solo debe serlo desde el punto de vista lógico, sino también temporal. A través de múltiples ejemplos, los participantes comprenderán cómo se define la frecuencia de operación de un computador y cuál es la complejidad real que implica diseñar un procesador, conociendo así la importancia del rol de un buen diseñador.<br><br>
 
       <strong>Ruta de aprendizaje:</strong><br><br>
