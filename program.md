@@ -631,8 +631,35 @@ img_link: ../assets/img/charla.jpg
       logo: '', // Vacío para que active el placeholder
       titulo: 'Taller Tiny TapeOut',
       instructor: 'ChipUSM',
-      bio: 'Los detalles específicos sobre los requisitos y la dinámica de este taller se revelarán de manera oficial próximamente.',
-      desc: 'Estamos trabajando para brindarte el mejor contenido. Pronto publicaremos el programa detallado y los módulos que se abordarán.'
+      bio: 'Este taller introduce los conceptos fundamentales del diseño en circuitos integrados a estudiantes sin conocimientos previos de sistemas digitales ni de lenguajes de descripción de hardware, con el fin de entregarles una perspectiva del mundo de la microelectrónica: sus competencias clave, sus conocimientos básicos y la gran variedad de caminos posibles dentro del rubro.\nEl proceso de aprendizaje se organiza en tres fases progresivas. Primero, los participantes estudian los fundamentos de la lógica combinacional y del procesamiento de datos. Luego, incorporan las variables temporales de los circuitos reales y la plataforma WokWi de Tiny Tapeout. Finalmente, aplican lo aprendido en el desarrollo autónomo de un proyecto propio o de un desafío planteado por los tutores.',
+      desc: `El taller enfatiza que un diseño  correcto no solo debe serlo desde el punto de vista lógico, sino también temporal. A través de múltiples ejemplos, los participantes comprenderán cómo se define la frecuencia de operación de un computador y cuál es la complejidad real que implica diseñar un procesador, conociendo así la importancia del rol de un buen diseñador.<br><br>
+
+      <strong>Ruta de aprendizaje:</strong><br><br>
+      <strong>Parte 1 — Fundamentos de circuitos combinacionales y procesamiento de datos</strong><br>
+
+      La primera parte introduce las bases de todo el procesamiento de datos en la computación moderna. Partiendo desde las operaciones computacionales más básicas, los participantes comprenderán cómo se han escalado estos principios hasta alcanzar la capacidad de cómputo que se utiliza a diario.<br><br>
+
+      <strong>Parte 2 — Fundamentos de lógica secuencial e introducción a la plataforma WokWi</strong><br>
+
+      La segunda parte incorpora las variables temporales presentes en los circuitos reales, fuera del papel y lápiz. Se presenta WokWi como medio de acceso real y accesible a este mundo, y se estudian proyectos de ejemplo susceptibles de ser implementados: consolas, procesadores, unidades de cómputo, decodificadores, entre otros.<br><br>
+
+      <strong>Parte 3 — Implementación de ideas y trabajo autónomo</strong><br>
+
+      La tercera parte valida los resultados de los proyectos de ejemplo como demostración práctica y da paso al trabajo autónomo, individual o en parejas, para plasmar el conocimiento adquirido en un proyecto de interés personal.<br><br>
+
+      <strong>Contenido mínimo del taller:</strong>
+        <ul style="padding-left: 20px; margin-top: 5px;">
+          <li>Álgebra booleana</li>
+          <li>Lógica combinacional</li>
+          <li>Mapas de Karnaugh</li>
+          <li>Lógica secuencial</li>
+          <li>Uso de WokWi</li>
+          <li>Implementación física</li>
+        </ul><br>
+
+      <strong>Conocimientos Previos:</strong> Lógica matemática, programación y redes RC
+
+      `
     },
     'taller3': {
       logo: '', // Vacío para que active el placeholder
