@@ -670,7 +670,7 @@ img_link: ../assets/img/charla.jpg
       `
     },
     'taller3': {
-      logo: '', // Vacío para que active el placeholder
+      logo: '', // '{{ site.baseurl }}/assets/img/Acatec_logo.png'
       titulo: 'Taller ACATEC',
       instructor: 'Academias de Tecnologías',
       bio: 'Los detalles específicos sobre los requisitos y la dinámica de este taller se revelarán de manera oficial próximamente.',
