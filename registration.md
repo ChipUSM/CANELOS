@@ -43,14 +43,24 @@ img_link: ../assets/img/jardin.jpg
     </a>
 </div>
 
+<hr style="border: none; height: 2px; background-color: #47001e; opacity: 0.15; margin: 35px 0;">
+
+### Workshop
+
 <p align="justify">
 	<!--
 	Modificar los formularios para el 2026, hay q resubirlos
 	-->
 	
-	Proximamente se publicará la información respecto a la inscripción para el <b><a href="https://chipusm.github.io/CANELOS/programa/" style="color: #47001e">Workshop</a></b>,
-	donde podrán seguir aprendiendo microelectrónica de manera más práctica.
+	A continuación encontrarás el formulario para inscribirte al <b><span style="color: #47001e">Workshop CANELOS 2026</span></b>, donde podrán seguir aprendiendo de manera más práctica sobre aplicaciones de la microelectrónica mediante los 3 distintos Tracks disponibles.
 </p>
+
+<!-- Botón de Inscripción -->
+<div style="text-align: center; margin-top: 30px; margin-bottom: 30px;">
+    <a href="https://forms.gle/kvEiitmoxqvL2eGr8" target="_blank" class="btn-inscripcion">
+        Haz clic aquí para inscribirte al Workshop
+    </a>
+</div>
 
 <hr style="border: none; height: 2px; background-color: #47001e; opacity: 0.15; margin: 35px 0;">
 
