@@ -318,12 +318,15 @@ layout: home
     </div>
 
     <div style="flex: 1; min-width: 320px; display: flex; flex-direction: column;">
-        <h3 style="text-align: center; margin-bottom: 15px;">Itinerario Preliminar</h3>
-        <p align="center" style="margin: 0; flex: 1; display: flex; align-items: center; justify-content: center;">
-            <a href="#img-ampliada" style="display: block; width: 100%; height: 100%;">
-                <img src="{{ "/assets/img/material26/horario_v6.jpeg" | relative_url }}" alt="Itinerario CANELOS 2026" style="width: 100%; height: 100%; object-fit: contain; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); background-color: #ffffff; padding: 10px; cursor: pointer;">
+        <h3 style="text-align: center; margin-bottom: 15px;">Itinerario</h3>
+        <div style="display: flex; gap: 15px; flex: 1; align-items: stretch; justify-content: center;">
+            <a href="#img-ampliada-jueves" style="flex: 1; display: block; text-align: center;">
+                <img src="{{ "/assets/img/material26/Horario_jue.jpeg" | relative_url }}" alt="Itinerario Jueves" style="width: 100%; height: 100%; max-height: 400px; object-fit: contain; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); background-color: #ffffff; cursor: pointer;">
             </a>
-        </p>
+            <a href="#img-ampliada-viernes" style="flex: 1; display: block; text-align: center;">
+                <img src="{{ "/assets/img/material26/Horario_vie.jpeg" | relative_url }}" alt="Itinerario Viernes" style="width: 100%; height: 100%; max-height: 400px; object-fit: contain; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); background-color: #ffffff; cursor: pointer;">
+            </a>
+        </div>
     </div>
 
 </div>
@@ -397,10 +400,15 @@ layout: home
 
 </div>
 
-<!-- 8. CODIGO DEL MODAL (LA IMAGEN EXPANDIDA) -->
-<div id="img-ampliada" class="lightbox">
+<!-- 8. CODIGO DEL MODAL (LAS IMÁGENES EXPANDIDAS) -->
+<div id="img-ampliada-jueves" class="lightbox">
   <a href="#!" class="cerrar">&times;</a>
-  <img src="{{ "/assets/img/material26/horario_v6.jpeg" | relative_url }}" alt="Itinerario Ampliado">
+  <img src="{{ "/assets/img/material26/Horario_jue.jpeg" | relative_url }}" alt="Itinerario Jueves Ampliado">
+</div>
+
+<div id="img-ampliada-viernes" class="lightbox">
+  <a href="#!" class="cerrar">&times;</a>
+  <img src="{{ "/assets/img/material26/Horario_vie.jpeg" | relative_url }}" alt="Itinerario Viernes Ampliado">
 </div>
 
 <style>
@@ -452,4 +460,3 @@ layout: home
     items.forEach((item) => observer.observe(item));
   });
 </script>
-"
