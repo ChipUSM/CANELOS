@@ -54,7 +54,7 @@ img_link: ../assets/img/edificio_A.jpeg
 
 <div class="page-col-wrapper">    
 	<div class="page-col page-col-1">
-		<p align="center"> <img src="../assets/img/auditorio_t.jpg" alt="Auditorio del edificio T" style="max-width: 100%"/> </p>
+		<p align="center"> <img src="../assets/img/material26/Salon_A.jpeg" alt="Auditorio del edificio T" style="max-width: 100%"/> </p>
 	</div>
     
 	<div class="page-col page-col-2">
