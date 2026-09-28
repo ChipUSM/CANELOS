@@ -294,10 +294,18 @@ img_link: ../assets/img/charla.jpg
 <div class="reveal">
   <h2 align="left" style="font-weight: bold;">Programa</h2>
 	<h3 align="justify" style="font-size: 1.2em; line-height: 1.6; max-width: 1200px; margin: 0;">
-			La asignación de horarios para cada charlista se encuentra sujeta a disponibilidad de los mismos pero los horarios tentativos para el evento son los siguientes:
+			A continuación, se presenta el programa oficial del evento, detallando los horarios para cada una de las charlas y actividades programadas:
 	</h3>
-	<p align="center" style="margin-top: 40px;"> <img src="{{ "/assets/img/material26/horario_v6.jpeg" | relative_url }}" alt="Itinerario" width="600" style="max-width: 100%"/>
-	</p>
+	
+    <!-- NUEVA ESTRUCTURA DEL ITINERARIO CON DOS IMÁGENES -->
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 40px; width: 100%;">
+        <a href="#img-ampliada-jueves" style="flex: 1; min-width: 300px; max-width: 500px; text-align: center; display: block;">
+            <img src="{{ "/assets/img/material26/Horario_jue.jpeg" | relative_url }}" alt="Itinerario Jueves" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); cursor: pointer;"/>
+        </a>
+        <a href="#img-ampliada-viernes" style="flex: 1; min-width: 300px; max-width: 500px; text-align: center; display: block;">
+            <img src="{{ "/assets/img/material26/Horario_vie.jpeg" | relative_url }}" alt="Itinerario Viernes" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); cursor: pointer;"/>
+        </a>
+    </div>
 </div>
 
 <div class="reveal">
@@ -541,6 +549,53 @@ img_link: ../assets/img/charla.jpg
 </div>
 
 <!-- ========================================== -->
+<!-- LAS IMÁGENES EXPANDIDAS DEL ITINERARIO -->
+<!-- ========================================== -->
+<div id="img-ampliada-jueves" class="lightbox">
+  <a href="#!" class="cerrar">&times;</a>
+  <img src="{{ "/assets/img/material26/Horario_jue.jpeg" | relative_url }}" alt="Itinerario Jueves Ampliado">
+</div>
+
+<div id="img-ampliada-viernes" class="lightbox">
+  <a href="#!" class="cerrar">&times;</a>
+  <img src="{{ "/assets/img/material26/Horario_vie.jpeg" | relative_url }}" alt="Itinerario Viernes Ampliado">
+</div>
+
+<style>
+  .lightbox {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+  }
+  .lightbox:target {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .lightbox img {
+    max-width: 90vw;
+    max-height: 90vh;
+    border-radius: 8px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.5);
+  }
+  .lightbox .cerrar {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+</style>
+
+<!-- ========================================== -->
 <!-- SCRIPTS (Animaciones y Lógica del Modal)   -->
 <!-- ========================================== -->
 <script>
@@ -597,8 +652,8 @@ img_link: ../assets/img/charla.jpg
       cargo: 'Profesor Titular',
       afiliacion: 'University of Notre Dame',
       titulo: 'A New Look at Charge-Based Memories for Storage and Computing',
-      bio: 'Kai Ni received the B.S. degree in Electrical Engineering from University of Science and Technology of China, Hefei, China in 2011, and Ph.D. degree of Electrical Engineering from Vanderbilt University, Nashville, TN, USA in 2016 by working on characterization, modeling, and reliability of III-V MOSFETs. Since then, he became a postdoctoral associate at University of Notre Dame, working on ferroelectric devices for nonvolatile memory and novel computing paradigms. He is now an associate professor in University of Notre Dame since 2023 after joining Rochester Institute of Technology as an assistant professor. He has around 200 publications in top journals and conference proceedings, including Nature Electronics, IEDM, VLSI Symposium, IRPS, EDL, etc. His current interests lie in nanoelectronic devices empowering unconventional computing, domain-specific accelerator, and memory technology.',
-      desc: 'Charge-based memories, including SRAM, DRAM, and Flash, form the backbone of modern memory systems. Decades of technology scaling have enabled tremendous improvements in memory density, performance, and energy efficiency, supporting the storage and processing of data being generated at an unprecedented rate. The availability of these advanced memory technologies has also been a key enabler of the rapid growth of artificial intelligence. However, continued scaling is pushing conventional memory technologies toward their physical and geometric limits, creating an increasing need for new device concepts and architectures that can provide sustainable scaling paths toward higher density, improved performance, and greater energy efficiency. <br><br>In this talk, we will discuss two representative emerging memory technologies: HfO₂-based ferroelectric memories and oxide-semiconductor-channel-based monolithic 3D DRAM. We will highlight recent advances in these technologies, examine their key device and integration challenges, and discuss their potential for future high-density memory systems. Beyond conventional data storage, we will further explore how these emerging memory technologies can enable compute-in-memory architectures to address the growing memory wall in AI computing. In particular, we will present their applications to key computational primitives, including matrix–vector multiplication accelerators and associative memories, illustrating opportunities to extend emerging memory technologies from high-density storage toward energy-efficient computing.'
+      bio: 'Kai Ni received the B.S. degree in Electrical Engineering from University of Science and Technology of China, Hefei, China in 2011, and Ph.D. degree of Electrical Engineering from Vanderbilt University...',
+      desc: 'Charge-based memories, including SRAM, DRAM, and Flash, form the backbone of modern memory systems. Decades of technology scaling have enabled tremendous improvements in memory density, performance, and energy efficiency...'
     }
   };
 
@@ -633,44 +688,14 @@ img_link: ../assets/img/charla.jpg
       `
     },
     'taller2': {
-      logo: '{{ site.baseurl }}/assets/img/logo_chipusm.png', // Vacío para que active el placeholder
+      logo: '', // Vacío para que active el placeholder
       titulo: 'Taller Tiny TapeOut',
       instructor: 'ChipUSM',
-      bio: `Este taller introduce los conceptos fundamentales del diseño en circuitos integrados a estudiantes sin conocimientos previos de sistemas digitales ni de lenguajes de descripción de hardware, con el fin de entregarles una perspectiva del mundo de la microelectrónica: sus competencias clave, sus conocimientos básicos y la gran variedad de caminos posibles dentro del rubro.<br><br>
-      El proceso de aprendizaje se organiza en tres fases progresivas. Primero, los participantes estudian los fundamentos de la lógica combinacional y del procesamiento de datos. Luego, incorporan las variables temporales de los circuitos reales y la plataforma WokWi de Tiny Tapeout. Finalmente, aplican lo aprendido en el desarrollo autónomo de un proyecto propio o de un desafío planteado por los tutores.
-      `
-      ,
-      desc: `El taller enfatiza que un diseño  correcto no solo debe serlo desde el punto de vista lógico, sino también temporal. A través de múltiples ejemplos, los participantes comprenderán cómo se define la frecuencia de operación de un computador y cuál es la complejidad real que implica diseñar un procesador, conociendo así la importancia del rol de un buen diseñador.<br><br>
-
-      <strong>Ruta de aprendizaje:</strong><br><br>
-      <strong>Parte 1 — Fundamentos de circuitos combinacionales y procesamiento de datos</strong><br>
-
-      La primera parte introduce las bases de todo el procesamiento de datos en la computación moderna. Partiendo desde las operaciones computacionales más básicas, los participantes comprenderán cómo se han escalado estos principios hasta alcanzar la capacidad de cómputo que se utiliza a diario.<br><br>
-
-      <strong>Parte 2 — Fundamentos de lógica secuencial e introducción a la plataforma WokWi</strong><br>
-
-      La segunda parte incorpora las variables temporales presentes en los circuitos reales, fuera del papel y lápiz. Se presenta WokWi como medio de acceso real y accesible a este mundo, y se estudian proyectos de ejemplo susceptibles de ser implementados: consolas, procesadores, unidades de cómputo, decodificadores, entre otros.<br><br>
-
-      <strong>Parte 3 — Implementación de ideas y trabajo autónomo</strong><br>
-
-      La tercera parte valida los resultados de los proyectos de ejemplo como demostración práctica y da paso al trabajo autónomo, individual o en parejas, para plasmar el conocimiento adquirido en un proyecto de interés personal.<br><br>
-
-      <strong>Contenido mínimo del taller:</strong>
-        <ul style="padding-left: 20px; margin-top: 5px;">
-          <li>Álgebra booleana</li>
-          <li>Lógica combinacional</li>
-          <li>Mapas de Karnaugh</li>
-          <li>Lógica secuencial</li>
-          <li>Uso de WokWi</li>
-          <li>Implementación física</li>
-        </ul><br>
-
-      <strong>Conocimientos Previos:</strong> Lógica matemática, programación y redes RC
-
-      `
+      bio: 'Los detalles específicos sobre los requisitos y la dinámica de este taller se revelarán de manera oficial próximamente.',
+      desc: 'Estamos trabajando para brindarte el mejor contenido. Pronto publicaremos el programa detallado y los módulos que se abordarán.'
     },
     'taller3': {
-      logo: '', // '{{ site.baseurl }}/assets/img/Acatec_logo.png'
+      logo: '', // Vacío para que active el placeholder
       titulo: 'Taller ACATEC',
       instructor: 'Academias de Tecnologías',
       bio: 'Los detalles específicos sobre los requisitos y la dinámica de este taller se revelarán de manera oficial próximamente.',
@@ -748,16 +773,18 @@ img_link: ../assets/img/charla.jpg
     layoutTalleres.style.display = 'flex';
 
     // Limpiar todos los temas previos
-    layoutTalleres.classList.remove('tema-celeste', 'tema-acatec', 'tema-rojo', 'tema-ucu');
+    layoutTalleres.classList.remove('tema-celeste', 'tema-rojo', 'tema-ucu', 'tema-tiny', 'tema-acatec');
 
-    // Aplicar temas de color (Taller 4: Celeste, Taller 1: UCU Azul, Resto: Rojo)
+    // Aplicar temas de color
     if(id === 'taller4') {
         layoutTalleres.classList.add('tema-celeste');
     } else if(id === 'taller1') {
         layoutTalleres.classList.add('tema-ucu');
+    } else if(id === 'taller2') {
+        layoutTalleres.classList.add('tema-tiny');
     } else if(id === 'taller3') {
         layoutTalleres.classList.add('tema-acatec');
-    }else {
+    } else {
         layoutTalleres.classList.add('tema-rojo');
     }
 
