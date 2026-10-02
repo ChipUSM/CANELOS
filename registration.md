@@ -25,22 +25,32 @@ img_link: ../assets/img/jardin.jpg
     transform: translateY(-3px);
     box-shadow: 0 8px 20px rgba(71,0,30,0.35);
   }
+  /* Botón deshabilitado: inscripciones cerradas */
+  .btn-finalizado,
+  .btn-finalizado:hover {
+    background-color: #47001e;
+    opacity: 0.55;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+    pointer-events: none;
+    user-select: none;
+  }
 </style>
 
 ### Inscripción
 
 <p align="justify">
 	La participación en CANELOS es totalmente gratuita, gracias al apoyo de nuestros auspiciadores.
-	Sin embargo, <b><span style="color: #47001e">para disfrutar de los coffee breaks, obtener lanyards + tarjetones y otros beneficios deben registrarse en el siguiente
-	<a href="https://forms.gle/6LYknxkAfNUqdUHn7" style="color: #47001e; text-decoration:underline">formulario</a>.</span></b>
+	Sin embargo, <b><span style="color: #47001e">para disfrutar de los coffee breaks, obtener lanyards + tarjetones y otros beneficios deben registrarse en el siguiente formulario.</span></b>
 	Sus respuestas nos ayudan a organizar mejor el evento.
 </p>
 
-<!-- Botón de Inscripción -->
+<!-- Botón de Inscripción (finalizada) -->
 <div style="text-align: center; margin-top: 30px; margin-bottom: 30px;">
-    <a href="https://forms.gle/6LYknxkAfNUqdUHn7" target="_blank" class="btn-inscripcion">
-        Haz clic aquí para ir a la inscripción
-    </a>
+    <span class="btn-inscripcion btn-finalizado" aria-disabled="true">
+        Inscripción finalizada
+    </span>
 </div>
 
 <hr style="border: none; height: 2px; background-color: #47001e; opacity: 0.15; margin: 35px 0;">
@@ -55,11 +65,11 @@ img_link: ../assets/img/jardin.jpg
 	A continuación encontrarás el formulario para inscribirte al <b><span style="color: #47001e">Workshop CANELOS 2026</span></b>, donde podrán seguir aprendiendo de manera más práctica sobre aplicaciones de la microelectrónica mediante los 3 distintos Tracks disponibles.
 </p>
 
-<!-- Botón de Inscripción -->
+<!-- Botón de Inscripción al Workshop (finalizada) -->
 <div style="text-align: center; margin-top: 30px; margin-bottom: 30px;">
-    <a href="https://forms.gle/kvEiitmoxqvL2eGr8" target="_blank" class="btn-inscripcion">
-        Haz clic aquí para inscribirte al Workshop
-    </a>
+    <span class="btn-inscripcion btn-finalizado" aria-disabled="true">
+        Inscripción finalizada
+    </span>
 </div>
 
 <hr style="border: none; height: 2px; background-color: #47001e; opacity: 0.15; margin: 35px 0;">
@@ -67,14 +77,14 @@ img_link: ../assets/img/jardin.jpg
 ### Poster Sesion
 
 <p align="justify">
-	La <b><span style="color: #47001e">primera sesión de posters en CANELOS 2026</span></b> se llevara a cabo en el primer día del seminario. Las únicas restricciones para admisibilidad son que el proyecto este relacionado a la microelectrónica y el abstract o poster subido tenga la información solicitada. Se admiten posters ya mostrados en otros eventos, trabajos de carácter técnico y avances en alguna linea. Aquellos que deseen postular deben rellenar el siguiente <b><span style="color: #47001e"><a href="https://forms.gle/41zNtLYUj2nuwvk5A" style="color: #47001e; text-decoration:underline">formulario</a>.</span></b> Los resultados se notificaran en los tiempos estipulados.
+	La <b><span style="color: #47001e">primera sesión de posters en CANELOS 2026</span></b> se llevara a cabo en el primer día del seminario. Las únicas restricciones para admisibilidad son que el proyecto este relacionado a la microelectrónica y el abstract o poster subido tenga la información solicitada. Se admiten posters ya mostrados en otros eventos, trabajos de carácter técnico y avances en alguna linea. Aquellos que deseen postular deben rellenar el siguiente <b><span style="color: #47001e">formulario.</span></b> Los resultados se notificaran en los tiempos estipulados.
 </p>
 
-<!-- Botón de Postulación de Posters -->
+<!-- Botón de Postulación de Posters (finalizada) -->
 <div style="text-align: center; margin-top: 30px; margin-bottom: 30px;">
-    <a href="https://forms.gle/41zNtLYUj2nuwvk5A" target="_blank" class="btn-inscripcion">
-        Haz clic aquí para postular a la Sesión de Posters
-    </a>
+    <span class="btn-inscripcion btn-finalizado" aria-disabled="true">
+        Inscripción finalizada
+    </span>
 </div>
 
 <hr style="border: none; height: 2px; background-color: #47001e; opacity: 0.15; margin: 35px 0;">
