@@ -216,7 +216,7 @@ img_link: ../assets/img/charla.jpg
   }
   .timeline-line::before {
     content: ''; position: absolute; top: 0; left: 0;
-    height: 100%; width: 66%; /* <-- CAMBIADO AL 66% PARA AVANZAR HASTA EL PASO 02 */
+    height: 100%; width: 100%; /* <-- 100% PARA AVANZAR HASTA EL PASO 03 */
     background-color: #47001e;
     border-radius: 2px; transition: width 0.5s ease;
   }
@@ -272,6 +272,17 @@ img_link: ../assets/img/charla.jpg
     background-color: #63002a;
     transform: translateY(-3px);
     box-shadow: 0 8px 20px rgba(71,0,30,0.35);
+  }
+  /* Botón deshabilitado: inscripciones cerradas */
+  .btn-finalizado,
+  .btn-finalizado:hover {
+    background-color: #47001e;
+    opacity: 0.55;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+    pointer-events: none;
+    user-select: none;
   }
 </style>
 
@@ -460,15 +471,15 @@ img_link: ../assets/img/charla.jpg
         <div class="timeline-step"><div class="timeline-bg-number">01</div><div class="timeline-dot active"></div><div class="timeline-content"><div class="timeline-date">31 de Agosto, 2026</div><div class="timeline-text">Cierre de<br>Postulaciones</div></div></div>
         <!-- Paso 02 (Añadida clase "active") -->
         <div class="timeline-step"><div class="timeline-bg-number">02</div><div class="timeline-dot active"></div><div class="timeline-content"><div class="timeline-date">03-07 de Septiembre, 2026</div><div class="timeline-text">Notificación de<br>Resultados</div></div></div>
-        <!-- Paso 03 -->
-        <div class="timeline-step"><div class="timeline-bg-number">03</div><div class="timeline-dot"></div><div class="timeline-content"><div class="timeline-date">08 de octubre, 2026</div><div class="timeline-text">Inicio del<br>Evento</div></div></div>
+        <!-- Paso 03 (Añadida clase "active") -->
+        <div class="timeline-step"><div class="timeline-bg-number">03</div><div class="timeline-dot active"></div><div class="timeline-content"><div class="timeline-date">08 de octubre, 2026</div><div class="timeline-text">Inicio del<br>Evento</div></div></div>
     </div>
 
-    <!-- Botón de Inscripción -->
+    <!-- Botón de Inscripción (finalizada) -->
     <div style="text-align: center; margin-top: 50px; margin-bottom: 30px;">
-        <a href="https://chipusm.github.io/CANELOS/registro/" class="btn-inscripcion">
-            Haz clic aquí para ir a la inscripción
-        </a>
+        <span class="btn-inscripcion btn-finalizado" aria-disabled="true">
+            Inscripción finalizada
+        </span>
     </div>
 
 </div>
@@ -652,8 +663,8 @@ img_link: ../assets/img/charla.jpg
       cargo: 'Profesor Titular',
       afiliacion: 'University of Notre Dame',
       titulo: 'A New Look at Charge-Based Memories for Storage and Computing',
-      bio: 'Kai Ni received the B.S. degree in Electrical Engineering from University of Science and Technology of China, Hefei, China in 2011, and Ph.D. degree of Electrical Engineering from Vanderbilt University...',
-      desc: 'Charge-based memories, including SRAM, DRAM, and Flash, form the backbone of modern memory systems. Decades of technology scaling have enabled tremendous improvements in memory density, performance, and energy efficiency...'
+      bio: 'Kai Ni received the B.S. degree in Electrical Engineering from University of Science and Technology of China, Hefei, China in 2011, and Ph.D. degree of Electrical Engineering from Vanderbilt University, Nashville, TN, USA in 2016 by working on characterization, modeling, and reliability of III-V MOSFETs. Since then, he became a postdoctoral associate at University of Notre Dame, working on ferroelectric devices for nonvolatile memory and novel computing paradigms. He is now an assistant professor in Electrical & Microelectronic Engineering at Rochester Institute of Technology. He has around 130 publications in top journals and conference proceedings, including Nature Electronics, IEDM, VLSI Symposium, IRPS, EDL, etc. His current interests lie in technologies enabling the next generation storage and computing hardware.',
+      desc: 'Charge based memory, including SRAM, DRAM, and Flash, are the backbone of modern memory systems. Decades of scaling have enabled high-performance and high-density memory technologies, which supports storage and processing of data that is being generated at an unprecedented rate. Availability of those technologies is also one of the main drivers for the boom of artificial intelligence. However, relentless scaling also pushes these technologies to their geometric limits and now it calls for novel memory technologies that can provide sustainable scaling paths for high density, performance, and energy efficiency. In this talk, we will present our efforts in two representative technologies, HfO2 based ferroelectric field effect transistor (FeFET) and metal-oxide channel based embedded DRAM. Challenges for existing FeFET devices are highlighted and design strategies for mitigation are presented, including the gate stack engineering, back-end-of-line FeFET for monolithic 3D integration, and double gate structure. Following that, modeling and important applications of FeFET and eDRAM for compute-in-memory will be presented, including the matrix-vector multiplication accelerator and associative memory.'
     }
   };
 
@@ -852,4 +863,3 @@ img_link: ../assets/img/charla.jpg
     }
   });
 </script>
-"
