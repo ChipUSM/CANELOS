@@ -196,6 +196,11 @@ img_link: ../assets/img/charla.jpg
   #layout-talleres.tema-ucu .caja-1 { border-color: #012b66; }
   #layout-talleres.tema-ucu #m-taller-titulo { color: #012b66; }
   #layout-talleres.tema-ucu #m-taller-desc-titulo { color: #012b66; }
+  
+  /* Tema Tiny (Taller 2) */
+  #layout-talleres.tema-tiny .caja-1 { border-color: #fe9c9d; }
+  #layout-talleres.tema-tiny #m-taller-titulo { color: #fe9c9d; }
+  #layout-talleres.tema-tiny #m-taller-desc-titulo { color: #fe9c9d; }
 
   /* =========================================
      ESTILOS LÍNEA DE TIEMPO
@@ -338,10 +343,10 @@ img_link: ../assets/img/charla.jpg
             </div>
         </div>
 
-        <!-- Taller 2 (Rojo, TinyTapeOut) -->
-        <div id="taller2" class="charla-card reveal" onclick="abrirTaller('taller2')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #47001e;">
+        <!-- Taller 2 (Tiny, TinyTapeOut) -->
+        <div id="taller2" class="charla-card reveal" onclick="abrirTaller('taller2')" style="display: flex; align-items: center; gap: 25px; width: 100%; background-color: #f7f9fc; padding: 20px 30px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border-left: 5px solid #fe9c9d;">
             <div style="text-align: left;">
-                <span style="font-size: 0.85em; font-weight: 700; color: #47001e; text-transform: uppercase; letter-spacing: 1px;">Taller 2</span>
+                <span style="font-size: 0.85em; font-weight: 700; color: #fe9c9d; text-transform: uppercase; letter-spacing: 1px;">Taller 2</span>
                 <h3 style="margin: 2px 0 5px 0; font-size: 1.4em; color: #222; font-weight: 700;">Taller Tiny TapeOut</h3>
                 <h4 style="margin: 0; font-size: 1.1em; color: #555; font-weight: 600; font-style: italic; line-height: 1.3;">ChipUSM</h4>
             </div>
@@ -699,11 +704,31 @@ img_link: ../assets/img/charla.jpg
       `
     },
     'taller2': {
-      logo: '', // Vacío para que active el placeholder
+      logo: '/assets/img/logo_chipusm.png',
       titulo: 'Taller Tiny TapeOut',
       instructor: 'ChipUSM',
-      bio: 'Los detalles específicos sobre los requisitos y la dinámica de este taller se revelarán de manera oficial próximamente.',
-      desc: 'Estamos trabajando para brindarte el mejor contenido. Pronto publicaremos el programa detallado y los módulos que se abordarán.'
+      bio: 'Taller enfocado para estudiantes que no tengan conocimientos de sistemas digitales ni de lenguajes de descripción de Hardware. Esto para darles una perspectiva del mundo de la microelectrónica, las competencias claves, conocimientos básicos y la gran variedad de caminos a tomar dentro de este rubro.<br><br>Para lograr esto, se hará uso del programa WokWi de Tiny Tapeout, dándole autonomía al participante para poder escoger su propio proyecto o escoger un desafío planteado por los tutores.',
+      desc: `
+        <strong>Duración:</strong> 10 horas<br>
+        <strong>Capacidad máxima:</strong> 20 personas<br><br>
+        
+        <strong>Requisitos:</strong>
+        <ul style="padding-left: 20px; margin-top: 5px;">
+          <li>Lógica matemática</li>
+          <li>Programación</li>
+          <li>Redes RC</li>
+        </ul><br>
+        
+        <strong>Contenidos del Curso:</strong>
+        <ul style="padding-left: 20px; margin-top: 5px;">
+          <li>Álgebra booleana</li>
+          <li>Lógica combinacional</li>
+          <li>Mapas de Karnaugh</li>
+          <li>Lógica secuencial</li>
+          <li>Uso de WokWi</li>
+          <li>Implementación física</li>
+        </ul>
+      `
     },
     'taller3': {
       logo: '', // Vacío para que active el placeholder
