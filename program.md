@@ -704,7 +704,7 @@ img_link: ../assets/img/charla.jpg
       `
     },
     'taller2': {
-      logo: '/assets/img/logo_chipusm.png',
+      logo: '{{ site.baseurl }}/assets/img/logo_chipusm.png',
       titulo: 'Taller Tiny TapeOut',
       instructor: 'ChipUSM',
       bio: 'Taller enfocado para estudiantes que no tengan conocimientos de sistemas digitales ni de lenguajes de descripción de Hardware. Esto para darles una perspectiva del mundo de la microelectrónica, las competencias claves, conocimientos básicos y la gran variedad de caminos a tomar dentro de este rubro.<br><br>Para lograr esto, se hará uso del programa WokWi de Tiny Tapeout, dándole autonomía al participante para poder escoger su propio proyecto o escoger un desafío planteado por los tutores.',
